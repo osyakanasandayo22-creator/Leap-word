@@ -553,7 +553,7 @@ const units = {
   }
   function login() {
     const password = document.getElementById("pw").value;
-    const correctPassword = "your-password"; // 好きなパスワード
+    const correctPassword = "taFumo39"; // 好きなパスワード
   
     if (password === correctPassword) {
       document.getElementById("login").style.display = "none";
