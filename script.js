@@ -532,8 +532,8 @@ const units = {
 function speakWord(word) {
   const utter = new SpeechSynthesisUtterance(word);
   utter.lang = 'en-US';
-  utter.rate = 0.9; // 速さ
-  utter.pitch = 1;  // 音程
+  utter.rate = 1.0; // 速さ
+  utter.pitch = 1.2;  // 音程
 
   // 声を取得（iOS / Android対応）
   const voices = speechSynthesis.getVoices();
