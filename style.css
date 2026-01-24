@@ -47,7 +47,7 @@ body {
     font-size: 18px;
     cursor: pointer;
     transition: background .2s, transform .15s, box-shadow .15s;
-    box-shadow: 0 4px 10px rgba(0,0,0,.15);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
     background: linear-gradient(135deg, #cc0000, #7c0000);
     font-weight: 600;
     font-size: 20px;
@@ -61,7 +61,7 @@ body {
   
   .unit-btn:active {
     transform: translateY(1px);
-    box-shadow: 0 3px 6px rgba(0,0,0,.15);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
   }
   
   .toggle {
@@ -245,13 +245,37 @@ body {
     font-size: 18px;
     cursor: pointer;
   }
-  
-  #backHome {
-    background: #eee;
+
+  #backHome, #reviewBtn {
+    transition: transform .15s, box-shadow .15s, filter .12s;
+    font-weight: 600;
+    box-shadow: 0 4px 10px rgba(0,0,0,.15);
   }
+#backHome {
+  background: #1d3d5e;
+  color: #ffffff;
+}
+#backHome:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0,0,0,.2);
+  filter: brightness(1.05);
+}
+#backHome:active {
+  transform: translateY(1px);
+  box-shadow: 0 3px 6px rgba(0,0,0,.15);
+}
+#reviewBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0,0,0,.25);
+  filter: brightness(1.08);
+}
+#reviewBtn:active {
+  transform: translateY(1px);
+  box-shadow: 0 3px 6px rgba(0,0,0,.2);
+}
   
   #reviewBtn {
-    background: #009434;
+    background: #c4c400;
     color: #fff;
   }
   .answer-area {
