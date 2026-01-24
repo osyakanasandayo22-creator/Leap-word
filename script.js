@@ -1,5 +1,5 @@
 const units = {
-    unit1: [
+    727: [
       // 727
       {
         word: "species",
@@ -421,6 +421,24 @@ const units = {
     isRandom = e.target.checked;
   };
   
+  const homeBtn = document.getElementById("homeBtn");
+
+  homeBtn.style.display = "none";
+
+homeBtn.onclick = () => {
+  if (confirm("Unitを中断してホームに戻りますか？")) {
+    quiz.classList.add("hidden");
+    resultScreen.classList.add("hidden");
+    home.classList.remove("hidden");
+
+    currentUnit = [];
+    currentIndex = 0;
+    wrongWords = [];
+
+    homeBtn.style.display = "none";
+  }
+};
+  
   // ====== 開始 ======
   function startUnit(key) {
     currentUnit = [...units[key]];
@@ -432,9 +450,11 @@ const units = {
     home.classList.add("hidden");
     quiz.classList.remove("hidden");
   
+    homeBtn.style.display = "block";
+
     showCard();
   }
-  
+
   // ====== 表示 ======
   function showCard() {
     const q = currentUnit[currentIndex];
@@ -502,6 +522,8 @@ const units = {
   function endUnit() {
     quiz.classList.add("hidden");
     resultScreen.classList.remove("hidden");
+
+    homeBtn.style.display = "none";
   
     if (wrongWords.length > 0) {
       reviewBtn.classList.remove("hidden");
@@ -518,6 +540,9 @@ const units = {
   
     resultScreen.classList.add("hidden");
     quiz.classList.remove("hidden");
+
+    homeBtn.style.display = "block";
+
     showCard();
   };
   
@@ -527,7 +552,6 @@ const units = {
     home.classList.remove("hidden");
   };
   
-  // ====== 発音 ======
 // ====== 発音（スマホ対応） ======
 function speakWord(word) {
   const utter = new SpeechSynthesisUtterance(word);
