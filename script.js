@@ -377,7 +377,402 @@ const units = {
         sentence: "The bare ( )s",
         jp: "最低限必要なもの"
       }
-    ]
+    ],
+      763: [
+        // 240-241ページ
+        {
+          word: "fundamental",
+          meaning: "根本的な、基本的な",
+          sentence: "make a ( ) change",
+          jp: "根本的な改善を行う"
+        },
+        {
+          word: "fundamental",
+          meaning: "基本事項",
+          sentence: "advance from the ( )s to the applications",
+          jp: "基礎から応用へと進む"
+        },
+        {
+          word: "outweigh",
+          meaning: "…に（価値・重要性・影響力で）勝る",
+          sentence: "The advantages ( ) the disadvantages.",
+          jp: "メリットがデメリットを上回る（デメリットより勝る）"
+        },
+        {
+          word: "critical",
+          meaning: "重大な、危機的な状況の",
+          sentence: "in a ( ) condition",
+          jp: "危篤状態（危機的な体調）で"
+        },
+        {
+          word: "critical",
+          meaning: "批判的な",
+          sentence: "be ( ) of the policy",
+          jp: "その政策に批判的だ"
+        },
+        {
+          word: "serious",
+          meaning: "深刻な",
+          sentence: "do ( ) damage to the environment",
+          jp: "環境に深刻な打撃を与える"
+        },
+        {
+          word: "serious",
+          meaning: "（人が）真面目な、本気の",
+          sentence: "be ( ) about finding a job",
+          jp: "職探しに真面目だ"
+        },
+        {
+          word: "complex",
+          meaning: "複雑な",
+          sentence: "a highly ( ) process",
+          jp: "非常に複雑な過程"
+        },
+        {
+          word: "complex",
+          meaning: "複合的な（建物）",
+          sentence: "a leisure ( )",
+          jp: "総合レジャーセンター（複合施設）"
+        },
+        {
+          word: "complex",
+          meaning: "強迫観念（まれ）",
+          sentence: "an inferiority ( )",
+          jp: "劣等感（劣っているという強迫観念）"
+        },
+        {
+          word: "complicated",
+          meaning: "複雑な、ややこしい",
+          sentence: "make things ( )",
+          jp: "事態を複雑にする"
+        },
+    
+        // 242-243ページ
+        {
+          word: "delicate",
+          meaning: "繊細な、微妙な",
+          sentence: "the ( ) question of salary",
+          jp: "給与という繊細な問題"
+        },
+        {
+          word: "delicate",
+          meaning: "（人が）虚弱な",
+          sentence: "a ( ) child",
+          jp: "虚弱な子ども"
+        },
+        {
+          word: "plain",
+          meaning: "明白な、わかりやすい",
+          sentence: "write in ( ) English",
+          jp: "平易な英語で書く"
+        },
+        {
+          word: "plain",
+          meaning: "質素な",
+          sentence: "a ( ) building",
+          jp: "飾り気のない建物"
+        },
+        {
+          word: "plain",
+          meaning: "平野、原野",
+          sentence: "the Kanto ( )",
+          jp: "関東平野"
+        },
+        {
+          word: "obvious",
+          meaning: "明白な",
+          sentence: "It was ( ) that she was unwell.",
+          jp: "彼女の体調がすぐれないのは明白だった。"
+        },
+        {
+          word: "remarkable",
+          meaning: "注目すべき、すばらしい",
+          sentence: "make ( ) progress",
+          jp: "注目すべき進歩を遂げる"
+        },
+        {
+          word: "outstanding",
+          meaning: "傑出した、目立った",
+          sentence: "an ( ) shogi player",
+          jp: "傑出した棋士"
+        },
+        {
+          word: "various",
+          meaning: "さまざまな",
+          sentence: "( ) ideas",
+          jp: "さまざまな考え"
+        },
+        {
+          word: "various",
+          meaning: "さまざまな",
+          sentence: "( ) kinds of information",
+          jp: "さまざまな情報"
+        },
+        {
+          word: "diversity",
+          meaning: "多様性",
+          sentence: "the ( ) of life on earth",
+          jp: "地上の生物の多様性"
+        },
+    
+        // 244-245ページ
+        {
+          word: "sort",
+          meaning: "種類",
+          sentence: "What ( ) of soap do you use?",
+          jp: "どのような（種類の）石けんを使っているの。"
+        },
+        {
+          word: "sort",
+          meaning: "（副詞的に）（～が多少）",
+          sentence: "I'm ( ) of tired today.",
+          jp: "今日はちょっと疲れている。"
+        },
+        {
+          word: "sort",
+          meaning: "…を分類する",
+          sentence: "The watermelons are ( )ed according to size.",
+          jp: "スイカは大きさによって分類されている。"
+        },
+        {
+          word: "marvelous",
+          meaning: "驚くべき、素晴らしい",
+          sentence: "have a ( ) memory",
+          jp: "驚くべき記憶力を持っている"
+        },
+        {
+          word: "active",
+          meaning: "積極的な、活発な",
+          sentence: "lead an ( ) school life",
+          jp: "活動的な学校生活を送る"
+        },
+        {
+          word: "positive",
+          meaning: "前向きな、積極的な",
+          sentence: "( ) thinking",
+          jp: "前向きな考え"
+        },
+        {
+          word: "positive",
+          meaning: "確信している",
+          sentence: "Are you ( )?",
+          jp: "自信あるの（確信しているの）？"
+        },
+        {
+          word: "pure",
+          meaning: "純粋な",
+          sentence: "a ( ) wool blanket",
+          jp: "100%（純粋な）ウールの毛布"
+        },
+        {
+          word: "pure",
+          meaning: "（水、空気が）澄んだ",
+          sentence: "( ) air and water",
+          jp: "澄み切った空気と水"
+        },
+        {
+          word: "steady",
+          meaning: "着実な、一定の",
+          sentence: "make ( ) progress",
+          jp: "着実に進歩する（着実な進歩をする）"
+        },
+        {
+          word: "flexible",
+          meaning: "柔軟な、融通のきく",
+          sentence: "Jim is ( ) about everything.",
+          jp: "ジムはあらゆるときに柔軟に対応する。"
+        },
+        {
+          word: "ripe",
+          meaning: "熟した",
+          sentence: "a ( ) mango",
+          jp: "熟したマンゴー"
+        },
+    
+        // 246-247ページ
+        {
+          word: "stable",
+          meaning: "安定した",
+          sentence: "His temperature remains ( ).",
+          jp: "彼の体温は安定している。"
+        },
+        {
+          word: "stable",
+          meaning: "馬小屋、きゅう舎",
+          sentence: "a racehorse ( )",
+          jp: "競走馬のきゅう舎"
+        },
+        {
+          word: "negative",
+          meaning: "否定的な、否定の",
+          sentence: "the ( ) aspects of aging",
+          jp: "歳をとることの否定的な側面"
+        },
+        {
+          word: "vague",
+          meaning: "曖昧な、漠然とした",
+          sentence: "a ( ) description",
+          jp: "曖昧な説明"
+        },
+        {
+          word: "weird",
+          meaning: "変な",
+          sentence: "Steve is a little ( ), isn't he?",
+          jp: "スティーブってちょっと変だよね。"
+        },
+        {
+          word: "rough",
+          meaning: "（表面が）粗い",
+          sentence: "a ( ) road",
+          jp: "でこぼこの道"
+        },
+        {
+          word: "rough",
+          meaning: "おおざっぱな",
+          sentence: "a ( ) idea of the plan",
+          jp: "その計画の概略（おおまかな考え）"
+        },
+        {
+          word: "rough",
+          meaning: "（海、天候などが）荒れている",
+          sentence: "( ) weather",
+          jp: "荒れた天候"
+        },
+        {
+          word: "severe",
+          meaning: "（天候、批判、罰などが）厳しい",
+          sentence: "( ) criticism",
+          jp: "厳しい批判"
+        },
+        {
+          word: "severe",
+          meaning: "（けが、問題などが）ひどい",
+          sentence: "a ( ) injury",
+          jp: "ひどいけが"
+        },
+        {
+          word: "passive",
+          meaning: "受動的な、消極的な",
+          sentence: "He is quite ( ), and never speaks out.",
+          jp: "彼はかなり消極的で、決して意見をはっきり言わない。"
+        },
+        {
+          word: "vain",
+          meaning: "無駄に",
+          sentence: "His effort was ( )",
+          jp: "彼の努力は無駄になった。"
+        },
+        {
+          word: "vain",
+          meaning: "（努力などが）無益な",
+          sentence: "( ) attempt",
+          jp: "無駄な試みをして"
+        },
+        {
+          word: "vain",
+          meaning: "うぬぼれの強い",
+          sentence: "a ( ) man",
+          jp: "虚栄心の強い男性"
+        },
+    
+        // 248-249ページ
+        {
+          word: "fake",
+          meaning: "偽の、偽造の",
+          sentence: "a ( ) diamond",
+          jp: "偽物のダイヤモンド"
+        },
+        {
+          word: "fake",
+          meaning: "偽造品",
+          sentence: "The picture was a ( ).",
+          jp: "その絵は偽物だった。"
+        },
+        {
+          word: "risky",
+          meaning: "危険な、危ない",
+          sentence: "It is ( ) to buy a used car from a private seller.",
+          jp: "個人の売り手から中古車を買うのは危険だ。"
+        },
+        {
+          word: "odd",
+          meaning: "奇妙な",
+          sentence: "an ( ) habit",
+          jp: "奇妙な習慣"
+        },
+        {
+          word: "odd",
+          meaning: "奇数の",
+          sentence: "a ticket with an ( ) number",
+          jp: "奇数の番号札"
+        },
+        {
+          word: "odd",
+          meaning: "半端な、雑多な",
+          sentence: "an ( ) job",
+          jp: "雑用（雑多な仕事）"
+        },
+        {
+          word: "odd",
+          meaning: "（the ~s）可能性",
+          sentence: "the ( ) of a plane crash",
+          jp: "飛行機が墜落する可能性"
+        },
+        {
+          word: "ignorant",
+          meaning: "無知の",
+          sentence: "Doris is ( ) of the world.",
+          jp: "ドリスは世間知らずだ（世界について無知だ）"
+        },
+        {
+          word: "contrast",
+          meaning: "対比",
+          sentence: "the ( ) between the two",
+          jp: "その両者の対比"
+        },
+        {
+          word: "contrast",
+          meaning: "…を対比する",
+          sentence: "( ) two things",
+          jp: "2つの物を対比する"
+        },
+        {
+          word: "contrast",
+          meaning: "対照をなす",
+          sentence: "( ) with the previous results",
+          jp: "前回の結果と対照的だ（対照をなす）"
+        },
+        {
+          word: "valid",
+          meaning: "（理由、主張などが）妥当な、正当な",
+          sentence: "a ( ) reason",
+          jp: "妥当な理由"
+        },
+        {
+          word: "valid",
+          meaning: "（切符などが）有効な",
+          sentence: "This passport is ( ) for ten years.",
+          jp: "このパスポートは10年間有効です。"
+        },
+        {
+          word: "rare",
+          meaning: "珍しい",
+          sentence: "collect ( ) stamps",
+          jp: "珍しい切手を集める"
+        },
+        {
+          word: "casual",
+          meaning: "ふとした、何気ない",
+          sentence: "I feel more relaxed in ( ) clothes",
+          jp: "ふだん着（気楽な服）のほうが落ち着く"
+        },
+        {
+          word: "casual",
+          meaning: "形式ばらない",
+          sentence: "a ( ) remark",
+          jp: "ふとした発言"
+        }
+      ] 
   };  
   
   
