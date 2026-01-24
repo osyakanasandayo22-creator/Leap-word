@@ -243,6 +243,7 @@ body {
     margin: 12px 0;
     border-radius: 10px;
     border: 1px solid #ccc;
+    box-sizing: border-box; /* ← 追加 */
   }
   
   #login button {
