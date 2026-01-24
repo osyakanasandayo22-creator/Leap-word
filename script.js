@@ -467,14 +467,17 @@ const units = {
   
     input.disabled = true;
   
-    // ★ ここで意味表示
+    // 意味表示
     meaningEl.textContent = `意味：${q.meaning}`;
     meaningEl.classList.remove("hidden");
   
     if (user === q.word.toLowerCase()) {
       resultEl.textContent = "⭕ 正解";
       resultEl.classList.add("correct");
-      speak(q.word);
+  
+      // ★ ここを speakWord に変更
+      speakWord(q.word);
+  
       setTimeout(next, 1000);
     } else {
       resultEl.textContent = `❌ 不正解：${q.word}`;
@@ -484,8 +487,7 @@ const units = {
       speakBtn.classList.remove("hidden");
       nextBtn.classList.remove("hidden");
     }
-  }  
-  
+  }
   // ====== 次 ======
   function next() {
     currentIndex++;
@@ -526,15 +528,30 @@ const units = {
   };
   
   // ====== 発音 ======
-  function speak(word) {
-    const u = new SpeechSynthesisUtterance(word);
-    u.lang = "en-US";
-    speechSynthesis.speak(u);
-  }
+// ====== 発音（スマホ対応） ======
+function speakWord(word) {
+  const utter = new SpeechSynthesisUtterance(word);
+  utter.lang = 'en-US';
+  utter.rate = 0.9; // 速さ
+  utter.pitch = 1;  // 音程
+
+  // 声を取得（iOS / Android対応）
+  const voices = speechSynthesis.getVoices();
+  let voice = voices.find(v => v.lang === 'en-US' && v.name.includes('Google'));
+  if (!voice && voices.length > 0) voice = voices[0]; // もしGoogle声がなければ最初の声
+  if (voice) utter.voice = voice;
+
+  speechSynthesis.speak(utter);
+}
+
+// iOSで最初に声が取得できない問題対策
+window.speechSynthesis.onvoiceschanged = () => {
+  speechSynthesis.getVoices();
+};
   
-  speakBtn.onclick = () => {
-    speak(currentUnit[currentIndex].word);
-  };
+speakBtn.onclick = () => {
+  speakWord(currentUnit[currentIndex].word);
+};
   
   // ====== イベント ======
   judgeBtn.onclick = judge;
