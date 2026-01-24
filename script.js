@@ -989,7 +989,7 @@ speakBtn.onclick = () => {
   }
   function login() {
     const password = document.getElementById("pw").value;
-    const correctPassword = "taFumo39"; // 好きなパスワード
+    const correctPassword = "GoodForYou"; // 好きなパスワード
   
     if (password === correctPassword) {
       document.getElementById("login").style.display = "none";
