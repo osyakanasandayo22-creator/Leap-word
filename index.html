@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>LEAP 小テスト</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <body>
+
+    <!-- 🔐 ログイン画面 -->
+    <div id="login">
+      <h2>LOGIN</h2>
+      <input type="password" id="pw" placeholder="taFumo39">
+      <button onclick="login()">入室</button>
+    </div>
+  
+    <!-- 📘 単語アプリ本体 -->
+    <div id="app" style="display:none;">
+      <div id="home" class="screen">
+  <h1>LEAP 小テスト</h1>
+
+  <label class="toggle">
+    <input type="checkbox" id="randomToggle">
+    ランダム出題
+  </label>
+
+  <div id="unitList" class="unit-list">
+    
+  </div>
+</div>
+
+<div id="quiz" class="screen hidden">
+  <p id="progress"></p>
+
+  <div class="card">
+    <p id="sentence"></p>
+    <p id="jp"></p>
+
+    <div class="answer-area">
+        <input id="answerInput" />
+        <button id="judgeBtn">判定</button>
+        <div id="result"></div>
+        <div id="meaning" class="hidden"></div>
+      </div>
+      
+    <div class="controls">
+        <button id="speakBtn" class="btn-speak hidden">🔊</button>
+        <button id="nextBtn" class="btn-next hidden">▶</button>
+      </div>
+      
+  </div>
+</div>
+
+<div id="resultScreen" class="screen hidden">
+  <h2>Unit 終了</h2>
+
+  <div class="result-actions">
+    <button id="backHome" class="secondary">ホームへ戻る</button>
+    <button id="reviewBtn" class="primary hidden">間違えた単語を復習</button>
+  </div>
+</div>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
