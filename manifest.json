@@ -1,6 +1,6 @@
 {
-    "name": "LEAP Word",
-    "short_name": "LEAP",
+    "name": "LEAPer",
+    "short_name": "LEAPer",
     "start_url": "/index.html",
     "display": "standalone",
     "background_color": "#F4F5F7",
