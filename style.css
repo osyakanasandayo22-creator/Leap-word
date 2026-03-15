@@ -11,6 +11,37 @@ body {
   text-align: center;
 }
 
+body.dark {
+  background: radial-gradient(circle at 0% 0%, #020617 0%, #020617 30%, #020617 100%);
+  color: #e5e7eb;
+}
+
+body.dark h1,
+body.dark h2,
+body.dark h3 {
+  color: #f9fafb;
+}
+
+body.dark .card {
+  background: #020617;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.75);
+}
+
+body.dark #login {
+  background: #020617;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.85);
+}
+
+body.dark .controls {
+  background: rgba(15, 23, 42, 0.96);
+  box-shadow: 0 -6px 20px rgba(0, 0, 0, 0.7);
+}
+
+body.dark #meaning {
+  background: #0b1120;
+  color: #e5e7eb;
+}
+
 h1, h2, h3 {
   margin: 0;
   font-weight: 700;
@@ -111,22 +142,34 @@ button {
     max-width: 140px;        /* ボタン幅と合わせる */
     box-sizing: border-box;
   }
+
+  .icon-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 16px;
+    padding: 6px 14px;
+    border-radius: 999px;
+    border: none;
+    background: #ffffff;
+    box-shadow: 0 2px 6px rgba(15, 23, 42, 0.12);
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  .icon-toggle:hover {
+    filter: brightness(0.97);
+    box-shadow: 0 4px 10px rgba(15, 23, 42, 0.16);
+  }
   
   
   /* ================= STUDY ================= */
   .home-btn {
-    position: fixed;       /* 常に画面に表示 */
-    top: 16px;             /* 上からの位置 */
-    left: 16px;            /* 左からの位置 */
-    padding: 6px 12px;     /* 小さめの横長サイズ */
-    font-size: 14px;
-    border-radius: 8px;
-    border: none;
-    background: #1d3d5e;      /* 目立ちすぎず */
-    color: #ffffff;
-    cursor: pointer;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-    z-index: 1000;         /* 他の要素より前面 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1d3d5e;
+    font-size: 22px;
   }
   
   .home-btn:hover {

@@ -14308,6 +14308,7 @@ const units = {
   const home = document.getElementById("home");
   const quiz = document.getElementById("quiz");
   const resultScreen = document.getElementById("resultScreen");
+  const themeToggle = document.getElementById("themeToggle");
   
   const sentenceEl = document.getElementById("sentence");
   const jpEl = document.getElementById("jp");
@@ -14337,6 +14338,21 @@ const units = {
   document.getElementById("randomToggle").onchange = e => {
     isRandom = e.target.checked;
   };
+
+  // テーマ切り替え
+  if (themeToggle) {
+    const savedTheme = localStorage.getItem("theme") || "light";
+    if (savedTheme === "dark") {
+      document.body.classList.add("dark");
+      themeToggle.textContent = "☀";
+    }
+
+    themeToggle.onclick = () => {
+      const isDark = document.body.classList.toggle("dark");
+      themeToggle.textContent = isDark ? "☀" : "🌙";
+      localStorage.setItem("theme", isDark ? "dark" : "light");
+    };
+  }
   
   const homeBtn = document.getElementById("homeBtn");
 
