@@ -14485,27 +14485,56 @@ homeBtn.onclick = () => {
     home.classList.remove("hidden");
   };
   
-// ====== 発音（スマホ対応） ======
-function speakWord(word) {
-  const utter = new SpeechSynthesisUtterance(word);
-  utter.lang = 'en-US';
-  utter.rate = 1.0; // 速さ
-  utter.pitch = 1.2;  // 音程
+// ====== 発音（スマホ対応 改良版） ======
+function resolveEnglishVoice() {
+  const voices = window.speechSynthesis.getVoices();
+  if (!voices || voices.length === 0) return null;
 
-  // 声を取得（iOS / Android対応）
-  const voices = speechSynthesis.getVoices();
-  let voice = voices.find(v => v.lang === 'en-US' && v.name.includes('Google'));
-  if (!voice && voices.length > 0) voice = voices[0]; // もしGoogle声がなければ最初の声
-  if (voice) utter.voice = voice;
+  // 英語系だけに絞る
+  const englishVoices = voices.filter(v => v.lang && v.lang.toLowerCase().startsWith('en'));
+  if (englishVoices.length === 0) return null;
 
-  speechSynthesis.speak(utter);
+  // モバイルでも比較的安定している順に優先
+  const priorityNames = ['Google US English', 'Google UK English', 'Samantha', 'Daniel'];
+  for (const name of priorityNames) {
+    const found = englishVoices.find(v => v.name.indexOf(name) !== -1);
+    if (found) return found;
+  }
+
+  // 上記がなければ最初の英語ボイス
+  return englishVoices[0];
 }
 
-// iOSで最初に声が取得できない問題対策
-window.speechSynthesis.onvoiceschanged = () => {
-  speechSynthesis.getVoices();
-};
-  
+function speakWord(word) {
+  if (!('speechSynthesis' in window)) return;
+
+  const utter = new SpeechSynthesisUtterance(word);
+  utter.lang = 'en-US';
+  utter.rate = 1.0;
+  utter.pitch = 1.05;
+
+  // 既に再生中なら一旦止める
+  window.speechSynthesis.cancel();
+
+  let voice = resolveEnglishVoice();
+
+  if (!voice) {
+    // まだvoiceがロードされていないケース（特にiOS）
+    window.speechSynthesis.onvoiceschanged = () => {
+      const v = resolveEnglishVoice();
+      if (v) {
+        utter.voice = v;
+      }
+      window.speechSynthesis.speak(utter);
+    };
+    // トリガー用に一度getVoicesを呼ぶ
+    window.speechSynthesis.getVoices();
+  } else {
+    utter.voice = voice;
+    window.speechSynthesis.speak(utter);
+  }
+}
+
 speakBtn.onclick = () => {
   speakWord(currentUnit[currentIndex].word);
 };
