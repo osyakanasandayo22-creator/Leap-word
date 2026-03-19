@@ -14567,16 +14567,22 @@ homeBtn.onclick = () => {
 
   function playJudgeSound(kind) {
     // kind: fall / click / wrong
-    if (kind === "fallCorrect") playTone(640, 55, "square", 0.02);
-    if (kind === "fallWrong") playTone(190, 65, "square", 0.015);
-    if (kind === "fall") playTone(520, 55, "square", 0.02);
-    if (kind === "click") playTone(1150, 70, "triangle", 0.045);
+    // 正解時：刺さりにくい（低め・サイン寄り・音量控えめ）
+    if (kind === "fallCorrect") playTone(560, 45, "sine", 0.012);
+    if (kind === "fallWrong") playTone(190, 65, "triangle", 0.012);
+    if (kind === "fall") playTone(520, 55, "sine", 0.012);
+
+    // 正解時クリック：高音域より「ふわっとした短い音」
+    if (kind === "click") {
+      playTone(880, 75, "sine", 0.018);
+      setTimeout(() => playTone(1320, 55, "sine", 0.009), 12);
+    }
     if (kind === "wrong") playTone(180, 140, "triangle", 0.018);
   }
 
   function scheduleFallingRhythm(serial, fallDurationMs, isExact) {
     if (!fallDurationMs || fallDurationMs < 1) return;
-    const beats = 4;
+    const beats = isExact ? 3 : 4;
     const baseAt = Math.round(fallDurationMs * 0.22);
     for (let i = 0; i < beats; i++) {
       const t = baseAt + Math.round((fallDurationMs * 0.58) * (i / (beats - 1)));
