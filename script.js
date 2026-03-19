@@ -14436,7 +14436,7 @@ homeBtn.onclick = () => {
     // レイヤー状態リセット
     wordStageEl?.classList.add("hidden");
     wordStageEl?.classList.remove("state-correct", "state-incorrect");
-    wordFallingEl?.classList.remove("anim-correct", "anim-wrong-shift", "anim-wrong-rotate", "anim-wrong-drift");
+    wordFallingEl?.classList.remove("anim-correct", "anim-wrong-shift", "anim-wrong-rotate", "anim-wrong-drift", "anim-wrong-ugly");
     wordRippleEl?.classList.remove("play");
     if (wordBreakLayerEl) {
       wordBreakLayerEl.innerHTML = "";
@@ -14645,7 +14645,7 @@ homeBtn.onclick = () => {
 
     // 初期状態クラス
     wordStageEl.classList.remove("state-correct", "state-incorrect");
-    wordFallingEl.classList.remove("anim-correct", "anim-wrong-shift", "anim-wrong-rotate", "anim-wrong-drift");
+    wordFallingEl.classList.remove("anim-correct", "anim-wrong-shift", "anim-wrong-rotate", "anim-wrong-drift", "anim-wrong-ugly");
 
     // --- 正解 ---
     if (isExact) {
@@ -14677,8 +14677,11 @@ homeBtn.onclick = () => {
     wordStageEl.classList.add("state-incorrect");
 
     // ランダム演出（少しズレ / 回転 / 横にズレ続ける）
-    const variants = ["shift", "rotate", "drift"];
-    const variant = variants[Math.floor(Math.random() * variants.length)];
+    // 不一致が大きいほど「歪み拒否（ugly）」に寄せる
+    const variants = ["shift", "rotate", "drift", "ugly"];
+    let variant = variants[Math.floor(Math.random() * variants.length)];
+    if (mismatch >= 0.18 && Math.random() < 0.55 + mismatch * 0.25) variant = "ugly";
+    if (matchRate < 75 && Math.random() < 0.75) variant = "ugly";
 
     // 速いほどズレを減らす（ぴったり一致しやすく）
     const driftFactor = 0.85 + (1 - fastness) * 0.55;
@@ -14688,7 +14691,23 @@ homeBtn.onclick = () => {
     const endRot = randBetween(-driftBase * 0.12, driftBase * 0.12);
     const driftX = randBetween(-driftBase, driftBase);
 
-    if (variant === "shift") {
+    // "気持ち悪い"ほど、ズレを強める（歪み拒否）
+    if (variant === "ugly") {
+      const uglyEndX = endX * randBetween(1.25, 1.9);
+      const uglyEndRot = endRot * randBetween(1.35, 2.1);
+      const jitterX = randBetween(-Math.abs(uglyEndX) * 0.35, Math.abs(uglyEndX) * 0.35);
+      const jitterY = randBetween(-14 - mismatch * 22, -4 - mismatch * 10);
+      const jitterRot = randBetween(-Math.abs(uglyEndRot) * 0.75, Math.abs(uglyEndRot) * 0.75);
+
+      wordStageEl.style.setProperty("--startY", `${Math.round(-190 - (1 - fastness) * 30)}px`);
+      wordStageEl.style.setProperty("--endX", `${uglyEndX.toFixed(1)}px`);
+      wordStageEl.style.setProperty("--endRot", `${uglyEndRot.toFixed(2)}deg`);
+      wordStageEl.style.setProperty("--jitterX", `${jitterX.toFixed(1)}px`);
+      wordStageEl.style.setProperty("--jitterY", `${jitterY.toFixed(1)}px`);
+      wordStageEl.style.setProperty("--jitterRot", `${jitterRot.toFixed(2)}deg`);
+
+      wordFallingEl.classList.add("anim-wrong-ugly");
+    } else if (variant === "shift") {
       wordStageEl.style.setProperty("--endX", `${endX.toFixed(1)}px`);
       wordStageEl.style.setProperty("--endRot", `${endRot.toFixed(2)}deg`);
       wordFallingEl.classList.add("anim-wrong-shift");
