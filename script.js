@@ -14863,6 +14863,20 @@ homeBtn.onclick = () => {
       }
     }
 
+    // 不正解の場合はユーザーが「次へ」を押すまで待つので、ぼかし等が残り続けないように一定時間で解除
+    const cleanupMs = isExact ? 1100 : 720;
+    setTimeout(() => {
+      if (serial !== sceneSerial) return;
+      document.body.classList.remove(
+        "scene-correct",
+        "scene-incorrect",
+        "scene-hold",
+        "scene-audio-pulse",
+        "fx-combo-1",
+        "fx-combo-2"
+      );
+    }, cleanupMs);
+
     // 余韻で隠す
     hideGlobalFxLater(serial, isExact ? 1200 : 800);
   }
