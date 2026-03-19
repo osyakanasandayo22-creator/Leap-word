@@ -854,8 +854,9 @@ body.scene-incorrect .fx-noise {
   100% { opacity: 0; filter: blur(1.2px); transform: translate(calc(-50% + var(--ex)), calc(-50% + var(--ey))) scale(1.1); }
 }
 
-/* body：全体の感情誘導 */
-body.scene-correct {
+/* body：背景グラデーションや色は動かす（transformはしない） */
+/* 呼吸/シェイクは #globalFx 側で行い、fixed UIの崩れを防ぐ */
+body.scene-correct #globalFx {
   animation: sceneBreathCorrect 900ms ease-out forwards;
 }
 
@@ -866,7 +867,7 @@ body.scene-correct {
   100% { transform: translateY(-0.5px) scale(1); }
 }
 
-body.scene-incorrect {
+body.scene-incorrect #globalFx {
   animation: sceneShakeWrong 540ms ease-in-out forwards;
 }
 
@@ -949,17 +950,23 @@ body.scene-incorrect #judgeBtn {
 }
 
 /* フォーカス変化（正解: シャープ / 不正解: ぼやけ） */
-body.scene-correct .card {
+/* fixedのcontrolsを含む .card 自体にはfilterを掛けない（位置バグを防ぐ） */
+#quiz .card #sentence,
+#quiz .card #jp,
+#quiz .card .answer-area {
+  will-change: filter;
+}
+
+body.scene-correct #quiz .card #sentence,
+body.scene-correct #quiz .card #jp,
+body.scene-correct #quiz .card .answer-area {
   filter: blur(0px) saturate(1.05);
 }
 
-body.scene-incorrect .card {
+body.scene-incorrect #quiz .card #sentence,
+body.scene-incorrect #quiz .card #jp,
+body.scene-incorrect #quiz .card .answer-area {
   filter: blur(1.2px) saturate(0.95);
-}
-
-/* 不正解時の収縮（心理的圧迫） */
-body.scene-incorrect {
-  transform-origin: 50% 50%;
 }
 
 /* 入力欄のキャラクター化（喜ぶ/しょぼん） */
@@ -1029,7 +1036,7 @@ body.scene-incorrect .global-fx::after {
 }
 
 /* 音と同期した小パルス */
-body.scene-audio-pulse .card {
+body.scene-audio-pulse #globalFx {
   animation: audioPulse 90ms ease-out forwards;
 }
 @keyframes audioPulse {
@@ -1038,7 +1045,7 @@ body.scene-audio-pulse .card {
 }
 
 /* 時間停止（正解直前の“ピタッ”感） */
-body.scene-hold {
+#globalFx.scene-hold {
   animation: timeStop 110ms linear forwards;
 }
 @keyframes timeStop {
@@ -1050,14 +1057,22 @@ body.scene-hold {
 /* ================= Combo Text ================= */
 .combo-display {
   position: absolute;
-  left: 50%;
-  top: 52%;
-  transform: translate(-50%, -50%) scale(0.92);
+  top: 14px;
+  right: 14px;
+  left: auto;
+  --comboRot: -10deg;
+  transform: rotate(var(--comboRot)) scale(0.92);
   font-weight: 900;
   letter-spacing: 0.03em;
-  font-size: clamp(16px, 6vw, 28px);
-  color: rgba(30, 136, 229, 0.95);
-  text-shadow: 0 0 0 rgba(30, 136, 229, 0);
+  font-size: clamp(14px, 5vw, 26px);
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(30, 136, 229, 0.25);
+  backdrop-filter: blur(8px);
+  color: rgba(30, 136, 229, 0.98);
+  text-shadow: 0 0 0 rgba(30, 136, 229, 0.0);
   opacity: 0;
   pointer-events: none;
   z-index: 80;
@@ -1066,9 +1081,19 @@ body.scene-hold {
 
 .combo-display.tier-1 {
   color: rgba(30, 136, 229, 0.98);
+  --comboRot: -10deg;
 }
 .combo-display.tier-2 {
   color: rgba(124, 58, 237, 0.98);
+  --comboRot: 10deg;
+  right: auto;
+  left: 14px;
+  border-color: rgba(124, 58, 237, 0.28);
+}
+
+body.dark .combo-display {
+  background: rgba(2, 6, 23, 0.35);
+  border-color: rgba(30, 136, 229, 0.25);
 }
 
 .combo-display.play {
@@ -1078,24 +1103,24 @@ body.scene-hold {
 @keyframes comboFlyOut {
   0% {
     opacity: 0;
-    transform: translate(-50%, -50%) scale(0.86) translateY(6px);
+    transform: rotate(var(--comboRot)) scale(0.86) translateY(6px);
     filter: blur(0.4px);
     text-shadow: 0 0 0 rgba(30,136,229,0);
   }
   14% {
     opacity: 1;
-    transform: translate(-50%, -50%) scale(1.08) translateY(-14px);
+    transform: rotate(calc(var(--comboRot) - 2deg)) scale(1.08) translateY(-14px);
     filter: blur(0px);
     text-shadow: 0 0 22px rgba(30,136,229,0.45);
   }
   55% {
     opacity: 1;
-    transform: translate(-50%, -50%) scale(1.02) translateY(-24px) rotate(-1deg);
+    transform: rotate(calc(var(--comboRot) + 1deg)) scale(1.02) translateY(-24px);
     text-shadow: 0 0 28px rgba(30,136,229,0.55);
   }
   100% {
     opacity: 0;
-    transform: translate(-50%, -50%) scale(0.82) translateY(-44px) rotate(2deg);
+    transform: rotate(calc(var(--comboRot) + 3deg)) scale(0.82) translateY(-44px);
     text-shadow: 0 0 0 rgba(30,136,229,0);
     filter: blur(0.8px);
   }
@@ -1108,24 +1133,24 @@ body.scene-hold {
 @keyframes comboFlyOutTier2 {
   0% {
     opacity: 0;
-    transform: translate(-50%, -50%) scale(0.86) translateY(6px);
+    transform: rotate(var(--comboRot)) scale(0.86) translateY(6px);
     filter: blur(0.5px);
     text-shadow: 0 0 0 rgba(124,58,237,0);
   }
   14% {
     opacity: 1;
-    transform: translate(-50%, -50%) scale(1.12) translateY(-16px);
+    transform: rotate(calc(var(--comboRot) + 2deg)) scale(1.12) translateY(-16px);
     filter: blur(0px);
     text-shadow: 0 0 26px rgba(124,58,237,0.52);
   }
   60% {
     opacity: 1;
-    transform: translate(-50%, -50%) scale(1.03) translateY(-26px) rotate(1deg);
+    transform: rotate(calc(var(--comboRot) - 1deg)) scale(1.03) translateY(-26px);
     text-shadow: 0 0 32px rgba(124,58,237,0.7);
   }
   100% {
     opacity: 0;
-    transform: translate(-50%, -50%) scale(0.78) translateY(-46px) rotate(-2deg);
+    transform: rotate(calc(var(--comboRot) - 3deg)) scale(0.78) translateY(-46px);
     text-shadow: 0 0 0 rgba(124,58,237,0);
     filter: blur(0.9px);
   }

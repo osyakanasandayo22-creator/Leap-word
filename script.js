@@ -14463,6 +14463,7 @@ homeBtn.onclick = () => {
     );
     if (globalFxEl) {
       globalFxEl.classList.add("hidden");
+      globalFxEl.classList.remove("scene-hold");
       const particlesWrap = globalFxEl.querySelector(".fx-particles");
       if (particlesWrap) particlesWrap.innerHTML = "";
     }
@@ -14553,12 +14554,14 @@ homeBtn.onclick = () => {
 
   function playJudgeSound(kind) {
     // kind: fall / click / wrong
+    if (kind === "fallCorrect") playTone(640, 55, "square", 0.02);
+    if (kind === "fallWrong") playTone(190, 65, "square", 0.015);
     if (kind === "fall") playTone(520, 55, "square", 0.02);
     if (kind === "click") playTone(1150, 70, "triangle", 0.045);
     if (kind === "wrong") playTone(180, 140, "triangle", 0.018);
   }
 
-  function scheduleFallingRhythm(serial, fallDurationMs) {
+  function scheduleFallingRhythm(serial, fallDurationMs, isExact) {
     if (!fallDurationMs || fallDurationMs < 1) return;
     const beats = 4;
     const baseAt = Math.round(fallDurationMs * 0.22);
@@ -14566,7 +14569,7 @@ homeBtn.onclick = () => {
       const t = baseAt + Math.round((fallDurationMs * 0.58) * (i / (beats - 1)));
       setTimeout(() => {
         if (serial !== animSerial) return;
-        playJudgeSound("fall");
+        playJudgeSound(isExact ? "fallCorrect" : "fallWrong");
         triggerAudioPulse();
       }, t);
     }
@@ -14680,7 +14683,7 @@ homeBtn.onclick = () => {
       wordStageEl.classList.remove("state-incorrect");
 
       // リズム音（落下中）
-      scheduleFallingRhythm(serial, fallDuration);
+      scheduleFallingRhythm(serial, fallDuration, true);
 
       // 波紋（余韻）
       const rippleAt = Math.round(fallDuration * 0.78);
@@ -14747,7 +14750,9 @@ homeBtn.onclick = () => {
       wordFallingEl.classList.add("anim-wrong-drift");
     }
 
-    scheduleFallingRhythm(serial, fallDuration);
+    // （不正解）落下中のリズム音を鈍く
+    // ※ズレ/歪み演出は別で強制されるので、ここは気持ち悪さの質感に寄せる
+    scheduleFallingRhythm(serial, fallDuration, false);
 
     // 入力単語の崩壊（分解して消える）
     const breakAt = Math.round(fallDuration * 0.64);
@@ -14940,8 +14945,10 @@ homeBtn.onclick = () => {
     // ====== 全画面シーン演出 ======
     triggerScene(isExact, comboTier);
     if (isExact) {
-      document.body.classList.add("scene-hold");
-      setTimeout(() => document.body.classList.remove("scene-hold"), 120);
+      if (globalFxEl) {
+        globalFxEl.classList.add("scene-hold");
+        setTimeout(() => globalFxEl.classList.remove("scene-hold"), 120);
+      }
     }
 
     const fallDuration = runWordAnimation({
