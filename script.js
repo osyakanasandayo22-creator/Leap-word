@@ -14303,6 +14303,10 @@ const units = {
   let currentIndex = 0;
   let wrongWords = [];
   let isRandom = false;
+  let consecutiveCorrect = 0;
+  let inputStartTime = null;
+  let animSerial = 0;
+  let animMode = "simple";
   
   // ====== DOM ======
   const home = document.getElementById("home");
@@ -14322,6 +14326,16 @@ const units = {
   const reviewBtn = document.getElementById("reviewBtn");
   const meaningEl = document.getElementById("meaning");
 
+  // ====== Word Animation DOM ======
+  const animModeEl = document.getElementById("animMode");
+  const matchRateEl = document.getElementById("matchRate");
+  const wordStageEl = document.getElementById("wordStage");
+  const wordSilhouetteEl = document.getElementById("wordSilhouette");
+  const wordRippleEl = document.getElementById("wordRipple");
+  const wordFallingEl = document.getElementById("wordFalling");
+  const wordBreakLayerEl = document.getElementById("wordBreakLayer");
+  const quizCardEl = document.querySelector("#quiz .card");
+
 
   
   // ====== Unit一覧生成 ======
@@ -14338,6 +14352,16 @@ const units = {
   document.getElementById("randomToggle").onchange = e => {
     isRandom = e.target.checked;
   };
+
+  // アニメ演出モード
+  if (animModeEl) {
+    animMode = localStorage.getItem("animMode") || "simple";
+    animModeEl.value = animMode;
+    animModeEl.onchange = e => {
+      animMode = e.target.value;
+      localStorage.setItem("animMode", animMode);
+    };
+  }
 
   // テーマ切り替え
   if (themeToggle) {
@@ -14379,6 +14403,8 @@ homeBtn.onclick = () => {
   
     currentIndex = 0;
     wrongWords = [];
+    consecutiveCorrect = 0;
+    inputStartTime = null;
   
     home.classList.add("hidden");
     quiz.classList.remove("hidden");
@@ -14397,6 +14423,7 @@ homeBtn.onclick = () => {
   
     input.value = "";
     input.disabled = false;
+    inputStartTime = null;
   
     resultEl.textContent = "";
     resultEl.className = "";
@@ -14404,6 +14431,18 @@ homeBtn.onclick = () => {
     meaningEl.textContent = "";
     meaningEl.classList.add("hidden");
   
+    matchRateEl?.classList.add("hidden");
+
+    // レイヤー状態リセット
+    wordStageEl?.classList.add("hidden");
+    wordStageEl?.classList.remove("state-correct", "state-incorrect");
+    wordFallingEl?.classList.remove("anim-correct", "anim-wrong-shift", "anim-wrong-rotate", "anim-wrong-drift");
+    wordRippleEl?.classList.remove("play");
+    if (wordBreakLayerEl) {
+      wordBreakLayerEl.innerHTML = "";
+      wordBreakLayerEl.classList.remove("play");
+    }
+
     nextBtn.classList.add("hidden");
     speakBtn.classList.add("hidden");
   
@@ -14411,12 +14450,291 @@ homeBtn.onclick = () => {
     input.focus();
   }
   
+  // ====== Word Animation helpers ======
+  function normalizeWord(str) {
+    return (str || "")
+      .trim()
+      .toLowerCase()
+      .replace(/\s+/g, " ");
+  }
+
+  // 文字位置ベースの一致率（完全一致なら100%）
+  function calcMatchRate(userStr, targetStr) {
+    const u = normalizeWord(userStr);
+    const t = normalizeWord(targetStr);
+
+    const maxLen = Math.max(u.length, t.length);
+    if (maxLen === 0) return 100;
+
+    const minLen = Math.min(u.length, t.length);
+    let match = 0;
+    for (let i = 0; i < minLen; i++) {
+      if (u[i] === t[i]) match++;
+    }
+
+    return Math.max(0, Math.min(100, Math.round((match / maxLen) * 100)));
+  }
+
+  function getComboTier(count) {
+    if (count >= 5) return 2;
+    if (count >= 3) return 1;
+    return 0;
+  }
+
+  function lerp(a, b, t) {
+    return a + (b - a) * t;
+  }
+
+  function randBetween(min, max) {
+    return Math.random() * (max - min) + min;
+  }
+
+  // --- Audio (WebAudio) ---
+  let audioCtx = null;
+  function ensureAudioCtx() {
+    if (audioCtx) return audioCtx;
+    const Ctx = window.AudioContext || window.webkitAudioContext;
+    if (!Ctx) return null;
+    try {
+      audioCtx = new Ctx();
+    } catch {
+      return null;
+    }
+    return audioCtx;
+  }
+
+  function playTone(freq, durationMs, type = "sine", gainValue = 0.03) {
+    const ctx = ensureAudioCtx();
+    if (!ctx) return;
+    try {
+      if (ctx.state === "suspended") ctx.resume().catch(() => {});
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = type;
+      osc.frequency.value = freq;
+
+      const now = ctx.currentTime;
+      gain.gain.setValueAtTime(0.0001, now);
+      gain.gain.exponentialRampToValueAtTime(Math.max(0.0002, gainValue), now + 0.01);
+      gain.gain.exponentialRampToValueAtTime(0.0001, now + durationMs / 1000);
+
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start(now);
+      osc.stop(now + durationMs / 1000 + 0.02);
+    } catch {
+      // 音が鳴らなくても学習体験は止めない
+    }
+  }
+
+  function playJudgeSound(kind) {
+    // kind: fall / click / wrong
+    if (kind === "fall") playTone(520, 55, "square", 0.02);
+    if (kind === "click") playTone(1150, 70, "triangle", 0.045);
+    if (kind === "wrong") playTone(180, 140, "triangle", 0.018);
+  }
+
+  function scheduleFallingRhythm(serial, fallDurationMs) {
+    if (!fallDurationMs || fallDurationMs < 1) return;
+    const beats = 4;
+    const baseAt = Math.round(fallDurationMs * 0.22);
+    for (let i = 0; i < beats; i++) {
+      const t = baseAt + Math.round((fallDurationMs * 0.58) * (i / (beats - 1)));
+      setTimeout(() => {
+        if (serial !== animSerial) return;
+        playJudgeSound("fall");
+      }, t);
+    }
+  }
+
+  function createBreakdown(userDisplay, matchRate) {
+    if (!wordBreakLayerEl) return;
+    wordBreakLayerEl.innerHTML = "";
+
+    const text = normalizeWord(userDisplay);
+    const chars = text.split("");
+    const mismatch = 1 - matchRate / 100;
+
+    // mismatchが大きいほど飛び散る（違和感増幅）
+    const scatterX = 10 + mismatch * 18;
+    const scatterY = 20 + mismatch * 35;
+    const scatterRot = 45 + mismatch * 120;
+    const baseDelay = 60 + mismatch * 90;
+
+    chars.forEach(ch => {
+      const span = document.createElement("span");
+      span.className = "break-char" + (ch === " " ? " space" : "");
+      span.textContent = ch === " " ? " " : ch;
+
+      const dx = randBetween(-scatterX, scatterX);
+      const dy = randBetween(-scatterY * 0.9, -scatterY * 0.2);
+      const dr = randBetween(-scatterRot, scatterRot);
+      const delay = Math.round(Math.random() * baseDelay);
+
+      span.style.setProperty("--dx", `${dx.toFixed(1)}px`);
+      span.style.setProperty("--dy", `${dy.toFixed(1)}px`);
+      span.style.setProperty("--dr", `${dr.toFixed(1)}deg`);
+      span.style.setProperty("--delay", `${delay}ms`);
+
+      wordBreakLayerEl.appendChild(span);
+    });
+  }
+
+  function runWordAnimation({
+    userDisplay,
+    userNorm,
+    correctDisplay,
+    correctNorm,
+    isExact,
+    matchRate,
+    comboTier,
+    elapsedMs
+  }) {
+    const serial = ++animSerial;
+
+    if (!wordStageEl || !wordFallingEl || !wordSilhouetteEl) return 700;
+
+    // Stage位置合わせ（カード内で入力位置と重ねる）
+    if (quizCardEl) {
+      const cardRect = quizCardEl.getBoundingClientRect();
+      const inputRect = input.getBoundingClientRect();
+      const stageY = (inputRect.top - cardRect.top) + inputRect.height * 0.55;
+      wordStageEl.style.top = `${stageY}px`;
+    }
+
+    // mode + combo
+    wordStageEl.classList.remove("anim-mode-simple", "anim-mode-neon", "anim-mode-pop");
+    wordStageEl.classList.add(`anim-mode-${animMode}`);
+
+    wordStageEl.classList.remove("combo-tier-0", "combo-tier-1", "combo-tier-2");
+    wordStageEl.classList.add(`combo-tier-${comboTier}`);
+
+    // コンボ上位は色で気持ちよさを強化
+    if (comboTier >= 2) {
+      if (animMode === "simple") wordStageEl.style.setProperty("--glow", "rgba(124, 58, 237, 0.95)");
+      if (animMode === "neon") wordStageEl.style.setProperty("--glow", "rgba(217, 70, 239, 0.95)");
+      if (animMode === "pop") wordStageEl.style.setProperty("--glow", "rgba(249, 115, 22, 0.95)");
+      wordStageEl.style.setProperty("--rippleBoost", "1.55");
+    } else if (comboTier === 1) {
+      wordStageEl.style.setProperty("--rippleBoost", "1.25");
+    }
+
+    // speed連動（速いほど短く・ズレにくく）
+    const elapsedClamped = Math.max(0, Math.min(2500, elapsedMs || 0));
+    const fastness = Math.max(0, Math.min(1, 1 - elapsedClamped / 2500)); // 1=超速い
+    const fallDuration = Math.round(lerp(900, 560, fastness));
+
+    wordStageEl.style.setProperty("--fallDuration", `${fallDuration}ms`);
+    wordStageEl.style.setProperty("--startY", `${Math.round(-140 - (1 - fastness) * 20)}px`);
+
+    // 影の濃さ（不正解ほど徐々に濃く、かつ一致率が低いほど濃く）
+    const mismatch = 1 - matchRate / 100;
+    const silhEnd = Math.min(0.9, 0.58 + mismatch * 0.36);
+    wordStageEl.style.setProperty("--silhEndOpacity", silhEnd.toFixed(2));
+
+    // テキスト更新
+    wordSilhouetteEl.textContent = correctDisplay;
+    wordFallingEl.textContent = isExact
+      ? correctDisplay
+      : ((userDisplay && userDisplay.trim().length > 0) ? userDisplay : correctDisplay);
+    wordRippleEl?.classList.remove("play");
+    if (wordBreakLayerEl) {
+      wordBreakLayerEl.innerHTML = "";
+      wordBreakLayerEl.classList.remove("play");
+    }
+
+    // 初期状態クラス
+    wordStageEl.classList.remove("state-correct", "state-incorrect");
+    wordFallingEl.classList.remove("anim-correct", "anim-wrong-shift", "anim-wrong-rotate", "anim-wrong-drift");
+
+    // --- 正解 ---
+    if (isExact) {
+      wordStageEl.classList.add("state-correct");
+      wordFallingEl.classList.add("anim-correct");
+
+      wordStageEl.classList.remove("state-incorrect");
+
+      // リズム音（落下中）
+      scheduleFallingRhythm(serial, fallDuration);
+
+      // 波紋（余韻）
+      const rippleAt = Math.round(fallDuration * 0.78);
+      setTimeout(() => {
+        if (serial !== animSerial) return;
+        if (!wordRippleEl) return;
+        wordRippleEl.classList.remove("play");
+        void wordRippleEl.offsetWidth; // 再生を確実にする
+        wordRippleEl.classList.add("play");
+        playJudgeSound("click");
+      }, rippleAt);
+
+      // 表示開始
+      wordStageEl.classList.remove("hidden");
+      return fallDuration;
+    }
+
+    // --- 不正解 ---
+    wordStageEl.classList.add("state-incorrect");
+
+    // ランダム演出（少しズレ / 回転 / 横にズレ続ける）
+    const variants = ["shift", "rotate", "drift"];
+    const variant = variants[Math.floor(Math.random() * variants.length)];
+
+    // 速いほどズレを減らす（ぴったり一致しやすく）
+    const driftFactor = 0.85 + (1 - fastness) * 0.55;
+    const driftBase = (mismatch * 20 + 6) * driftFactor;
+
+    const endX = randBetween(-driftBase, driftBase);
+    const endRot = randBetween(-driftBase * 0.12, driftBase * 0.12);
+    const driftX = randBetween(-driftBase, driftBase);
+
+    if (variant === "shift") {
+      wordStageEl.style.setProperty("--endX", `${endX.toFixed(1)}px`);
+      wordStageEl.style.setProperty("--endRot", `${endRot.toFixed(2)}deg`);
+      wordFallingEl.classList.add("anim-wrong-shift");
+    } else if (variant === "rotate") {
+      wordStageEl.style.setProperty("--endX", `${endX.toFixed(1)}px`);
+      wordStageEl.style.setProperty("--endRot", `${endRot.toFixed(2)}deg`);
+      wordFallingEl.classList.add("anim-wrong-rotate");
+    } else {
+      wordStageEl.style.setProperty("--endX", `0px`);
+      wordStageEl.style.setProperty("--endRot", `${endRot.toFixed(2)}deg`);
+      wordStageEl.style.setProperty("--driftX", `${driftX.toFixed(1)}px`);
+      wordFallingEl.classList.add("anim-wrong-drift");
+    }
+
+    scheduleFallingRhythm(serial, fallDuration);
+
+    // 入力単語の崩壊（分解して消える）
+    const breakAt = Math.round(fallDuration * 0.64);
+    setTimeout(() => {
+      if (serial !== animSerial) return;
+      if (!wordBreakLayerEl) return;
+      createBreakdown(userDisplay || "", matchRate);
+      wordBreakLayerEl.classList.remove("play");
+      void wordBreakLayerEl.offsetWidth;
+      wordBreakLayerEl.classList.add("play");
+      playJudgeSound("wrong");
+    }, breakAt);
+
+    wordStageEl.classList.remove("hidden");
+    return fallDuration;
+  }
+
   // ====== 判定 ======
   function judge() {
     if (input.disabled) return;
   
     const q = currentUnit[currentIndex];
-    const user = input.value.trim().toLowerCase();
+    const userDisplay = input.value.trim();
+    const userNorm = normalizeWord(userDisplay);
+    const correctDisplay = q.word;
+    const correctNorm = normalizeWord(correctDisplay);
+    const isExact = userNorm === correctNorm;
+    const matchRate = calcMatchRate(userNorm, correctNorm);
+    const nextComboCount = isExact ? consecutiveCorrect + 1 : 0;
+    const comboTier = getComboTier(nextComboCount);
+    const elapsedMs = inputStartTime ? (performance.now() - inputStartTime) : 0;
   
     input.disabled = true;
   
@@ -14424,21 +14742,50 @@ homeBtn.onclick = () => {
     meaningEl.textContent = `意味：${q.meaning}`;
     meaningEl.classList.remove("hidden");
   
-    if (user === q.word.toLowerCase()) {
+    matchRateEl && (matchRateEl.textContent = `${matchRate}% match`);
+    matchRateEl?.classList.remove("hidden");
+
+    // アニメ中は誤操作防止
+    speakBtn.disabled = true;
+    nextBtn.disabled = true;
+    speakBtn.classList.add("hidden");
+    nextBtn.classList.add("hidden");
+
+    const fallDuration = runWordAnimation({
+      userDisplay,
+      userNorm,
+      correctDisplay,
+      correctNorm,
+      isExact,
+      matchRate,
+      comboTier,
+      elapsedMs
+    });
+
+    if (isExact) {
+      consecutiveCorrect = nextComboCount;
       resultEl.textContent = "⭕ 正解";
-      resultEl.classList.add("correct");
-  
-      // ★ ここを speakWord に変更
+      resultEl.className = "correct";
+
+      // 正解の音声
       speakWord(q.word);
-  
-      setTimeout(next, 1000);
+
+      setTimeout(() => {
+        next();
+      }, fallDuration + 120);
     } else {
+      consecutiveCorrect = 0;
       resultEl.textContent = `❌ 不正解：${q.word}`;
-      resultEl.classList.add("wrong");
+      resultEl.className = "wrong";
       wrongWords.push(q);
-  
-      speakBtn.classList.remove("hidden");
-      nextBtn.classList.remove("hidden");
+
+      setTimeout(() => {
+        if (input.disabled === false) return;
+        speakBtn.disabled = false;
+        nextBtn.disabled = false;
+        speakBtn.classList.remove("hidden");
+        nextBtn.classList.remove("hidden");
+      }, fallDuration + 40);
     }
   }
   // ====== 次 ======
@@ -14470,6 +14817,8 @@ homeBtn.onclick = () => {
     currentUnit = [...wrongWords];
     wrongWords = [];
     currentIndex = 0;
+    consecutiveCorrect = 0;
+    inputStartTime = null;
   
     resultScreen.classList.add("hidden");
     quiz.classList.remove("hidden");
@@ -14543,6 +14892,14 @@ speakBtn.onclick = () => {
   judgeBtn.onclick = judge;
   nextBtn.onclick = next;
   
+  input.addEventListener("focus", () => {
+    if (inputStartTime === null) inputStartTime = performance.now();
+  });
+
+  input.addEventListener("input", () => {
+    if (inputStartTime === null && input.value.trim().length > 0) inputStartTime = performance.now();
+  });
+
   input.addEventListener("keydown", e => {
     if (e.key === "Enter" && !input.disabled) judge();
   });
@@ -14582,6 +14939,8 @@ speakBtn.onclick = () => {
   
     currentIndex = 0;
     wrongWords = [];
+    consecutiveCorrect = 0;
+    inputStartTime = null;
   
     home.classList.add("hidden");
     quiz.classList.remove("hidden");

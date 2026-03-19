@@ -31,6 +31,11 @@
   <button id="themeToggle" class="icon-toggle" aria-label="テーマ切り替え">
     🌙
   </button>
+  <select id="animMode" class="anim-mode" aria-label="アニメ演出モード">
+    <option value="simple">シンプル</option>
+    <option value="neon">ネオン</option>
+    <option value="pop">ポップ</option>
+  </select>
 
   <div id="unitList" class="unit-list">
   <button id="random10Btn" class="unit-btn special">
@@ -51,8 +56,17 @@
         <input id="answerInput" />
         <button id="judgeBtn">判定</button>
         <div id="result"></div>
+        <div id="matchRate" class="hidden match-rate"></div>
         <div id="meaning" class="hidden"></div>
       </div>
+
+    <!-- 単語アニメ用レイヤー（DOM追加のみ、既存UIは維持） -->
+    <div id="wordStage" class="word-stage hidden" aria-hidden="true">
+      <div id="wordSilhouette" class="word-silhouette"></div>
+      <div id="wordRipple" class="word-ripple"></div>
+      <span id="wordFalling" class="word-falling"></span>
+      <div id="wordBreakLayer" class="word-break-layer"></div>
+    </div>
       
     <div class="controls">
         <button id="homeBtn" class="home-btn" aria-label="ホームへ戻る">🏠</button>
