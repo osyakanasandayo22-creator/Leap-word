@@ -14335,6 +14335,7 @@ const units = {
   const wordFallingEl = document.getElementById("wordFalling");
   const wordBreakLayerEl = document.getElementById("wordBreakLayer");
   const quizCardEl = document.querySelector("#quiz .card");
+  const globalFxEl = document.getElementById("globalFx");
 
 
   
@@ -14443,6 +14444,21 @@ homeBtn.onclick = () => {
       wordBreakLayerEl.classList.remove("play");
     }
 
+    // 全画面FX状態リセット
+    document.body.classList.remove(
+      "scene-correct",
+      "scene-incorrect",
+      "scene-hold",
+      "scene-audio-pulse",
+      "fx-combo-1",
+      "fx-combo-2"
+    );
+    if (globalFxEl) {
+      globalFxEl.classList.add("hidden");
+      const particlesWrap = globalFxEl.querySelector(".fx-particles");
+      if (particlesWrap) particlesWrap.innerHTML = "";
+    }
+
     nextBtn.classList.add("hidden");
     speakBtn.classList.add("hidden");
   
@@ -14543,6 +14559,7 @@ homeBtn.onclick = () => {
       setTimeout(() => {
         if (serial !== animSerial) return;
         playJudgeSound("fall");
+        triggerAudioPulse();
       }, t);
     }
   }
@@ -14740,6 +14757,116 @@ homeBtn.onclick = () => {
     return fallDuration;
   }
 
+  // ====== Global scene FX helpers ======
+  let sceneSerial = 0;
+  let audioPulseSerial = 0;
+
+  function setComboClass(comboTier) {
+    document.body.classList.remove("fx-combo-1", "fx-combo-2");
+    if (comboTier >= 2) document.body.classList.add("fx-combo-2");
+    else if (comboTier === 1) document.body.classList.add("fx-combo-1");
+  }
+
+  function showGlobalFx() {
+    if (!globalFxEl) return;
+    globalFxEl.classList.remove("hidden");
+  }
+
+  function hideGlobalFxLater(serial, ms) {
+    if (!globalFxEl) return;
+    setTimeout(() => {
+      if (serial !== sceneSerial) return;
+      globalFxEl.classList.add("hidden");
+      const particlesWrap = globalFxEl.querySelector(".fx-particles");
+      if (particlesWrap) particlesWrap.innerHTML = "";
+    }, ms);
+  }
+
+  function triggerAudioPulse() {
+    const body = document.body;
+    const serial = ++audioPulseSerial;
+    body.classList.remove("scene-audio-pulse");
+    // 小さな揺れは毎回付け直す
+    body.classList.add("scene-audio-pulse");
+    setTimeout(() => {
+      if (serial !== audioPulseSerial) return;
+      body.classList.remove("scene-audio-pulse");
+    }, 90);
+  }
+
+  function createParticles(comboTier) {
+    if (!globalFxEl) return;
+    const wrap = globalFxEl.querySelector(".fx-particles");
+    if (!wrap) return;
+    wrap.innerHTML = "";
+
+    const count = comboTier >= 2 ? 52 : (comboTier === 1 ? 36 : 24);
+    const spread = comboTier >= 2 ? 340 : (comboTier === 1 ? 280 : 220);
+    const centerX = window.innerWidth * 0.5;
+    const centerY = window.innerHeight * 0.42;
+
+    for (let i = 0; i < count; i++) {
+      const p = document.createElement("span");
+      p.className = "p";
+
+      // start/end: center -> random direction
+      const a = Math.random() * Math.PI * 2;
+      const r = Math.pow(Math.random(), 0.7) * spread;
+      const ex = Math.cos(a) * r;
+      const ey = Math.sin(a) * r;
+
+      // ほぼ中心開始
+      p.style.left = `${centerX}px`;
+      p.style.top = `${centerY}px`;
+      p.style.setProperty("--sx", "0px");
+      p.style.setProperty("--sy", "0px");
+      p.style.setProperty("--ex", `${ex.toFixed(1)}px`);
+      p.style.setProperty("--ey", `${ey.toFixed(1)}px`);
+
+      const delay = Math.round(Math.random() * 90);
+      const dur = Math.round(650 + Math.random() * 220);
+      p.style.setProperty("--ptDelay", `${delay}ms`);
+      p.style.setProperty("--ptDur", `${dur}ms`);
+
+      if (comboTier >= 1) {
+        // コンボほど色を増やす
+        const hue = comboTier >= 2 ? 265 : 206;
+        const sat = comboTier >= 2 ? 95 : 85;
+        p.style.background = `hsla(${hue}, ${sat}%, 75%, 0.95)`;
+        p.style.boxShadow = `0 0 18px hsla(${hue}, ${sat}%, 55%, 0.45)`;
+      }
+
+      wrap.appendChild(p);
+    }
+  }
+
+  function triggerScene(isExact, comboTier) {
+    sceneSerial++;
+    const serial = sceneSerial;
+
+    document.body.classList.remove(
+      "scene-correct",
+      "scene-incorrect",
+      "scene-hold",
+      "scene-audio-pulse",
+      "fx-combo-1",
+      "fx-combo-2"
+    );
+
+    document.body.classList.add(isExact ? "scene-correct" : "scene-incorrect");
+    setComboClass(comboTier);
+
+    if (globalFxEl) {
+      showGlobalFx();
+      if (isExact) {
+        createParticles(comboTier);
+      }
+    }
+
+    // 余韻で隠す
+    hideGlobalFxLater(serial, isExact ? 1200 : 800);
+  }
+
   // ====== 判定 ======
   function judge() {
     if (input.disabled) return;
@@ -14769,6 +14896,13 @@ homeBtn.onclick = () => {
     nextBtn.disabled = true;
     speakBtn.classList.add("hidden");
     nextBtn.classList.add("hidden");
+
+    // ====== 全画面シーン演出 ======
+    triggerScene(isExact, comboTier);
+    if (isExact) {
+      document.body.classList.add("scene-hold");
+      setTimeout(() => document.body.classList.remove("scene-hold"), 120);
+    }
 
     const fallDuration = runWordAnimation({
       userDisplay,
