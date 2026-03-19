@@ -14336,6 +14336,7 @@ const units = {
   const wordBreakLayerEl = document.getElementById("wordBreakLayer");
   const quizCardEl = document.querySelector("#quiz .card");
   const globalFxEl = document.getElementById("globalFx");
+  const comboDisplayEl = document.getElementById("comboDisplay");
 
 
   
@@ -14442,6 +14443,13 @@ homeBtn.onclick = () => {
     if (wordBreakLayerEl) {
       wordBreakLayerEl.innerHTML = "";
       wordBreakLayerEl.classList.remove("play");
+    }
+
+    // コンボ表示リセット
+    if (comboDisplayEl) {
+      comboDisplayEl.classList.add("hidden");
+      comboDisplayEl.classList.remove("tier-1", "tier-2", "play");
+      comboDisplayEl.textContent = "";
     }
 
     // 全画面FX状態リセット
@@ -14881,6 +14889,24 @@ homeBtn.onclick = () => {
     hideGlobalFxLater(serial, isExact ? 1200 : 800);
   }
 
+  function showComboText(consecutiveCount, comboTier) {
+    if (!comboDisplayEl) return;
+
+    if (comboTier < 1 || consecutiveCount < 3) {
+      comboDisplayEl.classList.add("hidden");
+      comboDisplayEl.classList.remove("tier-1", "tier-2", "play");
+      return;
+    }
+
+    comboDisplayEl.textContent = `COMBO x${consecutiveCount}`;
+    comboDisplayEl.classList.remove("hidden", "tier-1", "tier-2", "play");
+    comboDisplayEl.classList.add(`tier-${comboTier}`);
+
+    // アニメ再生を確実にする
+    void comboDisplayEl.offsetWidth;
+    comboDisplayEl.classList.add("play");
+  }
+
   // ====== 判定 ======
   function judge() {
     if (input.disabled) return;
@@ -14934,6 +14960,9 @@ homeBtn.onclick = () => {
       resultEl.textContent = "⭕ 正解";
       resultEl.className = "correct";
 
+      // コンボ表示（3連続以上）
+      showComboText(nextComboCount, comboTier);
+
       // 正解の音声
       speakWord(q.word);
 
@@ -14942,6 +14971,10 @@ homeBtn.onclick = () => {
       }, fallDuration + 120);
     } else {
       consecutiveCorrect = 0;
+      if (comboDisplayEl) {
+        comboDisplayEl.classList.add("hidden");
+        comboDisplayEl.classList.remove("play");
+      }
       resultEl.textContent = `❌ 不正解：${q.word}`;
       resultEl.className = "wrong";
       wrongWords.push(q);
