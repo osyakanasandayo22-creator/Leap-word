@@ -14528,6 +14528,19 @@ homeBtn.onclick = () => {
     return audioCtx;
   }
 
+  // スマホ対策：AudioContextはユーザー操作直後にresumeしないと無音になりがち
+  function primeAudio() {
+    const ctx = ensureAudioCtx();
+    if (!ctx) return;
+    try {
+      if (ctx.state === "suspended") {
+        ctx.resume().catch(() => {});
+      }
+    } catch {
+      // ignore
+    }
+  }
+
   function playTone(freq, durationMs, type = "sine", gainValue = 0.03) {
     const ctx = ensureAudioCtx();
     if (!ctx) return;
@@ -14916,6 +14929,9 @@ homeBtn.onclick = () => {
   function judge() {
     if (input.disabled) return;
   
+    // ユーザー操作（判定ボタン/Enter）直後にSE用AudioContextを起こす
+    primeAudio();
+
     const q = currentUnit[currentIndex];
     const userDisplay = input.value.trim();
     const userNorm = normalizeWord(userDisplay);
