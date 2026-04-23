@@ -14325,6 +14325,9 @@ const units = {
   const speakBtn = document.getElementById("speakBtn");
   const reviewBtn = document.getElementById("reviewBtn");
   const meaningEl = document.getElementById("meaning");
+  const rangeStartInput = document.getElementById("rangeStart");
+  const rangeEndInput = document.getElementById("rangeEnd");
+  const rangeTestBtn = document.getElementById("rangeTestBtn");
 
   // ====== Word Animation DOM ======
   const animModeEl = document.getElementById("animMode");
@@ -14400,7 +14403,12 @@ homeBtn.onclick = () => {
   
   // ====== 開始 ======
   function startUnit(key) {
-    currentUnit = [...units[key]];
+    const unitWords = units[key].map(entry => ({ ...entry }));
+    startQuizWithWords(unitWords);
+  }
+
+  function startQuizWithWords(words) {
+    currentUnit = [...words];
     if (isRandom) shuffle(currentUnit);
   
     currentIndex = 0;
@@ -14471,7 +14479,8 @@ homeBtn.onclick = () => {
     nextBtn.classList.add("hidden");
     speakBtn.classList.add("hidden");
   
-    progress.textContent = `${currentIndex + 1} / ${currentUnit.length}`;
+    const numberLabel = q.number ? `No.${q.number} ` : "";
+    progress.textContent = `${numberLabel}${currentIndex + 1} / ${currentUnit.length}`;
     input.focus();
   }
   
@@ -15153,8 +15162,12 @@ speakBtn.onclick = () => {
   }
   function getAllWords() {
     let all = [];
+    let number = 1;
     Object.values(units).forEach(arr => {
-      all = all.concat(arr);
+      arr.forEach(entry => {
+        all.push({ ...entry, number });
+        number += 1;
+      });
     });
     return all;
   }
@@ -15164,18 +15177,35 @@ speakBtn.onclick = () => {
     let allWords = getAllWords();
   
     shuffle(allWords);         // 既存のシャッフル関数使う
-    currentUnit = allWords.slice(0, 10); // 先頭10個だけ取る
-  
-    currentIndex = 0;
-    wrongWords = [];
-    consecutiveCorrect = 0;
-    inputStartTime = null;
-  
-    home.classList.add("hidden");
-    quiz.classList.remove("hidden");
-    homeBtn.style.display = "block";
-  
-    showCard();
+    startQuizWithWords(allWords.slice(0, 10)); // 先頭10個だけ取る
   };
+
+  rangeTestBtn?.addEventListener("click", () => {
+    const allWords = getAllWords();
+    const maxNumber = allWords.length;
+    const start = Number.parseInt(rangeStartInput?.value || "", 10);
+    const end = Number.parseInt(rangeEndInput?.value || "", 10);
+
+    if (!Number.isInteger(start) || !Number.isInteger(end)) {
+      alert(`開始番号と終了番号を入力してください（1〜${maxNumber}）。`);
+      return;
+    }
+    if (start < 1 || end < 1 || start > maxNumber || end > maxNumber) {
+      alert(`番号は1〜${maxNumber}の範囲で入力してください。`);
+      return;
+    }
+    if (start > end) {
+      alert("開始番号は終了番号以下にしてください。");
+      return;
+    }
+
+    const selectedWords = allWords.filter(entry => entry.number >= start && entry.number <= end);
+    if (selectedWords.length === 0) {
+      alert("指定範囲に単語がありません。");
+      return;
+    }
+
+    startQuizWithWords(selectedWords);
+  });
     
   
