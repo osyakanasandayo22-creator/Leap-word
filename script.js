@@ -3,6 +3,7 @@ const units = {
 1: [
   // 001-1
   {
+    wordNo: 1,
     word: "agree",
     meaning: "賛成する",
     sentence: "I totally (   ) with this opinion.",
@@ -10,6 +11,7 @@ const units = {
   },
   // 001-2
   {
+    wordNo: 1,
     word: "agreed",
     meaning: "（主語の中で）意見が一致する",
     sentence: "We (   ) on this point.",
@@ -17,6 +19,7 @@ const units = {
   },
   // 001-3
   {
+    wordNo: 1,
     word: "agree",
     meaning: "（気候，食べ物が）合う",
     sentence: "Spicy food does not (   ) with me.",
@@ -24,6 +27,7 @@ const units = {
   },
   // 002-1
   {
+    wordNo: 2,
     word: "oppose",
     meaning: "〜に反対する",
     sentence: "strongly (   ) the plan",
@@ -31,6 +35,7 @@ const units = {
   },
   // 003-1
   {
+    wordNo: 3,
     word: "advise",
     meaning: "〜に助言する，忠告する",
     sentence: "(   ) him not to eat too much",
@@ -38,6 +43,7 @@ const units = {
   },
   // 004-1
   {
+    wordNo: 4,
     word: "tips",
     meaning: "助言，ヒント",
     sentence: "(   ) on how to use the library",
@@ -45,6 +51,7 @@ const units = {
   },
   // 004-2
   {
+    wordNo: 4,
     word: "tip",
     meaning: "チップ",
     sentence: "leave a (   ) for the waiter",
@@ -52,6 +59,7 @@ const units = {
   },
   // 004-3
   {
+    wordNo: 4,
     word: "tips",
     meaning: "（足や山などの）先，先端",
     sentence: "the (   ) of my toes",
@@ -59,6 +67,7 @@ const units = {
   },
   // 005-1
   {
+    wordNo: 5,
     word: "discuss",
     meaning: "〜について話し合う，議論する",
     sentence: "(   ) the problem with a specialist",
@@ -66,6 +75,7 @@ const units = {
   },
   // 005-2
   {
+    wordNo: 5,
     word: "discuss",
     meaning: "〜を議題に出す",
     sentence: "(   ) my hidden past",
@@ -73,6 +83,7 @@ const units = {
   },
   // 006-1
   {
+    wordNo: 6,
     word: "blame",
     meaning: "〜に責任があるとする",
     sentence: "(   ) the car's brakes for the accident",
@@ -80,6 +91,7 @@ const units = {
   },
   // 007-1
   {
+    wordNo: 7,
     word: "argue",
     meaning: "〜と主張する",
     sentence: "(   ) that reading aloud is important",
@@ -87,6 +99,7 @@ const units = {
   },
   // 007-2
   {
+    wordNo: 7,
     word: "argue",
     meaning: "言い争う",
     sentence: "(   ) with her about training methods",
@@ -94,6 +107,7 @@ const units = {
   },
   // 008-1
   {
+    wordNo: 8,
     word: "claim",
     meaning: "〜と主張する",
     sentence: "(   ) that a vegetarian diet is better than a meat diet",
@@ -101,6 +115,7 @@ const units = {
   },
   // 008-2
   {
+    wordNo: 8,
     word: "claim",
     meaning: "〜を要求する，主張する",
     sentence: "Does anyone (   ) this umbrella?",
@@ -108,6 +123,7 @@ const units = {
   },
   // 008-3
   {
+    wordNo: 8,
     word: "claim",
     meaning: "主張，要求",
     sentence: "make a (   ) against the insurance company",
@@ -115,6 +131,7 @@ const units = {
   },
   // 009-1
   {
+    wordNo: 9,
     word: "complain",
     meaning: "文句を言う，苦情を言う",
     sentence: "(   ) about their loud music",
@@ -122,6 +139,7 @@ const units = {
   },
   // 009-2
   {
+    wordNo: 9,
     word: "complain",
     meaning: "（病気など）を訴える",
     sentence: "(   ) of a headache",
@@ -129,6 +147,7 @@ const units = {
   },
   // 010-1
   {
+    wordNo: 10,
     word: "offer",
     meaning: "〜を申し出る",
     sentence: "(   ) him some coffee",
@@ -136,6 +155,7 @@ const units = {
   },
   // 010-2
   {
+    wordNo: 10,
     word: "offer",
     meaning: "申し出",
     sentence: "refuse his (   )",
@@ -143,6 +163,7 @@ const units = {
   },
   // 010-3
   {
+    wordNo: 10,
     word: "offer",
     meaning: "値引き",
     sentence: "T-shirts are on special (   ) today.",
@@ -150,6 +171,7 @@ const units = {
   },
   // 011-1
   {
+    wordNo: 11,
     word: "suggests",
     meaning: "〜を示唆する",
     sentence: "That letter (   ) that she is quite happy in her job.",
@@ -157,6 +179,7 @@ const units = {
   },
   // 011-2
   {
+    wordNo: 11,
     word: "suggested",
     meaning: "〜を提案する",
     sentence: "She (   ) to us that we (should) take a break.",
@@ -164,6 +187,7 @@ const units = {
   },
   // 012-1
   {
+    wordNo: 12,
     word: "recommend",
     meaning: "〜を推薦する，勧める",
     sentence: "What would you (   )?",
@@ -171,6 +195,7 @@ const units = {
   },
   // 013-1
   {
+    wordNo: 13,
     word: "grateful",
     meaning: "感謝している",
     sentence: "I am (   ) for your help.",
@@ -178,6 +203,7 @@ const units = {
   },
   // 014-1
   {
+    wordNo: 14,
     word: "apologize",
     meaning: "謝る",
     sentence: "(   ) to her for being late",
@@ -185,6 +211,7 @@ const units = {
   },
   // 015-1
   {
+    wordNo: 15,
     word: "excuses",
     meaning: "言い訳",
     sentence: "Don't make (   ).",
@@ -192,6 +219,7 @@ const units = {
   },
   // 015-2
   {
+    wordNo: 15,
     word: "Excuse",
     meaning: "〜を許す",
     sentence: "(   ) me, but do you happen to know where the station is?",
@@ -199,6 +227,7 @@ const units = {
   },
   // 015-3
   {
+    wordNo: 15,
     word: "excused",
     meaning: "〜を免除する",
     sentence: "He was (   ) from the exam.",
@@ -206,6 +235,7 @@ const units = {
   },
   // 016-1
   {
+    wordNo: 16,
     word: "celebrate",
     meaning: "（特別な日，出来事）を祝う",
     sentence: "(   ) her 18th birthday",
@@ -213,6 +243,7 @@ const units = {
   },
   // 016-2
   {
+    wordNo: 16,
     word: "celebrate",
     meaning: "（儀式など）を挙行する，執り行う",
     sentence: "(   ) Mass",
@@ -220,6 +251,7 @@ const units = {
   },
   // 017-1
   {
+    wordNo: 17,
     word: "congratulate",
     meaning: "（人）を祝う，〜に関して（人）を祝う",
     sentence: "(   ) her on her exam results",
@@ -227,6 +259,7 @@ const units = {
   },
   // 018-1
   {
+    wordNo: 18,
     word: "admire",
     meaning: "〜を称賛する，〜に感心する",
     sentence: "(   ) him for his great performance",
@@ -234,6 +267,7 @@ const units = {
   },
   // 019-1
   {
+    wordNo: 19,
     word: "impressed",
     meaning: "〜に感銘を与える，〜を感心させる",
     sentence: "I was deeply (   ) by his speech.",
@@ -241,6 +275,7 @@ const units = {
   },
   // 020-1
   {
+    wordNo: 20,
     word: "award",
     meaning: "賞",
     sentence: "an (   ) ceremony",
@@ -248,6 +283,7 @@ const units = {
   },
   // 020-2
   {
+    wordNo: 20,
     word: "awarded",
     meaning: "〜を授与する",
     sentence: "She was (   ) first prize.",
@@ -255,6 +291,7 @@ const units = {
   },
   // 021-1
   {
+    wordNo: 21,
     word: "explain",
     meaning: "〜を説明する",
     sentence: "(   ) the rules of baseball to him",
@@ -262,6 +299,7 @@ const units = {
   },
   // 022-1
   {
+    wordNo: 22,
     word: "describe",
     meaning: "〜を説明する",
     sentence: "Could you (   ) your lost bag?",
@@ -269,6 +307,7 @@ const units = {
   },
   // 023-1
   {
+    wordNo: 23,
     word: "communicate",
     meaning: "意思の疎通をはかる",
     sentence: "(   ) with each other in sign language",
@@ -276,6 +315,7 @@ const units = {
   },
   // 023-2
   {
+    wordNo: 23,
     word: "communicate",
     meaning: "〜を伝える",
     sentence: "(   ) my feelings in English",
@@ -283,6 +323,7 @@ const units = {
   },
   // 024-1
   {
+    wordNo: 24,
     word: "Express",
     meaning: "（意見，気持ち）を表現する",
     sentence: "(   ) your opinions clearly.",
@@ -290,6 +331,7 @@ const units = {
   },
   // 024-2
   {
+    wordNo: 24,
     word: "express",
     meaning: "急行（列車，バス）",
     sentence: "on the 9:00 a.m. (   ) (train)",
@@ -297,6 +339,7 @@ const units = {
   },
   // 025-1
   {
+    wordNo: 25,
     word: "promise",
     meaning: "約束",
     sentence: "make a (   ) to lose weight",
@@ -304,6 +347,7 @@ const units = {
   },
   // 025-2
   {
+    wordNo: 25,
     word: "promise",
     meaning: "〜を約束する",
     sentence: "(   ) her to be back by 5",
@@ -311,6 +355,7 @@ const units = {
   },
   // 026-1
   {
+    wordNo: 26,
     word: "information",
     meaning: "情報",
     sentence: "various kinds of (   )",
@@ -318,6 +363,7 @@ const units = {
   },
   // 027-1
   {
+    wordNo: 27,
     word: "technology",
     meaning: "科学技術，テクノロジー",
     sentence: "science and (   )",
@@ -325,6 +371,7 @@ const units = {
   },
   // 028-1
   {
+    wordNo: 28,
     word: "research",
     meaning: "（学術的）研究",
     sentence: "do (   ) on space rockets",
@@ -332,6 +379,7 @@ const units = {
   },
   // 028-2
   {
+    wordNo: 28,
     word: "research",
     meaning: "〜を研究する",
     sentence: "(   ) an environmental issue",
@@ -339,6 +387,7 @@ const units = {
   },
   // 029-1
   {
+    wordNo: 29,
     word: "materials",
     meaning: "材料，生地",
     sentence: "collect (   ) for a paper",
@@ -346,6 +395,7 @@ const units = {
   },
   // 029-2
   {
+    wordNo: 29,
     word: "materials",
     meaning: "資料，教材",
     sentence: "use movies as teaching (   )",
@@ -353,6 +403,7 @@ const units = {
   },
   // 029-3
   {
+    wordNo: 29,
     word: "material",
     meaning: "物質的な",
     sentence: "give (   ) support",
@@ -360,6 +411,7 @@ const units = {
   },
   // 029-4
   {
+    wordNo: 29,
     word: "material",
     meaning: "重大な",
     sentence: "(   ) changes to the schedule",
@@ -367,6 +419,7 @@ const units = {
   },
   // 030-1
   {
+    wordNo: 30,
     word: "artificial",
     meaning: "人工的な",
     sentence: "(   ) intelligence (AI)",
@@ -376,6 +429,7 @@ const units = {
 31: [
   // 031-1
   {
+    wordNo: 31,
     word: "electric",
     meaning: "電気の，電動の",
     sentence: "an (   ) car",
@@ -383,6 +437,7 @@ const units = {
   },
   // 032-1
   {
+    wordNo: 32,
     word: "invent",
     meaning: "〜を発明する",
     sentence: "(   ) a speaking robot",
@@ -390,6 +445,7 @@ const units = {
   },
   // 032-2
   {
+    wordNo: 32,
     word: "invent",
     meaning: "（話など）をでっち上げる",
     sentence: "(   ) a fantastic story",
@@ -397,6 +453,7 @@ const units = {
   },
   // 033-1
   {
+    wordNo: 33,
     word: "discover",
     meaning: "〜を発見する",
     sentence: "(   ) a human mummy",
@@ -404,6 +461,7 @@ const units = {
   },
   // 033-2
   {
+    wordNo: 33,
     word: "discover",
     meaning: "〜を知る，〜に気づく",
     sentence: "(   ) that the painting is a fake",
@@ -411,6 +469,7 @@ const units = {
   },
   // 033-3
   {
+    wordNo: 33,
     word: "discover",
     meaning: "（出会い）",
     sentence: "(   ) the Beatles",
@@ -418,6 +477,7 @@ const units = {
   },
   // 034-1
   {
+    wordNo: 34,
     word: "develop",
     meaning: "発達する",
     sentence: "(   ) into a big city",
@@ -425,6 +485,7 @@ const units = {
   },
   // 034-2
   {
+    wordNo: 34,
     word: "develop",
     meaning: "〜を発達させる",
     sentence: "(   ) a sense of humor",
@@ -432,6 +493,7 @@ const units = {
   },
   // 034-3
   {
+    wordNo: 34,
     word: "develop",
     meaning: "〜を開発する",
     sentence: "(   ) software",
@@ -439,6 +501,7 @@ const units = {
   },
   // 034-4
   {
+    wordNo: 34,
     word: "develop",
     meaning: "〜を磨く",
     sentence: "(   ) your ideas",
@@ -446,6 +509,7 @@ const units = {
   },
   // 034-5
   {
+    wordNo: 34,
     word: "develop",
     meaning: "（病気に）かかる",
     sentence: "(   ) pneumonia",
@@ -453,6 +517,7 @@ const units = {
   },
   // 035-1
   {
+    wordNo: 35,
     word: "skills",
     meaning: "技術，力",
     sentence: "improve my tennis (   )",
@@ -460,6 +525,7 @@ const units = {
   },
   // 036-1
   {
+    wordNo: 36,
     word: "ability",
     meaning: "能力",
     sentence: "improve my (   ) to speak English",
@@ -467,6 +533,7 @@ const units = {
   },
   // 037-1
   {
+    wordNo: 37,
     word: "talent",
     meaning: "才能",
     sentence: "show my musical (   )",
@@ -474,6 +541,7 @@ const units = {
   },
   // 038-1
   {
+    wordNo: 38,
     word: "effort",
     meaning: "努力",
     sentence: "make an (   ) to be on time",
@@ -481,6 +549,7 @@ const units = {
   },
   // 039-1
   {
+    wordNo: 39,
     word: "practice",
     meaning: "（繰り返しの）練習",
     sentence: "We have (   ) on Saturday.",
@@ -488,6 +557,7 @@ const units = {
   },
   // 039-2
   {
+    wordNo: 39,
     word: "practice",
     meaning: "実践",
     sentence: "put a plan into (   )",
@@ -495,6 +565,7 @@ const units = {
   },
   // 039-3
   {
+    wordNo: 39,
     word: "practice",
     meaning: "慣習",
     sentence: "the (   ) of sleeping after dinner",
@@ -502,6 +573,7 @@ const units = {
   },
   // 039-4
   {
+    wordNo: 39,
     word: "practice",
     meaning: "〜を練習する",
     sentence: "(   ) playing the piano",
@@ -509,6 +581,7 @@ const units = {
   },
   // 039-5
   {
+    wordNo: 39,
     word: "practice",
     meaning: "〜を実践する",
     sentence: "(   ) my religion",
@@ -516,6 +589,7 @@ const units = {
   },
   // 040-1
   {
+    wordNo: 40,
     word: "achieve",
     meaning: "〜を達成する",
     sentence: "(   ) his goal of becoming a vet",
@@ -523,6 +597,7 @@ const units = {
   },
   // 041-1
   {
+    wordNo: 41,
     word: "managed",
     meaning: "何とかして〜する",
     sentence: "I (   ) to catch the last train.",
@@ -530,6 +605,7 @@ const units = {
   },
   // 041-2
   {
+    wordNo: 41,
     word: "manage",
     meaning: "〜を経営する，管理する",
     sentence: "(   ) my time effectively",
@@ -537,6 +613,7 @@ const units = {
   },
   // 042-1
   {
+    wordNo: 42,
     word: "improve",
     meaning: "〜を改善する，磨く",
     sentence: "(   ) my cooking skills",
@@ -544,6 +621,7 @@ const units = {
   },
   // 042-2
   {
+    wordNo: 42,
     word: "improved",
     meaning: "よくなる",
     sentence: "His English has (   ) recently.",
@@ -551,6 +629,7 @@ const units = {
   },
   // 043-1
   {
+    wordNo: 43,
     word: "produce",
     meaning: "〜を生産する，産出する",
     sentence: "(   ) rice and vegetables",
@@ -558,6 +637,7 @@ const units = {
   },
   // 043-2
   {
+    wordNo: 43,
     word: "produce",
     meaning: "（見せるために）〜を取り出す",
     sentence: "(   ) a ticket from my pocket",
@@ -565,6 +645,7 @@ const units = {
   },
   // 043-3
   {
+    wordNo: 43,
     word: "produce",
     meaning: "農作物",
     sentence: "fresh farm (   )",
@@ -572,6 +653,7 @@ const units = {
   },
   // 044-1
   {
+    wordNo: 44,
     word: "create",
     meaning: "〜を創造する",
     sentence: "(   ) a website",
@@ -579,6 +661,7 @@ const units = {
   },
   // 044-2
   {
+    wordNo: 44,
     word: "create",
     meaning: "〜を引き起こす",
     sentence: "(   ) new problems",
@@ -586,6 +669,7 @@ const units = {
   },
   // 045-1
   {
+    wordNo: 45,
     word: "establish",
     meaning: "〜を確立する，定着させる",
     sentence: "(   ) a close friendship with him",
@@ -593,6 +677,7 @@ const units = {
   },
   // 045-2
   {
+    wordNo: 45,
     word: "established",
     meaning: "〜を設立する",
     sentence: "This publishing company was (   ) in 1950.",
@@ -600,6 +685,7 @@ const units = {
   },
   // 046-1
   {
+    wordNo: 46,
     word: "form",
     meaning: "〜を形成する",
     sentence: "(   ) a rock band",
@@ -607,6 +693,7 @@ const units = {
   },
   // 046-2
   {
+    wordNo: 46,
     word: "forms",
     meaning: "形態",
     sentence: "Happiness comes in various (   ).",
@@ -614,6 +701,7 @@ const units = {
   },
   // 046-3
   {
+    wordNo: 46,
     word: "form",
     meaning: "書式",
     sentence: "fill out an application (   )",
@@ -621,6 +709,7 @@ const units = {
   },
   // 047-1
   {
+    wordNo: 47,
     word: "saves",
     meaning: "（時間，手間）を省く",
     sentence: "This (   ) you a lot of trouble.",
@@ -628,6 +717,7 @@ const units = {
   },
   // 047-2
   {
+    wordNo: 47,
     word: "save",
     meaning: "〜を貯金する",
     sentence: "(   ) some money every month.",
@@ -635,6 +725,7 @@ const units = {
   },
   // 047-3
   {
+    wordNo: 47,
     word: "saved",
     meaning: "（命など）を救う",
     sentence: "You (   ) my life.",
@@ -642,6 +733,7 @@ const units = {
   },
   // 047-4
   {
+    wordNo: 47,
     word: "save",
     meaning: "〜を除いて",
     sentence: "answer all of the questions (   ) one",
@@ -649,6 +741,7 @@ const units = {
   },
   // 048-1
   {
+    wordNo: 48,
     word: "medicine",
     meaning: "薬",
     sentence: "take the (   ) twice a day",
@@ -656,6 +749,7 @@ const units = {
   },
   // 048-2
   {
+    wordNo: 48,
     word: "medicine",
     meaning: "医学",
     sentence: "study (   ) at Harvard",
@@ -663,6 +757,7 @@ const units = {
   },
   // 049-1
   {
+    wordNo: 49,
     word: "patient",
     meaning: "患者",
     sentence: "The (   ) is getting better.",
@@ -670,6 +765,7 @@ const units = {
   },
   // 049-2
   {
+    wordNo: 49,
     word: "patient",
     meaning: "忍耐強い",
     sentence: "Teachers need to be (   ).",
@@ -677,6 +773,7 @@ const units = {
   },
   // 050-1
   {
+    wordNo: 50,
     word: "condition",
     meaning: "状態，容態",
     sentence: "My body is in good (   ).",
@@ -684,6 +781,7 @@ const units = {
   },
   // 050-2
   {
+    wordNo: 50,
     word: "conditions",
     meaning: "(周囲の)状況，条件",
     sentence: "work under bad (   )",
@@ -691,6 +789,7 @@ const units = {
   },
   // 051-1
   {
+    wordNo: 51,
     word: "medical",
     meaning: "医療の",
     sentence: "(   ) expenses",
@@ -698,6 +797,7 @@ const units = {
   },
   // 051-2
   {
+    wordNo: 51,
     word: "medical",
     meaning: "医学の",
     sentence: "(   ) science",
@@ -705,6 +805,7 @@ const units = {
   },
   // 052-1
   {
+    wordNo: 52,
     word: "stress",
     meaning: "ストレス",
     sentence: "have a lot of (   )",
@@ -712,6 +813,7 @@ const units = {
   },
   // 052-2
   {
+    wordNo: 52,
     word: "stress",
     meaning: "強調",
     sentence: "put (   ) on foreign language education",
@@ -719,6 +821,7 @@ const units = {
   },
   // 052-3
   {
+    wordNo: 52,
     word: "stress",
     meaning: "〜を強調する",
     sentence: "(   ) the importance of teamwork",
@@ -726,6 +829,7 @@ const units = {
   },
   // 053-1
   {
+    wordNo: 53,
     word: "suffering",
     meaning: "（病気などで）苦しむ",
     sentence: "I am (   ) from jet lag.",
@@ -733,6 +837,7 @@ const units = {
   },
   // 053-2
   {
+    wordNo: 53,
     word: "suffered",
     meaning: "（苦痛，損害）を経験する",
     sentence: "The company (   ) a heavy loss.",
@@ -740,6 +845,7 @@ const units = {
   },
   // 054-1
   {
+    wordNo: 54,
     word: "exercises",
     meaning: "練習",
     sentence: "piano (   )",
@@ -747,6 +853,7 @@ const units = {
   },
   // 054-2
   {
+    wordNo: 54,
     word: "exercise",
     meaning: "運動",
     sentence: "get light (   )",
@@ -754,6 +861,7 @@ const units = {
   },
   // 054-3
   {
+    wordNo: 54,
     word: "exercise",
     meaning: "〜を練習する",
     sentence: "(   ) regularly",
@@ -761,6 +869,7 @@ const units = {
   },
   // 054-4
   {
+    wordNo: 54,
     word: "exercise",
     meaning: "〜を行使する",
     sentence: "(   ) the right to vote",
@@ -768,6 +877,7 @@ const units = {
   },
   // 055-1
   {
+    wordNo: 55,
     word: "breathe",
     meaning: "呼吸する，息を吸う",
     sentence: "(   ) deeply",
@@ -775,6 +885,7 @@ const units = {
   },
   // 056-1
   {
+    wordNo: 56,
     word: "thirsty",
     meaning: "のどが渇いた",
     sentence: "I'm really (   ).",
@@ -782,6 +893,7 @@ const units = {
   },
   // 056-2
   {
+    wordNo: 56,
     word: "thirsty",
     meaning: "（〜を）切望して",
     sentence: "He is (   ) for power.",
@@ -789,6 +901,7 @@ const units = {
   },
   // 057-1
   {
+    wordNo: 57,
     word: "physical",
     meaning: "身体的な",
     sentence: "(   ) contact",
@@ -796,6 +909,7 @@ const units = {
   },
   // 057-2
   {
+    wordNo: 57,
     word: "physical",
     meaning: "物理的な",
     sentence: "the (   ) world",
@@ -803,6 +917,7 @@ const units = {
   },
   // 058-1
   {
+    wordNo: 58,
     word: "fever",
     meaning: "（体温の）熱",
     sentence: "have a (   ).",
@@ -810,6 +925,7 @@ const units = {
   },
   // 058-2
   {
+    wordNo: 58,
     word: "fever",
     meaning: "熱狂",
     sentence: "be gripped by soccer (   )",
@@ -817,6 +933,7 @@ const units = {
   },
   // 059-1
   {
+    wordNo: 59,
     word: "strength",
     meaning: "（肉体的な）体力",
     sentence: "build up my physical (   )",
@@ -824,6 +941,7 @@ const units = {
   },
   // 059-2
   {
+    wordNo: 59,
     word: "strength",
     meaning: "（精神的な）強さ",
     sentence: "try with all my (   ) to lift the piano",
@@ -831,6 +949,7 @@ const units = {
   },
   // 060-1
   {
+    wordNo: 60,
     word: "tears",
     meaning: "涙",
     sentence: "I was moved to (   ).",
@@ -838,6 +957,7 @@ const units = {
   },
   // 060-2
   {
+    wordNo: 60,
     word: "tear",
     meaning: "〜を引き裂く，引きちぎる",
     sentence: "(   ) up the letter from him",
@@ -847,6 +967,7 @@ const units = {
 61: [
   // 061-1
   {
+    wordNo: 61,
     word: "tastes",
     meaning: "〜の味がする",
     sentence: "This apple (   ) sweet.",
@@ -854,6 +975,7 @@ const units = {
   },
   // 061-2
   {
+    wordNo: 61,
     word: "taste",
     meaning: "〜の味見をする",
     sentence: "(   ) the soup",
@@ -861,6 +983,7 @@ const units = {
   },
   // 061-3
   {
+    wordNo: 61,
     word: "taste",
     meaning: "味",
     sentence: "This wine has a strong acid (   ).",
@@ -868,6 +991,7 @@ const units = {
   },
   // 061-4
   {
+    wordNo: 61,
     word: "taste",
     meaning: "好み",
     sentence: "have good (   ) in clothes",
@@ -875,6 +999,7 @@ const units = {
   },
   // 062-1
   {
+    wordNo: 62,
     word: "rules",
     meaning: "規則",
     sentence: "It is against the (   ).",
@@ -882,6 +1007,7 @@ const units = {
   },
   // 062-2
   {
+    wordNo: 62,
     word: "rule",
     meaning: "〜を支配する",
     sentence: "(   ) the country",
@@ -889,6 +1015,7 @@ const units = {
   },
   // 063-1
   {
+    wordNo: 63,
     word: "role",
     meaning: "役割",
     sentence: "play an important (   ) in society",
@@ -896,6 +1023,7 @@ const units = {
   },
   // 064-1
   {
+    wordNo: 64,
     word: "habit",
     meaning: "（無意識な）習慣",
     sentence: "have a (   ) of making excuses",
@@ -903,6 +1031,7 @@ const units = {
   },
   // 065-1
   {
+    wordNo: 65,
     word: "customs",
     meaning: "習慣（社会的な）",
     sentence: "Different countries have different (   ).",
@@ -910,6 +1039,7 @@ const units = {
   },
   // 065-2
   {
+    wordNo: 65,
     word: "customs",
     meaning: "税関",
     sentence: "show what is in my suitcase at (   )",
@@ -917,6 +1047,7 @@ const units = {
   },
   // 066-1
   {
+    wordNo: 66,
     word: "traditions",
     meaning: "伝統",
     sentence: "Japanese (   )",
@@ -924,6 +1055,7 @@ const units = {
   },
   // 067-1
   {
+    wordNo: 67,
     word: "society",
     meaning: "社会",
     sentence: "women's status in (   )",
@@ -931,6 +1063,7 @@ const units = {
   },
   // 067-2
   {
+    wordNo: 67,
     word: "society",
     meaning: "社交",
     sentence: "enjoy her (   )",
@@ -938,6 +1071,7 @@ const units = {
   },
   // 067-3
   {
+    wordNo: 67,
     word: "Society",
     meaning: "協会",
     sentence: "the Royal (   ) for the Prevention of Cruelty to Animals",
@@ -945,6 +1079,7 @@ const units = {
   },
   // 068-1
   {
+    wordNo: 68,
     word: "law",
     meaning: "法律，国法",
     sentence: "Parking here is against the (   ).",
@@ -952,6 +1087,7 @@ const units = {
   },
   // 068-2
   {
+    wordNo: 68,
     word: "law",
     meaning: "（個々の）法律",
     sentence: "a (   ) against smoking on the street",
@@ -959,6 +1095,7 @@ const units = {
   },
   // 068-3
   {
+    wordNo: 68,
     word: "laws",
     meaning: "（科学などの）法則",
     sentence: "the (   ) of nature",
@@ -966,6 +1103,7 @@ const units = {
   },
   // 069-1
   {
+    wordNo: 69,
     word: "ancestors",
     meaning: "祖先",
     sentence: "My (   ) were French.",
@@ -973,6 +1111,7 @@ const units = {
   },
   // 070-1
   {
+    wordNo: 70,
     word: "population",
     meaning: "人口，個体数",
     sentence: "The (   ) of Tokyo is larger than that of Osaka.",
@@ -980,6 +1119,7 @@ const units = {
   },
   // 070-2
   {
+    wordNo: 70,
     word: "population",
     meaning: "住民",
     sentence: "L.A. has a large Chinese (   ).",
@@ -987,6 +1127,7 @@ const units = {
   },
   // 071-1
   {
+    wordNo: 71,
     word: "native",
     meaning: "母国の，その土地の",
     sentence: "his (   ) language",
@@ -994,6 +1135,7 @@ const units = {
   },
   // 071-2
   {
+    wordNo: 71,
     word: "native",
     meaning: "（ある土地の）生まれの人",
     sentence: "a (   ) of Japan",
@@ -1001,6 +1143,7 @@ const units = {
   },
   // 072-1
   {
+    wordNo: 72,
     word: "abroad",
     meaning: "海外へ，海外で",
     sentence: "find a job (   )",
@@ -1008,6 +1151,7 @@ const units = {
   },
   // 073-1
   {
+    wordNo: 73,
     word: "local",
     meaning: "その土地の，地元の",
     sentence: "a (   ) bank",
@@ -1015,6 +1159,7 @@ const units = {
   },
   // 073-2
   {
+    wordNo: 73,
     word: "local",
     meaning: "地方の",
     sentence: "(   ) government",
@@ -1022,6 +1167,7 @@ const units = {
   },
   // 073-3
   {
+    wordNo: 73,
     word: "locals",
     meaning: "地元の人",
     sentence: "talk with the (   )",
@@ -1029,6 +1175,7 @@ const units = {
   },
   // 074-1
   {
+    wordNo: 74,
     word: "survey",
     meaning: "調査",
     sentence: "according to a recent (   )",
@@ -1036,6 +1183,7 @@ const units = {
   },
   // 074-2
   {
+    wordNo: 74,
     word: "survey",
     meaning: "〜を調査する",
     sentence: "(   ) the opinions of teenagers",
@@ -1043,6 +1191,7 @@ const units = {
   },
   // 075-1
   {
+    wordNo: 75,
     word: "value",
     meaning: "価値",
     sentence: "the (   ) of the painting",
@@ -1050,6 +1199,7 @@ const units = {
   },
   // 075-2
   {
+    wordNo: 75,
     word: "values",
     meaning: "価値観",
     sentence: "Everyone has their own (   ).",
@@ -1057,6 +1207,7 @@ const units = {
   },
   // 075-3
   {
+    wordNo: 75,
     word: "value",
     meaning: "お買い得品",
     sentence: "This shirt is really good (   ).",
@@ -1064,6 +1215,7 @@ const units = {
   },
   // 075-4
   {
+    wordNo: 75,
     word: "value",
     meaning: "〜を重んじる",
     sentence: "(   ) their privacy",
@@ -1071,6 +1223,7 @@ const units = {
   },
   // 076-1
   {
+    wordNo: 76,
     word: "treasure",
     meaning: "財宝，宝",
     sentence: "a national (   )",
@@ -1078,6 +1231,7 @@ const units = {
   },
   // 076-2
   {
+    wordNo: 76,
     word: "treasure",
     meaning: "大事な人物",
     sentence: "My secretary is a real (   ).",
@@ -1085,6 +1239,7 @@ const units = {
   },
   // 076-3
   {
+    wordNo: 76,
     word: "treasure",
     meaning: "〜を大事にする",
     sentence: "(   ) this moment with her",
@@ -1092,6 +1247,7 @@ const units = {
   },
   // 077-1
   {
+    wordNo: 77,
     word: "fashion",
     meaning: "流行",
     sentence: "follow the latest (   )",
@@ -1099,6 +1255,7 @@ const units = {
   },
   // 077-2
   {
+    wordNo: 77,
     word: "fashion",
     meaning: "流儀，やり方",
     sentence: "in the traditional (   )",
@@ -1106,6 +1263,7 @@ const units = {
   },
   // 077-3
   {
+    wordNo: 77,
     word: "fashion",
     meaning: "作る",
     sentence: "(   ) stone tools",
@@ -1113,6 +1271,7 @@ const units = {
   },
   // 078-1
   {
+    wordNo: 78,
     word: "public",
     meaning: "大衆",
     sentence: "the general (   )",
@@ -1120,6 +1279,7 @@ const units = {
   },
   // 078-2
   {
+    wordNo: 78,
     word: "public",
     meaning: "公の，公衆の",
     sentence: "(   ) places",
@@ -1127,6 +1287,7 @@ const units = {
   },
   // 079-1
   {
+    wordNo: 79,
     word: "evidence",
     meaning: "証拠",
     sentence: "There is no (   ) to support his story.",
@@ -1134,6 +1295,7 @@ const units = {
   },
   // 080-1
   {
+    wordNo: 80,
     word: "vote",
     meaning: "投票（数）",
     sentence: "receive 45% of the (   )",
@@ -1141,6 +1303,7 @@ const units = {
   },
   // 080-2
   {
+    wordNo: 80,
     word: "vote",
     meaning: "投票する",
     sentence: "the right to (   )",
@@ -1148,6 +1311,7 @@ const units = {
   },
   // 081-1
   {
+    wordNo: 81,
     word: "government",
     meaning: "政府",
     sentence: "the Japanese (   )",
@@ -1155,6 +1319,7 @@ const units = {
   },
   // 082-1
   {
+    wordNo: 82,
     word: "nation",
     meaning: "国家",
     sentence: "the most powerful (   ) in the world",
@@ -1162,6 +1327,7 @@ const units = {
   },
   // 082-2
   {
+    wordNo: 82,
     word: "nation",
     meaning: "国民",
     sentence: "the voice of the (   )",
@@ -1169,6 +1335,7 @@ const units = {
   },
   // 083-1
   {
+    wordNo: 83,
     word: "capital",
     meaning: "首都",
     sentence: "What is the (   ) of Canada?",
@@ -1176,6 +1343,7 @@ const units = {
   },
   // 083-2
   {
+    wordNo: 83,
     word: "capital",
     meaning: "資本",
     sentence: "start a company with only a little (   )",
@@ -1183,6 +1351,7 @@ const units = {
   },
   // 083-3
   {
+    wordNo: 83,
     word: "capital",
     meaning: "死に値する",
     sentence: "a (   ) offence",
@@ -1190,6 +1359,7 @@ const units = {
   },
   // 084-1
   {
+    wordNo: 84,
     word: "state",
     meaning: "状態",
     sentence: "his (   ) of mind",
@@ -1197,6 +1367,7 @@ const units = {
   },
   // 084-2
   {
+    wordNo: 84,
     word: "States",
     meaning: "（米国の）州",
     sentence: "the United (   ) of America",
@@ -1204,6 +1375,7 @@ const units = {
   },
   // 084-3
   {
+    wordNo: 84,
     word: "state",
     meaning: "国家",
     sentence: "the separation of church and (   )",
@@ -1211,6 +1383,7 @@ const units = {
   },
   // 084-4
   {
+    wordNo: 84,
     word: "state",
     meaning: "述べる",
     sentence: "(   ) my opinion",
@@ -1218,6 +1391,7 @@ const units = {
   },
   // 085-1
   {
+    wordNo: 85,
     word: "political",
     meaning: "政治的な，政治の",
     sentence: "the (   ) situation in Russia",
@@ -1225,6 +1399,7 @@ const units = {
   },
   // 086-1
   {
+    wordNo: 86,
     word: "price",
     meaning: "価格",
     sentence: "pay a very high (   ) for the painting",
@@ -1232,6 +1407,7 @@ const units = {
   },
   // 086-2
   {
+    wordNo: 86,
     word: "Prices",
     meaning: "物価",
     sentence: "(   ) have gone up by 5%.",
@@ -1239,6 +1415,7 @@ const units = {
   },
   // 086-3
   {
+    wordNo: 86,
     word: "price",
     meaning: "代償",
     sentence: "pay the (   ) of success",
@@ -1246,6 +1423,7 @@ const units = {
   },
   // 087-1
   {
+    wordNo: 87,
     word: "sum",
     meaning: "金額",
     sentence: "pay a large (   ) for antiques",
@@ -1253,6 +1431,7 @@ const units = {
   },
   // 087-2
   {
+    wordNo: 87,
     word: "sum",
     meaning: "合計",
     sentence: "The (   ) of 5 and 8 is 13.",
@@ -1260,6 +1439,7 @@ const units = {
   },
   // 087-3
   {
+    wordNo: 87,
     word: "sums",
     meaning: "計算",
     sentence: "do (   ) in my head",
@@ -1267,6 +1447,7 @@ const units = {
   },
   // 087-4
   {
+    wordNo: 87,
     word: "sum",
     meaning: "要約する",
     sentence: "(   ) up the main points",
@@ -1274,6 +1455,7 @@ const units = {
   },
   // 088-1
   {
+    wordNo: 88,
     word: "budget",
     meaning: "予算",
     sentence: "our (   ) for this trip",
@@ -1281,6 +1463,7 @@ const units = {
   },
   // 088-2
   {
+    wordNo: 88,
     word: "budget",
     meaning: "安い",
     sentence: "at (   ) price",
@@ -1288,6 +1471,7 @@ const units = {
   },
   // 089-1
   {
+    wordNo: 89,
     word: "fee",
     meaning: "料金",
     sentence: "pay a cancellation (   )",
@@ -1295,6 +1479,7 @@ const units = {
   },
   // 089-2
   {
+    wordNo: 89,
     word: "fees",
     meaning: "謝礼",
     sentence: "legal (   )",
@@ -1302,6 +1487,7 @@ const units = {
   },
   // 090-1
   {
+    wordNo: 90,
     word: "fares",
     meaning: "（乗り物の）運賃",
     sentence: "Taxi (   ) are low in Singapore.",
@@ -1311,6 +1497,7 @@ const units = {
 91: [
   // 091-1
   {
+    wordNo: 91,
     word: "bill",
     meaning: "勘定",
     sentence: "May we have the (   )?",
@@ -1318,6 +1505,7 @@ const units = {
   },
   // 091-2
   {
+    wordNo: 91,
     word: "bill",
     meaning: "請求書",
     sentence: "the phone (   )",
@@ -1325,6 +1513,7 @@ const units = {
   },
   // 091-3
   {
+    wordNo: 91,
     word: "bill",
     meaning: "紙幣",
     sentence: "a ten thousand-yen (   )",
@@ -1332,6 +1521,7 @@ const units = {
   },
   // 091-4
   {
+    wordNo: 91,
     word: "bill",
     meaning: "法案",
     sentence: "approve a (   )",
@@ -1339,6 +1529,7 @@ const units = {
   },
   // 092-1
   {
+    wordNo: 92,
     word: "trade",
     meaning: "貿易",
     sentence: "Japan's (   ) with the U.S.",
@@ -1346,6 +1537,7 @@ const units = {
   },
   // 092-2
   {
+    wordNo: 92,
     word: "trade",
     meaning: "業界",
     sentence: "the hotel (   )",
@@ -1353,6 +1545,7 @@ const units = {
   },
   // 092-3
   {
+    wordNo: 92,
     word: "trade",
     meaning: "商売",
     sentence: "the basics of (   )",
@@ -1360,6 +1553,7 @@ const units = {
   },
   // 092-4
   {
+    wordNo: 92,
     word: "trade",
     meaning: "交換する",
     sentence: "(   ) email addresses with him",
@@ -1367,6 +1561,7 @@ const units = {
   },
   // 093-1
   {
+    wordNo: 93,
     word: "wealth",
     meaning: "富，財産",
     sentence: "achieve (   ) and power",
@@ -1374,6 +1569,7 @@ const units = {
   },
   // 093-2
   {
+    wordNo: 93,
     word: "wealth",
     meaning: "豊富な〜",
     sentence: "a (   ) of knowledge",
@@ -1381,6 +1577,7 @@ const units = {
   },
   // 094-1
   {
+    wordNo: 94,
     word: "economy",
     meaning: "経済",
     sentence: "boost the Japanese (   )",
@@ -1388,6 +1585,7 @@ const units = {
   },
   // 094-2
   {
+    wordNo: 94,
     word: "economy",
     meaning: "節約",
     sentence: "for the sake of (   )",
@@ -1395,6 +1593,7 @@ const units = {
   },
   // 095-1
   {
+    wordNo: 95,
     word: "cost",
     meaning: "費用を要する，かかる",
     sentence: "The suit (   ) me 500 dollars.",
@@ -1402,6 +1601,7 @@ const units = {
   },
   // 095-2
   {
+    wordNo: 95,
     word: "cost",
     meaning: "犠牲にする",
     sentence: "That mistake (   ) me my fortune.",
@@ -1409,6 +1609,7 @@ const units = {
   },
   // 095-3
   {
+    wordNo: 95,
     word: "cost",
     meaning: "費用，犠牲",
     sentence: "In Switzerland, the (   ) of living is very high.",
@@ -1416,6 +1617,7 @@ const units = {
   },
   // 096-1
   {
+    wordNo: 96,
     word: "company",
     meaning: "会社",
     sentence: "work for a big (   )",
@@ -1423,6 +1625,7 @@ const units = {
   },
   // 096-2
   {
+    wordNo: 96,
     word: "company",
     meaning: "一緒にいること",
     sentence: "I always enjoy his (   ).",
@@ -1430,6 +1633,7 @@ const units = {
   },
   // 096-3
   {
+    wordNo: 96,
     word: "company",
     meaning: "仲間",
     sentence: "People judge you by the (   ) you keep.",
@@ -1437,6 +1641,7 @@ const units = {
   },
   // 096-4
   {
+    wordNo: 96,
     word: "company",
     meaning: "来客",
     sentence: "We are expecting (   ) today.",
@@ -1444,6 +1649,7 @@ const units = {
   },
   // 097-1
   {
+    wordNo: 97,
     word: "task",
     meaning: "仕事，任務",
     sentence: "accomplish a difficult (   )",
@@ -1451,6 +1657,7 @@ const units = {
   },
   // 098-1
   {
+    wordNo: 98,
     word: "earn",
     meaning: "金を稼ぐ",
     sentence: "(   ) money to pay my school fees",
@@ -1458,6 +1665,7 @@ const units = {
   },
   // 098-2
   {
+    wordNo: 98,
     word: "earn",
     meaning: "得る",
     sentence: "(   ) a reputation as a hard worker",
@@ -1465,6 +1673,7 @@ const units = {
   },
   // 099-1
   {
+    wordNo: 99,
     word: "hurts",
     meaning: "部位が痛む",
     sentence: "My back (   ) a lot.",
@@ -1472,6 +1681,7 @@ const units = {
   },
   // 099-2
   {
+    wordNo: 99,
     word: "hurt",
     meaning: "身体，感情を傷つける",
     sentence: "He (   ) his knee while playing football.",
@@ -1479,6 +1689,7 @@ const units = {
   },
   // 100-1
   {
+    wordNo: 100,
     word: "injure",
     meaning: "〜をけがさせる",
     sentence: "(   ) my back",
@@ -1486,6 +1697,7 @@ const units = {
   },
   // 100-2
   {
+    wordNo: 100,
     word: "injured",
     meaning: "けがを負う",
     sentence: "be seriously (   ) in an accident",
@@ -1493,6 +1705,7 @@ const units = {
   },
   // 101-1
   {
+    wordNo: 101,
     word: "damage",
     meaning: "損害",
     sentence: "seriously (   ) the environment",
@@ -1500,6 +1713,7 @@ const units = {
   },
   // 101-2
   {
+    wordNo: 101,
     word: "damage",
     meaning: "被害",
     sentence: "do (   ) to the village",
@@ -1507,6 +1721,7 @@ const units = {
   },
   // 101-3
   {
+    wordNo: 101,
     word: "damages",
     meaning: "賠償金",
     sentence: "claim (   )",
@@ -1514,6 +1729,7 @@ const units = {
   },
   // 102-1
   {
+    wordNo: 102,
     word: "destroy",
     meaning: "破壊する",
     sentence: "(   ) all weapons",
@@ -1521,6 +1737,7 @@ const units = {
   },
   // 102-2
   {
+    wordNo: 102,
     word: "destroyed",
     meaning: "全滅させる",
     sentence: "This horse has to be (   ).",
@@ -1528,6 +1745,7 @@ const units = {
   },
   // 103-1
   {
+    wordNo: 103,
     word: "ruined",
     meaning: "台無しにする",
     sentence: "You (   ) my plan.",
@@ -1535,6 +1753,7 @@ const units = {
   },
   // 103-2
   {
+    wordNo: 103,
     word: "ruined",
     meaning: "破壊する",
     sentence: "The flood (   ) the town.",
@@ -1542,6 +1761,7 @@ const units = {
   },
   // 103-3
   {
+    wordNo: 103,
     word: "ruins",
     meaning: "廃墟",
     sentence: "the (   ) of Pompeii",
@@ -1549,6 +1769,7 @@ const units = {
   },
   // 104-1
   {
+    wordNo: 104,
     word: "danger",
     meaning: "危険",
     sentence: "Tigers are in (   ) of extinction.",
@@ -1556,6 +1777,7 @@ const units = {
   },
   // 105-1
   {
+    wordNo: 105,
     word: "neighbor",
     meaning: "近所の人",
     sentence: "chat with a (   )",
@@ -1563,6 +1785,7 @@ const units = {
   },
   // 105-2
   {
+    wordNo: 105,
     word: "neighbor's",
     meaning: "隣の人",
     sentence: "My next-door (   ) dog barks day and night.",
@@ -1570,6 +1793,7 @@ const units = {
   },
   // 106-1
   {
+    wordNo: 106,
     word: "audience",
     meaning: "観客",
     sentence: "draw a large (   )",
@@ -1577,6 +1801,7 @@ const units = {
   },
   // 107-1
   {
+    wordNo: 107,
     word: "crowd",
     meaning: "群衆",
     sentence: "A (   ) rushed into the hall.",
@@ -1584,6 +1809,7 @@ const units = {
   },
   // 108-1
   {
+    wordNo: 108,
     word: "author",
     meaning: "著者，作家",
     sentence: "the (   ) of War and Peace",
@@ -1591,6 +1817,7 @@ const units = {
   },
   // 109-1
   {
+    wordNo: 109,
     word: "staff",
     meaning: "職員，従業員",
     sentence: "Most of the (   ) is from Australia.",
@@ -1598,6 +1825,7 @@ const units = {
   },
   // 110-1
   {
+    wordNo: 110,
     word: "clerks",
     meaning: "店員",
     sentence: "the (   ) at that department store",
@@ -1605,6 +1833,7 @@ const units = {
   },
   // 110-2
   {
+    wordNo: 110,
     word: "clerk",
     meaning: "事務員，社員",
     sentence: "a bank (   )",
@@ -1612,6 +1841,7 @@ const units = {
   },
   // 111-1
   {
+    wordNo: 111,
     word: "customers",
     meaning: "客",
     sentence: "The restaurant was crowded with (   ) from abroad.",
@@ -1619,6 +1849,7 @@ const units = {
   },
   // 112-1
   {
+    wordNo: 112,
     word: "passengers",
     meaning: "乗客",
     sentence: "There were a lot of (   ) on the train.",
@@ -1626,6 +1857,7 @@ const units = {
   },
   // 113-1
   {
+    wordNo: 113,
     word: "elderly",
     meaning: "年配の",
     sentence: "give up my seat to (   ) people",
@@ -1633,6 +1865,7 @@ const units = {
   },
   // 113-2
   {
+    wordNo: 113,
     word: "elderly",
     meaning: "年配の人々",
     sentence: "priority seats for the (   )",
@@ -1640,6 +1873,7 @@ const units = {
   },
   // 114-1
   {
+    wordNo: 114,
     word: "female",
     meaning: "女性の，雌の",
     sentence: "(   ) workers",
@@ -1647,6 +1881,7 @@ const units = {
   },
   // 114-2
   {
+    wordNo: 114,
     word: "female",
     meaning: "雌",
     sentence: "a (   ) cat",
@@ -1654,6 +1889,7 @@ const units = {
   },
   // 114-3
   {
+    wordNo: 114,
     word: "female",
     meaning: "雌",
     sentence: "the (   ) of the species",
@@ -1661,6 +1897,7 @@ const units = {
   },
   // 115-1
   {
+    wordNo: 115,
     word: "head",
     meaning: "向かう",
     sentence: "(   ) for the beach",
@@ -1668,6 +1905,7 @@ const units = {
   },
   // 115-2
   {
+    wordNo: 115,
     word: "headed",
     meaning: "率いる",
     sentence: "an investigative team (   ) by Mr. Nakahara",
@@ -1675,6 +1913,7 @@ const units = {
   },
   // 116-1
   {
+    wordNo: 116,
     word: "following",
     meaning: "後について行く，続く",
     sentence: "Someone was (   ) me.",
@@ -1682,6 +1921,7 @@ const units = {
   },
   // 116-2
   {
+    wordNo: 116,
     word: "follow",
     meaning: "従う",
     sentence: "(   ) his advice",
@@ -1689,6 +1929,7 @@ const units = {
   },
   // 117-1
   {
+    wordNo: 117,
     word: "wander",
     meaning: "歩き回る，さまよう",
     sentence: "(   ) about the town",
@@ -1696,6 +1937,7 @@ const units = {
   },
   // 118-1
   {
+    wordNo: 118,
     word: "travel",
     meaning: "旅行する，移動する",
     sentence: "(   ) around the world",
@@ -1703,6 +1945,7 @@ const units = {
   },
   // 118-2
   {
+    wordNo: 118,
     word: "travels",
     meaning: "進む",
     sentence: "Light (   ) faster than sound.",
@@ -1710,6 +1953,7 @@ const units = {
   },
   // 119-1
   {
+    wordNo: 119,
     word: "pass",
     meaning: "通り過ぎる",
     sentence: "(   ) the post office",
@@ -1717,6 +1961,7 @@ const units = {
   },
   // 119-2
   {
+    wordNo: 119,
     word: "pass",
     meaning: "抜く",
     sentence: "(   ) five runners on the final lap",
@@ -1724,6 +1969,7 @@ const units = {
   },
   // 119-3
   {
+    wordNo: 119,
     word: "pass",
     meaning: "受かる",
     sentence: "(   ) the bar exam",
@@ -1731,6 +1977,7 @@ const units = {
   },
   // 119-4
   {
+    wordNo: 119,
     word: "Pass",
     meaning: "渡す",
     sentence: "(   ) me the salt, please.",
@@ -1738,6 +1985,7 @@ const units = {
   },
   // 119-5
   {
+    wordNo: 119,
     word: "passes",
     meaning: "過ぎる",
     sentence: "as time (   )",
@@ -1745,6 +1993,7 @@ const units = {
   },
   // 119-6
   {
+    wordNo: 119,
     word: "pass",
     meaning: "通行証",
     sentence: "an annual (   ) for the theme park",
@@ -1752,6 +2001,7 @@ const units = {
   },
   // 120-1
   {
+    wordNo: 120,
     word: "likely",
     meaning: "〜しそうだ",
     sentence: "Things are (   ) to improve.",
@@ -1759,6 +2009,7 @@ const units = {
   },
   // 120-2
   {
+    wordNo: 120,
     word: "likely",
     meaning: "おそらく",
     sentence: "He will very (   ) stay home.",
@@ -1768,6 +2019,7 @@ const units = {
 121: [
   // 121-1
   {
+    wordNo: 121,
     word: "natural",
     meaning: "当然の",
     sentence: "It is only (   ) that you cannot catch words you do not know.",
@@ -1775,6 +2027,7 @@ const units = {
   },
   // 121-2
   {
+    wordNo: 121,
     word: "natural",
     meaning: "自然の",
     sentence: "(   ) beauty",
@@ -1782,6 +2035,7 @@ const units = {
   },
   // 121-3
   {
+    wordNo: 121,
     word: "natural",
     meaning: "生まれながらの",
     sentence: "her (   ) talent",
@@ -1789,6 +2043,7 @@ const units = {
   },
   // 122-1
   {
+    wordNo: 122,
     word: "certain",
     meaning: "確かな",
     sentence: "He is (   ) to become a star player.",
@@ -1796,6 +2051,7 @@ const units = {
   },
   // 122-2
   {
+    wordNo: 122,
     word: "certain",
     meaning: "ある〜",
     sentence: "be sent to a (   ) country",
@@ -1803,6 +2059,7 @@ const units = {
   },
   // 123-1
   {
+    wordNo: 123,
     word: "probably",
     meaning: "おそらく",
     sentence: "The repairs will (   ) take a month.",
@@ -1810,6 +2067,7 @@ const units = {
   },
   // 124-1
   {
+    wordNo: 124,
     word: "faced",
     meaning: "直面する",
     sentence: "We are (   ) with crisis.",
@@ -1817,6 +2075,7 @@ const units = {
   },
   // 124-2
   {
+    wordNo: 124,
     word: "facing",
     meaning: "向いている",
     sentence: "a window (   ) (the) south",
@@ -1824,6 +2083,7 @@ const units = {
   },
   // 124-3
   {
+    wordNo: 124,
     word: "face",
     meaning: "体面",
     sentence: "lose (   )",
@@ -1831,6 +2091,7 @@ const units = {
   },
   // 125-1
   {
+    wordNo: 125,
     word: "Avoid",
     meaning: "避ける",
     sentence: "(   ) making eye contact with monkeys.",
@@ -1838,6 +2099,7 @@ const units = {
   },
   // 126-1
   {
+    wordNo: 126,
     word: "solve",
     meaning: "解決する，解く",
     sentence: "(   ) the math problem",
@@ -1845,6 +2107,7 @@ const units = {
   },
   // 127-1
   {
+    wordNo: 127,
     word: "trouble",
     meaning: "問題，ごたごた",
     sentence: "have (   ) sleeping",
@@ -1852,6 +2115,7 @@ const units = {
   },
   // 127-2
   {
+    wordNo: 127,
     word: "trouble",
     meaning: "困らせる",
     sentence: "I'm sorry to (   ) you.",
@@ -1859,6 +2123,7 @@ const units = {
   },
   // 128-1
   {
+    wordNo: 128,
     word: "issue",
     meaning: "問題",
     sentence: "an international (   )",
@@ -1866,6 +2131,7 @@ const units = {
   },
   // 128-2
   {
+    wordNo: 128,
     word: "issue",
     meaning: "号",
     sentence: "the latest (   ) of a magazine",
@@ -1873,6 +2139,7 @@ const units = {
   },
   // 128-3
   {
+    wordNo: 128,
     word: "issue",
     meaning: "発行する",
     sentence: "(   ) a passport",
@@ -1880,6 +2147,7 @@ const units = {
   },
   // 129-1
   {
+    wordNo: 129,
     word: "cheer",
     meaning: "声援を送る",
     sentence: "(   ) all the players on",
@@ -1887,6 +2155,7 @@ const units = {
   },
   // 129-2
   {
+    wordNo: 129,
     word: "cheered",
     meaning: "励ます",
     sentence: "His arrival (   ) me up.",
@@ -1894,6 +2163,7 @@ const units = {
   },
   // 129-3
   {
+    wordNo: 129,
     word: "cheer",
     meaning: "声援",
     sentence: "give a (   )",
@@ -1901,6 +2171,7 @@ const units = {
   },
   // 129-4
   {
+    wordNo: 129,
     word: "Cheers",
     meaning: "乾杯",
     sentence: "\"(   )!\" shouted Adam.",
@@ -1908,6 +2179,7 @@ const units = {
   },
   // 130-1
   {
+    wordNo: 130,
     word: "encourage",
     meaning: "促す，勧める",
     sentence: "(   ) people to bike to work",
@@ -1915,6 +2187,7 @@ const units = {
   },
   // 130-2
   {
+    wordNo: 130,
     word: "encourage",
     meaning: "励ます",
     sentence: "(   ) the students",
@@ -1922,6 +2195,7 @@ const units = {
   },
   // 131-1
   {
+    wordNo: 131,
     word: "support",
     meaning: "支持する",
     sentence: "firmly (   ) her",
@@ -1929,6 +2203,7 @@ const units = {
   },
   // 131-2
   {
+    wordNo: 131,
     word: "support",
     meaning: "養う",
     sentence: "(   ) a family of four",
@@ -1936,6 +2211,7 @@ const units = {
   },
   // 131-3
   {
+    wordNo: 131,
     word: "supports",
     meaning: "立証する",
     sentence: "This (   ) my idea.",
@@ -1943,6 +2219,7 @@ const units = {
   },
   // 131-4
   {
+    wordNo: 131,
     word: "support",
     meaning: "支持，支援",
     sentence: "financial (   )",
@@ -1950,6 +2227,7 @@ const units = {
   },
   // 132-1
   {
+    wordNo: 132,
     word: "prevented",
     meaning: "妨げる",
     sentence: "The heavy snow (   ) us from going out.",
@@ -1957,6 +2235,7 @@ const units = {
   },
   // 132-2
   {
+    wordNo: 132,
     word: "prevent",
     meaning: "予防する",
     sentence: "(   ) the flu",
@@ -1964,6 +2243,7 @@ const units = {
   },
   // 133-1
   {
+    wordNo: 133,
     word: "deny",
     meaning: "否定する",
     sentence: "(   ) that he is a great scientist",
@@ -1971,6 +2251,7 @@ const units = {
   },
   // 133-2
   {
+    wordNo: 133,
     word: "deny",
     meaning: "与えない",
     sentence: "(   ) them the right to vote",
@@ -1978,6 +2259,7 @@ const units = {
   },
   // 134-1
   {
+    wordNo: 134,
     word: "enabled",
     meaning: "可能にする",
     sentence: "The internet has (   ) us to receive information right away.",
@@ -1985,6 +2267,7 @@ const units = {
   },
   // 135-1
   {
+    wordNo: 135,
     word: "succeed",
     meaning: "成功する",
     sentence: "(   ) in landing on the moon",
@@ -1992,6 +2275,7 @@ const units = {
   },
   // 135-2
   {
+    wordNo: 135,
     word: "succeed",
     meaning: "継ぐ",
     sentence: "(   ) to the family business",
@@ -1999,6 +2283,7 @@ const units = {
   },
   // 136-1
   {
+    wordNo: 136,
     word: "miss",
     meaning: "逃す",
     sentence: "(   ) the last train",
@@ -2006,6 +2291,7 @@ const units = {
   },
   // 136-2
   {
+    wordNo: 136,
     word: "miss",
     meaning: "休む",
     sentence: "(   ) school for two days",
@@ -2013,6 +2299,7 @@ const units = {
   },
   // 136-3
   {
+    wordNo: 136,
     word: "miss",
     meaning: "寂しく思う",
     sentence: "I (   ) you.",
@@ -2020,6 +2307,7 @@ const units = {
   },
   // 137-1
   {
+    wordNo: 137,
     word: "fail",
     meaning: "失敗する",
     sentence: "(   ) in business",
@@ -2027,6 +2315,7 @@ const units = {
   },
   // 137-2
   {
+    wordNo: 137,
     word: "fail",
     meaning: "できない",
     sentence: "(   ) to see what happened",
@@ -2034,6 +2323,7 @@ const units = {
   },
   // 137-3
   {
+    wordNo: 137,
     word: "fail",
     meaning: "落ちる",
     sentence: "(   ) the exam",
@@ -2041,6 +2331,7 @@ const units = {
   },
   // 137-4
   {
+    wordNo: 137,
     word: "fails",
     meaning: "役に立たない",
     sentence: "My memory (   ) me these days.",
@@ -2048,6 +2339,7 @@ const units = {
   },
   // 138-1
   {
+    wordNo: 138,
     word: "mistake",
     meaning: "間違える",
     sentence: "(   ) him for his twin brother",
@@ -2055,6 +2347,7 @@ const units = {
   },
   // 138-2
   {
+    wordNo: 138,
     word: "mistakes",
     meaning: "間違い",
     sentence: "make grammatical (   )",
@@ -2062,6 +2355,7 @@ const units = {
   },
   // 139-1
   {
+    wordNo: 139,
     word: "check",
     meaning: "調べる",
     sentence: "(   ) the brakes",
@@ -2069,6 +2363,7 @@ const units = {
   },
   // 139-2
   {
+    wordNo: 139,
     word: "check",
     meaning: "阻止する",
     sentence: "(   ) the spread of the disease",
@@ -2076,6 +2371,7 @@ const units = {
   },
   // 139-3
   {
+    wordNo: 139,
     word: "check",
     meaning: "小切手",
     sentence: "sign a (   )",
@@ -2083,6 +2379,7 @@ const units = {
   },
   // 139-4
   {
+    wordNo: 139,
     word: "check",
     meaning: "勘定書",
     sentence: "Can I have the (   ), please?",
@@ -2090,6 +2387,7 @@ const units = {
   },
   // 139-5
   {
+    wordNo: 139,
     word: "check",
     meaning: "検査",
     sentence: "have a medical (   ) (up)",
@@ -2097,6 +2395,7 @@ const units = {
   },
   // 139-6
   {
+    wordNo: 139,
     word: "check",
     meaning: "抑制",
     sentence: "hold their activities in (   )",
@@ -2104,6 +2403,7 @@ const units = {
   },
   // 140-1
   {
+    wordNo: 140,
     word: "hide",
     meaning: "〜を隠す",
     sentence: "(   ) the comic under the pillow",
@@ -2111,6 +2411,7 @@ const units = {
   },
   // 140-2
   {
+    wordNo: 140,
     word: "hiding",
     meaning: "隠れ場所",
     sentence: "my (   ) place",
@@ -2118,6 +2419,7 @@ const units = {
   },
   // 141-1
   {
+    wordNo: 141,
     word: "draw",
     meaning: "描く",
     sentence: "(   ) her portrait",
@@ -2125,6 +2427,7 @@ const units = {
   },
   // 141-2
   {
+    wordNo: 141,
     word: "draw",
     meaning: "引く",
     sentence: "(   ) his attention to that fact",
@@ -2132,6 +2435,7 @@ const units = {
   },
   // 141-3
   {
+    wordNo: 141,
     word: "drawn",
     meaning: "引っ張る",
     sentence: "a cart (   ) by two horses",
@@ -2139,6 +2443,7 @@ const units = {
   },
   // 142-1
   {
+    wordNo: 142,
     word: "join",
     meaning: "加わる",
     sentence: "(   ) the Me Too movement",
@@ -2146,6 +2451,7 @@ const units = {
   },
   // 142-2
   {
+    wordNo: 142,
     word: "join",
     meaning: "つなぐ",
     sentence: "(   ) pipes together",
@@ -2153,6 +2459,7 @@ const units = {
   },
   // 142-3
   {
+    wordNo: 142,
     word: "Join",
     meaning: "食事をともにする",
     sentence: "(   ) us for lunch.",
@@ -2160,6 +2467,7 @@ const units = {
   },
   // 142-4
   {
+    wordNo: 142,
     word: "join",
     meaning: "参加する",
     sentence: "(   ) in the discussion",
@@ -2167,6 +2475,7 @@ const units = {
   },
   // 143-1
   {
+    wordNo: 143,
     word: "Throw",
     meaning: "投げる",
     sentence: "(   ) me a rope.",
@@ -2174,6 +2483,7 @@ const units = {
   },
   // 143-2
   {
+    wordNo: 143,
     word: "throw",
     meaning: "捨てる",
     sentence: "Don't (   ) away your empty cans here.",
@@ -2181,6 +2491,7 @@ const units = {
   },
   // 143-3
   {
+    wordNo: 143,
     word: "throw",
     meaning: "催す",
     sentence: "(   ) a party for him",
@@ -2188,6 +2499,7 @@ const units = {
   },
   // 143-4
   {
+    wordNo: 143,
     word: "throw",
     meaning: "投てき",
     sentence: "a (   ) of 100 meters",
@@ -2195,6 +2507,7 @@ const units = {
   },
   // 144-1
   {
+    wordNo: 144,
     word: "operate",
     meaning: "操作する",
     sentence: "(   ) five machines at once",
@@ -2202,6 +2515,7 @@ const units = {
   },
   // 144-2
   {
+    wordNo: 144,
     word: "operate",
     meaning: "手術する",
     sentence: "(   ) on a patient for cancer",
@@ -2209,6 +2523,7 @@ const units = {
   },
   // 144-3
   {
+    wordNo: 144,
     word: "operate",
     meaning: "運営される",
     sentence: "(   ) efficiently",
@@ -2216,6 +2531,7 @@ const units = {
   },
   // 145-1
   {
+    wordNo: 145,
     word: "repair",
     meaning: "修理する",
     sentence: "(   ) a bicycle",
@@ -2223,6 +2539,7 @@ const units = {
   },
   // 145-2
   {
+    wordNo: 145,
     word: "repair",
     meaning: "修復する",
     sentence: "(   ) damage to his neck",
@@ -2230,6 +2547,7 @@ const units = {
   },
   // 145-3
   {
+    wordNo: 145,
     word: "repair",
     meaning: "修理中",
     sentence: "a smartphone under (   )",
@@ -2237,6 +2555,7 @@ const units = {
   },
   // 146-1
   {
+    wordNo: 146,
     word: "sews",
     meaning: "縫う",
     sentence: "She (   ) all her own dresses.",
@@ -2244,6 +2563,7 @@ const units = {
   },
   // 146-2
   {
+    wordNo: 146,
     word: "sew",
     meaning: "縫いつける",
     sentence: "(   ) a button on",
@@ -2251,6 +2571,7 @@ const units = {
   },
   // 147-1
   {
+    wordNo: 147,
     word: "Raise",
     meaning: "〜を上げる",
     sentence: "(   ) your hand.",
@@ -2258,6 +2579,7 @@ const units = {
   },
   // 147-2
   {
+    wordNo: 147,
     word: "raise",
     meaning: "育てる",
     sentence: "(   ) children",
@@ -2265,6 +2587,7 @@ const units = {
   },
   // 147-3
   {
+    wordNo: 147,
     word: "raise",
     meaning: "集める",
     sentence: "(   ) funds",
@@ -2272,6 +2595,7 @@ const units = {
   },
   // 147-4
   {
+    wordNo: 147,
     word: "raise",
     meaning: "提起する",
     sentence: "(   ) the issue of aging",
@@ -2279,6 +2603,7 @@ const units = {
   },
   // 147-5
   {
+    wordNo: 147,
     word: "raise",
     meaning: "賃上げ",
     sentence: "get a pay (   )",
@@ -2286,6 +2611,7 @@ const units = {
   },
   // 148-1
   {
+    wordNo: 148,
     word: "serve",
     meaning: "飲食物を出す",
     sentence: "(   ) wine to the guests",
@@ -2293,6 +2619,7 @@ const units = {
   },
   // 148-2
   {
+    wordNo: 148,
     word: "serve",
     meaning: "役に立つ",
     sentence: "This experience will (   ) you well.",
@@ -2300,6 +2627,7 @@ const units = {
   },
   // 148-3
   {
+    wordNo: 148,
     word: "served",
     meaning: "役立つ",
     sentence: "The hospital (   ) as a school.",
@@ -2307,6 +2635,7 @@ const units = {
   },
   // 149-1
   {
+    wordNo: 149,
     word: "pour",
     meaning: "〜を注ぐ",
     sentence: "(   ) tea for all of the guests",
@@ -2314,6 +2643,7 @@ const units = {
   },
   // 149-2
   {
+    wordNo: 149,
     word: "poured",
     meaning: "降りそそぐ",
     sentence: "It (   ) all night.",
@@ -2321,6 +2651,7 @@ const units = {
   },
   // 150-1
   {
+    wordNo: 150,
     word: "spill",
     meaning: "〜をこぼす",
     sentence: "(   ) coffee all over my laptop",
@@ -2328,6 +2659,7 @@ const units = {
   },
   // 150-2
   {
+    wordNo: 150,
     word: "spill",
     meaning: "流出",
     sentence: "an oil (   ) in the Atlantic Ocean",
@@ -2337,6 +2669,7 @@ const units = {
 151: [
   // 151-1
   {
+    wordNo: 151,
     word: "pretend",
     meaning: "〜するふりをする",
     sentence: "(   ) to be sleeping",
@@ -2344,6 +2677,7 @@ const units = {
   },
   // 152-1
   {
+    wordNo: 152,
     word: "behaves",
     meaning: "ふるまう",
     sentence: "He (   ) badly in class.",
@@ -2351,6 +2685,7 @@ const units = {
   },
   // 152-2
   {
+    wordNo: 152,
     word: "behave",
     meaning: "行儀よくふるまう",
     sentence: "tell him to (   ) himself",
@@ -2358,6 +2693,7 @@ const units = {
   },
   // 153-1
   {
+    wordNo: 153,
     word: "bear",
     meaning: "〜に耐える",
     sentence: "cannot (   ) the noise",
@@ -2365,6 +2701,7 @@ const units = {
   },
   // 153-2
   {
+    wordNo: 153,
     word: "bear",
     meaning: "心に留める",
     sentence: "(   ) the responsibility for the accident",
@@ -2372,6 +2709,7 @@ const units = {
   },
   // 153-3
   {
+    wordNo: 153,
     word: "born",
     meaning: "〜を産む",
     sentence: "She was (   ) with a silver spoon in her mouth.",
@@ -2379,6 +2717,7 @@ const units = {
   },
   // 154-1
   {
+    wordNo: 154,
     word: "explore",
     meaning: "探検する",
     sentence: "(   ) the surface of Mars",
@@ -2386,6 +2725,7 @@ const units = {
   },
   // 154-2
   {
+    wordNo: 154,
     word: "explore",
     meaning: "探ぐる",
     sentence: "(   ) the possibility of collaboration",
@@ -2393,6 +2733,7 @@ const units = {
   },
   // 155-1
   {
+    wordNo: 155,
     word: "happened",
     meaning: "起こる",
     sentence: "What (   ) to her?",
@@ -2400,6 +2741,7 @@ const units = {
   },
   // 155-2
   {
+    wordNo: 155,
     word: "happened",
     meaning: "偶然〜する",
     sentence: "I (   ) to meet him.",
@@ -2407,6 +2749,7 @@ const units = {
   },
   // 156-1
   {
+    wordNo: 156,
     word: "appeared",
     meaning: "現れる",
     sentence: "The singer (   ) on the stage.",
@@ -2414,6 +2757,7 @@ const units = {
   },
   // 156-2
   {
+    wordNo: 156,
     word: "appears",
     meaning: "〜のように思える",
     sentence: "He (   ) to be sleeping.",
@@ -2421,6 +2765,7 @@ const units = {
   },
   // 157-1
   {
+    wordNo: 157,
     word: "remains",
     meaning: "〜のままでいる",
     sentence: "The cause of the accident (   ) unknown.",
@@ -2428,6 +2773,7 @@ const units = {
   },
   // 157-2
   {
+    wordNo: 157,
     word: "remained",
     meaning: "残る",
     sentence: "Five people (   ) in the room.",
@@ -2435,6 +2781,7 @@ const units = {
   },
   // 158-1
   {
+    wordNo: 158,
     word: "survive",
     meaning: "生き残る",
     sentence: "eat grass in order to (   )",
@@ -2442,6 +2789,7 @@ const units = {
   },
   // 158-2
   {
+    wordNo: 158,
     word: "survive",
     meaning: "〜から生き延びる",
     sentence: "(   ) a plane crash",
@@ -2449,6 +2797,7 @@ const units = {
   },
   // 159-1
   {
+    wordNo: 159,
     word: "belongs",
     meaning: "所属している",
     sentence: "Sam (   ) to the Sales Department.",
@@ -2456,6 +2805,7 @@ const units = {
   },
   // 160-1
   {
+    wordNo: 160,
     word: "represent",
     meaning: "代表する",
     sentence: "(   ) Japan at the World Cup",
@@ -2463,6 +2813,7 @@ const units = {
   },
   // 160-2
   {
+    wordNo: 160,
     word: "represents",
     meaning: "表す",
     sentence: "This sign (   ) a temple.",
@@ -2470,6 +2821,7 @@ const units = {
   },
   // 160-3
   {
+    wordNo: 160,
     word: "represents",
     meaning: "表現する",
     sentence: "This painting (   ) the fight between good and evil.",
@@ -2477,6 +2829,7 @@ const units = {
   },
   // 161-1
   {
+    wordNo: 161,
     word: "based",
     meaning: "基礎を置く",
     sentence: "This novel is (   ) on facts.",
@@ -2484,6 +2837,7 @@ const units = {
   },
   // 161-2
   {
+    wordNo: 161,
     word: "base",
     meaning: "基盤",
     sentence: "I work in many places, but my (   ) is here.",
@@ -2491,6 +2845,7 @@ const units = {
   },
   // 161-3
   {
+    wordNo: 161,
     word: "base",
     meaning: "基地",
     sentence: "a secret (   )",
@@ -2498,6 +2853,7 @@ const units = {
   },
   // 162-1
   {
+    wordNo: 162,
     word: "includes",
     meaning: "含む",
     sentence: "The price (   ) postage.",
@@ -2505,6 +2861,7 @@ const units = {
   },
   // 163-1
   {
+    wordNo: 163,
     word: "contains",
     meaning: "含んでいる",
     sentence: "This soup (   ) various herbs.",
@@ -2512,6 +2869,7 @@ const units = {
   },
   // 163-2
   {
+    wordNo: 163,
     word: "contain",
     meaning: "抑える",
     sentence: "I cannot (   ) my anger.",
@@ -2519,6 +2877,7 @@ const units = {
   },
   // 164-1
   {
+    wordNo: 164,
     word: "own",
     meaning: "所有している",
     sentence: "(   ) ten companies in India",
@@ -2526,6 +2885,7 @@ const units = {
   },
   // 164-2
   {
+    wordNo: 164,
     word: "own",
     meaning: "自分自身の",
     sentence: "with my (   ) eyes",
@@ -2533,6 +2893,7 @@ const units = {
   },
   // 164-3
   {
+    wordNo: 164,
     word: "own",
     meaning: "自分自身のもの",
     sentence: "I decided to quit the company and start my (   ).",
@@ -2540,6 +2901,7 @@ const units = {
   },
   // 165-1
   {
+    wordNo: 165,
     word: "share",
     meaning: "〜を共有する",
     sentence: "(   ) a table with a stranger",
@@ -2547,6 +2909,7 @@ const units = {
   },
   // 165-2
   {
+    wordNo: 165,
     word: "share",
     meaning: "伝える",
     sentence: "Could you (   ) your opinion about this?",
@@ -2554,6 +2917,7 @@ const units = {
   },
   // 165-3
   {
+    wordNo: 165,
     word: "share",
     meaning: "共有",
     sentence: "a flat (   )",
@@ -2561,6 +2925,7 @@ const units = {
   },
   // 165-4
   {
+    wordNo: 165,
     word: "share",
     meaning: "分け前",
     sentence: "a (   ) of the profits",
@@ -2568,6 +2933,7 @@ const units = {
   },
   // 166-1
   {
+    wordNo: 166,
     word: "collect",
     meaning: "集める",
     sentence: "(   ) teddy bears",
@@ -2575,6 +2941,7 @@ const units = {
   },
   // 166-2
   {
+    wordNo: 166,
     word: "collect",
     meaning: "回収する",
     sentence: "(   ) empty cans for recycling",
@@ -2582,6 +2949,7 @@ const units = {
   },
   // 167-1
   {
+    wordNo: 167,
     word: "gather",
     meaning: "集める",
     sentence: "(   ) information",
@@ -2589,6 +2957,7 @@ const units = {
   },
   // 167-2
   {
+    wordNo: 167,
     word: "gather",
     meaning: "集まる",
     sentence: "(   ) around the teacher",
@@ -2596,6 +2965,7 @@ const units = {
   },
   // 168-1
   {
+    wordNo: 168,
     word: "history",
     meaning: "歴史",
     sentence: "the best soccer player in (   )",
@@ -2603,6 +2973,7 @@ const units = {
   },
   // 168-2
   {
+    wordNo: 168,
     word: "history",
     meaning: "履歴",
     sentence: "an update (   )",
@@ -2610,6 +2981,7 @@ const units = {
   },
   // 169-1
   {
+    wordNo: 169,
     word: "subject",
     meaning: "科目",
     sentence: "a required (   )",
@@ -2617,6 +2989,7 @@ const units = {
   },
   // 169-2
   {
+    wordNo: 169,
     word: "subject",
     meaning: "話題",
     sentence: "get off the (   )",
@@ -2624,6 +2997,7 @@ const units = {
   },
   // 169-3
   {
+    wordNo: 169,
     word: "subject",
     meaning: "被験者",
     sentence: "the (   ) of the experiment",
@@ -2631,6 +3005,7 @@ const units = {
   },
   // 169-4
   {
+    wordNo: 169,
     word: "subject",
     meaning: "受けやすい",
     sentence: "The program is (   ) to change.",
@@ -2638,6 +3013,7 @@ const units = {
   },
   // 170-1
   {
+    wordNo: 170,
     word: "education",
     meaning: "教育",
     sentence: "receive a good (   )",
@@ -2645,6 +3021,7 @@ const units = {
   },
   // 171-1
   {
+    wordNo: 171,
     word: "knowledge",
     meaning: "知識，知っていること",
     sentence: "have a wide range of (   ) of cinema",
@@ -2652,6 +3029,7 @@ const units = {
   },
   // 172-1
   {
+    wordNo: 172,
     word: "uniform",
     meaning: "制服",
     sentence: "wear a school (   )",
@@ -2659,6 +3037,7 @@ const units = {
   },
   // 172-2
   {
+    wordNo: 172,
     word: "uniform",
     meaning: "一定の",
     sentence: "maintain a (   ) temperature",
@@ -2666,6 +3045,7 @@ const units = {
   },
   // 173-1
   {
+    wordNo: 173,
     word: "grade",
     meaning: "学年",
     sentence: "She is in the eighth (   ).",
@@ -2673,6 +3053,7 @@ const units = {
   },
   // 173-2
   {
+    wordNo: 173,
     word: "grade",
     meaning: "等級",
     sentence: "low-(   ) products",
@@ -2680,6 +3061,7 @@ const units = {
   },
   // 173-3
   {
+    wordNo: 173,
     word: "grade",
     meaning: "成績",
     sentence: "a high (   ) in math",
@@ -2687,6 +3069,7 @@ const units = {
   },
   // 174-1
   {
+    wordNo: 174,
     word: "senior",
     meaning: "最上級生",
     sentence: "a college (   )",
@@ -2694,6 +3077,7 @@ const units = {
   },
   // 174-2
   {
+    wordNo: 174,
     word: "senior",
     meaning: "高齢者の",
     sentence: "(   ) citizens",
@@ -2701,6 +3085,7 @@ const units = {
   },
   // 174-3
   {
+    wordNo: 174,
     word: "senior",
     meaning: "上位の",
     sentence: "a (   ) manager",
@@ -2708,6 +3093,7 @@ const units = {
   },
   // 175-1
   {
+    wordNo: 175,
     word: "graduate",
     meaning: "卒業する",
     sentence: "(   ) from high school",
@@ -2715,6 +3101,7 @@ const units = {
   },
   // 176-1
   {
+    wordNo: 176,
     word: "decide",
     meaning: "決定する，決める",
     sentence: "(   ) to live on my own",
@@ -2722,6 +3109,7 @@ const units = {
   },
   // 176-2
   {
+    wordNo: 176,
     word: "decide",
     meaning: "決定する，決める",
     sentence: "(   ) on a date for the wedding",
@@ -2729,6 +3117,7 @@ const units = {
   },
   // 177-1
   {
+    wordNo: 177,
     word: "judge",
     meaning: "判断する",
     sentence: "(   ) someone by their appearance",
@@ -2736,6 +3125,7 @@ const units = {
   },
   // 177-2
   {
+    wordNo: 177,
     word: "judge",
     meaning: "裁判官，審判",
     sentence: "Supreme Court (   )",
@@ -2743,6 +3133,7 @@ const units = {
   },
   // 178-1
   {
+    wordNo: 178,
     word: "quit",
     meaning: "辞める",
     sentence: "(   ) my job",
@@ -2750,6 +3141,7 @@ const units = {
   },
   // 179-1
   {
+    wordNo: 179,
     word: "retire",
     meaning: "引退する，退職する",
     sentence: "(   ) from the company",
@@ -2757,6 +3149,7 @@ const units = {
   },
   // 180-1
   {
+    wordNo: 180,
     word: "review",
     meaning: "再検討",
     sentence: "a (   ) of the tax system",
@@ -2764,6 +3157,7 @@ const units = {
   },
   // 180-2
   {
+    wordNo: 180,
     word: "review",
     meaning: "批評",
     sentence: "a (   ) of his new book",
@@ -2771,6 +3165,7 @@ const units = {
   },
   // 180-3
   {
+    wordNo: 180,
     word: "review",
     meaning: "復習",
     sentence: "do a (   ) of the last lesson",
@@ -2780,6 +3175,7 @@ const units = {
 181: [
   // 181-1
   {
+    wordNo: 181,
     word: "choose",
     meaning: "選ぶ",
     sentence: "(   ) what to wear to school",
@@ -2787,6 +3183,7 @@ const units = {
   },
   // 181-2
   {
+    wordNo: 181,
     word: "choose",
     meaning: "選ぶ",
     sentence: "(   ) between the two",
@@ -2794,6 +3191,7 @@ const units = {
   },
   // 182-1
   {
+    wordNo: 182,
     word: "Imagine",
     meaning: "想像する",
     sentence: "(   ) life without electricity.",
@@ -2801,6 +3199,7 @@ const units = {
   },
   // 183-1
   {
+    wordNo: 183,
     word: "Guess",
     meaning: "推測する",
     sentence: "(   ) what is in this bag.",
@@ -2808,6 +3207,7 @@ const units = {
   },
   // 183-2
   {
+    wordNo: 183,
     word: "guess",
     meaning: "推測",
     sentence: "This is only a (   ).",
@@ -2815,6 +3215,7 @@ const units = {
   },
   // 184-1
   {
+    wordNo: 184,
     word: "expecting",
     meaning: "予期する，期待する",
     sentence: "We are (   ) a typhoon.",
@@ -2822,6 +3223,7 @@ const units = {
   },
   // 184-2
   {
+    wordNo: 184,
     word: "expect",
     meaning: "予期する，期待する",
     sentence: "Don't (   ) too much of him.",
@@ -2829,6 +3231,7 @@ const units = {
   },
   // 184-3
   {
+    wordNo: 184,
     word: "expecting",
     meaning: "予期する，期待する",
     sentence: "She is (   ) (a baby).",
@@ -2836,6 +3239,7 @@ const units = {
   },
   // 185-1
   {
+    wordNo: 185,
     word: "predict",
     meaning: "〜を予測する",
     sentence: "(   ) when cherry blossoms will start to flower",
@@ -2843,6 +3247,7 @@ const units = {
   },
   // 186-1
   {
+    wordNo: 186,
     word: "remember",
     meaning: "覚えている，忘れずに〜する",
     sentence: "I (   ) meeting her here.",
@@ -2850,6 +3255,7 @@ const units = {
   },
   // 186-2
   {
+    wordNo: 186,
     word: "remember",
     meaning: "覚えている，忘れずに〜する",
     sentence: "Did you (   ) to feed the dog?",
@@ -2857,6 +3263,7 @@ const units = {
   },
   // 186-3
   {
+    wordNo: 186,
     word: "Remember",
     meaning: "覚えている，忘れずに〜する",
     sentence: "(   ) me to your wife.",
@@ -2864,6 +3271,7 @@ const units = {
   },
   // 187-1
   {
+    wordNo: 187,
     word: "reminds",
     meaning: "思い出させる",
     sentence: "This song (   ) me of him.",
@@ -2871,6 +3279,7 @@ const units = {
   },
   // 187-2
   {
+    wordNo: 187,
     word: "remind",
     meaning: "思い出させる",
     sentence: "(   ) him not to be late",
@@ -2878,6 +3287,7 @@ const units = {
   },
   // 188-1
   {
+    wordNo: 188,
     word: "realized",
     meaning: "理解する，実現する",
     sentence: "Jim (   ) that he did not love her any more.",
@@ -2885,6 +3295,7 @@ const units = {
   },
   // 188-2
   {
+    wordNo: 188,
     word: "realized",
     meaning: "理解する，実現する",
     sentence: "She (   ) her dream of running her own shop.",
@@ -2892,6 +3303,7 @@ const units = {
   },
   // 189-1
   {
+    wordNo: 189,
     word: "appreciate",
     meaning: "理解する，よさがわかる，感謝する",
     sentence: "(   ) the importance of discussion",
@@ -2899,6 +3311,7 @@ const units = {
   },
   // 189-2
   {
+    wordNo: 189,
     word: "appreciate",
     meaning: "理解する，よさがわかる，感謝する",
     sentence: "(   ) the delicate flavors of Japanese cuisine",
@@ -2906,6 +3319,7 @@ const units = {
   },
   // 189-3
   {
+    wordNo: 189,
     word: "appreciate",
     meaning: "理解する，よさがわかる，感謝する",
     sentence: "I'd (   ) it if you could help me.",
@@ -2913,6 +3327,7 @@ const units = {
   },
   // 190-1
   {
+    wordNo: 190,
     word: "accept",
     meaning: "〜を受け入れる",
     sentence: "(   ) other people's opinions",
@@ -2920,6 +3335,7 @@ const units = {
   },
   // 191-1
   {
+    wordNo: 191,
     word: "consider",
     meaning: "考慮する，思いやる，みなす",
     sentence: "(   ) all the possibilities",
@@ -2927,6 +3343,7 @@ const units = {
   },
   // 191-2
   {
+    wordNo: 191,
     word: "consider",
     meaning: "考慮する，思いやる，みなす",
     sentence: "(   ) other people",
@@ -2934,6 +3351,7 @@ const units = {
   },
   // 191-3
   {
+    wordNo: 191,
     word: "consider",
     meaning: "考慮する，思いやる，みなす",
     sentence: "(   ) it to be meaningless",
@@ -2941,6 +3359,7 @@ const units = {
   },
   // 192-1
   {
+    wordNo: 192,
     word: "mind",
     meaning: "気にする",
     sentence: "Do you (   ) if I open the window?",
@@ -2948,6 +3367,7 @@ const units = {
   },
   // 192-2
   {
+    wordNo: 192,
     word: "minds",
     meaning: "精神",
     sentence: "the (   ) of children",
@@ -2955,6 +3375,7 @@ const units = {
   },
   // 192-3
   {
+    wordNo: 192,
     word: "minds",
     meaning: "才能のある人",
     sentence: "Great (   ) think alike.",
@@ -2962,6 +3383,7 @@ const units = {
   },
   // 193-1
   {
+    wordNo: 193,
     word: "wonder",
     meaning: "〜かなと思う",
     sentence: "I (   ) where he has gone.",
@@ -2969,6 +3391,7 @@ const units = {
   },
   // 193-2
   {
+    wordNo: 193,
     word: "wonder",
     meaning: "驚く",
     sentence: "(   ) at his ability",
@@ -2976,6 +3399,7 @@ const units = {
   },
   // 194-1
   {
+    wordNo: 194,
     word: "seems",
     meaning: "〜のように思われる",
     sentence: "It (   ) that he knows what happened.",
@@ -2983,6 +3407,7 @@ const units = {
   },
   // 195-1
   {
+    wordNo: 195,
     word: "compare",
     meaning: "比較する",
     sentence: "(   ) city life with country life",
@@ -2990,6 +3415,7 @@ const units = {
   },
   // 195-2
   {
+    wordNo: 195,
     word: "compare",
     meaning: "たとえる",
     sentence: "(   ) life to a voyage",
@@ -2997,6 +3423,7 @@ const units = {
   },
   // 195-3
   {
+    wordNo: 195,
     word: "compare",
     meaning: "匹敵する",
     sentence: "No one can (   ) with him in academic ability.",
@@ -3004,6 +3431,7 @@ const units = {
   },
   // 196-1
   {
+    wordNo: 196,
     word: "concentrate",
     meaning: "集中する",
     sentence: "(   ) on my studies",
@@ -3011,6 +3439,7 @@ const units = {
   },
   // 196-2
   {
+    wordNo: 196,
     word: "concentrate",
     meaning: "集中させる",
     sentence: "(   ) your attention on your job.",
@@ -3018,6 +3447,7 @@ const units = {
   },
   // 197-1
   {
+    wordNo: 197,
     word: "focuses",
     meaning: "〜に焦点を当てる",
     sentence: "This book (   ) on French culture.",
@@ -3025,6 +3455,7 @@ const units = {
   },
   // 197-2
   {
+    wordNo: 197,
     word: "focus",
     meaning: "焦点",
     sentence: "become the (   ) of media attention",
@@ -3032,6 +3463,7 @@ const units = {
   },
   // 198-1
   {
+    wordNo: 198,
     word: "allow",
     meaning: "許可する",
     sentence: "Please (   ) me to introduce myself.",
@@ -3039,6 +3471,7 @@ const units = {
   },
   // 198-2
   {
+    wordNo: 198,
     word: "allows",
     meaning: "可能にする",
     sentence: "This machine (   ) you to measure your blood pressure.",
@@ -3046,6 +3479,7 @@ const units = {
   },
   // 199-1
   {
+    wordNo: 199,
     word: "admitted",
     meaning: "認める",
     sentence: "Tom (   ) that he had been mistaken.",
@@ -3053,6 +3487,7 @@ const units = {
   },
   // 199-2
   {
+    wordNo: 199,
     word: "admitted",
     meaning: "許可する",
     sentence: "be (   ) to the university",
@@ -3060,6 +3495,7 @@ const units = {
   },
   // 200-1
   {
+    wordNo: 200,
     word: "ground",
     meaning: "地面",
     sentence: "deep in the (   )",
@@ -3067,6 +3503,7 @@ const units = {
   },
   // 200-2
   {
+    wordNo: 200,
     word: "grounds",
     meaning: "根拠",
     sentence: "on the (   ) that he is young",
@@ -3074,6 +3511,7 @@ const units = {
   },
   // 201-1
   {
+    wordNo: 201,
     word: "pollution",
     meaning: "公害，汚染",
     sentence: "prevent marine (   )",
@@ -3081,6 +3519,7 @@ const units = {
   },
   // 202-1
   {
+    wordNo: 202,
     word: "sight",
     meaning: "光景",
     sentence: "Snow is a rare (   ) in this area.",
@@ -3088,6 +3527,7 @@ const units = {
   },
   // 202-2
   {
+    wordNo: 202,
     word: "sight",
     meaning: "視力",
     sentence: "recover my (   )",
@@ -3095,6 +3535,7 @@ const units = {
   },
   // 203-1
   {
+    wordNo: 203,
     word: "view",
     meaning: "眺め",
     sentence: "enjoy a night (   ) of Kobe",
@@ -3102,6 +3543,7 @@ const units = {
   },
   // 203-2
   {
+    wordNo: 203,
     word: "view",
     meaning: "視点",
     sentence: "look at things from a different point of (   )",
@@ -3109,6 +3551,7 @@ const units = {
   },
   // 203-3
   {
+    wordNo: 203,
     word: "viewed",
     meaning: "みなす",
     sentence: "Skiing is (   ) as the national sport of Norway.",
@@ -3116,6 +3559,7 @@ const units = {
   },
   // 204-1
   {
+    wordNo: 204,
     word: "landscape",
     meaning: "風景",
     sentence: "the beautiful (   ) of Scotland",
@@ -3123,6 +3567,7 @@ const units = {
   },
   // 204-2
   {
+    wordNo: 204,
     word: "landscape",
     meaning: "情勢",
     sentence: "the (   ) of Japan",
@@ -3130,6 +3575,7 @@ const units = {
   },
   // 205-1
   {
+    wordNo: 205,
     word: "nature",
     meaning: "自然",
     sentence: "preserve (   )",
@@ -3137,6 +3583,7 @@ const units = {
   },
   // 205-2
   {
+    wordNo: 205,
     word: "nature",
     meaning: "性質",
     sentence: "the true (   ) of the problem",
@@ -3144,6 +3591,7 @@ const units = {
   },
   // 206-1
   {
+    wordNo: 206,
     word: "seeds",
     meaning: "種",
     sentence: "sunflower (   )",
@@ -3151,6 +3599,7 @@ const units = {
   },
   // 206-2
   {
+    wordNo: 206,
     word: "seed",
     meaning: "シード選手",
     sentence: "He is top (   ) in this tournament.",
@@ -3158,6 +3607,7 @@ const units = {
   },
   // 207-1
   {
+    wordNo: 207,
     word: "plant",
     meaning: "植物",
     sentence: "water a (   )",
@@ -3165,6 +3615,7 @@ const units = {
   },
   // 207-2
   {
+    wordNo: 207,
     word: "plant",
     meaning: "工場",
     sentence: "a chemical (   )",
@@ -3172,6 +3623,7 @@ const units = {
   },
   // 207-3
   {
+    wordNo: 207,
     word: "plant",
     meaning: "植える",
     sentence: "(   ) tulips in the garden",
@@ -3179,6 +3631,7 @@ const units = {
   },
   // 208-1
   {
+    wordNo: 208,
     word: "bloomed",
     meaning: "咲く",
     sentence: "Flowers (   ) all over the field.",
@@ -3186,6 +3639,7 @@ const units = {
   },
   // 208-2
   {
+    wordNo: 208,
     word: "bloom",
     meaning: "開花",
     sentence: "The cherry trees are in full (   ).",
@@ -3193,6 +3647,7 @@ const units = {
   },
   // 209-1
   {
+    wordNo: 209,
     word: "harvest",
     meaning: "収穫",
     sentence: "the rice (   ) this year",
@@ -3200,6 +3655,7 @@ const units = {
   },
   // 209-2
   {
+    wordNo: 209,
     word: "harvested",
     meaning: "収穫する",
     sentence: "newly-(   ) rice",
@@ -3207,6 +3663,7 @@ const units = {
   },
   // 209-3
   {
+    wordNo: 209,
     word: "harvest",
     meaning: "摘出する",
     sentence: "(   ) organs",
@@ -3214,6 +3671,7 @@ const units = {
   },
   // 210-1
   {
+    wordNo: 210,
     word: "insects",
     meaning: "昆虫",
     sentence: "the chirping of (   )",
@@ -3223,6 +3681,7 @@ const units = {
 211: [
   // 211-1
   {
+    wordNo: 211,
     word: "earthquake",
     meaning: "地震",
     sentence: "There was an (   ) last week.",
@@ -3230,6 +3689,7 @@ const units = {
   },
   // 212-1
   {
+    wordNo: 212,
     word: "temperature",
     meaning: "気温",
     sentence: "The (   ) reached 40 degrees.",
@@ -3237,6 +3697,7 @@ const units = {
   },
   // 212-2
   {
+    wordNo: 212,
     word: "temperature",
     meaning: "体温",
     sentence: "take his (   )",
@@ -3244,6 +3705,7 @@ const units = {
   },
   // 213-1
   {
+    wordNo: 213,
     word: "degrees",
     meaning: "度",
     sentence: "freeze at zero (   )",
@@ -3251,6 +3713,7 @@ const units = {
   },
   // 213-2
   {
+    wordNo: 213,
     word: "degree",
     meaning: "程度",
     sentence: "speak French to some (   )",
@@ -3258,6 +3721,7 @@ const units = {
   },
   // 213-3
   {
+    wordNo: 213,
     word: "degree",
     meaning: "学位",
     sentence: "get a (   ) in engineering",
@@ -3265,6 +3729,7 @@ const units = {
   },
   // 214-1
   {
+    wordNo: 214,
     word: "flood",
     meaning: "洪水",
     sentence: "The (   ) washed the bridge away.",
@@ -3272,6 +3737,7 @@ const units = {
   },
   // 214-2
   {
+    wordNo: 214,
     word: "flooded",
     meaning: "水浸しにする",
     sentence: "The streets are (   ).",
@@ -3279,6 +3745,7 @@ const units = {
   },
   // 215-1
   {
+    wordNo: 215,
     word: "froze",
     meaning: "凍る",
     sentence: "The pond (   ) over.",
@@ -3286,6 +3753,7 @@ const units = {
   },
   // 215-2
   {
+    wordNo: 215,
     word: "freeze",
     meaning: "凍らせる",
     sentence: "(   ) bananas in the freezer",
@@ -3293,6 +3761,7 @@ const units = {
   },
   // 216-1
   {
+    wordNo: 216,
     word: "reflect",
     meaning: "反射する",
     sentence: "(   ) the sunlight",
@@ -3300,6 +3769,7 @@ const units = {
   },
   // 216-2
   {
+    wordNo: 216,
     word: "reflect",
     meaning: "反映する",
     sentence: "The clothes people wear (   ) the times.",
@@ -3307,6 +3777,7 @@ const units = {
   },
   // 216-3
   {
+    wordNo: 216,
     word: "reflect",
     meaning: "熟考する",
     sentence: "(   ) on my successes and failures",
@@ -3314,6 +3785,7 @@ const units = {
   },
   // 217-1
   {
+    wordNo: 217,
     word: "polite",
     meaning: "礼儀正しい",
     sentence: "a (   ) young man",
@@ -3321,6 +3793,7 @@ const units = {
   },
   // 218-1
   {
+    wordNo: 218,
     word: "rude",
     meaning: "無礼な",
     sentence: "It is (   ) to ask women their age.",
@@ -3328,6 +3801,7 @@ const units = {
   },
   // 219-1
   {
+    wordNo: 219,
     word: "lonely",
     meaning: "孤独な",
     sentence: "(   ) old people",
@@ -3335,6 +3809,7 @@ const units = {
   },
   // 220-1
   {
+    wordNo: 220,
     word: "lazy",
     meaning: "怠惰な",
     sentence: "He is (   ) at work.",
@@ -3342,6 +3817,7 @@ const units = {
   },
   // 220-2
   {
+    wordNo: 220,
     word: "lazy",
     meaning: "寛いだ",
     sentence: "spend (   ) days on the beach",
@@ -3349,6 +3825,7 @@ const units = {
   },
   // 221-1
   {
+    wordNo: 221,
     word: "strict",
     meaning: "厳しい",
     sentence: "a (   ) rule",
@@ -3356,6 +3833,7 @@ const units = {
   },
   // 222-1
   {
+    wordNo: 222,
     word: "Ugly",
     meaning: "醜い",
     sentence: "The (   ) Duckling",
@@ -3363,6 +3841,7 @@ const units = {
   },
   // 223-1
   {
+    wordNo: 223,
     word: "intelligent",
     meaning: "知的な",
     sentence: "a highly (   ) woman",
@@ -3370,6 +3849,7 @@ const units = {
   },
   // 224-1
   {
+    wordNo: 224,
     word: "silly",
     meaning: "ばかな",
     sentence: "Don't be (   )!",
@@ -3377,6 +3857,7 @@ const units = {
   },
   // 225-1
   {
+    wordNo: 225,
     word: "nervous",
     meaning: "あがって",
     sentence: "get (   ) during the exam",
@@ -3384,6 +3865,7 @@ const units = {
   },
   // 225-2
   {
+    wordNo: 225,
     word: "nervous",
     meaning: "神経質な",
     sentence: "a (   ) child",
@@ -3391,6 +3873,7 @@ const units = {
   },
   // 225-3
   {
+    wordNo: 225,
     word: "nervous",
     meaning: "身体の",
     sentence: "the (   ) system",
@@ -3398,6 +3881,7 @@ const units = {
   },
   // 226-1
   {
+    wordNo: 226,
     word: "awake",
     meaning: "目を覚まして",
     sentence: "The noise kept me (   ) all night.",
@@ -3405,6 +3889,7 @@ const units = {
   },
   // 227-1
   {
+    wordNo: 227,
     word: "alone",
     meaning: "1人で",
     sentence: "She lives (   ).",
@@ -3412,6 +3897,7 @@ const units = {
   },
   // 227-2
   {
+    wordNo: 227,
     word: "alone",
     meaning: "〜だけ",
     sentence: "Bob (   ) went there.",
@@ -3419,6 +3905,7 @@ const units = {
   },
   // 228-1
   {
+    wordNo: 228,
     word: "attitude",
     meaning: "態度",
     sentence: "have a positive (   ) toward life",
@@ -3426,6 +3913,7 @@ const units = {
   },
   // 229-1
   {
+    wordNo: 229,
     word: "character",
     meaning: "性格",
     sentence: "Printed books have (   ).",
@@ -3433,6 +3921,7 @@ const units = {
   },
   // 229-2
   {
+    wordNo: 229,
     word: "character",
     meaning: "登場人物",
     sentence: "the main (   ) of this novel",
@@ -3440,6 +3929,7 @@ const units = {
   },
   // 229-3
   {
+    wordNo: 229,
     word: "characters",
     meaning: "文字",
     sentence: "Chinese (   )",
@@ -3447,6 +3937,7 @@ const units = {
   },
   // 230-1
   {
+    wordNo: 230,
     word: "characteristics",
     meaning: "特徴",
     sentence: "one of the (   ) of large cities",
@@ -3454,6 +3945,7 @@ const units = {
   },
   // 230-2
   {
+    wordNo: 230,
     word: "characteristic",
     meaning: "特有の",
     sentence: "his (   ) writing style",
@@ -3461,6 +3953,7 @@ const units = {
   },
   // 231-1
   {
+    wordNo: 231,
     word: "feature",
     meaning: "特徴",
     sentence: "Low rainfall is a (   ) of deserts.",
@@ -3468,6 +3961,7 @@ const units = {
   },
   // 231-2
   {
+    wordNo: 231,
     word: "feature",
     meaning: "特集記事",
     sentence: "a (   ) on Samoa",
@@ -3475,6 +3969,7 @@ const units = {
   },
   // 231-3
   {
+    wordNo: 231,
     word: "features",
     meaning: "特集する",
     sentence: "The exhibition (   ) paintings by Van Gogh.",
@@ -3482,6 +3977,7 @@ const units = {
   },
   // 232-1
   {
+    wordNo: 232,
     word: "details",
     meaning: "詳細",
     sentence: "check the (   ) of the report",
@@ -3489,6 +3985,7 @@ const units = {
   },
   // 232-2
   {
+    wordNo: 232,
     word: "details",
     meaning: "細部",
     sentence: "see the (   ) of the building",
@@ -3496,6 +3993,7 @@ const units = {
   },
   // 233-1
   {
+    wordNo: 233,
     word: "advantages",
     meaning: "利点",
     sentence: "There are (   ) and disadvantages to self-driving cars.",
@@ -3503,6 +4001,7 @@ const units = {
   },
   // 234-1
   {
+    wordNo: 234,
     word: "faults",
     meaning: "欠点",
     sentence: "complain about my husband's (   )",
@@ -3510,6 +4009,7 @@ const units = {
   },
   // 234-2
   {
+    wordNo: 234,
     word: "fault",
     meaning: "責任",
     sentence: "That is my (   ).",
@@ -3517,6 +4017,7 @@ const units = {
   },
   // 235-1
   {
+    wordNo: 235,
     word: "quality",
     meaning: "質",
     sentence: "improve the (   ) of life",
@@ -3524,6 +4025,7 @@ const units = {
   },
   // 235-2
   {
+    wordNo: 235,
     word: "qualities",
     meaning: "資質",
     sentence: "the personal (   ) necessary to be a successful salesperson",
@@ -3531,6 +4033,7 @@ const units = {
   },
   // 236-1
   {
+    wordNo: 236,
     word: "correct",
     meaning: "正確な",
     sentence: "Let's see if our answers are (   ).",
@@ -3538,6 +4041,7 @@ const units = {
   },
   // 236-2
   {
+    wordNo: 236,
     word: "correct",
     meaning: "訂正する",
     sentence: "(   ) his pronunciation",
@@ -3545,6 +4049,7 @@ const units = {
   },
   // 237-1
   {
+    wordNo: 237,
     word: "ideal",
     meaning: "理想的な",
     sentence: "an (   ) place for camping",
@@ -3552,6 +4057,7 @@ const units = {
   },
   // 237-2
   {
+    wordNo: 237,
     word: "ideal",
     meaning: "理想",
     sentence: "the (   ) of social equality",
@@ -3559,6 +4065,7 @@ const units = {
   },
   // 238-1
   {
+    wordNo: 238,
     word: "fair",
     meaning: "公正な",
     sentence: "It's not (   )!",
@@ -3566,6 +4073,7 @@ const units = {
   },
   // 238-2
   {
+    wordNo: 238,
     word: "fair",
     meaning: "品評会",
     sentence: "an international trade (   )",
@@ -3573,6 +4081,7 @@ const units = {
   },
   // 239-1
   {
+    wordNo: 239,
     word: "appropriate",
     meaning: "適切な",
     sentence: "clothes (   ) for a job interview",
@@ -3580,6 +4089,7 @@ const units = {
   },
   // 240-1
   {
+    wordNo: 240,
     word: "famous",
     meaning: "有名な",
     sentence: "Kyoto is (   ) for its temples.",
@@ -3587,6 +4097,7 @@ const units = {
   },
   // 240-2
   {
+    wordNo: 240,
     word: "famous",
     meaning: "〜として有名な",
     sentence: "Arima is (   ) as a hot-spring resort.",
@@ -3596,6 +4107,7 @@ const units = {
 241: [
   // 241-1
   {
+    wordNo: 241,
     word: "elementary",
     meaning: "初歩的な",
     sentence: "when I was in (   ) school",
@@ -3603,6 +4115,7 @@ const units = {
   },
   // 242-1
   {
+    wordNo: 242,
     word: "major",
     meaning: "主要な",
     sentence: "a (   ) cause of global warming",
@@ -3610,6 +4123,7 @@ const units = {
   },
   // 242-2
   {
+    wordNo: 242,
     word: "major",
     meaning: "専攻する",
     sentence: "I (   ) in botany",
@@ -3617,6 +4131,7 @@ const units = {
   },
   // 242-3
   {
+    wordNo: 242,
     word: "major",
     meaning: "専攻",
     sentence: "What is your (   )?",
@@ -3624,6 +4139,7 @@ const units = {
   },
   // 243-1
   {
+    wordNo: 243,
     word: "matter",
     meaning: "重要である",
     sentence: "It does not (   ) whether he succeeds or not.",
@@ -3631,6 +4147,7 @@ const units = {
   },
   // 243-2
   {
+    wordNo: 243,
     word: "matter",
     meaning: "物",
     sentence: "waste (   )",
@@ -3638,6 +4155,7 @@ const units = {
   },
   // 243-3
   {
+    wordNo: 243,
     word: "matters",
     meaning: "事情",
     sentence: "To make (   ) worse, it began to snow.",
@@ -3645,6 +4163,7 @@ const units = {
   },
   // 244-1
   {
+    wordNo: 244,
     word: "bright",
     meaning: "明るい",
     sentence: "The moon is (   ) tonight.",
@@ -3652,6 +4171,7 @@ const units = {
   },
   // 244-2
   {
+    wordNo: 244,
     word: "bright",
     meaning: "賢い",
     sentence: "a (   ) child",
@@ -3659,6 +4179,7 @@ const units = {
   },
   // 245-1
   {
+    wordNo: 245,
     word: "brilliant",
     meaning: "まばゆい",
     sentence: "swim in the (   ) sunshine",
@@ -3666,6 +4187,7 @@ const units = {
   },
   // 245-2
   {
+    wordNo: 245,
     word: "brilliant",
     meaning: "すばらしい",
     sentence: "a (   ) idea",
@@ -3673,6 +4195,7 @@ const units = {
   },
   // 246-1
   {
+    wordNo: 246,
     word: "lively",
     meaning: "生き生きとした",
     sentence: "have a (   ) conversation",
@@ -3680,6 +4203,7 @@ const units = {
   },
   // 247-1
   {
+    wordNo: 247,
     word: "comfortable",
     meaning: "快適な",
     sentence: "a (   ) bed",
@@ -3687,6 +4211,7 @@ const units = {
   },
   // 247-2
   {
+    wordNo: 247,
     word: "comfortable",
     meaning: "心地よい",
     sentence: "I feel (   ) in that café.",
@@ -3694,6 +4219,7 @@ const units = {
   },
   // 248-1
   {
+    wordNo: 248,
     word: "pleasant",
     meaning: "楽しい",
     sentence: "I find it (   ) to talk with her.",
@@ -3701,6 +4227,7 @@ const units = {
   },
   // 249-1
   {
+    wordNo: 249,
     word: "convenient",
     meaning: "便利な",
     sentence: "My house is (   ) to the station.",
@@ -3708,6 +4235,7 @@ const units = {
   },
   // 249-2
   {
+    wordNo: 249,
     word: "convenient",
     meaning: "都合がよい",
     sentence: "Call me when it is (   ) for you.",
@@ -3715,6 +4243,7 @@ const units = {
   },
   // 250-1
   {
+    wordNo: 250,
     word: "false",
     meaning: "誤った",
     sentence: "(   ) information",
@@ -3722,6 +4251,7 @@ const units = {
   },
   // 250-2
   {
+    wordNo: 250,
     word: "false",
     meaning: "偽の",
     sentence: "give a (   ) name",
@@ -3729,6 +4259,7 @@ const units = {
   },
   // 251-1
   {
+    wordNo: 251,
     word: "terrible",
     meaning: "ひどい",
     sentence: "I have a (   ) sense of direction.",
@@ -3736,6 +4267,7 @@ const units = {
   },
   // 251-2
   {
+    wordNo: 251,
     word: "terrible",
     meaning: "苦手で",
     sentence: "I am (   ) at remembering people's names.",
@@ -3743,6 +4275,7 @@ const units = {
   },
   // 252-1
   {
+    wordNo: 252,
     word: "awful",
     meaning: "ひどい",
     sentence: "an (   ) smell of cat urine",
@@ -3750,6 +4283,7 @@ const units = {
   },
   // 253-1
   {
+    wordNo: 253,
     word: "thin",
     meaning: "薄い",
     sentence: "a (   ) jacket",
@@ -3757,6 +4291,7 @@ const units = {
   },
   // 253-2
   {
+    wordNo: 253,
     word: "thin",
     meaning: "やせた",
     sentence: "Although she eats a lot, she is very (   ).",
@@ -3764,6 +4299,7 @@ const units = {
   },
   // 253-3
   {
+    wordNo: 253,
     word: "thin",
     meaning: "薄い",
     sentence: "His hair is getting (   ) on top.",
@@ -3771,6 +4307,7 @@ const units = {
   },
   // 254-1
   {
+    wordNo: 254,
     word: "tight",
     meaning: "きつい",
     sentence: "(   ) jeans",
@@ -3778,6 +4315,7 @@ const units = {
   },
   // 254-2
   {
+    wordNo: 254,
     word: "tight",
     meaning: "厳しい",
     sentence: "(   ) control on immigration",
@@ -3785,6 +4323,7 @@ const units = {
   },
   // 255-1
   {
+    wordNo: 255,
     word: "loose",
     meaning: "ゆるい",
     sentence: "wear (   ) clothes",
@@ -3792,6 +4331,7 @@ const units = {
   },
   // 255-2
   {
+    wordNo: 255,
     word: "loose",
     meaning: "自由にして",
     sentence: "let my dog (   ) on the beach",
@@ -3799,6 +4339,7 @@ const units = {
   },
   // 256-1
   {
+    wordNo: 256,
     word: "raw",
     meaning: "生の",
     sentence: "(   ) materials",
@@ -3806,6 +4347,7 @@ const units = {
   },
   // 256-2
   {
+    wordNo: 256,
     word: "raw",
     meaning: "生魚",
     sentence: "(   ) fish",
@@ -3813,6 +4355,7 @@ const units = {
   },
   // 257-1
   {
+    wordNo: 257,
     word: "empty",
     meaning: "空の",
     sentence: "an (   ) bottle",
@@ -3820,6 +4363,7 @@ const units = {
   },
   // 257-2
   {
+    wordNo: 257,
     word: "empty",
     meaning: "空にする",
     sentence: "(   ) his glass in one gulp",
@@ -3827,6 +4371,7 @@ const units = {
   },
   // 258-1
   {
+    wordNo: 258,
     word: "smooth",
     meaning: "滑らかな",
     sentence: "This soap makes your skin very (   ).",
@@ -3834,6 +4379,7 @@ const units = {
   },
   // 258-2
   {
+    wordNo: 258,
     word: "smooth",
     meaning: "順調な",
     sentence: "the (   ) running of the company",
@@ -3841,6 +4387,7 @@ const units = {
   },
   // 258-3
   {
+    wordNo: 258,
     word: "smooth",
     meaning: "なでつける",
     sentence: "(   ) back my hair",
@@ -3848,6 +4395,7 @@ const units = {
   },
   // 259-1
   {
+    wordNo: 259,
     word: "direct",
     meaning: "直接的な",
     sentence: "a (   ) flight to Paris",
@@ -3855,6 +4403,7 @@ const units = {
   },
   // 259-2
   {
+    wordNo: 259,
     word: "direct",
     meaning: "演出する",
     sentence: "(   ) the play",
@@ -3862,6 +4411,7 @@ const units = {
   },
   // 259-3
   {
+    wordNo: 259,
     word: "direct",
     meaning: "向ける",
     sentence: "(   ) their attention to this problem",
@@ -3869,6 +4419,7 @@ const units = {
   },
   // 259-4
   {
+    wordNo: 259,
     word: "direct",
     meaning: "教える",
     sentence: "(   ) her to the airport",
@@ -3876,6 +4427,7 @@ const units = {
   },
   // 260-1
   {
+    wordNo: 260,
     word: "familiar",
     meaning: "よく知っている",
     sentence: "I am very (   ) with this town.",
@@ -3883,6 +4435,7 @@ const units = {
   },
   // 260-2
   {
+    wordNo: 260,
     word: "familiar",
     meaning: "よく知られている",
     sentence: "Shakespeare is (   ) to people all over the world.",
@@ -3890,6 +4443,7 @@ const units = {
   },
   // 261-1
   {
+    wordNo: 261,
     word: "similar",
     meaning: "似た",
     sentence: "She is (   ) to her mother in appearance.",
@@ -3897,6 +4451,7 @@ const units = {
   },
   // 262-1
   {
+    wordNo: 262,
     word: "differ",
     meaning: "異なる",
     sentence: "His tastes (   ) from mine.",
@@ -3904,6 +4459,7 @@ const units = {
   },
   // 263-1
   {
+    wordNo: 263,
     word: "varies",
     meaning: "さまざまだ",
     sentence: "The way people greet each other (   ) from country to country.",
@@ -3911,6 +4467,7 @@ const units = {
   },
   // 264-1
   {
+    wordNo: 264,
     word: "specific",
     meaning: "特定の",
     sentence: "a (   ) age group",
@@ -3918,6 +4475,7 @@ const units = {
   },
   // 264-2
   {
+    wordNo: 264,
     word: "specific",
     meaning: "明確な",
     sentence: "(   ) instructions",
@@ -3925,6 +4483,7 @@ const units = {
   },
   // 265-1
   {
+    wordNo: 265,
     word: "common",
     meaning: "普及した",
     sentence: "E-books are becoming (   ).",
@@ -3932,6 +4491,7 @@ const units = {
   },
   // 265-2
   {
+    wordNo: 265,
     word: "common",
     meaning: "共通の",
     sentence: "a (   ) ancestor",
@@ -3939,6 +4499,7 @@ const units = {
   },
   // 266-1
   {
+    wordNo: 266,
     word: "unusual",
     meaning: "珍しい",
     sentence: "These days it is not (   ) for men to wear makeup.",
@@ -3946,6 +4507,7 @@ const units = {
   },
   // 267-1
   {
+    wordNo: 267,
     word: "add",
     meaning: "加える",
     sentence: "(   ) some milk to the coffee",
@@ -3953,6 +4515,7 @@ const units = {
   },
   // 267-2
   {
+    wordNo: 267,
     word: "added",
     meaning: "増やす",
     sentence: "His chilling words (   ) to her fear.",
@@ -3960,6 +4523,7 @@ const units = {
   },
   // 268-1
   {
+    wordNo: 268,
     word: "increase",
     meaning: "増える",
     sentence: "(   ) by 30 percent",
@@ -3967,6 +4531,7 @@ const units = {
   },
   // 268-2
   {
+    wordNo: 268,
     word: "increase",
     meaning: "増やす",
     sentence: "(   ) my vocabulary",
@@ -3974,6 +4539,7 @@ const units = {
   },
   // 268-3
   {
+    wordNo: 268,
     word: "increase",
     meaning: "増加",
     sentence: "an (   ) in land prices",
@@ -3981,6 +4547,7 @@ const units = {
   },
   // 269-1
   {
+    wordNo: 269,
     word: "reduce",
     meaning: "減らす",
     sentence: "(   ) the amount of garbage",
@@ -3988,6 +4555,7 @@ const units = {
   },
   // 269-2
   {
+    wordNo: 269,
     word: "reduced",
     meaning: "陥る",
     sentence: "be (   ) to poverty",
@@ -3995,6 +4563,7 @@ const units = {
   },
   // 270-1
   {
+    wordNo: 270,
     word: "divide",
     meaning: "分割する",
     sentence: "(   ) the stew into small portions",
@@ -4002,6 +4571,7 @@ const units = {
   },
   // 270-2
   {
+    wordNo: 270,
     word: "divided",
     meaning: "割る",
     sentence: "Eight (   ) by four is two.",
@@ -4011,6 +4581,7 @@ const units = {
 271: [
   // 271-1
   {
+    wordNo: 271,
     word: "count",
     meaning: "数える",
     sentence: "(   ) the money",
@@ -4018,6 +4589,7 @@ const units = {
   },
   // 271-2
   {
+    wordNo: 271,
     word: "count",
     meaning: "重要である",
     sentence: "First impressions really (   ).",
@@ -4025,6 +4597,7 @@ const units = {
   },
   // 271-3
   {
+    wordNo: 271,
     word: "counting",
     meaning: "当てにする",
     sentence: "I'm (   ) on you.",
@@ -4032,6 +4605,7 @@ const units = {
   },
   // 272-1
   {
+    wordNo: 272,
     word: "weigh",
     meaning: "重さがある",
     sentence: "(   ) 40 kilograms",
@@ -4039,6 +4613,7 @@ const units = {
   },
   // 272-2
   {
+    wordNo: 272,
     word: "weigh",
     meaning: "体重を計る",
     sentence: "(   ) myself on the scale",
@@ -4046,6 +4621,7 @@ const units = {
   },
   // 272-3
   {
+    wordNo: 272,
     word: "weigh",
     meaning: "検討する",
     sentence: "(   ) up the benefits of the plan against the costs",
@@ -4053,6 +4629,7 @@ const units = {
   },
   // 273-1
   {
+    wordNo: 273,
     word: "quarter",
     meaning: "4分の1",
     sentence: "a (   ) to ten",
@@ -4060,6 +4637,7 @@ const units = {
   },
   // 273-2
   {
+    wordNo: 273,
     word: "quarter",
     meaning: "地域",
     sentence: "a student (   )",
@@ -4067,6 +4645,7 @@ const units = {
   },
   // 274-1
   {
+    wordNo: 274,
     word: "lot",
     meaning: "多くの〜",
     sentence: "a (   ) of dolphins",
@@ -4074,6 +4653,7 @@ const units = {
   },
   // 274-2
   {
+    wordNo: 274,
     word: "lot",
     meaning: "とても",
     sentence: "He has changed a (   ).",
@@ -4081,6 +4661,7 @@ const units = {
   },
   // 274-3
   {
+    wordNo: 274,
     word: "lot",
     meaning: "状況",
     sentence: "work hard to improve my (   )",
@@ -4088,6 +4669,7 @@ const units = {
   },
   // 274-4
   {
+    wordNo: 274,
     word: "lot",
     meaning: "駐車場",
     sentence: "a parking (   )",
@@ -4095,6 +4677,7 @@ const units = {
   },
   // 275-1
   {
+    wordNo: 275,
     word: "pile",
     meaning: "山",
     sentence: "a (   ) of ironed shirts",
@@ -4102,6 +4685,7 @@ const units = {
   },
   // 275-2
   {
+    wordNo: 275,
     word: "piles",
     meaning: "多量の仕事",
     sentence: "(   ) of work",
@@ -4109,6 +4693,7 @@ const units = {
   },
   // 275-3
   {
+    wordNo: 275,
     word: "pile",
     meaning: "盛る",
     sentence: "(   ) spaghetti onto her plate",
@@ -4116,6 +4701,7 @@ const units = {
   },
   // 276-1
   {
+    wordNo: 276,
     word: "rate",
     meaning: "割合",
     sentence: "the declining birth (   )",
@@ -4123,6 +4709,7 @@ const units = {
   },
   // 276-2
   {
+    wordNo: 276,
     word: "rates",
     meaning: "料金",
     sentence: "Our hotel offers special (   ) for children.",
@@ -4130,6 +4717,7 @@ const units = {
   },
   // 276-3
   {
+    wordNo: 276,
     word: "rate",
     meaning: "評価する",
     sentence: "(   ) him as a good poet",
@@ -4137,6 +4725,7 @@ const units = {
   },
   // 277-1
   {
+    wordNo: 277,
     word: "figures",
     meaning: "数字",
     sentence: "memorize a list of (   )",
@@ -4144,6 +4733,7 @@ const units = {
   },
   // 277-2
   {
+    wordNo: 277,
     word: "figure",
     meaning: "人物",
     sentence: "a political (   )",
@@ -4151,6 +4741,7 @@ const units = {
   },
   // 277-3
   {
+    wordNo: 277,
     word: "figure",
     meaning: "スタイル",
     sentence: "have a nice (   )",
@@ -4158,6 +4749,7 @@ const units = {
   },
   // 277-4
   {
+    wordNo: 277,
     word: "Fig.",
     meaning: "図",
     sentence: "See (   ) 1.",
@@ -4165,6 +4757,7 @@ const units = {
   },
   // 277-5
   {
+    wordNo: 277,
     word: "figures",
     meaning: "有名だ",
     sentence: "Her name (   ) in history.",
@@ -4172,6 +4765,7 @@ const units = {
   },
   // 278-1
   {
+    wordNo: 278,
     word: "lack",
     meaning: "不足",
     sentence: "I am tired due to (   ) of sleep.",
@@ -4179,6 +4773,7 @@ const units = {
   },
   // 278-2
   {
+    wordNo: 278,
     word: "lacks",
     meaning: "欠いている",
     sentence: "He (   ) confidence.",
@@ -4186,6 +4781,7 @@ const units = {
   },
   // 279-1
   {
+    wordNo: 279,
     word: "extra",
     meaning: "追加の",
     sentence: "an (   ) charge",
@@ -4193,6 +4789,7 @@ const units = {
   },
   // 279-2
   {
+    wordNo: 279,
     word: "extra",
     meaning: "余分",
     sentence: "pay a little (   )",
@@ -4200,6 +4797,7 @@ const units = {
   },
   // 280-1
   {
+    wordNo: 280,
     word: "ready",
     meaning: "用意ができている",
     sentence: "I'm not (   ) yet.",
@@ -4207,6 +4805,7 @@ const units = {
   },
   // 280-2
   {
+    wordNo: 280,
     word: "ready",
     meaning: "進んで〜する",
     sentence: "be (   ) to help us",
@@ -4214,6 +4813,7 @@ const units = {
   },
   // 281-1
   {
+    wordNo: 281,
     word: "prepare",
     meaning: "準備をする",
     sentence: "(   ) a meal",
@@ -4221,6 +4821,7 @@ const units = {
   },
   // 281-2
   {
+    wordNo: 281,
     word: "prepare",
     meaning: "備える",
     sentence: "(   ) for a powerful typhoon",
@@ -4228,6 +4829,7 @@ const units = {
   },
   // 281-3
   {
+    wordNo: 281,
     word: "prepared",
     meaning: "準備ができて",
     sentence: "I am (   ) to accept your advice.",
@@ -4235,6 +4837,7 @@ const units = {
   },
   // 282-1
   {
+    wordNo: 282,
     word: "adjust",
     meaning: "慣れる",
     sentence: "(   ) to a new school life",
@@ -4242,6 +4845,7 @@ const units = {
   },
   // 282-2
   {
+    wordNo: 282,
     word: "adjust",
     meaning: "調整する",
     sentence: "(   ) the temperature on the air conditioner",
@@ -4249,6 +4853,7 @@ const units = {
   },
   // 283-1
   {
+    wordNo: 283,
     word: "applies",
     meaning: "当てはまる",
     sentence: "That rule (   ) to students.",
@@ -4256,6 +4861,7 @@ const units = {
   },
   // 283-2
   {
+    wordNo: 283,
     word: "apply",
     meaning: "申し込む",
     sentence: "(   ) for a passport",
@@ -4263,6 +4869,7 @@ const units = {
   },
   // 283-3
   {
+    wordNo: 283,
     word: "apply",
     meaning: "応用する",
     sentence: "(   ) the technology to a wide range of fields",
@@ -4270,6 +4877,7 @@ const units = {
   },
   // 283-4
   {
+    wordNo: 283,
     word: "apply",
     meaning: "塗る",
     sentence: "(   ) enough sunscreen to my face",
@@ -4277,6 +4885,7 @@ const units = {
   },
   // 284-1
   {
+    wordNo: 284,
     word: "suits",
     meaning: "好都合だ",
     sentence: "What time (   ) you best?",
@@ -4284,6 +4893,7 @@ const units = {
   },
   // 284-2
   {
+    wordNo: 284,
     word: "suits",
     meaning: "似合う",
     sentence: "That tie (   ) you.",
@@ -4291,6 +4901,7 @@ const units = {
   },
   // 284-3
   {
+    wordNo: 284,
     word: "suit",
     meaning: "告訴",
     sentence: "file a (   ) against her",
@@ -4298,6 +4909,7 @@ const units = {
   },
   // 284-4
   {
+    wordNo: 284,
     word: "suit",
     meaning: "スーツ",
     sentence: "a three-piece (   )",
@@ -4305,6 +4917,7 @@ const units = {
   },
   // 285-1
   {
+    wordNo: 285,
     word: "cases",
     meaning: "場合",
     sentence: "In some (   ), honesty does not pay.",
@@ -4312,6 +4925,7 @@ const units = {
   },
   // 285-2
   {
+    wordNo: 285,
     word: "case",
     meaning: "事実",
     sentence: "This is the (   ) with humans.",
@@ -4319,6 +4933,7 @@ const units = {
   },
   // 285-3
   {
+    wordNo: 285,
     word: "case",
     meaning: "事件",
     sentence: "a murder (   )",
@@ -4326,6 +4941,7 @@ const units = {
   },
   // 285-4
   {
+    wordNo: 285,
     word: "cases",
     meaning: "症例",
     sentence: "new (   ) of ebola",
@@ -4333,6 +4949,7 @@ const units = {
   },
   // 285-5
   {
+    wordNo: 285,
     word: "case",
     meaning: "主張",
     sentence: "make a (   ) before the judge",
@@ -4340,6 +4957,7 @@ const units = {
   },
   // 286-1
   {
+    wordNo: 286,
     word: "scene",
     meaning: "場面",
     sentence: "a love (   )",
@@ -4347,6 +4965,7 @@ const units = {
   },
   // 286-2
   {
+    wordNo: 286,
     word: "scene",
     meaning: "現場",
     sentence: "Police cars rushed to the (   ).",
@@ -4354,6 +4973,7 @@ const units = {
   },
   // 286-3
   {
+    wordNo: 286,
     word: "scene",
     meaning: "業界",
     sentence: "the American music (   )",
@@ -4361,6 +4981,7 @@ const units = {
   },
   // 287-1
   {
+    wordNo: 287,
     word: "chance",
     meaning: "機会",
     sentence: "a (   ) to play the lead",
@@ -4368,6 +4989,7 @@ const units = {
   },
   // 287-2
   {
+    wordNo: 287,
     word: "chance",
     meaning: "可能性",
     sentence: "There is little (   ) of his winning.",
@@ -4375,6 +4997,7 @@ const units = {
   },
   // 288-1
   {
+    wordNo: 288,
     word: "opportunity",
     meaning: "機会",
     sentence: "have a golden (   ) to speak English",
@@ -4382,6 +5005,7 @@ const units = {
   },
   // 289-1
   {
+    wordNo: 289,
     word: "experience",
     meaning: "経験",
     sentence: "learn from (   )",
@@ -4389,6 +5013,7 @@ const units = {
   },
   // 289-2
   {
+    wordNo: 289,
     word: "experience",
     meaning: "経験",
     sentence: "the bitter (   ) of losing",
@@ -4396,6 +5021,7 @@ const units = {
   },
   // 289-3
   {
+    wordNo: 289,
     word: "experience",
     meaning: "経験する",
     sentence: "(   ) many hardships",
@@ -4403,6 +5029,7 @@ const units = {
   },
   // 290-1
   {
+    wordNo: 290,
     word: "time",
     meaning: "時間",
     sentence: "If you have (   ), help me.",
@@ -4410,6 +5037,7 @@ const units = {
   },
   // 290-2
   {
+    wordNo: 290,
     word: "times",
     meaning: "回",
     sentence: "change jobs many (   )",
@@ -4417,6 +5045,7 @@ const units = {
   },
   // 290-3
   {
+    wordNo: 290,
     word: "times",
     meaning: "倍",
     sentence: "This one is three (   ) as large as that one.",
@@ -4424,6 +5053,7 @@ const units = {
   },
   // 290-4
   {
+    wordNo: 290,
     word: "times",
     meaning: "時代",
     sentence: "keep up with the (   )",
@@ -4431,6 +5061,7 @@ const units = {
   },
   // 290-5
   {
+    wordNo: 290,
     word: "time",
     meaning: "次",
     sentence: "the next (   ) you come here",
@@ -4440,6 +5071,7 @@ const units = {
 291: [
   // 291-1
   {
+    wordNo: 291,
     word: "time",
     meaning: "期間",
     sentence: "wait for a long (   )",
@@ -4447,6 +5079,7 @@ const units = {
   },
   // 291-2
   {
+    wordNo: 291,
     word: "time",
     meaning: "時々",
     sentence: "from (   ) to time",
@@ -4454,6 +5087,7 @@ const units = {
   },
   // 291-3
   {
+    wordNo: 291,
     word: "time",
     meaning: "ずっと",
     sentence: "all the (   )",
@@ -4461,6 +5095,7 @@ const units = {
   },
   // 291-4
   {
+    wordNo: 291,
     word: "time",
     meaning: "やがて",
     sentence: "in (   )",
@@ -4468,6 +5103,7 @@ const units = {
   },
   // 291-5
   {
+    wordNo: 291,
     word: "time",
     meaning: "時間通りに",
     sentence: "on (   )",
@@ -4475,6 +5111,7 @@ const units = {
   },
   // 291-6
   {
+    wordNo: 291,
     word: "time",
     meaning: "時間を作る",
     sentence: "make (   ) to do",
@@ -4482,6 +5119,7 @@ const units = {
   },
   // 291-7
   {
+    wordNo: 291,
     word: "time",
     meaning: "ゆっくりやる",
     sentence: "take one's (   )",
@@ -4489,6 +5127,7 @@ const units = {
   },
   // 291-8
   {
+    wordNo: 291,
     word: "time",
     meaning: "1回に1個",
     sentence: "one at a (   )",
@@ -4496,6 +5135,7 @@ const units = {
   },
   // 291-9
   {
+    wordNo: 291,
     word: "times",
     meaning: "2倍の",
     sentence: "twice as (   )",
@@ -4503,6 +5143,7 @@ const units = {
   },
   // 292-1
   {
+    wordNo: 292,
     word: "minutes'",
     meaning: "分",
     sentence: "The station is ten (   ) walk from here.",
@@ -4510,6 +5151,7 @@ const units = {
   },
   // 292-2
   {
+    wordNo: 292,
     word: "minute",
     meaning: "ちょっと",
     sentence: "Wait a (   ).",
@@ -4517,6 +5159,7 @@ const units = {
   },
   // 292-3
   {
+    wordNo: 292,
     word: "minutes",
     meaning: "議事録",
     sentence: "take the (   ) of the meeting",
@@ -4524,6 +5167,7 @@ const units = {
   },
   // 292-4
   {
+    wordNo: 292,
     word: "minute",
     meaning: "小さな",
     sentence: "a (   ) fraction",
@@ -4531,6 +5175,7 @@ const units = {
   },
   // 292-5
   {
+    wordNo: 292,
     word: "minute",
     meaning: "瞬間に",
     sentence: "the (   ) he came in",
@@ -4538,6 +5183,7 @@ const units = {
   },
   // 293-1
   {
+    wordNo: 293,
     word: "age",
     meaning: "中年",
     sentence: "a man past middle (   )",
@@ -4545,6 +5191,7 @@ const units = {
   },
   // 293-2
   {
+    wordNo: 293,
     word: "Ages",
     meaning: "中世",
     sentence: "in the Middle (   )",
@@ -4552,6 +5199,7 @@ const units = {
   },
   // 293-3
   {
+    wordNo: 293,
     word: "ages",
     meaning: "久しぶり",
     sentence: "It's been (   ) since I saw you last.",
@@ -4559,6 +5207,7 @@ const units = {
   },
   // 293-4
   {
+    wordNo: 293,
     word: "aging",
     meaning: "高齢化",
     sentence: "an (   ) society",
@@ -4566,6 +5215,7 @@ const units = {
   },
   // 294-1
   {
+    wordNo: 294,
     word: "generation",
     meaning: "世代",
     sentence: "a (   ) gap",
@@ -4573,6 +5223,7 @@ const units = {
   },
   // 294-2
   {
+    wordNo: 294,
     word: "generation",
     meaning: "生み出すこと",
     sentence: "the (   ) of wealth",
@@ -4580,6 +5231,7 @@ const units = {
   },
   // 294-3
   {
+    wordNo: 294,
     word: "generation",
     meaning: "発電",
     sentence: "hydropower (   )",
@@ -4587,6 +5239,7 @@ const units = {
   },
   // 295-1
   {
+    wordNo: 295,
     word: "anniversary",
     meaning: "100周年",
     sentence: "celebrate our school's 100th (   )",
@@ -4594,6 +5247,7 @@ const units = {
   },
   // 296-1
   {
+    wordNo: 296,
     word: "recently",
     meaning: "最近",
     sentence: "I moved to this city just (   ).",
@@ -4601,6 +5255,7 @@ const units = {
   },
   // 297-1
   {
+    wordNo: 297,
     word: "used",
     meaning: "以前は〜だった",
     sentence: "I (   ) to drive to work, but nowadays I take the train.",
@@ -4608,6 +5263,7 @@ const units = {
   },
   // 297-2
   {
+    wordNo: 297,
     word: "used",
     meaning: "慣れている",
     sentence: "be (   ) to getting up early",
@@ -4615,6 +5271,7 @@ const units = {
   },
   // 297-3
   {
+    wordNo: 297,
     word: "used",
     meaning: "中古",
     sentence: "an (   ) car",
@@ -4622,6 +5279,7 @@ const units = {
   },
   // 298-1
   {
+    wordNo: 298,
     word: "early",
     meaning: "早く",
     sentence: "(   ) in the morning",
@@ -4629,6 +5287,7 @@ const units = {
   },
   // 298-2
   {
+    wordNo: 298,
     word: "earlier",
     meaning: "早く",
     sentence: "The bus came three minutes (   ) than usual.",
@@ -4636,6 +5295,7 @@ const units = {
   },
   // 298-3
   {
+    wordNo: 298,
     word: "early",
     meaning: "初期",
     sentence: "the (   ) works of Murakami Haruki",
@@ -4643,6 +5303,7 @@ const units = {
   },
   // 299-1
   {
+    wordNo: 299,
     word: "first",
     meaning: "1等賞",
     sentence: "win (   ) prize",
@@ -4650,6 +5311,7 @@ const units = {
   },
   // 299-2
   {
+    wordNo: 299,
     word: "first",
     meaning: "初めて",
     sentence: "I went up Tokyo Tower for the (   ) time in my life.",
@@ -4657,6 +5319,7 @@ const units = {
   },
   // 299-3
   {
+    wordNo: 299,
     word: "first",
     meaning: "初めて",
     sentence: "When I (   ) met her, she was a student.",
@@ -4664,6 +5327,7 @@ const units = {
   },
   // 299-4
   {
+    wordNo: 299,
     word: "First",
     meaning: "まず",
     sentence: "(   ), e-books are less expensive.",
@@ -4671,6 +5335,7 @@ const units = {
   },
   // 299-5
   {
+    wordNo: 299,
     word: "first",
     meaning: "最初は",
     sentence: "At (   ), I thought it was a joke, but later I realized it was true.",
@@ -4678,6 +5343,7 @@ const units = {
   },
   // 300-1
   {
+    wordNo: 300,
     word: "latest",
     meaning: "最新の",
     sentence: "follow the (   ) fashions",
@@ -4687,6 +5353,7 @@ const units = {
 301: [
   // 301-1
   {
+    wordNo: 301,
     word: "modern",
     meaning: "現代",
     sentence: "in (   ) society",
@@ -4694,6 +5361,7 @@ const units = {
   },
   // 301-2
   {
+    wordNo: 301,
     word: "modern",
     meaning: "近代的な",
     sentence: "a bright, (   ) office",
@@ -4701,6 +5369,7 @@ const units = {
   },
   // 302-1
   {
+    wordNo: 302,
     word: "ancient",
     meaning: "古代の",
     sentence: "in (   ) times",
@@ -4708,6 +5377,7 @@ const units = {
   },
   // 302-2
   {
+    wordNo: 302,
     word: "ancient",
     meaning: "古びた",
     sentence: "an (   ), worn-out coat",
@@ -4715,6 +5385,7 @@ const units = {
   },
   // 303-1
   {
+    wordNo: 303,
     word: "spend",
     meaning: "時間を費やす",
     sentence: "(   ) most of my time reading in my room with my family",
@@ -4722,6 +5393,7 @@ const units = {
   },
   // 303-2
   {
+    wordNo: 303,
     word: "spend",
     meaning: "お金を使う",
     sentence: "(   ) too much money on clothes",
@@ -4729,6 +5401,7 @@ const units = {
   },
   // 304-1
   {
+    wordNo: 304,
     word: "delayed",
     meaning: "遅らせる",
     sentence: "Our train was (   ) two hours.",
@@ -4736,6 +5409,7 @@ const units = {
   },
   // 304-2
   {
+    wordNo: 304,
     word: "delay",
     meaning: "遅れることなく",
     sentence: "without (   )",
@@ -4743,6 +5417,7 @@ const units = {
   },
   // 305-1
   {
+    wordNo: 305,
     word: "borrow",
     meaning: "〜を借りる",
     sentence: "(   ) two books from the library",
@@ -4750,6 +5425,7 @@ const units = {
   },
   // 306-1
   {
+    wordNo: 306,
     word: "lend",
     meaning: "貸す",
     sentence: "Could you (   ) me 10,000 yen?",
@@ -4757,6 +5433,7 @@ const units = {
   },
   // 306-2
   {
+    wordNo: 306,
     word: "lend",
     meaning: "貸してくれる",
     sentence: "How much will the bank (   ) me?",
@@ -4764,6 +5441,7 @@ const units = {
   },
   // 307-1
   {
+    wordNo: 307,
     word: "rent",
     meaning: "借りる",
     sentence: "(   ) a car for six hours",
@@ -4771,6 +5449,7 @@ const units = {
   },
   // 307-2
   {
+    wordNo: 307,
     word: "rents",
     meaning: "賃貸しする",
     sentence: "She (   ) out three rooms to students.",
@@ -4778,6 +5457,7 @@ const units = {
   },
   // 307-3
   {
+    wordNo: 307,
     word: "rent",
     meaning: "家賃",
     sentence: "pay a high (   )",
@@ -4785,6 +5465,7 @@ const units = {
   },
   // 308-1
   {
+    wordNo: 308,
     word: "provide",
     meaning: "〜を供給する，与える",
     sentence: "(   ) students with an opportunity to study in the U.K.",
@@ -4792,6 +5473,7 @@ const units = {
   },
   // 309-1
   {
+    wordNo: 309,
     word: "board",
     meaning: "板",
     sentence: "drill a hole through a (   )",
@@ -4799,6 +5481,7 @@ const units = {
   },
   // 309-2
   {
+    wordNo: 309,
     word: "board",
     meaning: "委員会",
     sentence: "a (   ) of education",
@@ -4806,6 +5489,7 @@ const units = {
   },
   // 309-3
   {
+    wordNo: 309,
     word: "board",
     meaning: "乗る",
     sentence: "(   ) a bus",
@@ -4813,6 +5497,7 @@ const units = {
   },
   // 310-1
   {
+    wordNo: 310,
     word: "garbage",
     meaning: "ごみ",
     sentence: "plastic (   ) bags",
@@ -4820,6 +5505,7 @@ const units = {
   },
   // 311-1
   {
+    wordNo: 311,
     word: "items",
     meaning: "品物",
     sentence: "buy (   ) on sale",
@@ -4827,6 +5513,7 @@ const units = {
   },
   // 311-2
   {
+    wordNo: 311,
     word: "item",
     meaning: "ニュース",
     sentence: "a news (   ) about the village",
@@ -4834,6 +5521,7 @@ const units = {
   },
   // 311-3
   {
+    wordNo: 311,
     word: "items",
     meaning: "項目",
     sentence: "check all the (   ) on the list",
@@ -4841,6 +5529,7 @@ const units = {
   },
   // 312-1
   {
+    wordNo: 312,
     word: "wheel",
     meaning: "車輪",
     sentence: "the front (   ) of my bicycle",
@@ -4848,6 +5537,7 @@ const units = {
   },
   // 312-2
   {
+    wordNo: 312,
     word: "wheel",
     meaning: "ハンドル",
     sentence: "sit at the (   )",
@@ -4855,6 +5545,7 @@ const units = {
   },
   // 312-3
   {
+    wordNo: 312,
     word: "wheel",
     meaning: "動かす",
     sentence: "(   ) a cart",
@@ -4862,6 +5553,7 @@ const units = {
   },
   // 313-1
   {
+    wordNo: 313,
     word: "notes",
     meaning: "メモ",
     sentence: "take (   ) in class",
@@ -4869,6 +5561,7 @@ const units = {
   },
   // 313-2
   {
+    wordNo: 313,
     word: "note",
     meaning: "紙幣",
     sentence: "a 50-pound (   )",
@@ -4876,6 +5569,7 @@ const units = {
   },
   // 313-3
   {
+    wordNo: 313,
     word: "note",
     meaning: "指摘する",
     sentence: "(   ) that we face a real challenge",
@@ -4883,6 +5577,7 @@ const units = {
   },
   // 313-4
   {
+    wordNo: 313,
     word: "note",
     meaning: "注意して",
     sentence: "Please (   ) that the homework is due on Friday.",
@@ -4890,6 +5585,7 @@ const units = {
   },
   // 314-1
   {
+    wordNo: 314,
     word: "present",
     meaning: "プレゼント",
     sentence: "open the (   )",
@@ -4897,6 +5593,7 @@ const units = {
   },
   // 314-2
   {
+    wordNo: 314,
     word: "present",
     meaning: "現在",
     sentence: "up to the (   )",
@@ -4904,6 +5601,7 @@ const units = {
   },
   // 314-3
   {
+    wordNo: 314,
     word: "present",
     meaning: "出席者",
     sentence: "those (   )",
@@ -4911,6 +5609,7 @@ const units = {
   },
   // 314-4
   {
+    wordNo: 314,
     word: "present",
     meaning: "今の",
     sentence: "my (   ) job",
@@ -4918,6 +5617,7 @@ const units = {
   },
   // 314-5
   {
+    wordNo: 314,
     word: "present",
     meaning: "贈る",
     sentence: "(   ) him with an award",
@@ -4925,6 +5625,7 @@ const units = {
   },
   // 315-1
   {
+    wordNo: 315,
     word: "bargain",
     meaning: "お買い得品",
     sentence: "find a good (   )",
@@ -4932,6 +5633,7 @@ const units = {
   },
   // 315-2
   {
+    wordNo: 315,
     word: "bargain",
     meaning: "交渉する",
     sentence: "(   ) for better pay",
@@ -4939,6 +5641,7 @@ const units = {
   },
   // 316-1
   {
+    wordNo: 316,
     word: "stuff",
     meaning: "物",
     sentence: "lift heavy (   )",
@@ -4946,6 +5649,7 @@ const units = {
   },
   // 316-2
   {
+    wordNo: 316,
     word: "stuffed",
     meaning: "詰められた",
     sentence: "chicken (   ) with rice",
@@ -4953,6 +5657,7 @@ const units = {
   },
   // 317-1
   {
+    wordNo: 317,
     word: "string",
     meaning: "ひも",
     sentence: "tie up the box with some (   )",
@@ -4960,6 +5665,7 @@ const units = {
   },
   // 317-2
   {
+    wordNo: 317,
     word: "string",
     meaning: "一連の",
     sentence: "a (   ) of questions",
@@ -4967,6 +5673,7 @@ const units = {
   },
   // 317-3
   {
+    wordNo: 317,
     word: "string",
     meaning: "弦",
     sentence: "a six-(   ) guitar",
@@ -4974,6 +5681,7 @@ const units = {
   },
   // 318-1
   {
+    wordNo: 318,
     word: "leisure",
     meaning: "余暇",
     sentence: "enjoy my (   ) time",
@@ -4981,6 +5689,7 @@ const units = {
   },
   // 318-2
   {
+    wordNo: 318,
     word: "leisure",
     meaning: "産業",
     sentence: "the (   ) industry",
@@ -4988,6 +5697,7 @@ const units = {
   },
   // 319-1
   {
+    wordNo: 319,
     word: "diet",
     meaning: "食事",
     sentence: "a well-balanced (   )",
@@ -4995,6 +5705,7 @@ const units = {
   },
   // 319-2
   {
+    wordNo: 319,
     word: "diet",
     meaning: "ダイエット",
     sentence: "I am on a (   ) now.",
@@ -5002,6 +5713,7 @@ const units = {
   },
   // 319-3
   {
+    wordNo: 319,
     word: "Diet",
     meaning: "国会",
     sentence: "a (   ) member",
@@ -5009,6 +5721,7 @@ const units = {
   },
   // 320-1
   {
+    wordNo: 320,
     word: "furniture",
     meaning: "家具",
     sentence: "a set of (   )",
@@ -5016,6 +5729,7 @@ const units = {
   },
   // 321-1
   {
+    wordNo: 321,
     word: "refrigerator",
     meaning: "冷蔵庫",
     sentence: "put the leftovers in the (   )",
@@ -5023,6 +5737,7 @@ const units = {
   },
   // 322-1
   {
+    wordNo: 322,
     word: "traffic",
     meaning: "車",
     sentence: "There is little (   ) on the street today.",
@@ -5030,6 +5745,7 @@ const units = {
   },
   // 323-1
   {
+    wordNo: 323,
     word: "sold",
     meaning: "売る",
     sentence: "We (   ) our car for 500,000 yen.",
@@ -5037,6 +5753,7 @@ const units = {
   },
   // 323-2
   {
+    wordNo: 323,
     word: "sell",
     meaning: "売れる",
     sentence: "Her books (   ) very well.",
@@ -5044,6 +5761,7 @@ const units = {
   },
   // 324-1
   {
+    wordNo: 324,
     word: "pay",
     meaning: "支払う",
     sentence: "(   ) five dollars for the book",
@@ -5051,6 +5769,7 @@ const units = {
   },
   // 324-2
   {
+    wordNo: 324,
     word: "pay",
     meaning: "部屋代を払う",
     sentence: "(   ) for the room",
@@ -5058,6 +5777,7 @@ const units = {
   },
   // 324-3
   {
+    wordNo: 324,
     word: "pay",
     meaning: "割に合わない",
     sentence: "Honesty does not (   ).",
@@ -5065,6 +5785,7 @@ const units = {
   },
   // 324-4
   {
+    wordNo: 324,
     word: "pay",
     meaning: "有給休暇",
     sentence: "have a vacation with (   )",
@@ -5072,6 +5793,7 @@ const units = {
   },
   // 325-1
   {
+    wordNo: 325,
     word: "wear",
     meaning: "をつけている",
     sentence: "I (   ) contact lenses.",
@@ -5079,6 +5801,7 @@ const units = {
   },
   // 325-2
   {
+    wordNo: 325,
     word: "wearing",
     meaning: "をつけている",
     sentence: "I am (   ) contact lenses.",
@@ -5086,6 +5809,7 @@ const units = {
   },
   // 325-3
   {
+    wordNo: 325,
     word: "worn",
     meaning: "すり切れている",
     sentence: "My shirt is badly (   ).",
@@ -5093,6 +5817,7 @@ const units = {
   },
   // 325-4
   {
+    wordNo: 325,
     word: "wear",
     meaning: "すり減る",
     sentence: "The carpet is starting to (   ) a little.",
@@ -5100,6 +5825,7 @@ const units = {
   },
   // 327-1
   {
+    wordNo: 327,
     word: "marry",
     meaning: "〜と結婚する",
     sentence: "Will you (   ) me?",
@@ -5107,6 +5833,7 @@ const units = {
   },
   // 327-2
   {
+    wordNo: 327,
     word: "married",
     meaning: "夫婦",
     sentence: "a (   ) couple",
@@ -5114,6 +5841,7 @@ const units = {
   },
   // 328-1
   {
+    wordNo: 328,
     word: "greet",
     meaning: "〜に挨拶をする",
     sentence: "(   ) each other",
@@ -5121,6 +5849,7 @@ const units = {
   },
   // 329-1
   {
+    wordNo: 329,
     word: "order",
     meaning: "〜を注文する",
     sentence: "(   ) rice directly from the farm",
@@ -5128,6 +5857,7 @@ const units = {
   },
   // 329-2
   {
+    wordNo: 329,
     word: "order",
     meaning: "命令する",
     sentence: "(   ) him to stop smoking",
@@ -5135,6 +5865,7 @@ const units = {
   },
   // 329-3
   {
+    wordNo: 329,
     word: "order",
     meaning: "注文",
     sentence: "place an (   ) by telephone",
@@ -5142,6 +5873,7 @@ const units = {
   },
   // 329-4
   {
+    wordNo: 329,
     word: "order",
     meaning: "命令",
     sentence: "obey an (   )",
@@ -5149,6 +5881,7 @@ const units = {
   },
   // 329-5
   {
+    wordNo: 329,
     word: "order",
     meaning: "順で",
     sentence: "in alphabetical (   )",
@@ -5156,6 +5889,7 @@ const units = {
   },
   // 329-6
   {
+    wordNo: 329,
     word: "order",
     meaning: "秩序",
     sentence: "maintain peace and (   )",
@@ -5163,6 +5897,7 @@ const units = {
   },
   // 330-1
   {
+    wordNo: 330,
     word: "book",
     meaning: "〜を予約する",
     sentence: "(   ) a single room for two nights",
@@ -5170,6 +5905,7 @@ const units = {
   },
   // 330-2
   {
+    wordNo: 330,
     word: "room",
     meaning: "別腹",
     sentence: "have (   ) for dessert",
@@ -5179,6 +5915,7 @@ const units = {
 331: [
   // 331-1
   {
+    wordNo: 331,
     word: "story",
     meaning: "階",
     sentence: "a two-hundred-(   ) skyscraper",
@@ -5186,6 +5923,7 @@ const units = {
   },
   // 332-1
   {
+    wordNo: 332,
     word: "site",
     meaning: "用地",
     sentence: "a dam (   ) ( = site for a dam)",
@@ -5193,6 +5931,7 @@ const units = {
   },
   // 332-2
   {
+    wordNo: 332,
     word: "site",
     meaning: "現場",
     sentence: "a construction (   )",
@@ -5200,6 +5939,7 @@ const units = {
   },
   // 332-3
   {
+    wordNo: 332,
     word: "site",
     meaning: "跡",
     sentence: "the (   ) of the Battle of Sekigahara",
@@ -5207,6 +5947,7 @@ const units = {
   },
   // 333-1
   {
+    wordNo: 333,
     word: "yard",
     meaning: "庭",
     sentence: "mow the lawn in our (   )",
@@ -5214,6 +5955,7 @@ const units = {
   },
   // 333-2
   {
+    wordNo: 333,
     word: "yards",
     meaning: "ヤード",
     sentence: "drive a golf ball over 300 (   )",
@@ -5221,6 +5963,7 @@ const units = {
   },
   // 334-1
   {
+    wordNo: 334,
     word: "bottom",
     meaning: "海底",
     sentence: "the (   ) of the sea",
@@ -5228,6 +5971,7 @@ const units = {
   },
   // 334-2
   {
+    wordNo: 334,
     word: "bottom",
     meaning: "下",
     sentence: "Look at the (   ) of page 10.",
@@ -5235,6 +5979,7 @@ const units = {
   },
   // 334-3
   {
+    wordNo: 334,
     word: "bottom",
     meaning: "尻",
     sentence: "fall on my (   )",
@@ -5242,6 +5987,7 @@ const units = {
   },
   // 335-1
   {
+    wordNo: 335,
     word: "line",
     meaning: "列",
     sentence: "stand in (   )",
@@ -5249,6 +5995,7 @@ const units = {
   },
   // 335-2
   {
+    wordNo: 335,
     word: "line",
     meaning: "サインする",
     sentence: "sign on the dotted (   )",
@@ -5256,6 +6003,7 @@ const units = {
   },
   // 335-3
   {
+    wordNo: 335,
     word: "line",
     meaning: "お話し中",
     sentence: "The (   ) is busy.",
@@ -5263,6 +6011,7 @@ const units = {
   },
   // 335-4
   {
+    wordNo: 335,
     word: "lines",
     meaning: "セリフ",
     sentence: "practice my (   ) over and over",
@@ -5270,6 +6019,7 @@ const units = {
   },
   // 335-5
   {
+    wordNo: 335,
     word: "line",
     meaning: "行列を作る",
     sentence: "(   ) up to buy tickets",
@@ -5277,6 +6027,7 @@ const units = {
   },
   // 336-1
   {
+    wordNo: 336,
     word: "row",
     meaning: "列",
     sentence: "the people sitting in the back (   )",
@@ -5284,6 +6035,7 @@ const units = {
   },
   // 336-2
   {
+    wordNo: 336,
     word: "row",
     meaning: "こぐ",
     sentence: "(   ) a boat on the lake",
@@ -5291,6 +6043,7 @@ const units = {
   },
   // 337-1
   {
+    wordNo: 337,
     word: "background",
     meaning: "背景",
     sentence: "Classical music was playing in the (   ).",
@@ -5298,6 +6051,7 @@ const units = {
   },
   // 337-2
   {
+    wordNo: 337,
     word: "backgrounds",
     meaning: "経歴",
     sentence: "people from different (   )",
@@ -5305,6 +6059,7 @@ const units = {
   },
   // 338-1
   {
+    wordNo: 338,
     word: "direction",
     meaning: "方向",
     sentence: "go in the opposite (   )",
@@ -5312,6 +6067,7 @@ const units = {
   },
   // 338-2
   {
+    wordNo: 338,
     word: "directions",
     meaning: "道順",
     sentence: "ask for (   )",
@@ -5319,6 +6075,7 @@ const units = {
   },
   // 338-3
   {
+    wordNo: 338,
     word: "direction",
     meaning: "指揮",
     sentence: "under his (   )",
@@ -5326,6 +6083,7 @@ const units = {
   },
   // 339-1
   {
+    wordNo: 339,
     word: "cultures",
     meaning: "文化",
     sentence: "various foreign (   )",
@@ -5333,6 +6091,7 @@ const units = {
   },
   // 339-2
   {
+    wordNo: 339,
     word: "culture",
     meaning: "培養",
     sentence: "a (   ) of bacteria",
@@ -5340,6 +6099,7 @@ const units = {
   },
   // 339-3
   {
+    wordNo: 339,
     word: "culture",
     meaning: "教養",
     sentence: "a woman of (   )",
@@ -5347,6 +6107,7 @@ const units = {
   },
   // 339-4
   {
+    wordNo: 339,
     word: "cultured",
     meaning: "養殖",
     sentence: "(   ) pearls",
@@ -5354,6 +6115,7 @@ const units = {
   },
   // 340-1
   {
+    wordNo: 340,
     word: "art",
     meaning: "芸術",
     sentence: "works of modern (   )",
@@ -5361,6 +6123,7 @@ const units = {
   },
   // 340-2
   {
+    wordNo: 340,
     word: "art",
     meaning: "技術",
     sentence: "the (   ) of conversation",
@@ -5368,6 +6131,7 @@ const units = {
   },
   // 340-3
   {
+    wordNo: 340,
     word: "arts",
     meaning: "一般教養",
     sentence: "a liberal (   ) course",
@@ -5375,6 +6139,7 @@ const units = {
   },
   // 341-1
   {
+    wordNo: 341,
     word: "cartoons",
     meaning: "漫画",
     sentence: "Japanese animated (   )",
@@ -5382,6 +6147,7 @@ const units = {
   },
   // 342-1
   {
+    wordNo: 342,
     word: "plot",
     meaning: "あらすじ",
     sentence: "the (   ) of this novel",
@@ -5389,6 +6155,7 @@ const units = {
   },
   // 342-2
   {
+    wordNo: 342,
     word: "novel",
     meaning: "斬新な",
     sentence: "come up with a (   ) idea",
@@ -5396,6 +6163,7 @@ const units = {
   },
   // 343-1
   {
+    wordNo: 343,
     word: "instrument",
     meaning: "楽器",
     sentence: "play a musical (   )",
@@ -5403,6 +6171,7 @@ const units = {
   },
   // 343-2
   {
+    wordNo: 343,
     word: "instrument",
     meaning: "器具",
     sentence: "a medical (   )",
@@ -5410,6 +6179,7 @@ const units = {
   },
   // 344-1
   {
+    wordNo: 344,
     word: "tune",
     meaning: "曲",
     sentence: "That is a nice (   ).",
@@ -5417,6 +6187,7 @@ const units = {
   },
   // 344-2
   {
+    wordNo: 344,
     word: "tune",
     meaning: "チャンネルを合わせる",
     sentence: "(   ) in to channel 6",
@@ -5424,6 +6195,7 @@ const units = {
   },
   // 344-3
   {
+    wordNo: 344,
     word: "tune",
     meaning: "調律する",
     sentence: "(   ) the piano",
@@ -5431,6 +6203,7 @@ const units = {
   },
   // 345-1
   {
+    wordNo: 345,
     word: "sentence",
     meaning: "文",
     sentence: "delete the (   )",
@@ -5438,6 +6211,7 @@ const units = {
   },
   // 345-2
   {
+    wordNo: 345,
     word: "sentence",
     meaning: "判決",
     sentence: "be given the death (   )",
@@ -5445,6 +6219,7 @@ const units = {
   },
   // 345-3
   {
+    wordNo: 345,
     word: "sentenced",
     meaning: "判決を下される",
     sentence: "be (   ) to five years in prison",
@@ -5452,6 +6227,7 @@ const units = {
   },
   // 346-1
   {
+    wordNo: 346,
     word: "article",
     meaning: "記事",
     sentence: "a magazine (   ) on Portugal",
@@ -5459,6 +6235,7 @@ const units = {
   },
   // 346-2
   {
+    wordNo: 346,
     word: "article",
     meaning: "品物",
     sentence: "an (   ) of furniture",
@@ -5466,6 +6243,7 @@ const units = {
   },
   // 346-3
   {
+    wordNo: 346,
     word: "article",
     meaning: "冠詞",
     sentence: "This word takes no (   ).",
@@ -5473,6 +6251,7 @@ const units = {
   },
   // 346-4
   {
+    wordNo: 346,
     word: "Article",
     meaning: "条項",
     sentence: "(   ) 9 of the Japanese Constitution",
@@ -5480,6 +6259,7 @@ const units = {
   },
   // 347-1
   {
+    wordNo: 347,
     word: "passage",
     meaning: "一節",
     sentence: "a famous (   ) from the Bible",
@@ -5487,6 +6267,7 @@ const units = {
   },
   // 347-2
   {
+    wordNo: 347,
     word: "passage",
     meaning: "経過",
     sentence: "with the (   ) of time",
@@ -5494,6 +6275,7 @@ const units = {
   },
   // 348-1
   {
+    wordNo: 348,
     word: "vocabulary",
     meaning: "語彙",
     sentence: "increase my (   )",
@@ -5501,6 +6283,7 @@ const units = {
   },
   // 349-1
   {
+    wordNo: 349,
     word: "Rumors",
     meaning: "うわさ",
     sentence: "(   ) about him spread throughout the school.",
@@ -5508,6 +6291,7 @@ const units = {
   },
   // 350-1
   {
+    wordNo: 350,
     word: "spell",
     meaning: "綴る",
     sentence: "How do you (   ) your name?",
@@ -5515,6 +6299,7 @@ const units = {
   },
   // 350-2
   {
+    wordNo: 350,
     word: "spell",
     meaning: "呪文",
     sentence: "cast a (   ) on the man",
@@ -5522,6 +6307,7 @@ const units = {
   },
   // 350-3
   {
+    wordNo: 350,
     word: "spell",
     meaning: "期間",
     sentence: "I've had a (   ) of bad luck recently.",
@@ -5529,6 +6315,7 @@ const units = {
   },
   // 351-1
   {
+    wordNo: 351,
     word: "pronounce",
     meaning: "発音する",
     sentence: "How do you (   ) your name?",
@@ -5536,6 +6323,7 @@ const units = {
   },
   // 351-2
   {
+    wordNo: 351,
     word: "pronounce",
     meaning: "宣告する",
     sentence: "(   ) a sentence",
@@ -5543,6 +6331,7 @@ const units = {
   },
   // 352-1
   {
+    wordNo: 352,
     word: "signs",
     meaning: "兆候",
     sentence: "show (   ) of recovery",
@@ -5550,6 +6339,7 @@ const units = {
   },
   // 352-2
   {
+    wordNo: 352,
     word: "sign",
     meaning: "看板",
     sentence: "a (   ) saying \"No more Hiroshimas\"",
@@ -5557,6 +6347,7 @@ const units = {
   },
   // 352-3
   {
+    wordNo: 352,
     word: "sign",
     meaning: "署名する",
     sentence: "(   ) an autograph for a fan",
@@ -5564,6 +6355,7 @@ const units = {
   },
   // 353-1
   {
+    wordNo: 353,
     word: "mean",
     meaning: "意味する",
     sentence: "What does that (   )?",
@@ -5571,6 +6363,7 @@ const units = {
   },
   // 353-2
   {
+    wordNo: 353,
     word: "mean",
     meaning: "つもりだ",
     sentence: "I didn't (   ) to bother you.",
@@ -5578,6 +6371,7 @@ const units = {
   },
   // 353-3
   {
+    wordNo: 353,
     word: "mean",
     meaning: "意地悪な",
     sentence: "Don't be so (   ).",
@@ -5585,6 +6379,7 @@ const units = {
   },
   // 354-1
   {
+    wordNo: 354,
     word: "published",
     meaning: "発行される",
     sentence: "This magazine is (   ) twice a year.",
@@ -5592,6 +6387,7 @@ const units = {
   },
   // 354-2
   {
+    wordNo: 354,
     word: "published",
     meaning: "発表される",
     sentence: "The latest results will be (   ) tomorrow.",
@@ -5601,6 +6397,7 @@ const units = {
 355: [
   // 355-1
   {
+    wordNo: 355,
     word: "display",
     meaning: "〜を展示する",
     sentence: "(   ) the latest fashions",
@@ -5608,6 +6405,7 @@ const units = {
   },
   // 355-2
   {
+    wordNo: 355,
     word: "display",
     meaning: "（実力など）を発揮する",
     sentence: "(   ) my real ability",
@@ -5615,6 +6413,7 @@ const units = {
   },
   // 355-3
   {
+    wordNo: 355,
     word: "display",
     meaning: "〜を誇示する",
     sentence: "(   ) my jewelry",
@@ -5622,6 +6421,7 @@ const units = {
   },
   // 355-4
   {
+    wordNo: 355,
     word: "display",
     meaning: "展示，表現",
     sentence: "a fireworks (   )",
@@ -5629,6 +6429,7 @@ const units = {
   },
   // 356-1
   {
+    wordNo: 356,
     word: "trust",
     meaning: "〜を信頼する",
     sentence: "You can (   ) him; he keeps secrets.",
@@ -5636,6 +6437,7 @@ const units = {
   },
   // 356-2
   {
+    wordNo: 356,
     word: "trust",
     meaning: "信頼，信用",
     sentence: "put my (   ) in her",
@@ -5643,6 +6445,7 @@ const units = {
   },
   // 357-1
   {
+    wordNo: 357,
     word: "depends",
     meaning: "〜次第である",
     sentence: "Your success (   ) on how much effort you make.",
@@ -5650,6 +6453,7 @@ const units = {
   },
   // 357-2
   {
+    wordNo: 357,
     word: "depend",
     meaning: "（〜に）頼る",
     sentence: "I (   ) on my parents for university tuition.",
@@ -5657,6 +6461,7 @@ const units = {
   },
   // 358-1
   {
+    wordNo: 358,
     word: "rely",
     meaning: "（〜に）頼る",
     sentence: "You can (   ) on him.",
@@ -5664,6 +6469,7 @@ const units = {
   },
   // 359-1
   {
+    wordNo: 359,
     word: "pray",
     meaning: "祈る",
     sentence: "(   ) for her safety",
@@ -5671,6 +6477,7 @@ const units = {
   },
   // 360-1
   {
+    wordNo: 360,
     word: "beg",
     meaning: "〜を嘆願する",
     sentence: "(   ) her to overlook my mistakes",
@@ -5678,6 +6485,7 @@ const units = {
   },
   // 360-2
   {
+    wordNo: 360,
     word: "beg",
     meaning: "求める",
     sentence: "(   ) for something to eat",
@@ -5685,6 +6493,7 @@ const units = {
   },
   // 361-1
   {
+    wordNo: 361,
     word: "prefer",
     meaning: "（BよりA）を好む",
     sentence: "(   ) beef to chicken",
@@ -5692,6 +6501,7 @@ const units = {
   },
   // 362-1
   {
+    wordNo: 362,
     word: "wept",
     meaning: "（しくしく）泣く",
     sentence: "All America (   ).",
@@ -5699,6 +6509,7 @@ const units = {
   },
   // 363-1
   {
+    wordNo: 363,
     word: "hate",
     meaning: "〜を嫌う",
     sentence: "(   ) doing housework",
@@ -5706,6 +6517,7 @@ const units = {
   },
   // 364-1
   {
+    wordNo: 364,
     word: "worry",
     meaning: "心配する",
     sentence: "Don't (   ) about it.",
@@ -5713,6 +6525,7 @@ const units = {
   },
   // 364-2
   {
+    wordNo: 364,
     word: "worries",
     meaning: "心配（事）",
     sentence: "Life is full of (   ).",
@@ -5720,6 +6533,7 @@ const units = {
   },
   // 365-1
   {
+    wordNo: 365,
     word: "anxious",
     meaning: "（〜を）心配して",
     sentence: "I'm (   ) about her health.",
@@ -5727,6 +6541,7 @@ const units = {
   },
   // 365-2
   {
+    wordNo: 365,
     word: "anxious",
     meaning: "（〜を）切望して",
     sentence: "Ben is (   ) to see you.",
@@ -5734,6 +6549,7 @@ const units = {
   },
   // 366-1
   {
+    wordNo: 366,
     word: "satisfied",
     meaning: "〜を満足させる",
     sentence: "I'm not (   ) with the exam result.",
@@ -5741,6 +6557,7 @@ const units = {
   },
   // 366-2
   {
+    wordNo: 366,
     word: "satisfy",
     meaning: "（必要条件などを）満たす",
     sentence: "(   ) the needs of tourists",
@@ -5748,6 +6565,7 @@ const units = {
   },
   // 367-1
   {
+    wordNo: 367,
     word: "annoys",
     meaning: "〜をわずらわせる",
     sentence: "It really (   ) me when I see people smoking while (they are) walking.",
@@ -5755,6 +6573,7 @@ const units = {
   },
   // 368-1
   {
+    wordNo: 368,
     word: "bother",
     meaning: "〜に面倒をかける",
     sentence: "I'm sorry to (   ) you, but could you give me a hand?",
@@ -5762,6 +6581,7 @@ const units = {
   },
   // 368-2
   {
+    wordNo: 368,
     word: "bother",
     meaning: "（〜することを）わざわざする",
     sentence: "Don't (   ) to gift-wrap it.",
@@ -5769,6 +6589,7 @@ const units = {
   },
   // 368-3
   {
+    wordNo: 368,
     word: "bother",
     meaning: "面倒なこと",
     sentence: "find it a (   ) to go out in the rain",
@@ -5776,6 +6597,7 @@ const units = {
   },
   // 369-1
   {
+    wordNo: 369,
     word: "disturb",
     meaning: "（うるさくして）〜に迷惑をかける",
     sentence: "Don't (   ) other people.",
@@ -5783,6 +6605,7 @@ const units = {
   },
   // 369-2
   {
+    wordNo: 369,
     word: "disturb",
     meaning: "（平和などを）乱す",
     sentence: "(   ) my sleep [concentration]",
@@ -5790,6 +6613,7 @@ const units = {
   },
   // 370-1
   {
+    wordNo: 370,
     word: "frightened",
     meaning: "〜を怯えさせる",
     sentence: "I am (   ) of spiders.",
@@ -5797,6 +6621,7 @@ const units = {
   },
   // 371-1
   {
+    wordNo: 371,
     word: "regret",
     meaning: "〜を後悔する",
     sentence: "I (   ) that I did not study hard in my teens.",
@@ -5804,6 +6629,7 @@ const units = {
   },
   // 371-2
   {
+    wordNo: 371,
     word: "regret",
     meaning: "（〜することを）残念に思う",
     sentence: "I (   ) to say that I cannot help you.",
@@ -5811,6 +6637,7 @@ const units = {
   },
   // 371-3
   {
+    wordNo: 371,
     word: "regrets",
     meaning: "後悔",
     sentence: "I have no (   ).",
@@ -5818,6 +6645,7 @@ const units = {
   },
   // 372-1
   {
+    wordNo: 372,
     word: "favors",
     meaning: "親切な行為",
     sentence: "Could you do me a couple of (   )?",
@@ -5825,6 +6653,7 @@ const units = {
   },
   // 372-2
   {
+    wordNo: 372,
     word: "favor",
     meaning: "支持",
     sentence: "be in (   ) of his proposal",
@@ -5832,6 +6661,7 @@ const units = {
   },
   // 373-1
   {
+    wordNo: 373,
     word: "interest",
     meaning: "関心",
     sentence: "have [show] an (   ) in history",
@@ -5839,6 +6669,7 @@ const units = {
   },
   // 373-2
   {
+    wordNo: 373,
     word: "interests",
     meaning: "利益",
     sentence: "It is in your best (   ) to stay with your grandparents.",
@@ -5846,6 +6677,7 @@ const units = {
   },
   // 373-3
   {
+    wordNo: 373,
     word: "interest",
     meaning: "利子",
     sentence: "the (   ) on a loan",
@@ -5853,6 +6685,7 @@ const units = {
   },
   // 374-1
   {
+    wordNo: 374,
     word: "pity",
     meaning: "残念なこと",
     sentence: "It is a (   ) that you missed the movie.",
@@ -5860,6 +6693,7 @@ const units = {
   },
   // 374-2
   {
+    wordNo: 374,
     word: "pity",
     meaning: "哀れみ",
     sentence: "feel (   ) for the child",
@@ -5867,6 +6701,7 @@ const units = {
   },
   // 375-1
   {
+    wordNo: 375,
     word: "due to",
     meaning: "〜が原因で",
     sentence: "Our flight was delayed (   ) the storm.",
@@ -5874,6 +6709,7 @@ const units = {
   },
   // 375-2
   {
+    wordNo: 375,
     word: "due",
     meaning: "締め切りの",
     sentence: "The report is (   ) on Monday.",
@@ -5881,6 +6717,7 @@ const units = {
   },
   // 375-3
   {
+    wordNo: 375,
     word: "due",
     meaning: "到着予定の",
     sentence: "The train is (   ) to arrive at 9:00.",
@@ -5888,6 +6725,7 @@ const units = {
   },
   // 376-1
   {
+    wordNo: 376,
     word: "reasons",
     meaning: "理由",
     sentence: "agree with his opinion for the following (   )",
@@ -5895,6 +6733,7 @@ const units = {
   },
   // 376-2
   {
+    wordNo: 376,
     word: "reason",
     meaning: "理性",
     sentence: "(   ) and emotion",
@@ -5902,6 +6741,7 @@ const units = {
   },
   // 376-3
   {
+    wordNo: 376,
     word: "reasoned",
     meaning: "〜を推論する",
     sentence: "He (   ) that he must have left his bag on the bus.",
@@ -5909,6 +6749,7 @@ const units = {
   },
   // 376-4
   {
+    wordNo: 376,
     word: "reason",
     meaning: "思考する",
     sentence: "have the ability to (   )",
@@ -5916,6 +6757,7 @@ const units = {
   },
   // 377-1
   {
+    wordNo: 377,
     word: "result",
     meaning: "結果",
     sentence: "as a (   ) of inflation",
@@ -5923,6 +6765,7 @@ const units = {
   },
   // 377-2
   {
+    wordNo: 377,
     word: "resulted",
     meaning: "（〜という結果に）なる",
     sentence: "The project (   ) in success.",
@@ -5930,6 +6773,7 @@ const units = {
   },
   // 377-3
   {
+    wordNo: 377,
     word: "resulted",
     meaning: "（〜の結果として）起こる",
     sentence: "Serious damage (   ) from the earthquake.",
@@ -5937,6 +6781,7 @@ const units = {
   },
   // 378-1
   {
+    wordNo: 378,
     word: "effect",
     meaning: "効果，影響",
     sentence: "Drinking too much has a bad (   ) on the brain.",
@@ -5944,6 +6789,7 @@ const units = {
   },
   // 379-1
   {
+    wordNo: 379,
     word: "influence",
     meaning: "影響（力）",
     sentence: "have a strong (   ) on them",
@@ -5951,6 +6797,7 @@ const units = {
   },
   // 379-2
   {
+    wordNo: 379,
     word: "influenced",
     meaning: "〜に影響を与える",
     sentence: "This book deeply (   ) my way of thinking.",
@@ -5958,6 +6805,7 @@ const units = {
   },
   // 380-1
   {
+    wordNo: 380,
     word: "ended up",
     meaning: "結局〜することになる",
     sentence: "We (   ) spending the night at the airport.",
@@ -5965,6 +6813,7 @@ const units = {
   },
   // 380-2
   {
+    wordNo: 380,
     word: "end",
     meaning: "終わり",
     sentence: "at the (   ) of May",
@@ -5972,6 +6821,7 @@ const units = {
   },
   // 380-3
   {
+    wordNo: 380,
     word: "end",
     meaning: "目的",
     sentence: "a means to an (   )",
@@ -5979,6 +6829,7 @@ const units = {
   },
   // 381-1
   {
+    wordNo: 381,
     word: "cause",
     meaning: "〜を引き起こす",
     sentence: "(   ) trouble",
@@ -5986,6 +6837,7 @@ const units = {
   },
   // 381-2
   {
+    wordNo: 381,
     word: "cause",
     meaning: "原因",
     sentence: "the root (   ) of the war",
@@ -5993,6 +6845,7 @@ const units = {
   },
   // 382-1
   {
+    wordNo: 382,
     word: "affects",
     meaning: "〜に影響を与える，作用する",
     sentence: "Lack of sleep seriously (   ) your performance at work.",
@@ -6000,6 +6853,7 @@ const units = {
   },
   // 383-1
   {
+    wordNo: 383,
     word: "way",
     meaning: "方法",
     sentence: "my (   ) of studying",
@@ -6007,6 +6861,7 @@ const units = {
   },
   // 383-2
   {
+    wordNo: 383,
     word: "way",
     meaning: "〜の点で",
     sentence: "We differ in this (   ).",
@@ -6014,6 +6869,7 @@ const units = {
   },
   // 383-3
   {
+    wordNo: 383,
     word: "way",
     meaning: "道",
     sentence: "go all the (   ) to Tokyo",
@@ -6021,6 +6877,7 @@ const units = {
   },
   // 383-4
   {
+    wordNo: 383,
     word: "way",
     meaning: "はるかに",
     sentence: "His IQ is (   ) above average.",
@@ -6028,6 +6885,7 @@ const units = {
   },
   // 384-1
   {
+    wordNo: 384,
     word: "manner",
     meaning: "方法，流儀",
     sentence: "behave in a responsible (   )",
@@ -6035,6 +6893,7 @@ const units = {
   },
   // 384-2
   {
+    wordNo: 384,
     word: "manner",
     meaning: "態度，話し方",
     sentence: "his (   ) of speaking",
@@ -6042,6 +6901,7 @@ const units = {
   },
   // 384-3
   {
+    wordNo: 384,
     word: "manners",
     meaning: "マナー",
     sentence: "have [know] no (   )",
@@ -6051,6 +6911,7 @@ const units = {
 385: [
   // 385-1
   {
+    wordNo: 385,
     word: "purpose",
     meaning: "目的",
     sentence: "What is the (   ) of your visit?",
@@ -6058,6 +6919,7 @@ const units = {
   },
   // 386-1
   {
+    wordNo: 386,
     word: "sake",
     meaning: "〜のため",
     sentence: "for the (   ) of your health",
@@ -6065,6 +6927,7 @@ const units = {
   },
   // 386-2
   {
+    wordNo: 386,
     word: "Sake",
     meaning: "日本酒",
     sentence: "(   ) is becoming popular among Europeans.",
@@ -6072,6 +6935,7 @@ const units = {
   },
   // 387-1
   {
+    wordNo: 387,
     word: "right",
     meaning: "ちょうど",
     sentence: "(   ) in front of me",
@@ -6079,6 +6943,7 @@ const units = {
   },
   // 387-2
   {
+    wordNo: 387,
     word: "right",
     meaning: "正しい",
     sentence: "You are (   ).",
@@ -6086,6 +6951,7 @@ const units = {
   },
   // 387-3
   {
+    wordNo: 387,
     word: "right",
     meaning: "右の",
     sentence: "my (   ) hand",
@@ -6093,6 +6959,7 @@ const units = {
   },
   // 387-4
   {
+    wordNo: 387,
     word: "right",
     meaning: "権利",
     sentence: "the (   ) to vote",
@@ -6100,6 +6967,7 @@ const units = {
   },
   // 388-1
   {
+    wordNo: 388,
     word: "complete",
     meaning: "完全な",
     sentence: "a (   ) stranger",
@@ -6107,6 +6975,7 @@ const units = {
   },
   // 388-2
   {
+    wordNo: 388,
     word: "complete",
     meaning: "〜を完成させる",
     sentence: "This tunnel took ten years to (   ).",
@@ -6114,6 +6983,7 @@ const units = {
   },
   // 389-1
   {
+    wordNo: 389,
     word: "hardly",
     meaning: "ほとんど〜ない",
     sentence: "I can (   ) wait for the summer.",
@@ -6121,6 +6991,7 @@ const units = {
   },
   // 389-2
   {
+    wordNo: 389,
     word: "hardly",
     meaning: "めったに〜ない",
     sentence: "He (   ) ever smiles.",
@@ -6128,6 +6999,7 @@ const units = {
   },
   // 390-1
   {
+    wordNo: 390,
     word: "almost",
     meaning: "ほとんど",
     sentence: "I go to the gym (   ) every day.",
@@ -6135,6 +7007,7 @@ const units = {
   },
   // 391-1
   {
+    wordNo: 391,
     word: "partly",
     meaning: "ある程度，部分的に",
     sentence: "I am (   ) to blame.",
@@ -6142,6 +7015,7 @@ const units = {
   },
   // 392-1
   {
+    wordNo: 392,
     word: "indeed",
     meaning: "実際に，本当に",
     sentence: "He is (   ) a kind person.",
@@ -6149,6 +7023,7 @@ const units = {
   },
   // 392-2
   {
+    wordNo: 392,
     word: "Indeed",
     meaning: "確かに",
     sentence: "(   ), he is young, but he is very smart.",
@@ -6156,6 +7031,7 @@ const units = {
   },
   // 393-1
   {
+    wordNo: 393,
     word: "Even",
     meaning: "〜でさえ",
     sentence: "(   ) Homer sometimes nods.",
@@ -6163,6 +7039,7 @@ const units = {
   },
   // 393-2
   {
+    wordNo: 393,
     word: "even",
     meaning: "さらに",
     sentence: "Things became (   ) more difficult.",
@@ -6170,6 +7047,7 @@ const units = {
   },
   // 393-3
   {
+    wordNo: 393,
     word: "even",
     meaning: "偶数の",
     sentence: "(   ) numbers",
@@ -6177,6 +7055,7 @@ const units = {
   },
   // 393-4
   {
+    wordNo: 393,
     word: "even",
     meaning: "平らな，揃った",
     sentence: "white, (   ) teeth",
@@ -6184,6 +7063,7 @@ const units = {
   },
   // 393-5
   {
+    wordNo: 393,
     word: "even",
     meaning: "ちょうど",
     sentence: "It cost 10 dollars (   ).",
@@ -6191,6 +7071,7 @@ const units = {
   },
   // 394-1
   {
+    wordNo: 394,
     word: "exactly",
     meaning: "正確に",
     sentence: "Where (   ) did you stay in Australia?",
@@ -6198,6 +7079,7 @@ const units = {
   },
   // 394-2
   {
+    wordNo: 394,
     word: "Exactly",
     meaning: "そのとおり",
     sentence: "\"(   ).\" / \"Not exactly.\"",
@@ -6205,6 +7087,7 @@ const units = {
   },
   // 395-1
   {
+    wordNo: 395,
     word: "gradually",
     meaning: "徐々に",
     sentence: "Land prices are (   ) increasing.",
@@ -6212,6 +7095,7 @@ const units = {
   },
   // 396-1
   {
+    wordNo: 396,
     word: "therefore",
     meaning: "それゆえに",
     sentence: "Even experts are only human, and (   ) mistakes sometimes occur.",
@@ -6219,6 +7103,7 @@ const units = {
   },
   // 397-1
   {
+    wordNo: 397,
     word: "instead",
     meaning: "代わりに",
     sentence: "If you can't make it, your mother may go (   ).",
@@ -6226,6 +7111,7 @@ const units = {
   },
   // 397-2
   {
+    wordNo: 397,
     word: "instead of",
     meaning: "〜の代わりに",
     sentence: "take the stairs (   ) the elevator",
@@ -6233,6 +7119,7 @@ const units = {
   },
   // 398-1
   {
+    wordNo: 398,
     word: "until",
     meaning: "〜まで（ずっと）",
     sentence: "We are open (   ) 11 p.m. on weekdays.",
@@ -6240,6 +7127,7 @@ const units = {
   },
   // 398-2
   {
+    wordNo: 398,
     word: "until",
     meaning: "〜して初めて",
     sentence: "Stay here (   ) I get back.",
@@ -6247,6 +7135,7 @@ const units = {
   },
   // 399-1
   {
+    wordNo: 399,
     word: "besides",
     meaning: "〜に加えて",
     sentence: "learn another foreign language (   ) English",
@@ -6254,6 +7143,7 @@ const units = {
   },
   // 399-2
   {
+    wordNo: 399,
     word: "besides",
     meaning: "おまけに",
     sentence: "It's too late to go out; (   ), it's snowing.",
@@ -6261,6 +7151,7 @@ const units = {
   },
   // 400-1
   {
+    wordNo: 400,
     word: "except",
     meaning: "〜を除いて",
     sentence: "Everybody was asleep (   ) (for) him.",
@@ -6268,6 +7159,7 @@ const units = {
   },
   // 400-2
   {
+    wordNo: 400,
     word: "Except for",
     meaning: "〜を除けば",
     sentence: "(   ) a dog, the park was empty.",
@@ -6275,6 +7167,7 @@ const units = {
   },
   // 401-1
   {
+    wordNo: 401,
     word: "debate",
     meaning: "討論",
     sentence: "the (   ) on whaling",
@@ -6282,6 +7175,7 @@ const units = {
   },
   // 401-2
   {
+    wordNo: 401,
     word: "debate",
     meaning: "〜を討論する",
     sentence: "(   ) the pros and cons of this",
@@ -6289,6 +7183,7 @@ const units = {
   },
   // 402-1
   {
+    wordNo: 402,
     word: "criticizing",
     meaning: "〜を批判する",
     sentence: "Stop (   ) my cooking!",
@@ -6296,6 +7191,7 @@ const units = {
   },
   // 403-1
   {
+    wordNo: 403,
     word: "accuse",
     meaning: "〜を非難する",
     sentence: "(   ) her of lying",
@@ -6303,6 +7199,7 @@ const units = {
   },
   // 403-2
   {
+    wordNo: 403,
     word: "accuse",
     meaning: "〜を告訴する",
     sentence: "(   ) him of murder",
@@ -6310,6 +7207,7 @@ const units = {
   },
   // 404-1
   {
+    wordNo: 404,
     word: "insist",
     meaning: "〜と言い張る",
     sentence: "(   ) on returning home",
@@ -6317,6 +7215,7 @@ const units = {
   },
   // 404-2
   {
+    wordNo: 404,
     word: "insisted",
     meaning: "強く求める",
     sentence: "I (   ) that she wait.",
@@ -6324,6 +7223,7 @@ const units = {
   },
   // 405-1
   {
+    wordNo: 405,
     word: "object",
     meaning: "反対する",
     sentence: "(   ) to my studying abroad",
@@ -6331,6 +7231,7 @@ const units = {
   },
   // 405-2
   {
+    wordNo: 405,
     word: "object",
     meaning: "物",
     sentence: "a solid (   )",
@@ -6338,6 +7239,7 @@ const units = {
   },
   // 405-3
   {
+    wordNo: 405,
     word: "object",
     meaning: "目的",
     sentence: "The (   ) of this game is to develop children's vocabulary.",
@@ -6345,6 +7247,7 @@ const units = {
   },
   // 405-4
   {
+    wordNo: 405,
     word: "object",
     meaning: "対象",
     sentence: "an (   ) of pity",
@@ -6352,6 +7255,7 @@ const units = {
   },
   // 406-1
   {
+    wordNo: 406,
     word: "protest",
     meaning: "抗議する",
     sentence: "(   ) against nuclear tests",
@@ -6359,6 +7263,7 @@ const units = {
   },
   // 406-2
   {
+    wordNo: 406,
     word: "protest",
     meaning: "抗議",
     sentence: "non-violent (   )",
@@ -6366,6 +7271,7 @@ const units = {
   },
   // 407-1
   {
+    wordNo: 407,
     word: "controversial",
     meaning: "論争を招く，物議をかもす",
     sentence: "a highly (   ) issue",
@@ -6373,6 +7279,7 @@ const units = {
   },
   // 408-1
   {
+    wordNo: 408,
     word: "bound",
     meaning: "きっと〜する",
     sentence: "He is (   ) to be in the classroom now.",
@@ -6380,6 +7287,7 @@ const units = {
   },
   // 408-2
   {
+    wordNo: 408,
     word: "bound",
     meaning: "〜行きで",
     sentence: "the Nozomi Superexpress (   ) for Tokyo",
@@ -6387,6 +7295,7 @@ const units = {
   },
   // 409-1
   {
+    wordNo: 409,
     word: "bet",
     meaning: "きっと〜だと思う",
     sentence: "I'll (   ) (that) he's coming.",
@@ -6394,6 +7303,7 @@ const units = {
   },
   // 409-2
   {
+    wordNo: 409,
     word: "bet",
     meaning: "〜を賭ける",
     sentence: "(   ) 500 yen on a horse",
@@ -6401,6 +7311,7 @@ const units = {
   },
   // 410-1
   {
+    wordNo: 410,
     word: "demand",
     meaning: "要求する",
     sentence: "(   ) an apology",
@@ -6408,6 +7319,7 @@ const units = {
   },
   // 410-2
   {
+    wordNo: 410,
     word: "demand",
     meaning: "需要",
     sentence: "supply and (   )",
@@ -6415,6 +7327,7 @@ const units = {
   },
   // 411-1
   {
+    wordNo: 411,
     word: "desire",
     meaning: "願望",
     sentence: "have a strong (   ) to study in the U.K.",
@@ -6422,6 +7335,7 @@ const units = {
   },
   // 411-2
   {
+    wordNo: 411,
     word: "desire",
     meaning: "〜を強く望む",
     sentence: "(   ) to marry her",
@@ -6429,6 +7343,7 @@ const units = {
   },
   // 412-1
   {
+    wordNo: 412,
     word: "praise",
     meaning: "褒める",
     sentence: "(   ) the man for his diligence",
@@ -6436,6 +7351,7 @@ const units = {
   },
   // 412-2
   {
+    wordNo: 412,
     word: "praise",
     meaning: "賞賛",
     sentence: "His novel won high (   ).",
@@ -6443,6 +7359,7 @@ const units = {
   },
   // 413-1
   {
+    wordNo: 413,
     word: "honor",
     meaning: "名誉，栄誉",
     sentence: "It is an (   ) to be here.",
@@ -6450,6 +7367,7 @@ const units = {
   },
   // 413-2
   {
+    wordNo: 413,
     word: "honor",
     meaning: "〜を敬う",
     sentence: "(   ) my parents",
@@ -6457,6 +7375,7 @@ const units = {
   },
   // 414-1
   {
+    wordNo: 414,
     word: "chat",
     meaning: "おしゃべりする",
     sentence: "(   ) over tea",
@@ -6464,6 +7383,7 @@ const units = {
   },
   // 414-2
   {
+    wordNo: 414,
     word: "chat",
     meaning: "おしゃべり",
     sentence: "enjoy a (   ) with neighbors",
@@ -6473,6 +7393,7 @@ const units = {
 415: [
   // 415-1
   {
+    wordNo: 415,
     word: "refer",
     meaning: "言及する，参照する",
     sentence: "(   ) to my childhood",
@@ -6480,6 +7401,7 @@ const units = {
   },
   // 415-2
   {
+    wordNo: 415,
     word: "refer",
     meaning: "指す",
     sentence: "What does the underlined \"it\" (   ) to?",
@@ -6487,6 +7409,7 @@ const units = {
   },
   // 416-1
   {
+    wordNo: 416,
     word: "mention",
     meaning: "〜について述べる，言及する",
     sentence: "You'd better not (   ) it.",
@@ -6494,6 +7417,7 @@ const units = {
   },
   // 417-1
   {
+    wordNo: 417,
     word: "convey",
     meaning: "〜を伝える",
     sentence: "(   ) my feelings by touching her hand",
@@ -6501,6 +7425,7 @@ const units = {
   },
   // 417-2
   {
+    wordNo: 417,
     word: "conveyed",
     meaning: "〜を運ぶ",
     sentence: "Blood is (   ) to the heart by the veins.",
@@ -6508,6 +7433,7 @@ const units = {
   },
   // 418-1
   {
+    wordNo: 418,
     word: "demonstrate",
     meaning: "〜をはっきり示す，実演する",
     sentence: "(   ) my real ability",
@@ -6515,6 +7441,7 @@ const units = {
   },
   // 419-1
   {
+    wordNo: 419,
     word: "emphasize",
     meaning: "〜を強調する",
     sentence: "(   ) the importance of breakfast",
@@ -6522,6 +7449,7 @@ const units = {
   },
   // 420-1
   {
+    wordNo: 420,
     word: "exaggerate",
     meaning: "〜を誇張する",
     sentence: "greatly (   ) a story",
@@ -6529,6 +7457,7 @@ const units = {
   },
   // 420-2
   {
+    wordNo: 420,
     word: "exaggerates",
     meaning: "大げさに言う",
     sentence: "He often (   ) when talking about fish he caught.",
@@ -6536,6 +7465,7 @@ const units = {
   },
   // 421-1
   {
+    wordNo: 421,
     word: "reply",
     meaning: "返事をする，答える",
     sentence: "I asked him why, but he didn't (   ).",
@@ -6543,6 +7473,7 @@ const units = {
   },
   // 421-2
   {
+    wordNo: 421,
     word: "reply",
     meaning: "返事，答え",
     sentence: "I look forward to your (   ).",
@@ -6550,6 +7481,7 @@ const units = {
   },
   // 422-1
   {
+    wordNo: 422,
     word: "respond",
     meaning: "返答する，対応する",
     sentence: "(   ) to a question",
@@ -6557,6 +7489,7 @@ const units = {
   },
   // 422-2
   {
+    wordNo: 422,
     word: "respond",
     meaning: "反応する",
     sentence: "(   ) quickly to customer complaints",
@@ -6564,6 +7497,7 @@ const units = {
   },
   // 423-1
   {
+    wordNo: 423,
     word: "whisper",
     meaning: "ささやく",
     sentence: "(   ) in her ear",
@@ -6571,6 +7505,7 @@ const units = {
   },
   // 423-2
   {
+    wordNo: 423,
     word: "whisper",
     meaning: "ささやき",
     sentence: "talk in a (   )",
@@ -6578,6 +7513,7 @@ const units = {
   },
   // 424-1
   {
+    wordNo: 424,
     word: "remark",
     meaning: "発言",
     sentence: "his casual (   )",
@@ -6585,6 +7521,7 @@ const units = {
   },
   // 424-2
   {
+    wordNo: 424,
     word: "remarked",
     meaning: "〜と述べる",
     sentence: "He (   ) that the pot was very old.",
@@ -6592,6 +7529,7 @@ const units = {
   },
   // 425-1
   {
+    wordNo: 425,
     word: "observe",
     meaning: "〜を観察する",
     sentence: "(   ) the behavior of birds",
@@ -6599,6 +7537,7 @@ const units = {
   },
   // 425-2
   {
+    wordNo: 425,
     word: "observe",
     meaning: "〜と述べる",
     sentence: "(   ) that humans fall into three social classes",
@@ -6606,6 +7545,7 @@ const units = {
   },
   // 425-3
   {
+    wordNo: 425,
     word: "observe",
     meaning: "遵守する",
     sentence: "(   ) the school regulations",
@@ -6613,6 +7553,7 @@ const units = {
   },
   // 425-4
   {
+    wordNo: 425,
     word: "observe",
     meaning: "祝う",
     sentence: "(   ) Christmas",
@@ -6620,6 +7561,7 @@ const units = {
   },
   // 426-1
   {
+    wordNo: 426,
     word: "theory",
     meaning: "理論",
     sentence: "Your plan is excellent in (   ).",
@@ -6627,6 +7569,7 @@ const units = {
   },
   // 426-2
   {
+    wordNo: 426,
     word: "theory",
     meaning: "学説",
     sentence: "publish a new (   )",
@@ -6634,6 +7577,7 @@ const units = {
   },
   // 427-1
   {
+    wordNo: 427,
     word: "analysis",
     meaning: "分析",
     sentence: "handwriting (   )",
@@ -6641,6 +7585,7 @@ const units = {
   },
   // 428-1
   {
+    wordNo: 428,
     word: "phenomena",
     meaning: "現象",
     sentence: "natural (   )",
@@ -6648,6 +7593,7 @@ const units = {
   },
   // 428-2
   {
+    wordNo: 428,
     word: "phenomenon",
     meaning: "特異なもの，天才",
     sentence: "a child (   )",
@@ -6655,6 +7601,7 @@ const units = {
   },
   // 429-1
   {
+    wordNo: 429,
     word: "device",
     meaning: "装置，道具",
     sentence: "a drone with a GPS (   )",
@@ -6662,6 +7609,7 @@ const units = {
   },
   // 430-1
   {
+    wordNo: 430,
     word: "experiment",
     meaning: "実験",
     sentence: "carry out a chemical (   )",
@@ -6669,6 +7617,7 @@ const units = {
   },
   // 430-2
   {
+    wordNo: 430,
     word: "experiment",
     meaning: "実験する",
     sentence: "(   ) with a new medicine",
@@ -6676,6 +7625,7 @@ const units = {
   },
   // 431-1
   {
+    wordNo: 431,
     word: "chemicals",
     meaning: "化学物質",
     sentence: "(   ) that are harmful to the environment",
@@ -6683,6 +7633,7 @@ const units = {
   },
   // 431-2
   {
+    wordNo: 431,
     word: "chemical",
     meaning: "化学の",
     sentence: "a (   ) symbol",
@@ -6690,6 +7641,7 @@ const units = {
   },
   // 432-1
   {
+    wordNo: 432,
     word: "fuels",
     meaning: "燃料",
     sentence: "burn fossil (   )",
@@ -6697,6 +7649,7 @@ const units = {
   },
   // 432-2
   {
+    wordNo: 432,
     word: "fuel",
     meaning: "〜を大きくする，煽る",
     sentence: "(   ) her fear",
@@ -6704,6 +7657,7 @@ const units = {
   },
   // 433-1
   {
+    wordNo: 433,
     word: "nuclear",
     meaning: "原子力の，核の",
     sentence: "a (   ) power plant",
@@ -6711,6 +7665,7 @@ const units = {
   },
   // 434-1
   {
+    wordNo: 434,
     word: "Statistics",
     meaning: "統計（値）",
     sentence: "(   ) show that younger people prefer football to baseball.",
@@ -6718,6 +7673,7 @@ const units = {
   },
   // 434-2
   {
+    wordNo: 434,
     word: "statistics",
     meaning: "統計学",
     sentence: "mathematical (   )",
@@ -6725,6 +7681,7 @@ const units = {
   },
   // 435-1
   {
+    wordNo: 435,
     word: "pursue",
     meaning: "〜を追求する",
     sentence: "(   ) a career in journalism",
@@ -6732,6 +7689,7 @@ const units = {
   },
   // 435-2
   {
+    wordNo: 435,
     word: "pursue",
     meaning: "〜を追跡する",
     sentence: "(   ) a criminal",
@@ -6739,6 +7697,7 @@ const units = {
   },
   // 436-1
   {
+    wordNo: 436,
     word: "accomplish",
     meaning: "〜をやり遂げる",
     sentence: "(   ) this task",
@@ -6746,6 +7705,7 @@ const units = {
   },
   // 437-1
   {
+    wordNo: 437,
     word: "overcome",
     meaning: "〜を克服する",
     sentence: "(   ) my shyness",
@@ -6753,6 +7713,7 @@ const units = {
   },
   // 438-1
   {
+    wordNo: 438,
     word: "fulfill",
     meaning: "果たす",
     sentence: "(   ) a childhood dream",
@@ -6760,6 +7721,7 @@ const units = {
   },
   // 438-2
   {
+    wordNo: 438,
     word: "fulfill",
     meaning: "満たす",
     sentence: "(   ) our requirements",
@@ -6767,6 +7729,7 @@ const units = {
   },
   // 439-1
   {
+    wordNo: 439,
     word: "devote",
     meaning: "〜をささげる",
     sentence: "(   ) my life to helping others",
@@ -6774,6 +7737,7 @@ const units = {
   },
   // 440-1
   {
+    wordNo: 440,
     word: "strive",
     meaning: "努力する",
     sentence: "(   ) to cut costs",
@@ -6781,6 +7745,7 @@ const units = {
   },
   // 441-1
   {
+    wordNo: 441,
     word: "aim",
     meaning: "〜しようとする",
     sentence: "(   ) to finish by Wednesday",
@@ -6788,6 +7753,7 @@ const units = {
   },
   // 441-2
   {
+    wordNo: 441,
     word: "aimed",
     meaning: "〜向けだ",
     sentence: "This book is (   ) at teenagers.",
@@ -6795,6 +7761,7 @@ const units = {
   },
   // 441-3
   {
+    wordNo: 441,
     word: "aim",
     meaning: "狙い，目的",
     sentence: "the (   ) of this course",
@@ -6802,6 +7769,7 @@ const units = {
   },
   // 442-1
   {
+    wordNo: 442,
     word: "challenge",
     meaning: "課題，困難なこと",
     sentence: "face a big (   )",
@@ -6809,6 +7777,7 @@ const units = {
   },
   // 442-2
   {
+    wordNo: 442,
     word: "challenge",
     meaning: "〜に異議を唱える",
     sentence: "(   ) the decision",
@@ -6816,6 +7785,7 @@ const units = {
   },
   // 443-1
   {
+    wordNo: 443,
     word: "trial",
     meaning: "試み，試行",
     sentence: "by (   ) and error",
@@ -6823,6 +7793,7 @@ const units = {
   },
   // 443-2
   {
+    wordNo: 443,
     word: "trial",
     meaning: "裁判",
     sentence: "stand (   ) for murder",
@@ -6830,6 +7801,7 @@ const units = {
   },
   // 443-3
   {
+    wordNo: 443,
     word: "trial",
     meaning: "試練",
     sentence: "go through a bitter (   )",
@@ -6837,6 +7809,7 @@ const units = {
   },
   // 444-1
   {
+    wordNo: 444,
     word: "dizzy",
     meaning: "めまいがして",
     sentence: "I felt (   ) when I stood up.",
@@ -6846,6 +7819,7 @@ const units = {
 445: [
   // 445-1
   {
+    wordNo: 445,
     word: "appetite",
     meaning: "食欲",
     sentence: "have a hearty (   )",
@@ -6853,6 +7827,7 @@ const units = {
   },
   // 446-1
   {
+    wordNo: 446,
     word: "starving",
     meaning: "飢える",
     sentence: "A lot of people are (   ) to death in Africa.",
@@ -6860,6 +7835,7 @@ const units = {
   },
   // 446-2
   {
+    wordNo: 446,
     word: "starving",
     meaning: "とてもお腹が空いている",
     sentence: "I'm (   ). What's for dinner?",
@@ -6867,6 +7843,7 @@ const units = {
   },
   // 447-1
   {
+    wordNo: 447,
     word: "mental",
     meaning: "精神の",
     sentence: "(   ) and physical health",
@@ -6874,6 +7851,7 @@ const units = {
   },
   // 447-2
   {
+    wordNo: 447,
     word: "mental",
     meaning: "知的な，頭脳に関わる",
     sentence: "(   ) labor",
@@ -6881,6 +7859,7 @@ const units = {
   },
   // 448-1
   {
+    wordNo: 448,
     word: "rest",
     meaning: "休憩",
     sentence: "take a (   )",
@@ -6888,6 +7867,7 @@ const units = {
   },
   // 448-2
   {
+    wordNo: 448,
     word: "rest",
     meaning: "残り",
     sentence: "the (   ) of the day",
@@ -6895,6 +7875,7 @@ const units = {
   },
   // 448-3
   {
+    wordNo: 448,
     word: "rest",
     meaning: "休む",
     sentence: "You need to (   ) for a while.",
@@ -6902,6 +7883,7 @@ const units = {
   },
   // 448-4
   {
+    wordNo: 448,
     word: "rests",
     meaning: "〜次第だ",
     sentence: "Our success (   ) on his ability.",
@@ -6909,6 +7891,7 @@ const units = {
   },
   // 448-5
   {
+    wordNo: 448,
     word: "rest",
     meaning: "〜を休ませる",
     sentence: "(   ) my eyes",
@@ -6916,6 +7899,7 @@ const units = {
   },
   // 449-1
   {
+    wordNo: 449,
     word: "surgery",
     meaning: "手術",
     sentence: "have heart bypass (   )",
@@ -6923,6 +7907,7 @@ const units = {
   },
   // 449-2
   {
+    wordNo: 449,
     word: "surgery",
     meaning: "外科",
     sentence: "dental (   )",
@@ -6930,6 +7915,7 @@ const units = {
   },
   // 450-1
   {
+    wordNo: 450,
     word: "disease",
     meaning: "病気",
     sentence: "the risk of heart (   )",
@@ -6937,6 +7923,7 @@ const units = {
   },
   // 451-1
   {
+    wordNo: 451,
     word: "stomachache",
     meaning: "腹痛",
     sentence: "drop out of the race because of a sudden (   )",
@@ -6944,6 +7931,7 @@ const units = {
   },
   // 452-1
   {
+    wordNo: 452,
     word: "symptoms",
     meaning: "症状",
     sentence: "show the (   ) of heatstroke",
@@ -6951,6 +7939,7 @@ const units = {
   },
   // 452-2
   {
+    wordNo: 452,
     word: "symptom",
     meaning: "兆候",
     sentence: "a (   ) of social inequality",
@@ -6958,6 +7947,7 @@ const units = {
   },
   // 453-1
   {
+    wordNo: 453,
     word: "cancer",
     meaning: "がん",
     sentence: "get (   )",
@@ -6965,6 +7955,7 @@ const units = {
   },
   // 453-2
   {
+    wordNo: 453,
     word: "Cancer",
     meaning: "かに座",
     sentence: "My star sign is (   ).",
@@ -6972,6 +7963,7 @@ const units = {
   },
   // 454-1
   {
+    wordNo: 454,
     word: "ambulances",
     meaning: "救急車",
     sentence: "fire engines and (   )",
@@ -6979,6 +7971,7 @@ const units = {
   },
   // 455-1
   {
+    wordNo: 455,
     word: "recover",
     meaning: "回復する",
     sentence: "(   ) from a heart attack",
@@ -6986,6 +7979,7 @@ const units = {
   },
   // 455-2
   {
+    wordNo: 455,
     word: "recover",
     meaning: "取り戻す",
     sentence: "(   ) the paintings stolen from the museum",
@@ -6993,6 +7987,7 @@ const units = {
   },
   // 456-1
   {
+    wordNo: 456,
     word: "sore",
     meaning: "痛い",
     sentence: "I have a (   ) throat from a cold.",
@@ -7000,6 +7995,7 @@ const units = {
   },
   // 457-1
   {
+    wordNo: 457,
     word: "swelled",
     meaning: "腫れる",
     sentence: "My eyelids (   ) up.",
@@ -7007,6 +8003,7 @@ const units = {
   },
   // 457-2
   {
+    wordNo: 457,
     word: "swelling",
     meaning: "膨らむ",
     sentence: "The balloon was (   ) more and more.",
@@ -7014,6 +8011,7 @@ const units = {
   },
   // 458-1
   {
+    wordNo: 458,
     word: "cough",
     meaning: "咳をする",
     sentence: "(   ) loudly",
@@ -7021,6 +8019,7 @@ const units = {
   },
   // 458-2
   {
+    wordNo: 458,
     word: "cough",
     meaning: "咳",
     sentence: "I have a bad (   ).",
@@ -7028,6 +8027,7 @@ const units = {
   },
   // 459-1
   {
+    wordNo: 459,
     word: "bleed",
     meaning: "出血する",
     sentence: "My nose has started to (   ).",
@@ -7035,6 +8035,7 @@ const units = {
   },
   // 460-1
   {
+    wordNo: 460,
     word: "faint",
     meaning: "かすかな",
     sentence: "(   ) pencil lines",
@@ -7042,6 +8043,7 @@ const units = {
   },
   // 460-2
   {
+    wordNo: 460,
     word: "faint",
     meaning: "気絶する",
     sentence: "(   ) in the extreme heat",
@@ -7049,6 +8051,7 @@ const units = {
   },
   // 460-3
   {
+    wordNo: 460,
     word: "faint",
     meaning: "気絶",
     sentence: "fall down in a (   )",
@@ -7056,6 +8059,7 @@ const units = {
   },
   // 461-1
   {
+    wordNo: 461,
     word: "exhausted",
     meaning: "〜を疲れ果てさせる",
     sentence: "I am (   ) from walking all day.",
@@ -7063,6 +8067,7 @@ const units = {
   },
   // 461-2
   {
+    wordNo: 461,
     word: "exhausted",
     meaning: "〜を使い果たす",
     sentence: "I have (   ) my savings.",
@@ -7070,6 +8075,7 @@ const units = {
   },
   // 461-3
   {
+    wordNo: 461,
     word: "exhaust",
     meaning: "排気ガス",
     sentence: "automobile (   ) fumes",
@@ -7077,6 +8083,7 @@ const units = {
   },
   // 462-1
   {
+    wordNo: 462,
     word: "cure",
     meaning: "〜を治療する",
     sentence: "(   ) you of your disease",
@@ -7084,6 +8091,7 @@ const units = {
   },
   // 462-2
   {
+    wordNo: 462,
     word: "cure",
     meaning: "治療法，治療薬",
     sentence: "a (   ) for a headache",
@@ -7091,6 +8099,7 @@ const units = {
   },
   // 463-1
   {
+    wordNo: 463,
     word: "disabled",
     meaning: "障がいのある",
     sentence: "He is physically (   ).",
@@ -7098,6 +8107,7 @@ const units = {
   },
   // 463-2
   {
+    wordNo: 463,
     word: "disabled",
     meaning: "障がい者（たち）",
     sentence: "a toilet for the (   )",
@@ -7105,6 +8115,7 @@ const units = {
   },
   // 464-1
   {
+    wordNo: 464,
     word: "stiff",
     meaning: "凝った，痛い",
     sentence: "Desk work gives me a (   ) back.",
@@ -7112,6 +8123,7 @@ const units = {
   },
   // 464-2
   {
+    wordNo: 464,
     word: "stiff",
     meaning: "堅苦しい",
     sentence: "behave in a (   ) manner",
@@ -7119,6 +8131,7 @@ const units = {
   },
   // 465-1
   {
+    wordNo: 465,
     word: "muscles",
     meaning: "筋肉",
     sentence: "develop my arm (   )",
@@ -7126,6 +8139,7 @@ const units = {
   },
   // 466-1
   {
+    wordNo: 466,
     word: "tongue",
     meaning: "舌",
     sentence: "stick my (   ) out at him",
@@ -7133,6 +8147,7 @@ const units = {
   },
   // 466-2
   {
+    wordNo: 466,
     word: "tongue",
     meaning: "言葉遣い",
     sentence: "Watch your (   ).",
@@ -7140,6 +8155,7 @@ const units = {
   },
   // 466-3
   {
+    wordNo: 466,
     word: "tongue",
     meaning: "口（の悪さ）",
     sentence: "have a sharp (   )",
@@ -7147,6 +8163,7 @@ const units = {
   },
   // 467-1
   {
+    wordNo: 467,
     word: "sense",
     meaning: "感覚",
     sentence: "lose my (   ) of time",
@@ -7154,6 +8171,7 @@ const units = {
   },
   // 467-2
   {
+    wordNo: 467,
     word: "sense",
     meaning: "分別",
     sentence: "common (   )",
@@ -7161,6 +8179,7 @@ const units = {
   },
   // 467-3
   {
+    wordNo: 467,
     word: "sense",
     meaning: "意味",
     sentence: "in a broad [narrow] (   )",
@@ -7168,6 +8187,7 @@ const units = {
   },
   // 467-4
   {
+    wordNo: 467,
     word: "sense",
     meaning: "〜を感じる",
     sentence: "(   ) that something is wrong",
@@ -7175,6 +8195,7 @@ const units = {
   },
   // 468-1
   {
+    wordNo: 468,
     word: "sweat",
     meaning: "汗",
     sentence: "wipe the (   ) off my forehead",
@@ -7182,6 +8203,7 @@ const units = {
   },
   // 468-2
   {
+    wordNo: 468,
     word: "sweat",
     meaning: "汗をかく",
     sentence: "(   ) a lot",
@@ -7189,6 +8211,7 @@ const units = {
   },
   // 469-1
   {
+    wordNo: 469,
     word: "gender",
     meaning: "性別",
     sentence: "regardless of age or (   )",
@@ -7196,6 +8219,7 @@ const units = {
   },
   // 470-1
   {
+    wordNo: 470,
     word: "nationality",
     meaning: "国籍",
     sentence: "\"What is your (   )?\" \"I'm Japanese.\"",
@@ -7203,6 +8227,7 @@ const units = {
   },
   // 471-1
   {
+    wordNo: 471,
     word: "citizens",
     meaning: "市民",
     sentence: "the population of senior (   )",
@@ -7210,6 +8235,7 @@ const units = {
   },
   // 471-2
   {
+    wordNo: 471,
     word: "citizens",
     meaning: "国民",
     sentence: "British (   ) living in Japan",
@@ -7217,6 +8243,7 @@ const units = {
   },
   // 472-1
   {
+    wordNo: 472,
     word: "rights",
     meaning: "公民の",
     sentence: "civil (   )",
@@ -7224,6 +8251,7 @@ const units = {
   },
   // 472-2
   {
+    wordNo: 472,
     word: "War",
     meaning: "国内の",
     sentence: "the Civil (   )",
@@ -7231,6 +8259,7 @@ const units = {
   },
   // 472-3
   {
+    wordNo: 472,
     word: "civil",
     meaning: "礼儀正しい",
     sentence: "She is (   ) but not friendly.",
@@ -7238,6 +8267,7 @@ const units = {
   },
   // 473-1
   {
+    wordNo: 473,
     word: "discrimination",
     meaning: "人種の",
     sentence: "racial (   )",
@@ -7245,6 +8275,7 @@ const units = {
   },
   // 474-1
   {
+    wordNo: 474,
     word: "rural",
     meaning: "田舎の",
     sentence: "show an interest in a (   ) lifestyle",
@@ -7254,6 +8285,7 @@ const units = {
 475: [
   // 475-1
   {
+    wordNo: 475,
     word: "flight",
     meaning: "国内の",
     sentence: "a domestic (   )",
@@ -7261,6 +8293,7 @@ const units = {
   },
   // 475-2
   {
+    wordNo: 475,
     word: "violence",
     meaning: "家庭内の",
     sentence: "domestic (   ) [DV]",
@@ -7268,6 +8301,7 @@ const units = {
   },
   // 476-1
   {
+    wordNo: 476,
     word: "global",
     meaning: "全世界的な",
     sentence: "(   ) climate change",
@@ -7275,6 +8309,7 @@ const units = {
   },
   // 477-1
   {
+    wordNo: 477,
     word: "suburbs",
     meaning: "郊外",
     sentence: "live in the (   ) of Yokohama City",
@@ -7282,6 +8317,7 @@ const units = {
   },
   // 478-1
   {
+    wordNo: 478,
     word: "border",
     meaning: "国境",
     sentence: "cross the (   )",
@@ -7289,6 +8325,7 @@ const units = {
   },
   // 478-2
   {
+    wordNo: 478,
     word: "bordered",
     meaning: "〜を縁取る",
     sentence: "The street is (   ) by trees.",
@@ -7296,6 +8333,7 @@ const units = {
   },
   // 479-1
   {
+    wordNo: 479,
     word: "burden",
     meaning: "重荷，負担",
     sentence: "take on a financial (   )",
@@ -7303,6 +8341,7 @@ const units = {
   },
   // 480-1
   {
+    wordNo: 480,
     word: "impact",
     meaning: "影響",
     sentence: "have a negative (   ) on the tourist industry",
@@ -7310,6 +8349,7 @@ const units = {
   },
   // 480-2
   {
+    wordNo: 480,
     word: "impact",
     meaning: "衝撃",
     sentence: "the (   ) of the explosion",
@@ -7317,6 +8357,7 @@ const units = {
   },
   // 480-3
   {
+    wordNo: 480,
     word: "impacted",
     meaning: "影響を与える",
     sentence: "This strategy (   ) on sales.",
@@ -7324,6 +8365,7 @@ const units = {
   },
   // 481-1
   {
+    wordNo: 481,
     word: "status",
     meaning: "地位",
     sentence: "women's social (   )",
@@ -7331,6 +8373,7 @@ const units = {
   },
   // 481-2
   {
+    wordNo: 481,
     word: "status",
     meaning: "状況",
     sentence: "check the shipment (   )",
@@ -7338,6 +8381,7 @@ const units = {
   },
   // 482-1
   {
+    wordNo: 482,
     word: "equal",
     meaning: "等しい",
     sentence: "All human beings are created (   ).",
@@ -7345,6 +8389,7 @@ const units = {
   },
   // 482-2
   {
+    wordNo: 482,
     word: "equals",
     meaning: "〜に等しい",
     sentence: "Two plus three (   ) five.",
@@ -7352,6 +8397,7 @@ const units = {
   },
   // 483-1
   {
+    wordNo: 483,
     word: "relationships",
     meaning: "関係",
     sentence: "have good (   ) with other people",
@@ -7359,6 +8405,7 @@ const units = {
   },
   // 483-2
   {
+    wordNo: 483,
     word: "relationship",
     meaning: "親密な関係",
     sentence: "Are you in a (   ) right now?",
@@ -7366,6 +8413,7 @@ const units = {
   },
   // 484-1
   {
+    wordNo: 484,
     word: "reputation",
     meaning: "評判",
     sentence: "have a good (   ) for its beautiful night view",
@@ -7373,6 +8421,7 @@ const units = {
   },
   // 485-1
   {
+    wordNo: 485,
     word: "trend",
     meaning: "風潮",
     sentence: "a (   ) toward hiring cheap labor",
@@ -7380,6 +8429,7 @@ const units = {
   },
   // 485-2
   {
+    wordNo: 485,
     word: "trend",
     meaning: "流行",
     sentence: "the latest (   ) in clothes",
@@ -7387,6 +8437,7 @@ const units = {
   },
   // 486-1
   {
+    wordNo: 486,
     word: "services",
     meaning: "事業",
     sentence: "public (   )",
@@ -7394,6 +8445,7 @@ const units = {
   },
   // 486-2
   {
+    wordNo: 486,
     word: "service",
     meaning: "事業",
     sentence: "water [gas] (   )",
@@ -7401,6 +8453,7 @@ const units = {
   },
   // 486-3
   {
+    wordNo: 486,
     word: "service",
     meaning: "便",
     sentence: "There is no bus (   ) to that town.",
@@ -7408,6 +8461,7 @@ const units = {
   },
   // 486-4
   {
+    wordNo: 486,
     word: "service",
     meaning: "サービス，接客",
     sentence: "This restaurant has a (   ) for good service.",
@@ -7415,6 +8469,7 @@ const units = {
   },
   // 487-1
   {
+    wordNo: 487,
     word: "religion",
     meaning: "宗教",
     sentence: "have a (   )",
@@ -7422,6 +8477,7 @@ const units = {
   },
   // 488-1
   {
+    wordNo: 488,
     word: "moral",
     meaning: "道徳的な",
     sentence: "a (   ) responsibility",
@@ -7429,6 +8485,7 @@ const units = {
   },
   // 488-2
   {
+    wordNo: 488,
     word: "morals",
     meaning: "教訓",
     sentence: "the (   ) of Aesop's Fables",
@@ -7436,6 +8493,7 @@ const units = {
   },
   // 488-3
   {
+    wordNo: 488,
     word: "morals",
     meaning: "道徳，風紀",
     sentence: "public (   )",
@@ -7443,6 +8501,7 @@ const units = {
   },
   // 489-1
   {
+    wordNo: 489,
     word: "standards",
     meaning: "基準",
     sentence: "meet our safety (   )",
@@ -7450,6 +8509,7 @@ const units = {
   },
   // 489-2
   {
+    wordNo: 489,
     word: "standard",
     meaning: "標準の",
     sentence: "a (   ) size",
@@ -7457,6 +8517,7 @@ const units = {
   },
   // 490-1
   {
+    wordNo: 490,
     word: "prosperity",
     meaning: "繁栄",
     sentence: "bring (   ) to our country",
@@ -7464,6 +8525,7 @@ const units = {
   },
   // 491-1
   {
+    wordNo: 491,
     word: "crisis",
     meaning: "危機",
     sentence: "face a serious economic (   )",
@@ -7471,6 +8533,7 @@ const units = {
   },
   // 492-1
   {
+    wordNo: 492,
     word: "prejudice",
     meaning: "偏見",
     sentence: "end racial (   )",
@@ -7478,6 +8541,7 @@ const units = {
   },
   // 492-2
   {
+    wordNo: 492,
     word: "prejudiced",
     meaning: "〜に偏見をもたせる",
     sentence: "Don't be (   ) against Muslims.",
@@ -7485,6 +8549,7 @@ const units = {
   },
   // 493-1
   {
+    wordNo: 493,
     word: "discrimination",
     meaning: "差別",
     sentence: "fight racial (   )",
@@ -7492,6 +8557,7 @@ const units = {
   },
   // 493-2
   {
+    wordNo: 493,
     word: "Discrimination",
     meaning: "識別",
     sentence: "(   ) between L sounds and R sounds is difficult.",
@@ -7499,6 +8565,7 @@ const units = {
   },
   // 494-1
   {
+    wordNo: 494,
     word: "charity",
     meaning: "慈善（活動）",
     sentence: "do a lot of work for (   )",
@@ -7506,6 +8573,7 @@ const units = {
   },
   // 494-2
   {
+    wordNo: 494,
     word: "charities",
     meaning: "慈善団体",
     sentence: "give money to several (different) (   )",
@@ -7513,6 +8581,7 @@ const units = {
   },
   // 494-3
   {
+    wordNo: 494,
     word: "charity",
     meaning: "チャリティーの",
     sentence: "hold a (   ) concert",
@@ -7520,6 +8589,7 @@ const units = {
   },
   // 495-1
   {
+    wordNo: 495,
     word: "benefits",
     meaning: "恩恵",
     sentence: "Tourism has brought great (   ) to this village.",
@@ -7527,6 +8597,7 @@ const units = {
   },
   // 495-2
   {
+    wordNo: 495,
     word: "benefits",
     meaning: "手当",
     sentence: "salary and other (   )",
@@ -7534,6 +8605,7 @@ const units = {
   },
   // 495-3
   {
+    wordNo: 495,
     word: "benefit",
     meaning: "恩恵を得る",
     sentence: "(   ) from the new treatment",
@@ -7541,6 +8613,7 @@ const units = {
   },
   // 495-4
   {
+    wordNo: 495,
     word: "benefit",
     meaning: "恩恵を与える",
     sentence: "The fresh air will (   ) you.",
@@ -7548,6 +8621,7 @@ const units = {
   },
   // 496-1
   {
+    wordNo: 496,
     word: "welfare",
     meaning: "福祉",
     sentence: "work for social (   )",
@@ -7555,6 +8629,7 @@ const units = {
   },
   // 496-2
   {
+    wordNo: 496,
     word: "welfare",
     meaning: "幸福",
     sentence: "Parents are always concerned about their children's (   ).",
@@ -7562,6 +8637,7 @@ const units = {
   },
   // 496-3
   {
+    wordNo: 496,
     word: "welfare",
     meaning: "生活保護",
     sentence: "(   ) benefits",
@@ -7569,6 +8645,7 @@ const units = {
   },
   // 497-1
   {
+    wordNo: 497,
     word: "community",
     meaning: "社会，共同体",
     sentence: "the Polish (   ) in the U.K.",
@@ -7576,6 +8653,7 @@ const units = {
   },
   // 498-1
   {
+    wordNo: 498,
     word: "individual",
     meaning: "個人",
     sentence: "each (   )'s right to privacy",
@@ -7583,6 +8661,7 @@ const units = {
   },
   // 498-2
   {
+    wordNo: 498,
     word: "individual",
     meaning: "個人の",
     sentence: "(   ) action",
@@ -7590,6 +8669,7 @@ const units = {
   },
   // 499-1
   {
+    wordNo: 499,
     word: "official",
     meaning: "役人",
     sentence: "a government (   )",
@@ -7597,6 +8677,7 @@ const units = {
   },
   // 499-2
   {
+    wordNo: 499,
     word: "official",
     meaning: "公式の",
     sentence: "an (   ) language",
@@ -7604,6 +8685,7 @@ const units = {
   },
   // 500-1
   {
+    wordNo: 500,
     word: "immigrants",
     meaning: "移民",
     sentence: "(   ) from India",
@@ -7611,6 +8693,7 @@ const units = {
   },
   // 501-1
   {
+    wordNo: 501,
     word: "volunteer",
     meaning: "ボランティア",
     sentence: "take part in (   ) activities",
@@ -7618,6 +8701,7 @@ const units = {
   },
   // 501-2
   {
+    wordNo: 501,
     word: "volunteer",
     meaning: "自発的に申し出る",
     sentence: "(   ) to do the dishes",
@@ -7625,6 +8709,7 @@ const units = {
   },
   // 502-1
   {
+    wordNo: 502,
     word: "interact",
     meaning: "交流する",
     sentence: "(   ) well with other students",
@@ -7632,6 +8717,7 @@ const units = {
   },
   // 503-1
   {
+    wordNo: 503,
     word: "contribute",
     meaning: "貢献する",
     sentence: "(   ) to world peace",
@@ -7639,6 +8725,7 @@ const units = {
   },
   // 503-2
   {
+    wordNo: 503,
     word: "contribute",
     meaning: "一因となる",
     sentence: "(   ) to global warming",
@@ -7646,6 +8733,7 @@ const units = {
   },
   // 503-3
   {
+    wordNo: 503,
     word: "contribute",
     meaning: "寄付する",
     sentence: "(   ) a great deal of money to the church",
@@ -7653,6 +8741,7 @@ const units = {
   },
   // 504-1
   {
+    wordNo: 504,
     word: "abolish",
     meaning: "〜を廃止する",
     sentence: "(   ) capital punishment",
@@ -7662,6 +8751,7 @@ const units = {
 505: [
   // 505-1
   {
+    wordNo: 505,
     word: "impose",
     meaning: "〜を課す",
     sentence: "The government should (   ) a total ban on cigarette advertising.",
@@ -7669,6 +8759,7 @@ const units = {
   },
   // 506-1
   {
+    wordNo: 506,
     word: "access",
     meaning: "利用する権利",
     sentence: "have free (   ) to a computer",
@@ -7676,6 +8767,7 @@ const units = {
   },
   // 506-2
   {
+    wordNo: 506,
     word: "access",
     meaning: "接近方法",
     sentence: "(   ) to the restrooms",
@@ -7683,6 +8775,7 @@ const units = {
   },
   // 507-1
   {
+    wordNo: 507,
     word: "duties",
     meaning: "義務",
     sentence: "fulfill my (   )",
@@ -7690,6 +8783,7 @@ const units = {
   },
   // 507-2
   {
+    wordNo: 507,
     word: "duty",
     meaning: "関税",
     sentence: "a 6 percent (   ) on imports",
@@ -7697,6 +8791,7 @@ const units = {
   },
   // 508-1
   {
+    wordNo: 508,
     word: "responsible",
     meaning: "責任がある",
     sentence: "I am (   ) for what happens at school.",
@@ -7704,6 +8799,7 @@ const units = {
   },
   // 508-2
   {
+    wordNo: 508,
     word: "responsible",
     meaning: "原因となっている",
     sentence: "The typhoon was (   ) for over 100 deaths.",
@@ -7711,6 +8807,7 @@ const units = {
   },
   // 509-1
   {
+    wordNo: 509,
     word: "policy",
     meaning: "政策",
     sentence: "China's one-child (   )",
@@ -7718,6 +8815,7 @@ const units = {
   },
   // 509-2
   {
+    wordNo: 509,
     word: "policy",
     meaning: "方針，ポリシー",
     sentence: "It is my (   ) not to say bad things about others.",
@@ -7725,6 +8823,7 @@ const units = {
   },
   // 509-3
   {
+    wordNo: 509,
     word: "policy",
     meaning: "保険契約",
     sentence: "renew an insurance (   )",
@@ -7732,6 +8831,7 @@ const units = {
   },
   // 510-1
   {
+    wordNo: 510,
     word: "elected",
     meaning: "〜を選挙で選ぶ",
     sentence: "I was (   ) a class representative.",
@@ -7739,6 +8839,7 @@ const units = {
   },
   // 511-1
   {
+    wordNo: 511,
     word: "industry",
     meaning: "業界",
     sentence: "commerce and (   )",
@@ -7746,6 +8847,7 @@ const units = {
   },
   // 511-2
   {
+    wordNo: 511,
     word: "industry",
     meaning: "産業",
     sentence: "the fashion (   )",
@@ -7753,6 +8855,7 @@ const units = {
   },
   // 511-3
   {
+    wordNo: 511,
     word: "Industry",
     meaning: "勤勉",
     sentence: "(   ) is the mother of success.",
@@ -7760,6 +8863,7 @@ const units = {
   },
   // 512-1
   {
+    wordNo: 512,
     word: "income",
     meaning: "収入",
     sentence: "my monthly (   )",
@@ -7767,6 +8871,7 @@ const units = {
   },
   // 513-1
   {
+    wordNo: 513,
     word: "profit",
     meaning: "利益，利潤",
     sentence: "The restaurant's daily (   ) is about $1,000.",
@@ -7774,6 +8879,7 @@ const units = {
   },
   // 514-1
   {
+    wordNo: 514,
     word: "taxes",
     meaning: "税金",
     sentence: "pay (   ) on my income",
@@ -7781,6 +8887,7 @@ const units = {
   },
   // 515-1
   {
+    wordNo: 515,
     word: "expenses",
     meaning: "費用",
     sentence: "This money will cover all your (   ).",
@@ -7788,6 +8895,7 @@ const units = {
   },
   // 515-2
   {
+    wordNo: 515,
     word: "expense",
     meaning: "犠牲",
     sentence: "at the (   ) of my health",
@@ -7795,6 +8903,7 @@ const units = {
   },
   // 516-1
   {
+    wordNo: 516,
     word: "debt",
     meaning: "借金",
     sentence: "pay back a (   ) of 100 dollars",
@@ -7802,6 +8911,7 @@ const units = {
   },
   // 517-1
   {
+    wordNo: 517,
     word: "deposit",
     meaning: "預金",
     sentence: "have a large (   ) in the bank",
@@ -7809,6 +8919,7 @@ const units = {
   },
   // 517-2
   {
+    wordNo: 517,
     word: "deposit",
     meaning: "手付金",
     sentence: "pay a (   ) on a house",
@@ -7816,6 +8927,7 @@ const units = {
   },
   // 517-3
   {
+    wordNo: 517,
     word: "deposit",
     meaning: "堆積物",
     sentence: "a rich (   ) of oil",
@@ -7823,6 +8935,7 @@ const units = {
   },
   // 517-4
   {
+    wordNo: 517,
     word: "deposit",
     meaning: "預ける",
     sentence: "(   ) ¥10,000 in a bank",
@@ -7830,6 +8943,7 @@ const units = {
   },
   // 518-1
   {
+    wordNo: 518,
     word: "charge",
     meaning: "料金",
     sentence: "Goods are delivered free of (   ).",
@@ -7837,6 +8951,7 @@ const units = {
   },
   // 518-2
   {
+    wordNo: 518,
     word: "charge",
     meaning: "責任",
     sentence: "Who is in (   ) of this shop?",
@@ -7844,6 +8959,7 @@ const units = {
   },
   // 518-3
   {
+    wordNo: 518,
     word: "charge",
     meaning: "非難，告発",
     sentence: "a (   ) against the company",
@@ -7851,6 +8967,7 @@ const units = {
   },
   // 518-4
   {
+    wordNo: 518,
     word: "charge",
     meaning: "〜を請求する",
     sentence: "(   ) 5,000 yen for a half-hour class",
@@ -7858,6 +8975,7 @@ const units = {
   },
   // 518-5
   {
+    wordNo: 518,
     word: "charged",
     meaning: "告訴する",
     sentence: "be (   ) with accepting bribes",
@@ -7865,6 +8983,7 @@ const units = {
   },
   // 518-6
   {
+    wordNo: 518,
     word: "charge",
     meaning: "充電する",
     sentence: "(   ) my smartphone",
@@ -7872,6 +8991,7 @@ const units = {
   },
   // 519-1
   {
+    wordNo: 519,
     word: "wage",
     meaning: "賃金",
     sentence: "get a daily (   ) of $100",
@@ -7879,6 +8999,7 @@ const units = {
   },
   // 520-1
   {
+    wordNo: 520,
     word: "recession",
     meaning: "不況",
     sentence: "close down my inn because of the continuing (   )",
@@ -7886,6 +9007,7 @@ const units = {
   },
   // 521-1
   {
+    wordNo: 521,
     word: "consume",
     meaning: "〜を消費する",
     sentence: "(   ) a large amount of electricity",
@@ -7893,6 +9015,7 @@ const units = {
   },
   // 522-1
   {
+    wordNo: 522,
     word: "waste",
     meaning: "〜を浪費する",
     sentence: "Don't (   ) so much time on video games.",
@@ -7900,6 +9023,7 @@ const units = {
   },
   // 522-2
   {
+    wordNo: 522,
     word: "waste",
     meaning: "無駄",
     sentence: "It is a (   ) of time and money.",
@@ -7907,6 +9031,7 @@ const units = {
   },
   // 522-3
   {
+    wordNo: 522,
     word: "waste",
     meaning: "廃棄物",
     sentence: "industrial (   )",
@@ -7914,6 +9039,7 @@ const units = {
   },
   // 523-1
   {
+    wordNo: 523,
     word: "invest",
     meaning: "投資する",
     sentence: "(   ) one million yen in stocks",
@@ -7921,6 +9047,7 @@ const units = {
   },
   // 523-2
   {
+    wordNo: 523,
     word: "invested",
     meaning: "与える",
     sentence: "He is (   ) with absolute authority.",
@@ -7928,6 +9055,7 @@ const units = {
   },
   // 524-1
   {
+    wordNo: 524,
     word: "import",
     meaning: "〜を輸入する",
     sentence: "(   ) beef from the U.S.",
@@ -7935,6 +9063,7 @@ const units = {
   },
   // 524-2
   {
+    wordNo: 524,
     word: "Imports",
     meaning: "輸入",
     sentence: "(   ) slightly exceeded exports.",
@@ -7944,6 +9073,7 @@ const units = {
 525: [
   // 525-1
   {
+    wordNo: 525,
     word: "financial",
     meaning: "財政的な",
     sentence: "receive (   ) support",
@@ -7951,6 +9081,7 @@ const units = {
   },
   // 526-1
   {
+    wordNo: 526,
     word: "hire",
     meaning: "〜を雇う",
     sentence: "(   ) movers to do all the work",
@@ -7958,6 +9089,7 @@ const units = {
   },
   // 526-2
   {
+    wordNo: 526,
     word: "hire",
     meaning: "借りる",
     sentence: "(   ) a car",
@@ -7965,6 +9097,7 @@ const units = {
   },
   // 527-1
   {
+    wordNo: 527,
     word: "employ",
     meaning: "雇う",
     sentence: "(   ) minors",
@@ -7972,6 +9105,7 @@ const units = {
   },
   // 527-2
   {
+    wordNo: 527,
     word: "employ",
     meaning: "用いる",
     sentence: "(   ) new technology",
@@ -7979,6 +9113,7 @@ const units = {
   },
   // 528-1
   {
+    wordNo: 528,
     word: "resign",
     meaning: "辞職する",
     sentence: "(   ) as a coach",
@@ -7986,6 +9121,7 @@ const units = {
   },
   // 528-2
   {
+    wordNo: 528,
     word: "resign",
     meaning: "辞める",
     sentence: "(   ) my post",
@@ -7993,6 +9129,7 @@ const units = {
   },
   // 529-1
   {
+    wordNo: 529,
     word: "qualify",
     meaning: "資格がある",
     sentence: "(   ) for bank loans",
@@ -8000,6 +9137,7 @@ const units = {
   },
   // 529-2
   {
+    wordNo: 529,
     word: "qualify",
     meaning: "資格を得る",
     sentence: "(   ) as a teacher",
@@ -8007,6 +9145,7 @@ const units = {
   },
   // 529-3
   {
+    wordNo: 529,
     word: "qualifying",
     meaning: "資格を与える",
     sentence: "World Cup (   ) game",
@@ -8014,6 +9153,7 @@ const units = {
   },
   // 530-1
   {
+    wordNo: 530,
     word: "assign",
     meaning: "割り当てる",
     sentence: "(   ) that important job to him",
@@ -8021,6 +9161,7 @@ const units = {
   },
   // 530-2
   {
+    wordNo: 530,
     word: "assigned",
     meaning: "配属する",
     sentence: "be (   ) to the head office",
@@ -8028,6 +9169,7 @@ const units = {
   },
   // 531-1
   {
+    wordNo: 531,
     word: "occupation",
     meaning: "職業",
     sentence: "my name, address, and (   )",
@@ -8035,6 +9177,7 @@ const units = {
   },
   // 531-2
   {
+    wordNo: 531,
     word: "occupation",
     meaning: "占領",
     sentence: "be under (   )",
@@ -8042,6 +9185,7 @@ const units = {
   },
   // 532-1
   {
+    wordNo: 532,
     word: "career",
     meaning: "職業",
     sentence: "start a (   ) as a doctor",
@@ -8049,6 +9193,7 @@ const units = {
   },
   // 532-2
   {
+    wordNo: 532,
     word: "career",
     meaning: "経歴",
     sentence: "during her long (   ) as a teacher",
@@ -8056,6 +9201,7 @@ const units = {
   },
   // 533-1
   {
+    wordNo: 533,
     word: "profession",
     meaning: "職業",
     sentence: "enter the legal (   )",
@@ -8063,6 +9209,7 @@ const units = {
   },
   // 533-2
   {
+    wordNo: 533,
     word: "profession",
     meaning: "同業者集団",
     sentence: "the medical (   )",
@@ -8070,6 +9217,7 @@ const units = {
   },
   // 534-1
   {
+    wordNo: 534,
     word: "Unemployment",
     meaning: "失業",
     sentence: "(   ) has fallen.",
@@ -8077,6 +9225,7 @@ const units = {
   },
   // 535-1
   {
+    wordNo: 535,
     word: "documents",
     meaning: "書類，資料",
     sentence: "look over the (   )",
@@ -8084,6 +9233,7 @@ const units = {
   },
   // 535-2
   {
+    wordNo: 535,
     word: "document",
     meaning: "記録する",
     sentence: "(   ) how this event happened",
@@ -8091,6 +9241,7 @@ const units = {
   },
   // 536-1
   {
+    wordNo: 536,
     word: "department",
     meaning: "部門，売り場",
     sentence: "the toy (   )",
@@ -8098,6 +9249,7 @@ const units = {
   },
   // 536-2
   {
+    wordNo: 536,
     word: "department",
     meaning: "学科",
     sentence: "the English (   )",
@@ -8105,6 +9257,7 @@ const units = {
   },
   // 536-3
   {
+    wordNo: 536,
     word: "Department",
     meaning: "省",
     sentence: "the U.S. State (   )",
@@ -8112,6 +9265,7 @@ const units = {
   },
   // 537-1
   {
+    wordNo: 537,
     word: "branch",
     meaning: "支店",
     sentence: "a (   ) of this bank",
@@ -8119,6 +9273,7 @@ const units = {
   },
   // 537-2
   {
+    wordNo: 537,
     word: "branch",
     meaning: "分野",
     sentence: "a (   ) of biology",
@@ -8126,6 +9281,7 @@ const units = {
   },
   // 537-3
   {
+    wordNo: 537,
     word: "branches",
     meaning: "枝",
     sentence: "Don't break (   ) off the trees.",
@@ -8133,6 +9289,7 @@ const units = {
   },
   // 538-1
   {
+    wordNo: 538,
     word: "retail",
     meaning: "小売り",
     sentence: "recommended (   ) price",
@@ -8140,6 +9297,7 @@ const units = {
   },
   // 538-2
   {
+    wordNo: 538,
     word: "retails",
     meaning: "小売りされている",
     sentence: "The vinegar (   ) at 1,000 yen a bottle.",
@@ -8147,6 +9305,7 @@ const units = {
   },
   // 539-1
   {
+    wordNo: 539,
     word: "colleague",
     meaning: "同僚",
     sentence: "a (   ) from work",
@@ -8154,6 +9313,7 @@ const units = {
   },
   // 540-1
   {
+    wordNo: 540,
     word: "system",
     meaning: "制度",
     sentence: "the tax (   )",
@@ -8161,6 +9321,7 @@ const units = {
   },
   // 540-2
   {
+    wordNo: 540,
     word: "system",
     meaning: "体系",
     sentence: "the solar (   )",
@@ -8168,6 +9329,7 @@ const units = {
   },
   // 541-1
   {
+    wordNo: 541,
     word: "structure",
     meaning: "構造，建築物",
     sentence: "a wooden (   )",
@@ -8175,6 +9337,7 @@ const units = {
   },
   // 542-1
   {
+    wordNo: 542,
     word: "architecture",
     meaning: "建築様式",
     sentence: "study (   )",
@@ -8182,6 +9345,7 @@ const units = {
   },
   // 543-1
   {
+    wordNo: 543,
     word: "construction",
     meaning: "建設",
     sentence: "The new city hall is under (   ).",
@@ -8189,6 +9353,7 @@ const units = {
   },
   // 544-1
   {
+    wordNo: 544,
     word: "functions",
     meaning: "機能",
     sentence: "bodily (   )",
@@ -8196,6 +9361,7 @@ const units = {
   },
   // 544-2
   {
+    wordNo: 544,
     word: "functioning",
     meaning: "機能する",
     sentence: "His heart is (   ) normally.",
@@ -8205,6 +9371,7 @@ const units = {
 545: [
   // 545-1
   {
+    wordNo: 545,
     word: "surface",
     meaning: "表面",
     sentence: "the (   ) of the moon",
@@ -8212,6 +9379,7 @@ const units = {
   },
   // 545-2
   {
+    wordNo: 545,
     word: "surfaced",
     meaning: "表面化する",
     sentence: "The rumor (   ) in the press.",
@@ -8219,6 +9387,7 @@ const units = {
   },
   // 546-1
   {
+    wordNo: 546,
     word: "aspects",
     meaning: "側面",
     sentence: "learn about various (   ) of Japanese culture",
@@ -8226,6 +9395,7 @@ const units = {
   },
   // 547-1
   {
+    wordNo: 547,
     word: "edge",
     meaning: "端",
     sentence: "sit on the (   ) of the bed",
@@ -8233,6 +9403,7 @@ const units = {
   },
   // 547-2
   {
+    wordNo: 547,
     word: "edge",
     meaning: "刃",
     sentence: "This knife has a sharp (   ).",
@@ -8240,6 +9411,7 @@ const units = {
   },
   // 547-3
   {
+    wordNo: 547,
     word: "edge",
     meaning: "優位",
     sentence: "have the (   ) over my rival",
@@ -8247,6 +9419,7 @@ const units = {
   },
   // 548-1
   {
+    wordNo: 548,
     word: "makeup",
     meaning: "構成",
     sentence: "the (   ) of the team",
@@ -8254,6 +9427,7 @@ const units = {
   },
   // 548-2
   {
+    wordNo: 548,
     word: "makeup",
     meaning: "資質",
     sentence: "the unique (   ) of each person",
@@ -8261,6 +9435,7 @@ const units = {
   },
   // 548-3
   {
+    wordNo: 548,
     word: "makeup",
     meaning: "化粧",
     sentence: "wear heavy (   )",
@@ -8268,6 +9443,7 @@ const units = {
   },
   // 548-4
   {
+    wordNo: 548,
     word: "makeup",
     meaning: "追試験",
     sentence: "take a (   ) exam in Latin",
@@ -8275,6 +9451,7 @@ const units = {
   },
   // 549-1
   {
+    wordNo: 549,
     word: "consisted",
     meaning: "〜で構成されている",
     sentence: "The audience (   ) mainly of young people.",
@@ -8282,6 +9459,7 @@ const units = {
   },
   // 549-2
   {
+    wordNo: 549,
     word: "consists",
     meaning: "〜にある",
     sentence: "Happiness (   ) in contentment.",
@@ -8289,6 +9467,7 @@ const units = {
   },
   // 550-1
   {
+    wordNo: 550,
     word: "composed",
     meaning: "構成する",
     sentence: "Water is (   ) of hydrogen and oxygen.",
@@ -8296,6 +9475,7 @@ const units = {
   },
   // 550-2
   {
+    wordNo: 550,
     word: "compose",
     meaning: "作曲する，詠む",
     sentence: "(   ) a haiku",
@@ -8303,6 +9483,7 @@ const units = {
   },
   // 550-3
   {
+    wordNo: 550,
     word: "composed",
     meaning: "落ち着いている",
     sentence: "remain perfectly (   )",
@@ -8310,6 +9491,7 @@ const units = {
   },
   // 551-1
   {
+    wordNo: 551,
     word: "attach",
     meaning: "添付する",
     sentence: "(   ) a file to an email",
@@ -8317,6 +9499,7 @@ const units = {
   },
   // 551-2
   {
+    wordNo: 551,
     word: "attached",
     meaning: "愛着を持たせる",
     sentence: "feel (   ) to this jacket",
@@ -8324,6 +9507,7 @@ const units = {
   },
   // 552-1
   {
+    wordNo: 552,
     word: "connect",
     meaning: "つなげる",
     sentence: "(   ) the printer to my PC",
@@ -8331,6 +9515,7 @@ const units = {
   },
   // 552-2
   {
+    wordNo: 552,
     word: "connected",
     meaning: "関連づける",
     sentence: "Exercise is closely (   ) with your health.",
@@ -8338,6 +9523,7 @@ const units = {
   },
   // 552-3
   {
+    wordNo: 552,
     word: "connect",
     meaning: "つながる",
     sentence: "(   ) to the internet",
@@ -8345,6 +9531,7 @@ const units = {
   },
   // 553-1
   {
+    wordNo: 553,
     word: "related",
     meaning: "関連づける",
     sentence: "These two events are closely (   ).",
@@ -8352,6 +9539,7 @@ const units = {
   },
   // 553-2
   {
+    wordNo: 553,
     word: "relate",
     meaning: "話す",
     sentence: "(   ) my adventures",
@@ -8359,6 +9547,7 @@ const units = {
   },
   // 553-3
   {
+    wordNo: 553,
     word: "relate",
     meaning: "共感する",
     sentence: "cannot (   ) to his way of thinking",
@@ -8366,6 +9555,7 @@ const units = {
   },
   // 554-1
   {
+    wordNo: 554,
     word: "thief",
     meaning: "泥棒",
     sentence: "A (   ) broke into the building.",
@@ -8373,6 +9563,7 @@ const units = {
   },
   // 555-1
   {
+    wordNo: 555,
     word: "stick",
     meaning: "貼り付ける",
     sentence: "(   ) posters on the wall",
@@ -8380,6 +9571,7 @@ const units = {
   },
   // 555-2
   {
+    wordNo: 555,
     word: "stick",
     meaning: "突き出す",
     sentence: "(   ) my head out of the window",
@@ -8387,6 +9579,7 @@ const units = {
   },
   // 555-3
   {
+    wordNo: 555,
     word: "stick",
     meaning: "主義などを守る",
     sentence: "(   ) to my principles",
@@ -8394,6 +9587,7 @@ const units = {
   },
   // 556-1
   {
+    wordNo: 556,
     word: "crime",
     meaning: "犯罪",
     sentence: "combat (   )",
@@ -8401,6 +9595,7 @@ const units = {
   },
   // 557-1
   {
+    wordNo: 557,
     word: "motive",
     meaning: "動機",
     sentence: "his (   ) for the crime",
@@ -8408,6 +9603,7 @@ const units = {
   },
   // 558-1
   {
+    wordNo: 558,
     word: "punish",
     meaning: "〜を罰する",
     sentence: "severely (   ) him for breaking the rules",
@@ -8415,6 +9611,7 @@ const units = {
   },
   // 559-1
   {
+    wordNo: 559,
     word: "violate",
     meaning: "違反する",
     sentence: "(   ) international law",
@@ -8422,6 +9619,7 @@ const units = {
   },
   // 559-2
   {
+    wordNo: 559,
     word: "violate",
     meaning: "侵害する",
     sentence: "(   ) human rights",
@@ -8429,6 +9627,7 @@ const units = {
   },
   // 560-1
   {
+    wordNo: 560,
     word: "legal",
     meaning: "合法の",
     sentence: "In Japan, the current (   ) drinking age is 20.",
@@ -8436,6 +9635,7 @@ const units = {
   },
   // 560-2
   {
+    wordNo: 560,
     word: "legal",
     meaning: "法律の",
     sentence: "seek (   ) advice",
@@ -8443,6 +9643,7 @@ const units = {
   },
   // 561-1
   {
+    wordNo: 561,
     word: "associate",
     meaning: "関連づける",
     sentence: "(   ) brand names with high quality",
@@ -8450,6 +9651,7 @@ const units = {
   },
   // 561-2
   {
+    wordNo: 561,
     word: "associate",
     meaning: "付き合う",
     sentence: "Don't (   ) with shady people.",
@@ -8457,6 +9659,7 @@ const units = {
   },
   // 561-3
   {
+    wordNo: 561,
     word: "associates",
     meaning: "同僚，共同経営者",
     sentence: "work with my (   ) till nine",
@@ -8464,6 +9667,7 @@ const units = {
   },
   // 562-1
   {
+    wordNo: 562,
     word: "enemy",
     meaning: "敵",
     sentence: "fight with the (   )",
@@ -8471,6 +9675,7 @@ const units = {
   },
   // 562-2
   {
+    wordNo: 562,
     word: "enemy",
     meaning: "敵の",
     sentence: "(   ) soldiers",
@@ -8478,6 +9683,7 @@ const units = {
   },
   // 563-1
   {
+    wordNo: 563,
     word: "conflict",
     meaning: "対立，紛争",
     sentence: "a (   ) between two parties",
@@ -8485,6 +9691,7 @@ const units = {
   },
   // 563-2
   {
+    wordNo: 563,
     word: "conflict",
     meaning: "葛藤",
     sentence: "a psychological (   )",
@@ -8492,6 +9699,7 @@ const units = {
   },
   // 563-3
   {
+    wordNo: 563,
     word: "conflicts",
     meaning: "矛盾する",
     sentence: "This (   ) with his theory.",
@@ -8499,6 +9707,7 @@ const units = {
   },
   // 564-1
   {
+    wordNo: 564,
     word: "compete",
     meaning: "競争する",
     sentence: "(   ) with each other for good grades",
@@ -8506,6 +9715,7 @@ const units = {
   },
   // 564-2
   {
+    wordNo: 564,
     word: "compete",
     meaning: "参加する",
     sentence: "(   ) in a half marathon",
@@ -8515,6 +9725,7 @@ const units = {
 565: [
   // 565-1
   {
+    wordNo: 565,
     word: "defeated",
     meaning: "打ち負かす",
     sentence: "Our team was completely (   ).",
@@ -8522,6 +9733,7 @@ const units = {
   },
   // 565-2
   {
+    wordNo: 565,
     word: "defeat",
     meaning: "敗北",
     sentence: "Japan's (   ) in World War II",
@@ -8529,6 +9741,7 @@ const units = {
   },
   // 566-1
   {
+    wordNo: 566,
     word: "victim",
     meaning: "犠牲者，被害者",
     sentence: "Over 30 people fell (   ) to the terrorist attack.",
@@ -8536,6 +9749,7 @@ const units = {
   },
   // 567-1
   {
+    wordNo: 567,
     word: "obstacle",
     meaning: "障害",
     sentence: "remove an (   ) to an agreement",
@@ -8543,6 +9757,7 @@ const units = {
   },
   // 568-1
   {
+    wordNo: 568,
     word: "harm",
     meaning: "害を及ぼす",
     sentence: "Smoking does you (   ).",
@@ -8550,6 +9765,7 @@ const units = {
   },
   // 568-2
   {
+    wordNo: 568,
     word: "harm",
     meaning: "害",
     sentence: "(   ) his reputation",
@@ -8557,6 +9773,7 @@ const units = {
   },
   // 569-1
   {
+    wordNo: 569,
     word: "invade",
     meaning: "侵害する",
     sentence: "(   ) our privacy",
@@ -8564,6 +9781,7 @@ const units = {
   },
   // 569-2
   {
+    wordNo: 569,
     word: "invade",
     meaning: "侵略する",
     sentence: "(   ) a neighboring country",
@@ -8571,6 +9789,7 @@ const units = {
   },
   // 570-1
   {
+    wordNo: 570,
     word: "endanger",
     meaning: "危険にさらす",
     sentence: "(   ) the lives of the passengers",
@@ -8578,6 +9797,7 @@ const units = {
   },
   // 571-1
   {
+    wordNo: 571,
     word: "interrupted",
     meaning: "中断する",
     sentence: "The meeting was temporarily (   ) by a blackout.",
@@ -8585,6 +9805,7 @@ const units = {
   },
   // 571-2
   {
+    wordNo: 571,
     word: "interrupt",
     meaning: "遮る",
     sentence: "(   ) a speech with questions",
@@ -8592,6 +9813,7 @@ const units = {
   },
   // 571-3
   {
+    wordNo: 571,
     word: "interrupt",
     meaning: "話を遮る",
     sentence: "Don't (   ).",
@@ -8599,6 +9821,7 @@ const units = {
   },
   // 572-1
   {
+    wordNo: 572,
     word: "spoiled",
     meaning: "台無しにする",
     sentence: "Ben's sudden arrival (   ) our plans.",
@@ -8606,6 +9829,7 @@ const units = {
   },
   // 572-2
   {
+    wordNo: 572,
     word: "spoil",
     meaning: "甘やかす",
     sentence: "(   ) the child",
@@ -8613,6 +9837,7 @@ const units = {
   },
   // 573-1
   {
+    wordNo: 573,
     word: "spectators",
     meaning: "観客",
     sentence: "The football match attracted more than 10,000 (   ).",
@@ -8620,6 +9845,7 @@ const units = {
   },
   // 574-1
   {
+    wordNo: 574,
     word: "relatives",
     meaning: "親戚",
     sentence: "one of my (   )",
@@ -8627,6 +9853,7 @@ const units = {
   },
   // 574-2
   {
+    wordNo: 574,
     word: "relative",
     meaning: "相対的な",
     sentence: "(   ) merits",
@@ -8634,6 +9861,7 @@ const units = {
   },
   // 575-1
   {
+    wordNo: 575,
     word: "departure",
     meaning: "出発",
     sentence: "the flight's (   )",
@@ -8641,6 +9869,7 @@ const units = {
   },
   // 575-2
   {
+    wordNo: 575,
     word: "departure",
     meaning: "逸脱",
     sentence: "a (   ) from the norm",
@@ -8648,6 +9877,7 @@ const units = {
   },
   // 576-1
   {
+    wordNo: 576,
     word: "destination",
     meaning: "目的地",
     sentence: "get to my (   )",
@@ -8655,6 +9885,7 @@ const units = {
   },
   // 577-1
   {
+    wordNo: 577,
     word: "transportation",
     meaning: "公共交通機関",
     sentence: "by public (   )",
@@ -8662,6 +9893,7 @@ const units = {
   },
   // 578-1
   {
+    wordNo: 578,
     word: "vehicles",
     meaning: "車両",
     sentence: "emergency (   )",
@@ -8669,6 +9901,7 @@ const units = {
   },
   // 578-2
   {
+    wordNo: 578,
     word: "vehicle",
     meaning: "伝達手段",
     sentence: "Poetry is the (   ) of my ideas.",
@@ -8676,6 +9909,7 @@ const units = {
   },
   // 579-1
   {
+    wordNo: 579,
     word: "baggage",
     meaning: "手荷物",
     sentence: "How many pieces of (   ) can I take on the airplane with me?",
@@ -8683,6 +9917,7 @@ const units = {
   },
   // 580-1
   {
+    wordNo: 580,
     word: "via",
     meaning: "経由で",
     sentence: "fly to Zurich (   ) Hong Kong",
@@ -8690,6 +9925,7 @@ const units = {
   },
   // 580-2
   {
+    wordNo: 580,
     word: "via",
     meaning: "によって",
     sentence: "send a message to a friend (   ) email",
@@ -8697,6 +9933,7 @@ const units = {
   },
   // 581-1
   {
+    wordNo: 581,
     word: "leads",
     meaning: "至る",
     sentence: "Laziness (   ) to failure.",
@@ -8704,6 +9941,7 @@ const units = {
   },
   // 581-2
   {
+    wordNo: 581,
     word: "lead",
     meaning: "生活を送る",
     sentence: "(   ) an easy life",
@@ -8711,6 +9949,7 @@ const units = {
   },
   // 581-3
   {
+    wordNo: 581,
     word: "led",
     meaning: "〜させる",
     sentence: "What (   ) you to do it?",
@@ -8718,6 +9957,7 @@ const units = {
   },
   // 581-4
   {
+    wordNo: 581,
     word: "lead",
     meaning: "鉛",
     sentence: "The pencil (   ) has broken.",
@@ -8725,6 +9965,7 @@ const units = {
   },
   // 582-1
   {
+    wordNo: 582,
     word: "rises",
     meaning: "上がる",
     sentence: "The sun (   ) in the east.",
@@ -8732,6 +9973,7 @@ const units = {
   },
   // 582-2
   {
+    wordNo: 582,
     word: "rise",
     meaning: "上昇",
     sentence: "a (   ) in sea levels",
@@ -8739,6 +9981,7 @@ const units = {
   },
   // 583-1
   {
+    wordNo: 583,
     word: "flows",
     meaning: "流れる",
     sentence: "This river (   ) into the Pacific.",
@@ -8746,6 +9989,7 @@ const units = {
   },
   // 583-2
   {
+    wordNo: 583,
     word: "flow",
     meaning: "流れ",
     sentence: "the (   ) of conversation",
@@ -8753,6 +9997,7 @@ const units = {
   },
   // 584-1
   {
+    wordNo: 584,
     word: "burst",
     meaning: "はじける",
     sentence: "Japan's economic bubble (   ) in the 1990s.",
@@ -8760,6 +10005,7 @@ const units = {
   },
   // 584-2
   {
+    wordNo: 584,
     word: "burst",
     meaning: "突然〜し始める",
     sentence: "She (   ) out crying.",
@@ -8769,6 +10015,7 @@ const units = {
 585: [
   // 585-1
   {
+    wordNo: 585,
     word: "melted",
     meaning: "溶ける",
     sentence: "The ice cream quickly (   ).",
@@ -8776,6 +10023,7 @@ const units = {
   },
   // 585-2
   {
+    wordNo: 585,
     word: "melt",
     meaning: "〜を溶かす",
     sentence: "(   ) the butter",
@@ -8783,6 +10031,7 @@ const units = {
   },
   // 586-1
   {
+    wordNo: 586,
     word: "commute",
     meaning: "通勤する",
     sentence: "I (   ) to work by train.",
@@ -8790,6 +10039,7 @@ const units = {
   },
   // 586-2
   {
+    wordNo: 586,
     word: "commute",
     meaning: "通勤",
     sentence: "My (   ) takes around one hour.",
@@ -8797,6 +10047,7 @@ const units = {
   },
   // 587-1
   {
+    wordNo: 587,
     word: "accompany",
     meaning: "同行する",
     sentence: "(   ) my boss to Germany",
@@ -8804,6 +10055,7 @@ const units = {
   },
   // 587-2
   {
+    wordNo: 587,
     word: "accompanied",
     meaning: "伴う",
     sentence: "A cold is often (   ) by a fever.",
@@ -8811,6 +10063,7 @@ const units = {
   },
   // 588-1
   {
+    wordNo: 588,
     word: "emit",
     meaning: "排出する",
     sentence: "(   ) greenhouse gas",
@@ -8818,6 +10071,7 @@ const units = {
   },
   // 589-1
   {
+    wordNo: 589,
     word: "progress",
     meaning: "進歩",
     sentence: "make great (   ) in English",
@@ -8825,6 +10079,7 @@ const units = {
   },
   // 589-2
   {
+    wordNo: 589,
     word: "progressed",
     meaning: "進む",
     sentence: "As the meeting (   ), I grew more and more tired.",
@@ -8832,6 +10087,7 @@ const units = {
   },
   // 590-1
   {
+    wordNo: 590,
     word: "advances",
     meaning: "進歩",
     sentence: "(   ) in technology",
@@ -8839,6 +10095,7 @@ const units = {
   },
   // 590-2
   {
+    wordNo: 590,
     word: "advanced",
     meaning: "前進する",
     sentence: "The team (   ) to the final.",
@@ -8846,6 +10103,7 @@ const units = {
   },
   // 590-3
   {
+    wordNo: 590,
     word: "advance",
     meaning: "事前の",
     sentence: "an (   ) ticket",
@@ -8853,6 +10111,7 @@ const units = {
   },
   // 591-1
   {
+    wordNo: 591,
     word: "deal",
     meaning: "扱う",
     sentence: "(   ) with the drunk well",
@@ -8860,6 +10119,7 @@ const units = {
   },
   // 591-2
   {
+    wordNo: 591,
     word: "deal",
     meaning: "取引",
     sentence: "make a (   ) with the kidnapper",
@@ -8867,6 +10127,7 @@ const units = {
   },
   // 592-1
   {
+    wordNo: 592,
     word: "handle",
     meaning: "対処する",
     sentence: "(   ) stress well",
@@ -8874,6 +10135,7 @@ const units = {
   },
   // 592-2
   {
+    wordNo: 592,
     word: "handle",
     meaning: "手を触れる",
     sentence: "Please do not (   ) the exhibits.",
@@ -8881,6 +10143,7 @@ const units = {
   },
   // 592-3
   {
+    wordNo: 592,
     word: "handle",
     meaning: "取っ手",
     sentence: "the (   ) of a mug",
@@ -8888,6 +10151,7 @@ const units = {
   },
   // 593-1
   {
+    wordNo: 593,
     word: "treat",
     meaning: "扱う",
     sentence: "(   ) children fairly",
@@ -8895,6 +10159,7 @@ const units = {
   },
   // 593-2
   {
+    wordNo: 593,
     word: "treat",
     meaning: "治療する",
     sentence: "(   ) patients",
@@ -8902,6 +10167,7 @@ const units = {
   },
   // 593-3
   {
+    wordNo: 593,
     word: "treat",
     meaning: "ご馳走する",
     sentence: "Let me (   ) you to dinner tonight.",
@@ -8909,6 +10175,7 @@ const units = {
   },
   // 593-4
   {
+    wordNo: 593,
     word: "treat",
     meaning: "楽しみ",
     sentence: "The trip was a real (   ).",
@@ -8916,6 +10183,7 @@ const units = {
   },
   // 594-1
   {
+    wordNo: 594,
     word: "clue",
     meaning: "手がかり",
     sentence: "find a (   ) to his whereabouts",
@@ -8923,6 +10191,7 @@ const units = {
   },
   // 595-1
   {
+    wordNo: 595,
     word: "restrict",
     meaning: "制限する",
     sentence: "(   ) the amount of carbohydrate",
@@ -8930,6 +10199,7 @@ const units = {
   },
   // 596-1
   {
+    wordNo: 596,
     word: "limit",
     meaning: "制限する",
     sentence: "(   ) class size to fifteen",
@@ -8937,6 +10207,7 @@ const units = {
   },
   // 596-2
   {
+    wordNo: 596,
     word: "limit",
     meaning: "制限",
     sentence: "put a (   ) on the number of participants",
@@ -8944,6 +10215,7 @@ const units = {
   },
   // 597-1
   {
+    wordNo: 597,
     word: "forbid",
     meaning: "〜を禁じる",
     sentence: "(   ) employees to accept tips from customers",
@@ -8951,6 +10223,7 @@ const units = {
   },
   // 598-1
   {
+    wordNo: 598,
     word: "ban",
     meaning: "禁止",
     sentence: "impose a total (   ) on smoking in public places",
@@ -8958,6 +10231,7 @@ const units = {
   },
   // 598-2
   {
+    wordNo: 598,
     word: "ban",
     meaning: "禁止する",
     sentence: "(   ) the illegal downloading of music",
@@ -8965,6 +10239,7 @@ const units = {
   },
   // 599-1
   {
+    wordNo: 599,
     word: "refuse",
     meaning: "拒む",
     sentence: "(   ) to listen to him",
@@ -8972,6 +10247,7 @@ const units = {
   },
   // 599-2
   {
+    wordNo: 599,
     word: "refuse",
     meaning: "断る",
     sentence: "flatly (   ) the offer",
@@ -8979,6 +10255,7 @@ const units = {
   },
   // 600-1
   {
+    wordNo: 600,
     word: "reject",
     meaning: "拒絶する",
     sentence: "(   ) the idea",
@@ -8986,6 +10263,7 @@ const units = {
   },
   // 600-2
   {
+    wordNo: 600,
     word: "rejected",
     meaning: "のけ者にする",
     sentence: "People in the village (   ) him.",
@@ -8993,6 +10271,7 @@ const units = {
   },
   // 601-1
   {
+    wordNo: 601,
     word: "persuade",
     meaning: "説得して〜させる",
     sentence: "It is no use trying to (   ) him to eat carrots.",
@@ -9000,6 +10279,7 @@ const units = {
   },
   // 602-1
   {
+    wordNo: 602,
     word: "convince",
     meaning: "確信させる",
     sentence: "(   ) him that I am right",
@@ -9007,6 +10287,7 @@ const units = {
   },
   // 602-2
   {
+    wordNo: 602,
     word: "convince",
     meaning: "説得して〜させる",
     sentence: "(   ) him to study hard",
@@ -9014,6 +10295,7 @@ const units = {
   },
   // 603-1
   {
+    wordNo: 603,
     word: "inspired",
     meaning: "奮い立たせる",
     sentence: "His remark (   ) me to study.",
@@ -9021,6 +10303,7 @@ const units = {
   },
   // 603-2
   {
+    wordNo: 603,
     word: "inspired",
     meaning: "ヒントを与えられた",
     sentence: "This novel was (   ) by real events.",
@@ -9028,6 +10311,7 @@ const units = {
   },
   // 604-1
   {
+    wordNo: 604,
     word: "discourage",
     meaning: "思いとどまらせる",
     sentence: "(   ) her from buying expensive clothes",
@@ -9037,6 +10321,7 @@ const units = {
 605: [
   // 605-1
   {
+    wordNo: 605,
     word: "promote",
     meaning: "促進する",
     sentence: "(   ) healthy eating habits",
@@ -9044,6 +10329,7 @@ const units = {
   },
   // 605-2
   {
+    wordNo: 605,
     word: "promoted",
     meaning: "昇進する",
     sentence: "get (   ) to vice-president",
@@ -9051,6 +10337,7 @@ const units = {
   },
   // 606-1
   {
+    wordNo: 606,
     word: "boost",
     meaning: "高める",
     sentence: "(   ) the team's morale",
@@ -9058,6 +10345,7 @@ const units = {
   },
   // 607-1
   {
+    wordNo: 607,
     word: "expands",
     meaning: "膨張する",
     sentence: "Water (   ) when it freezes.",
@@ -9065,6 +10353,7 @@ const units = {
   },
   // 607-2
   {
+    wordNo: 607,
     word: "expand",
     meaning: "拡大する",
     sentence: "(   ) my business",
@@ -9072,6 +10361,7 @@ const units = {
   },
   // 608-1
   {
+    wordNo: 608,
     word: "extend",
     meaning: "延長する",
     sentence: "(   ) the deadline by one week",
@@ -9079,6 +10369,7 @@ const units = {
   },
   // 608-2
   {
+    wordNo: 608,
     word: "extended",
     meaning: "及ぶ",
     sentence: "The meeting (   ) over five hours.",
@@ -9086,6 +10377,7 @@ const units = {
   },
   // 609-1
   {
+    wordNo: 609,
     word: "broadens",
     meaning: "広げる",
     sentence: "Travel (   ) your horizons.",
@@ -9093,6 +10385,7 @@ const units = {
   },
   // 609-2
   {
+    wordNo: 609,
     word: "broadened",
     meaning: "広がる",
     sentence: "After studying in New Zealand, my outlook on life has (   ).",
@@ -9100,6 +10393,7 @@ const units = {
   },
   // 610-1
   {
+    wordNo: 610,
     word: "spread",
     meaning: "広げる",
     sentence: "(   ) a handkerchief over my lap",
@@ -9107,6 +10401,7 @@ const units = {
   },
   // 610-2
   {
+    wordNo: 610,
     word: "spread",
     meaning: "広まる",
     sentence: "The news (   ) rapidly.",
@@ -9114,6 +10409,7 @@ const units = {
   },
   // 610-3
   {
+    wordNo: 610,
     word: "spread",
     meaning: "蔓延",
     sentence: "the rapid (   ) of cholera",
@@ -9121,6 +10417,7 @@ const units = {
   },
   // 611-1
   {
+    wordNo: 611,
     word: "tie",
     meaning: "縛る",
     sentence: "(   ) up old books with some string",
@@ -9128,6 +10425,7 @@ const units = {
   },
   // 611-2
   {
+    wordNo: 611,
     word: "tie",
     meaning: "結ぶ",
     sentence: "(   ) my shoelaces",
@@ -9135,6 +10433,7 @@ const units = {
   },
   // 611-3
   {
+    wordNo: 611,
     word: "tie",
     meaning: "ネクタイを直す",
     sentence: "fix my (   )",
@@ -9142,6 +10441,7 @@ const units = {
   },
   // 611-4
   {
+    wordNo: 611,
     word: "ties",
     meaning: "きずな",
     sentence: "parent-child (   )",
@@ -9149,6 +10449,7 @@ const units = {
   },
   // 612-1
   {
+    wordNo: 612,
     word: "fasten",
     meaning: "締める",
     sentence: "(   ) my seat belt",
@@ -9156,6 +10457,7 @@ const units = {
   },
   // 612-2
   {
+    wordNo: 612,
     word: "fasten",
     meaning: "留める",
     sentence: "(   ) my coat",
@@ -9163,6 +10465,7 @@ const units = {
   },
   // 613-1
   {
+    wordNo: 613,
     word: "fix",
     meaning: "固定する",
     sentence: "(   ) the camera to the tripod",
@@ -9170,6 +10473,7 @@ const units = {
   },
   // 613-2
   {
+    wordNo: 613,
     word: "fix",
     meaning: "修理する",
     sentence: "(   ) the bike",
@@ -9177,6 +10481,7 @@ const units = {
   },
   // 613-3
   {
+    wordNo: 613,
     word: "fix",
     meaning: "用意する",
     sentence: "(   ) lunch",
@@ -9184,6 +10489,7 @@ const units = {
   },
   // 614-1
   {
+    wordNo: 614,
     word: "install",
     meaning: "設置する",
     sentence: "(   ) a vending machine in the school cafeteria",
@@ -9191,6 +10497,7 @@ const units = {
   },
   // 614-2
   {
+    wordNo: 614,
     word: "install",
     meaning: "インストールする",
     sentence: "(   ) the app on my smartphone",
@@ -9198,6 +10505,7 @@ const units = {
   },
   // 615-1
   {
+    wordNo: 615,
     word: "resist",
     meaning: "我慢する",
     sentence: "cannot (   ) buying new shoes",
@@ -9205,6 +10513,7 @@ const units = {
   },
   // 615-2
   {
+    wordNo: 615,
     word: "resists",
     meaning: "抵抗する",
     sentence: "Stainless steel (   ) rust.",
@@ -9212,6 +10521,7 @@ const units = {
   },
   // 616-1
   {
+    wordNo: 616,
     word: "obey",
     meaning: "従う",
     sentence: "(   ) my parents",
@@ -9219,6 +10529,7 @@ const units = {
   },
   // 617-1
   {
+    wordNo: 617,
     word: "engage",
     meaning: "従事する",
     sentence: "(   ) in relief operations",
@@ -9226,6 +10537,7 @@ const units = {
   },
   // 617-2
   {
+    wordNo: 617,
     word: "engage",
     meaning: "関わる",
     sentence: "(   ) with the kids",
@@ -9233,6 +10545,7 @@ const units = {
   },
   // 617-3
   {
+    wordNo: 617,
     word: "engaged",
     meaning: "引く",
     sentence: "The puzzle (   ) his interest all day.",
@@ -9240,6 +10553,7 @@ const units = {
   },
   // 618-1
   {
+    wordNo: 618,
     word: "bump",
     meaning: "ぶつかる",
     sentence: "(   ) into a pile of books",
@@ -9247,6 +10561,7 @@ const units = {
   },
   // 618-2
   {
+    wordNo: 618,
     word: "bump",
     meaning: "偶然出会う",
     sentence: "(   ) into my ex-girlfriend in a supermarket",
@@ -9254,6 +10569,7 @@ const units = {
   },
   // 619-1
   {
+    wordNo: 619,
     word: "bend",
     meaning: "身をかがめる",
     sentence: "(   ) down to pick up the pen",
@@ -9261,6 +10577,7 @@ const units = {
   },
   // 619-2
   {
+    wordNo: 619,
     word: "bend",
     meaning: "曲げる",
     sentence: "(   ) my knees",
@@ -9268,6 +10585,7 @@ const units = {
   },
   // 619-3
   {
+    wordNo: 619,
     word: "bend",
     meaning: "カーブ",
     sentence: "go around a (   )",
@@ -9275,6 +10593,7 @@ const units = {
   },
   // 620-1
   {
+    wordNo: 620,
     word: "hugged",
     meaning: "抱き合う",
     sentence: "The players (   ) each other tightly.",
@@ -9282,6 +10601,7 @@ const units = {
   },
   // 620-2
   {
+    wordNo: 620,
     word: "hug",
     meaning: "抱きしめる",
     sentence: "give her a (   )",
@@ -9289,6 +10609,7 @@ const units = {
   },
   // 621-1
   {
+    wordNo: 621,
     word: "stare",
     meaning: "じっと見つめる",
     sentence: "(   ) at a computer screen",
@@ -9296,6 +10617,7 @@ const units = {
   },
   // 621-2
   {
+    wordNo: 621,
     word: "stare",
     meaning: "凝視",
     sentence: "give him a long, hard (   )",
@@ -9303,6 +10625,7 @@ const units = {
   },
   // 622-1
   {
+    wordNo: 622,
     word: "gaze",
     meaning: "見つめる",
     sentence: "(   ) at the ceiling",
@@ -9310,6 +10633,7 @@ const units = {
   },
   // 622-2
   {
+    wordNo: 622,
     word: "gaze",
     meaning: "視線",
     sentence: "attract everybody's (   )",
@@ -9317,6 +10641,7 @@ const units = {
   },
   // 623-1
   {
+    wordNo: 623,
     word: "glance",
     meaning: "ちらりと見る",
     sentence: "(   ) at the clock",
@@ -9324,6 +10649,7 @@ const units = {
   },
   // 623-2
   {
+    wordNo: 623,
     word: "glance",
     meaning: "ちらりと見ること",
     sentence: "have a (   ) at her",
@@ -9331,6 +10657,7 @@ const units = {
   },
   // 624-1
   {
+    wordNo: 624,
     word: "glimpse",
     meaning: "ちらりと見える",
     sentence: "(   ) her face",
@@ -9338,6 +10665,7 @@ const units = {
   },
   // 624-2
   {
+    wordNo: 624,
     word: "glimpse",
     meaning: "一目見る",
     sentence: "catch a (   ) of the singer",
@@ -9347,6 +10675,7 @@ const units = {
 625: [
   // 625-1
   {
+    wordNo: 625,
     word: "stretch",
     meaning: "伸ばす",
     sentence: "(   ) my arms",
@@ -9354,6 +10683,7 @@ const units = {
   },
   // 625-2
   {
+    wordNo: 625,
     word: "stretch",
     meaning: "広がる",
     sentence: "(   ) to the horizon",
@@ -9361,6 +10691,7 @@ const units = {
   },
   // 625-3
   {
+    wordNo: 625,
     word: "stretch",
     meaning: "広がり",
     sentence: "(   ) of desert",
@@ -9368,6 +10699,7 @@ const units = {
   },
   // 626-1
   {
+    wordNo: 626,
     word: "stumble",
     meaning: "つまずく",
     sentence: "(   ) over a rock",
@@ -9375,6 +10707,7 @@ const units = {
   },
   // 626-2
   {
+    wordNo: 626,
     word: "stumble",
     meaning: "偶然出会う",
     sentence: "(   ) across an old friend",
@@ -9382,6 +10715,7 @@ const units = {
   },
   // 627-1
   {
+    wordNo: 627,
     word: "press",
     meaning: "押す",
     sentence: "(   ) the button",
@@ -9389,6 +10723,7 @@ const units = {
   },
   // 627-2
   {
+    wordNo: 627,
     word: "press",
     meaning: "無理やり渡す",
     sentence: "(   ) money on him",
@@ -9396,6 +10731,7 @@ const units = {
   },
   // 627-3
   {
+    wordNo: 627,
     word: "press",
     meaning: "報道",
     sentence: "freedom of the (   )",
@@ -9403,6 +10739,7 @@ const units = {
   },
   // 628-1
   {
+    wordNo: 628,
     word: "drag",
     meaning: "引きずる",
     sentence: "(   ) the table into the kitchen",
@@ -9410,6 +10747,7 @@ const units = {
   },
   // 629-1
   {
+    wordNo: 629,
     word: "lean",
     meaning: "寄りかかる",
     sentence: "(   ) against the wall",
@@ -9417,6 +10755,7 @@ const units = {
   },
   // 629-2
   {
+    wordNo: 629,
     word: "lean",
     meaning: "身を乗り出す",
     sentence: "(   ) forward over the handrail",
@@ -9424,6 +10763,7 @@ const units = {
   },
   // 629-3
   {
+    wordNo: 629,
     word: "lean",
     meaning: "痩せている",
     sentence: "a tall, (   ) man",
@@ -9431,6 +10771,7 @@ const units = {
   },
   // 630-1
   {
+    wordNo: 630,
     word: "scratch",
     meaning: "かく",
     sentence: "(   ) my back",
@@ -9438,6 +10779,7 @@ const units = {
   },
   // 630-2
   {
+    wordNo: 630,
     word: "scratch",
     meaning: "ひっかき傷",
     sentence: "a (   ) on her arm",
@@ -9445,6 +10787,7 @@ const units = {
   },
   // 631-1
   {
+    wordNo: 631,
     word: "bow",
     meaning: "おじぎする",
     sentence: "(   ) to each other",
@@ -9452,6 +10795,7 @@ const units = {
   },
   // 631-2
   {
+    wordNo: 631,
     word: "bow",
     meaning: "おじぎ",
     sentence: "The singer gave a (   ) to the audience.",
@@ -9459,6 +10803,7 @@ const units = {
   },
   // 632-1
   {
+    wordNo: 632,
     word: "nodded",
     meaning: "うなずく",
     sentence: "She (   ) and smiled.",
@@ -9466,6 +10811,7 @@ const units = {
   },
   // 632-2
   {
+    wordNo: 632,
     word: "nod",
     meaning: "うたた寝する",
     sentence: "(   ) off in class",
@@ -9473,6 +10819,7 @@ const units = {
   },
   // 632-3
   {
+    wordNo: 632,
     word: "nod",
     meaning: "軽くうなずく",
     sentence: "give a slight (   )",
@@ -9480,6 +10827,7 @@ const units = {
   },
   // 633-1
   {
+    wordNo: 633,
     word: "sighed",
     meaning: "ため息をつく",
     sentence: "He (   ) saying, \"You win.\"",
@@ -9487,6 +10835,7 @@ const units = {
   },
   // 633-2
   {
+    wordNo: 633,
     word: "sigh",
     meaning: "ため息",
     sentence: "with a (   ) of relief",
@@ -9494,6 +10843,7 @@ const units = {
   },
   // 634-1
   {
+    wordNo: 634,
     word: "yawn",
     meaning: "あくびをする",
     sentence: "stretch and (   ) loudly",
@@ -9501,6 +10851,7 @@ const units = {
   },
   // 634-2
   {
+    wordNo: 634,
     word: "yawn",
     meaning: "あくび",
     sentence: "hold back a (   )",
@@ -9508,6 +10859,7 @@ const units = {
   },
   // 635-1
   {
+    wordNo: 635,
     word: "sneeze",
     meaning: "くしゃみをする",
     sentence: "Cover your mouth when you (   ).",
@@ -9515,6 +10867,7 @@ const units = {
   },
   // 636-1
   {
+    wordNo: 636,
     word: "bury",
     meaning: "埋める",
     sentence: "(   ) a time capsule at the foot of the cherry tree",
@@ -9522,6 +10875,7 @@ const units = {
   },
   // 636-2
   {
+    wordNo: 636,
     word: "bury",
     meaning: "埋葬する",
     sentence: "(   ) a dead cat in the garden",
@@ -9529,6 +10883,7 @@ const units = {
   },
   // 637-1
   {
+    wordNo: 637,
     word: "perform",
     meaning: "遂行する",
     sentence: "(   ) difficult tasks",
@@ -9536,6 +10891,7 @@ const units = {
   },
   // 637-2
   {
+    wordNo: 637,
     word: "perform",
     meaning: "演じる",
     sentence: "(   ) three plays",
@@ -9543,6 +10899,7 @@ const units = {
   },
   // 637-3
   {
+    wordNo: 637,
     word: "performed",
     meaning: "活躍した",
     sentence: "The star player (   ) well.",
@@ -9550,6 +10907,7 @@ const units = {
   },
   // 638-1
   {
+    wordNo: 638,
     word: "adopt",
     meaning: "採用する",
     sentence: "(   ) his plan",
@@ -9557,6 +10915,7 @@ const units = {
   },
   // 638-2
   {
+    wordNo: 638,
     word: "adopt",
     meaning: "引き取る",
     sentence: "(   ) a dog from an animal shelter",
@@ -9564,6 +10923,7 @@ const units = {
   },
   // 639-1
   {
+    wordNo: 639,
     word: "escape",
     meaning: "逃げる",
     sentence: "(   ) from the burning house",
@@ -9571,6 +10931,7 @@ const units = {
   },
   // 639-2
   {
+    wordNo: 639,
     word: "escape",
     meaning: "免れる",
     sentence: "(   ) injury",
@@ -9578,6 +10939,7 @@ const units = {
   },
   // 639-3
   {
+    wordNo: 639,
     word: "escape",
     meaning: "逃げ道",
     sentence: "look for an (   ) route",
@@ -9585,6 +10947,7 @@ const units = {
   },
   // 640-1
   {
+    wordNo: 640,
     word: "scattered",
     meaning: "脱ぎ散らかされていた",
     sentence: "His clothes were (   ) all over the floor.",
@@ -9592,6 +10955,7 @@ const units = {
   },
   // 640-2
   {
+    wordNo: 640,
     word: "scatter",
     meaning: "散る",
     sentence: "(   ) in all directions",
@@ -9599,6 +10963,7 @@ const units = {
   },
   // 641-1
   {
+    wordNo: 641,
     word: "fold",
     meaning: "折る",
     sentence: "(   ) the paper along the dotted line",
@@ -9606,6 +10971,7 @@ const units = {
   },
   // 641-2
   {
+    wordNo: 641,
     word: "fold up",
     meaning: "たたむ",
     sentence: "(   ) my clothes",
@@ -9613,6 +10979,7 @@ const units = {
   },
   // 641-3
   {
+    wordNo: 641,
     word: "folded",
     meaning: "腕組みをして",
     sentence: "with my arms (   )",
@@ -9620,6 +10987,7 @@ const units = {
   },
   // 641-4
   {
+    wordNo: 641,
     word: "folds",
     meaning: "折りたためる",
     sentence: "This chair (   ) flat.",
@@ -9627,6 +10995,7 @@ const units = {
   },
   // 642-1
   {
+    wordNo: 642,
     word: "hang",
     meaning: "〜を掛ける",
     sentence: "(   ) the washing on the pole",
@@ -9634,6 +11003,7 @@ const units = {
   },
   // 642-2
   {
+    wordNo: 642,
     word: "hanged",
     meaning: "絞首刑になる",
     sentence: "be (   ) for murder",
@@ -9641,6 +11011,7 @@ const units = {
   },
   // 642-3
   {
+    wordNo: 642,
     word: "hanging",
     meaning: "ぶら下がっていた",
     sentence: "An old lamp was (   ) from the ceiling.",
@@ -9648,6 +11019,7 @@ const units = {
   },
   // 643-1
   {
+    wordNo: 643,
     word: "release",
     meaning: "解放する",
     sentence: "(   ) the hostages",
@@ -9655,6 +11027,7 @@ const units = {
   },
   // 643-2
   {
+    wordNo: 643,
     word: "release",
     meaning: "出す",
     sentence: "(   ) his new album",
@@ -9662,6 +11035,7 @@ const units = {
   },
   // 643-3
   {
+    wordNo: 643,
     word: "release",
     meaning: "放出する",
     sentence: "(   ) CO2",
@@ -9669,6 +11043,7 @@ const units = {
   },
   // 643-4
   {
+    wordNo: 643,
     word: "release",
     meaning: "解放",
     sentence: "the (   ) of the prisoners",
@@ -9676,6 +11051,7 @@ const units = {
   },
   // 644-1
   {
+    wordNo: 644,
     word: "strike",
     meaning: "〜を打つ",
     sentence: "(   ) him on the cheek",
@@ -9683,6 +11059,7 @@ const units = {
   },
   // 644-2
   {
+    wordNo: 644,
     word: "struck",
     meaning: "襲った",
     sentence: "The earthquake (   ) the area.",
@@ -9690,6 +11067,7 @@ const units = {
   },
   // 644-3
   {
+    wordNo: 644,
     word: "struck",
     meaning: "浮かんだ",
     sentence: "A good idea (   ) me.",
@@ -9697,6 +11075,7 @@ const units = {
   },
   // 644-4
   {
+    wordNo: 644,
     word: "struck",
     meaning: "思えた",
     sentence: "His plan (   ) me as impractical.",
@@ -9704,6 +11083,7 @@ const units = {
   },
   // 644-5
   {
+    wordNo: 644,
     word: "strike",
     meaning: "ストライキ",
     sentence: "go on (   )",
@@ -9711,6 +11091,7 @@ const units = {
   },
   // 645-1
   {
+    wordNo: 645,
     word: "beat",
     meaning: "〜を打つ",
     sentence: "(   ) a drum",
@@ -9718,6 +11099,7 @@ const units = {
   },
   // 645-2
   {
+    wordNo: 645,
     word: "beat",
     meaning: "〜に勝つ",
     sentence: "(   ) the world champion at chess",
@@ -9725,6 +11107,7 @@ const units = {
   },
   // 646-1
   {
+    wordNo: 646,
     word: "protect",
     meaning: "守る",
     sentence: "(   ) our skin from the sun",
@@ -9732,6 +11115,7 @@ const units = {
   },
   // 647-1
   {
+    wordNo: 647,
     word: "twist",
     meaning: "ねじ曲げる",
     sentence: "(   ) a wire",
@@ -9739,6 +11123,7 @@ const units = {
   },
   // 647-2
   {
+    wordNo: 647,
     word: "twist",
     meaning: "捻挫する",
     sentence: "(   ) my ankle",
@@ -9746,6 +11131,7 @@ const units = {
   },
   // 648-1
   {
+    wordNo: 648,
     word: "skip",
     meaning: "サボる",
     sentence: "(   ) cram school",
@@ -9753,6 +11139,7 @@ const units = {
   },
   // 649-1
   {
+    wordNo: 649,
     word: "exposed",
     meaning: "触れる",
     sentence: "Children should be (   ) to different cultures.",
@@ -9760,6 +11147,7 @@ const units = {
   },
   // 649-2
   {
+    wordNo: 649,
     word: "expose",
     meaning: "暴露する",
     sentence: "(   ) a secret",
@@ -9769,6 +11157,7 @@ const units = {
 650: [
   // 650-1
   {
+    wordNo: 650,
     word: "stir",
     meaning: "（液体など）を混ぜる",
     sentence: "(   ) my coffee with a spoon",
@@ -9776,6 +11165,7 @@ const units = {
   },
   // 650-2
   {
+    wordNo: 650,
     word: "stir",
     meaning: "（〜 up）（感情など）を呼び覚ます",
     sentence: "(   ) up childhood memories",
@@ -9783,6 +11173,7 @@ const units = {
   },
   // 651-1
   {
+    wordNo: 651,
     word: "shake",
     meaning: "〜を振る",
     sentence: "Don't (   ) the bottle of soda water.",
@@ -9790,6 +11181,7 @@ const units = {
   },
   // 651-2
   {
+    wordNo: 651,
     word: "shook",
     meaning: "震える",
     sentence: "The powerful earthquake (   ) the town.",
@@ -9797,6 +11189,7 @@ const units = {
   },
   // 651-3
   {
+    wordNo: 651,
     word: "shake",
     meaning: "震える",
     sentence: "My hand began to (   ).",
@@ -9804,6 +11197,7 @@ const units = {
   },
   // 652-1
   {
+    wordNo: 652,
     word: "polish",
     meaning: "〜を磨く",
     sentence: "(   ) my glasses with a piece of cloth",
@@ -9811,6 +11205,7 @@ const units = {
   },
   // 653-1
   {
+    wordNo: 653,
     word: "attend",
     meaning: "〜に出席する",
     sentence: "(   ) my sister's wedding",
@@ -9818,6 +11213,7 @@ const units = {
   },
   // 653-2
   {
+    wordNo: 653,
     word: "attend",
     meaning: "（to 〜）（〜に）注意を向ける",
     sentence: "(   ) to his words",
@@ -9825,6 +11221,7 @@ const units = {
   },
   // 653-3
   {
+    wordNo: 653,
     word: "attended",
     meaning: "（to 〜）（〜を）世話する",
     sentence: "A nurse (   ) to his broken arm.",
@@ -9832,6 +11229,7 @@ const units = {
   },
   // 654-1
   {
+    wordNo: 654,
     word: "imitate",
     meaning: "〜をまねる",
     sentence: "(   ) the American teacher's English",
@@ -9839,6 +11237,7 @@ const units = {
   },
   // 655-1
   {
+    wordNo: 655,
     word: "conduct",
     meaning: "〜を行う",
     sentence: "(   ) research",
@@ -9846,6 +11245,7 @@ const units = {
   },
   // 655-2
   {
+    wordNo: 655,
     word: "conduct",
     meaning: "（電気，熱）を伝える",
     sentence: "(   ) electricity",
@@ -9853,6 +11253,7 @@ const units = {
   },
   // 655-3
   {
+    wordNo: 655,
     word: "conduct",
     meaning: "（を）指揮する",
     sentence: "a code of (   )",
@@ -9860,6 +11261,7 @@ const units = {
   },
   // 656-1
   {
+    wordNo: 656,
     word: "struggle",
     meaning: "奮闘する，もがく",
     sentence: "(   ) to bring up my children",
@@ -9867,6 +11269,7 @@ const units = {
   },
   // 656-2
   {
+    wordNo: 656,
     word: "struggle",
     meaning: "奮闘する，もがく",
     sentence: "a (   ) for existence",
@@ -9874,6 +11277,7 @@ const units = {
   },
   // 657-1
   {
+    wordNo: 657,
     word: "burned down",
     meaning: "焼ける",
     sentence: "Kinkakuji Temple has (   ) several times.",
@@ -9881,6 +11285,7 @@ const units = {
   },
   // 657-2
   {
+    wordNo: 657,
     word: "burn",
     meaning: "〜を燃やす",
     sentence: "(   ) things in a fire",
@@ -9888,6 +11293,7 @@ const units = {
   },
   // 658-1
   {
+    wordNo: 658,
     word: "cheat",
     meaning: "ごまかす",
     sentence: "(   ) in an exam",
@@ -9895,6 +11301,7 @@ const units = {
   },
   // 658-2
   {
+    wordNo: 658,
     word: "cheat",
     meaning: "〜をだます",
     sentence: "(   ) the woman out of money",
@@ -9902,6 +11309,7 @@ const units = {
   },
   // 659-1
   {
+    wordNo: 659,
     word: "participate",
     meaning: "（in 〜）（〜に）参加する",
     sentence: "(   ) in the National Sports Festival",
@@ -9909,6 +11317,7 @@ const units = {
   },
   // 660-1
   {
+    wordNo: 660,
     word: "exists",
     meaning: "存在する",
     sentence: "believe that Santa Claus (   )",
@@ -9916,6 +11325,7 @@ const units = {
   },
   // 661-1
   {
+    wordNo: 661,
     word: "arose",
     meaning: "生じる",
     sentence: "Several problems (   ).",
@@ -9923,6 +11333,7 @@ const units = {
   },
   // 662-1
   {
+    wordNo: 662,
     word: "occurred",
     meaning: "起こる",
     sentence: "The accident (   ) at this intersection at about 10 p.m.",
@@ -9930,6 +11341,7 @@ const units = {
   },
   // 662-2
   {
+    wordNo: 662,
     word: "occurred",
     meaning: "（to A）（考えなどが）（Aに）思いつく",
     sentence: "A wonderful idea suddenly (   ) to me.",
@@ -9937,6 +11349,7 @@ const units = {
   },
   // 663-1
   {
+    wordNo: 663,
     word: "involved",
     meaning: "（be 〜ed in 〜）（事件などに）巻き込まれる",
     sentence: "I was (   ) in a traffic accident.",
@@ -9944,6 +11357,7 @@ const units = {
   },
   // 663-2
   {
+    wordNo: 663,
     word: "involved",
     meaning: "（be 〜ed in 〜）（子育てなどに）参加する",
     sentence: "be (   ) in child-rearing",
@@ -9951,6 +11365,7 @@ const units = {
   },
   // 663-3
   {
+    wordNo: 663,
     word: "involve",
     meaning: "〜を伴う",
     sentence: "Traveling abroad may (   ) danger.",
@@ -9958,6 +11373,7 @@ const units = {
   },
   // 664-1
   {
+    wordNo: 664,
     word: "requires",
     meaning: "〜を必要とする",
     sentence: "This job (   ) many years' experience.",
@@ -9965,6 +11381,7 @@ const units = {
   },
   // 665-1
   {
+    wordNo: 665,
     word: "counterparts",
     meaning: "（to 〜）（〜に対応する）（〜と同等の）人［物，事］",
     sentence: "The Japanese officials discussed the issue with their French (   ).",
@@ -9972,6 +11389,7 @@ const units = {
   },
   // 666-1
   {
+    wordNo: 666,
     word: "advent",
     meaning: "（the a〜 of A）（Aの）到来，出現",
     sentence: "the (   ) of new technology",
@@ -9982,6 +11400,7 @@ const units = {
 666: [
   // 666-2
   {
+    wordNo: 666,
     word: "Advent",
     meaning: "（the a〜 of A）（Aの）到来，出現",
     sentence: "the (   ) season",
@@ -9989,6 +11408,7 @@ const units = {
   },
   // 667-1
   {
+    wordNo: 667,
     word: "maintain",
     meaning: "〜を維持する",
     sentence: "(   ) a proper work-life balance",
@@ -9996,6 +11416,7 @@ const units = {
   },
   // 667-2
   {
+    wordNo: 667,
     word: "maintain",
     meaning: "（that SV）（〜を強く）主張する",
     sentence: "(   ) that it is true",
@@ -10003,6 +11424,7 @@ const units = {
   },
   // 668-1
   {
+    wordNo: 668,
     word: "lasted",
     meaning: "（時間的に）続く",
     sentence: "The meeting (   ) (for) three hours.",
@@ -10010,6 +11432,7 @@ const units = {
   },
   // 668-2
   {
+    wordNo: 668,
     word: "last",
     meaning: "（服などが）長持ちする",
     sentence: "A quality jacket will (   ) (you) a long time.",
@@ -10017,6 +11440,7 @@ const units = {
   },
   // 668-3
   {
+    wordNo: 668,
     word: "last",
     meaning: "この前の，最後の",
     sentence: "for the [this / (   )] twenty days",
@@ -10024,6 +11448,7 @@ const units = {
   },
   // 668-4
   {
+    wordNo: 668,
     word: "last",
     meaning: "最も〜でない",
     sentence: "the (   ) person to be late",
@@ -10031,6 +11456,7 @@ const units = {
   },
   // 668-5
   {
+    wordNo: 668,
     word: "At last",
     meaning: "この前の，最後の",
     sentence: "(   ), she passed the exam.",
@@ -10038,6 +11464,7 @@ const units = {
   },
   // 669-1
   {
+    wordNo: 669,
     word: "persists",
     meaning: "持続する",
     sentence: "If your fever (   ), you should see a doctor.",
@@ -10045,6 +11472,7 @@ const units = {
   },
   // 669-2
   {
+    wordNo: 669,
     word: "persist",
     meaning: "（in [with] 〜）（〜を）しつこく貫く，（〜に）固執する",
     sentence: "(   ) in causing trouble",
@@ -10052,6 +11480,7 @@ const units = {
   },
   // 670-1
   {
+    wordNo: 670,
     word: "examine",
     meaning: "〜を調査する",
     sentence: "(   ) the old records",
@@ -10059,6 +11488,7 @@ const units = {
   },
   // 670-2
   {
+    wordNo: 670,
     word: "examined",
     meaning: "〜を検査する",
     sentence: "have my stomach (   )",
@@ -10066,6 +11496,7 @@ const units = {
   },
   // 671-1
   {
+    wordNo: 671,
     word: "gained",
     meaning: "〜を増やす",
     sentence: "I have (   ) five kilos.",
@@ -10073,6 +11504,7 @@ const units = {
   },
   // 671-2
   {
+    wordNo: 671,
     word: "gain",
     meaning: "〜を得る",
     sentence: "(   ) valuable experience",
@@ -10080,6 +11512,7 @@ const units = {
   },
   // 671-3
   {
+    wordNo: 671,
     word: "gain",
     meaning: "利益，増加",
     sentence: "for practical (   )",
@@ -10087,6 +11520,7 @@ const units = {
   },
   // 672-1
   {
+    wordNo: 672,
     word: "obtain",
     meaning: "（努力や能力の結果）を得る",
     sentence: "(   ) a work visa",
@@ -10094,6 +11528,7 @@ const units = {
   },
   // 673-1
   {
+    wordNo: 673,
     word: "acquire",
     meaning: "〜を習得する",
     sentence: "(   ) a foreign language",
@@ -10101,6 +11536,7 @@ const units = {
   },
   // 673-2
   {
+    wordNo: 673,
     word: "acquire",
     meaning: "〜を獲得する",
     sentence: "(   ) U.S. citizenship",
@@ -10108,6 +11544,7 @@ const units = {
   },
   // 673-3
   {
+    wordNo: 673,
     word: "acquire",
     meaning: "〜を買収する",
     sentence: "(   ) a software company",
@@ -10115,6 +11552,7 @@ const units = {
   },
   // 674-1
   {
+    wordNo: 674,
     word: "search",
     meaning: "（for B）（Bを）求めて（A（場所））を捜す",
     sentence: "(   ) the house for my earrings",
@@ -10122,6 +11560,7 @@ const units = {
   },
   // 674-2
   {
+    wordNo: 674,
     word: "search",
     meaning: "捜索，調査",
     sentence: "in (   ) of the missing key",
@@ -10129,6 +11568,7 @@ const units = {
   },
   // 675-1
   {
+    wordNo: 675,
     word: "logical",
     meaning: "論理的な",
     sentence: "(   ) thinking",
@@ -10136,6 +11576,7 @@ const units = {
   },
   // 676-1
   {
+    wordNo: 676,
     word: "scholarship",
     meaning: "奨学金",
     sentence: "study abroad on a (   )",
@@ -10143,6 +11584,7 @@ const units = {
   },
   // 676-2
   {
+    wordNo: 676,
     word: "scholarship",
     meaning: "学問，（人文科学の）学識",
     sentence: "He is proud of his (   ).",
@@ -10150,6 +11592,7 @@ const units = {
   },
   // 677-1
   {
+    wordNo: 677,
     word: "instructions",
     meaning: "（通例 -s）指示，（取扱）説明書",
     sentence: "follow the on-screen (   )",
@@ -10157,6 +11600,7 @@ const units = {
   },
   // 678-1
   {
+    wordNo: 678,
     word: "determined",
     meaning: "〜を決める",
     sentence: "People's lifestyles are often (   ) by their incomes.",
@@ -10164,6 +11608,7 @@ const units = {
   },
   // 678-2
   {
+    wordNo: 678,
     word: "determined",
     meaning: "〜を大きく影響する",
     sentence: "I am (   ) to win the game.",
@@ -10171,6 +11616,7 @@ const units = {
   },
   // 678-3
   {
+    wordNo: 678,
     word: "determine",
     meaning: "（原因など）を特定する",
     sentence: "(   ) the cause of the accident",
@@ -10178,6 +11624,7 @@ const units = {
   },
   // 679-1
   {
+    wordNo: 679,
     word: "conclude",
     meaning: "（that SV）〜と結論を下す",
     sentence: "(   ) that the factory should be closed",
@@ -10185,6 +11632,7 @@ const units = {
   },
   // 680-1
   {
+    wordNo: 680,
     word: "distinguish",
     meaning: "〜を区別する",
     sentence: "(   ) sheep from goats",
@@ -10195,6 +11643,7 @@ const units = {
 681: [
   // 681-1
   {
+    wordNo: 681,
     word: "classify",
     meaning: "〜を分類する",
     sentence: "(   ) the books according to subject [their subject(s)]",
@@ -10202,6 +11651,7 @@ const units = {
   },
   // 682-1
   {
+    wordNo: 682,
     word: "estimated",
     meaning: "〜と推定する，見積もる",
     sentence: "It is (   ) that this shrine is over 500 years old.",
@@ -10209,6 +11659,7 @@ const units = {
   },
   // 682-2
   {
+    wordNo: 682,
     word: "estimate",
     meaning: "（for 〜）（〜の）見積もり",
     sentence: "give an (   ) for fixing the roof",
@@ -10216,6 +11667,7 @@ const units = {
   },
   // 683-1
   {
+    wordNo: 683,
     word: "organize",
     meaning: "（考えなどを）まとめる",
     sentence: "(   ) my thoughts before speaking",
@@ -10223,6 +11675,7 @@ const units = {
   },
   // 683-2
   {
+    wordNo: 683,
     word: "organize",
     meaning: "〜を組織する，取りまとめる",
     sentence: "(   ) an event",
@@ -10230,6 +11683,7 @@ const units = {
   },
   // 684-1
   {
+    wordNo: 684,
     word: "recognize",
     meaning: "（知り合いなどだと）わかる",
     sentence: "Do you (   ) me?",
@@ -10237,6 +11691,7 @@ const units = {
   },
   // 684-2
   {
+    wordNo: 684,
     word: "recognize",
     meaning: "（that SV）（事実だと）認める",
     sentence: "(   ) that I was wrong",
@@ -10244,6 +11699,7 @@ const units = {
   },
   // 685-1
   {
+    wordNo: 685,
     word: "supposed",
     meaning: "（be 〜d to 〜）〜することになっている",
     sentence: "You are (   ) to take off your shoes at the door.",
@@ -10251,6 +11707,7 @@ const units = {
   },
   // 685-2
   {
+    wordNo: 685,
     word: "Suppose",
     meaning: "〜と思う，仮定する",
     sentence: "(   ) you got lost there. What would you do?",
@@ -10258,6 +11715,7 @@ const units = {
   },
   // 686-1
   {
+    wordNo: 686,
     word: "assume",
     meaning: "〜と思い込む，決めつける",
     sentence: "(   ) (that) all people are the same",
@@ -10265,6 +11723,7 @@ const units = {
   },
   // 686-2
   {
+    wordNo: 686,
     word: "assume",
     meaning: "〜を引き受ける",
     sentence: "(   ) responsibility",
@@ -10272,6 +11731,7 @@ const units = {
   },
   // 687-1
   {
+    wordNo: 687,
     word: "care",
     meaning: "（否定文で）気にする",
     sentence: "I don't (   ) about trivial matters.",
@@ -10279,6 +11739,7 @@ const units = {
   },
   // 687-2
   {
+    wordNo: 687,
     word: "care",
     meaning: "世話をする",
     sentence: "(   ) for orphans",
@@ -10286,6 +11747,7 @@ const units = {
   },
   // 687-3
   {
+    wordNo: 687,
     word: "care",
     meaning: "世話，心配",
     sentence: "medical (   ) for the elderly",
@@ -10293,6 +11755,7 @@ const units = {
   },
   // 688-1
   {
+    wordNo: 688,
     word: "approved",
     meaning: "（of 〜）（〜を）認める，承認する",
     sentence: "Her parents (   ) of her marriage.",
@@ -10300,6 +11763,7 @@ const units = {
   },
   // 688-2
   {
+    wordNo: 688,
     word: "approved",
     meaning: "〜を承認する",
     sentence: "Congress (   ) the president's plans.",
@@ -10307,6 +11771,7 @@ const units = {
   },
   // 689-1
   {
+    wordNo: 689,
     word: "noticed",
     meaning: "〜に気がついている",
     sentence: "I (   ) that there was a hole in my sock.",
@@ -10314,6 +11779,7 @@ const units = {
   },
   // 689-2
   {
+    wordNo: 689,
     word: "notice",
     meaning: "通知，掲示，注意",
     sentence: "(   ) of a change of address",
@@ -10321,6 +11787,7 @@ const units = {
   },
   // 690-1
   {
+    wordNo: 690,
     word: "aware",
     meaning: "気づいている",
     sentence: "I am (   ) that my time on earth is limited.",
@@ -10328,6 +11795,7 @@ const units = {
   },
   // 691-1
   {
+    wordNo: 691,
     word: "conscious",
     meaning: "意識している，気づいている",
     sentence: "I was (   ) of the fact that it was an important meeting.",
@@ -10335,6 +11803,7 @@ const units = {
   },
   // 691-2
   {
+    wordNo: 691,
     word: "conscious",
     meaning: "意識がある",
     sentence: "He was still (   ) when we arrived.",
@@ -10342,6 +11811,7 @@ const units = {
   },
   // 692-1
   {
+    wordNo: 692,
     word: "concerned",
     meaning: "（with [about] 〜）（〜に）関心を持っている，重視している",
     sentence: "The professor is (   ) with environmental problems.",
@@ -10349,6 +11819,7 @@ const units = {
   },
   // 692-2
   {
+    wordNo: 692,
     word: "concerned",
     meaning: "（with 〜）（〜を）扱っている",
     sentence: "His book is (   ) with environmental problems.",
@@ -10356,6 +11827,7 @@ const units = {
   },
   // 692-3
   {
+    wordNo: 692,
     word: "concerned",
     meaning: "（about [for] 〜）（〜を）懸念している，心配している",
     sentence: "be (   ) about her safety",
@@ -10363,6 +11835,7 @@ const units = {
   },
   // 693-1
   {
+    wordNo: 693,
     word: "regards",
     meaning: "（as B）（AをBと）みなす",
     sentence: "Zack was born in the U.S. but he (   ) Japan as his home.",
@@ -10370,6 +11843,7 @@ const units = {
   },
   // 693-2
   {
+    wordNo: 693,
     word: "regarded",
     meaning: "（関係を）評価する",
     sentence: "be highly (   ) as a singer",
@@ -10377,6 +11851,7 @@ const units = {
   },
   // 693-3
   {
+    wordNo: 693,
     word: "regard",
     meaning: "この点で",
     sentence: "in this (   )",
@@ -10384,6 +11859,7 @@ const units = {
   },
   // 693-4
   {
+    wordNo: 693,
     word: "regards",
     meaning: "よろしくという挨拶",
     sentence: "Please give [send] my (   ) to Mr. Smith.",
@@ -10391,6 +11867,7 @@ const units = {
   },
   // 694-1
   {
+    wordNo: 694,
     word: "committed",
     meaning: "（oneself to 〜 / be 〜ed to 〜）〜に専念する",
     sentence: "We are fully (   ) to the project.",
@@ -10398,6 +11875,7 @@ const units = {
   },
   // 694-2
   {
+    wordNo: 694,
     word: "commit",
     meaning: "（言葉を）記憶する",
     sentence: "(   ) the words to memory",
@@ -10408,6 +11886,7 @@ const units = {
 694: [
   // 694-3
   {
+    wordNo: 694,
     word: "commit",
     meaning: "（犯罪などを）犯す",
     sentence: "(   ) a foul",
@@ -10415,6 +11894,7 @@ const units = {
   },
   // 695-1
   {
+    wordNo: 695,
     word: "doubted",
     meaning: "〜を疑う",
     sentence: "I have never once (   ) him.",
@@ -10422,6 +11902,7 @@ const units = {
   },
   // 695-2
   {
+    wordNo: 695,
     word: "doubt",
     meaning: "（that SV）〜とは思わない",
     sentence: "I (   ) that this diamond is real.",
@@ -10429,6 +11910,7 @@ const units = {
   },
   // 695-3
   {
+    wordNo: 695,
     word: "doubt",
     meaning: "疑い",
     sentence: "There is no (   ) that he was happy.",
@@ -10436,6 +11918,7 @@ const units = {
   },
   // 696-1
   {
+    wordNo: 696,
     word: "memorize",
     meaning: "〜を暗記する",
     sentence: "(   ) the times tables",
@@ -10443,6 +11926,7 @@ const units = {
   },
   // 697-1
   {
+    wordNo: 697,
     word: "forgive",
     meaning: "（人，過ちを）許す",
     sentence: "(   ) him for what he said",
@@ -10450,6 +11934,7 @@ const units = {
   },
   // 698-1
   {
+    wordNo: 698,
     word: "granted",
     meaning: "（take 〜 for granted）〜を当然のことと思う",
     sentence: "take cars for (   )",
@@ -10457,6 +11942,7 @@ const units = {
   },
   // 698-2
   {
+    wordNo: 698,
     word: "grant",
     meaning: "（権利など）を与える",
     sentence: "(   ) permission to visit",
@@ -10464,6 +11950,7 @@ const units = {
   },
   // 698-3
   {
+    wordNo: 698,
     word: "grant",
     meaning: "交付，補助金",
     sentence: "obtain a (   )",
@@ -10471,6 +11958,7 @@ const units = {
   },
   // 699-1
   {
+    wordNo: 699,
     word: "recalled",
     meaning: "〜を思い出す",
     sentence: "I (   ) that I had seen him cheating on the test.",
@@ -10478,6 +11966,7 @@ const units = {
   },
   // 699-2
   {
+    wordNo: 699,
     word: "recall",
     meaning: "（商品を）回収する，リコールする",
     sentence: "(   ) cars due to an engine fault",
@@ -10485,6 +11974,7 @@ const units = {
   },
   // 700-1
   {
+    wordNo: 700,
     word: "outlook",
     meaning: "（A's 〜 on life）（Aの）人生観",
     sentence: "broaden my (   ) on life",
@@ -10492,6 +11982,7 @@ const units = {
   },
   // 700-2
   {
+    wordNo: 700,
     word: "outlook",
     meaning: "（経済，天候などの）見通し，展望",
     sentence: "the economic (   )",
@@ -10499,6 +11990,7 @@ const units = {
   },
   // 701-1
   {
+    wordNo: 701,
     word: "perspective",
     meaning: "（経験などで得られる）視点",
     sentence: "gain a fresh (   )",
@@ -10506,6 +11998,7 @@ const units = {
   },
   // 701-2
   {
+    wordNo: 701,
     word: "perspective",
     meaning: "（大局的な）見方，遠近法",
     sentence: "keep the situation in (   )",
@@ -10513,6 +12006,7 @@ const units = {
   },
   // 702-1
   {
+    wordNo: 702,
     word: "abandon",
     meaning: "〜を捨てる，放棄する",
     sentence: "(   ) my dream of studying abroad",
@@ -10520,6 +12014,7 @@ const units = {
   },
   // 703-1
   {
+    wordNo: 703,
     word: "eliminate",
     meaning: "（不要な人，物）を排除する",
     sentence: "(   ) gender discrimination",
@@ -10527,6 +12022,7 @@ const units = {
   },
   // 703-2
   {
+    wordNo: 703,
     word: "eliminated",
     meaning: "（be 〜d）敗退する",
     sentence: "be (   ) in the second round",
@@ -10534,6 +12030,7 @@ const units = {
   },
   // 704-1
   {
+    wordNo: 704,
     word: "get rid of",
     meaning: "（get 〜 of 〜）（不要な人，物）を処分する",
     sentence: "(   ) my old toys",
@@ -10541,6 +12038,7 @@ const units = {
   },
   // 704-2
   {
+    wordNo: 704,
     word: "get rid of",
     meaning: "〜を取り除く",
     sentence: "(   ) cockroaches",
@@ -10548,6 +12046,7 @@ const units = {
   },
   // 705-1
   {
+    wordNo: 705,
     word: "removed",
     meaning: "〜を取り除く，取り去る",
     sentence: "Illegally parked bicycles will be (   ).",
@@ -10555,6 +12054,7 @@ const units = {
   },
   // 705-2
   {
+    wordNo: 705,
     word: "remove",
     meaning: "（衣服）を脱ぐ",
     sentence: "(   ) my hat",
@@ -10562,6 +12062,7 @@ const units = {
   },
   // 706-1
   {
+    wordNo: 706,
     word: "resources",
     meaning: "（-s）（石油などの）資源，（人，国の）財産",
     sentence: "develop natural (   )",
@@ -10569,6 +12070,7 @@ const units = {
   },
   // 706-2
   {
+    wordNo: 706,
     word: "resources",
     meaning: "（困難に立ち向かう力）蓄え",
     sentence: "sufficient (   ) to survive",
@@ -10576,6 +12078,7 @@ const units = {
   },
   // 706-3
   {
+    wordNo: 706,
     word: "resource",
     meaning: "手段",
     sentence: "as a last (   )",
@@ -10583,6 +12086,7 @@ const units = {
   },
   // 707-1
   {
+    wordNo: 707,
     word: "conservation",
     meaning: "保護",
     sentence: "(   ) groups",
@@ -10590,6 +12094,7 @@ const units = {
   },
   // 707-2
   {
+    wordNo: 707,
     word: "conservation",
     meaning: "保存",
     sentence: "the law of (   ) of energy",
@@ -10597,6 +12102,7 @@ const units = {
   },
   // 708-1
   {
+    wordNo: 708,
     word: "preserve",
     meaning: "（自然などを）保護する",
     sentence: "(   ) endangered species",
@@ -10604,6 +12110,7 @@ const units = {
   },
   // 708-2
   {
+    wordNo: 708,
     word: "preserved",
     meaning: "（景観，平和，食品など）を保つ",
     sentence: "a well-(   ) fossil",
@@ -10611,6 +12118,7 @@ const units = {
   },
   // 709-1
   {
+    wordNo: 709,
     word: "disasters",
     meaning: "災害",
     sentence: "natural (   ) in Japan",
@@ -10621,6 +12129,7 @@ const units = {
 709: [
   // 709-2
   {
+    wordNo: 709,
     word: "disaster",
     meaning: "大失敗",
     sentence: "My math test was a (   )!",
@@ -10628,6 +12137,7 @@ const units = {
   },
   // 710-1
   {
+    wordNo: 710,
     word: "planet",
     meaning: "惑星，（the 〜）地球",
     sentence: "creatures from another (   )",
@@ -10635,6 +12145,7 @@ const units = {
   },
   // 710-2
   {
+    wordNo: 710,
     word: "planet",
     meaning: "惑星，（the 〜）地球",
     sentence: "on the (   )",
@@ -10642,6 +12153,7 @@ const units = {
   },
   // 711-1
   {
+    wordNo: 711,
     word: "environment",
     meaning: "環境，周囲の状況",
     sentence: "the natural (   )",
@@ -10649,6 +12161,7 @@ const units = {
   },
   // 712-1
   {
+    wordNo: 712,
     word: "horizon",
     meaning: "水平線，地平線",
     sentence: "The sun appeared on the (   ).",
@@ -10656,6 +12169,7 @@ const units = {
   },
   // 712-2
   {
+    wordNo: 712,
     word: "horizons",
     meaning: "（-s）視野",
     sentence: "Traveling broadens your (   ).",
@@ -10663,6 +12177,7 @@ const units = {
   },
   // 713-1
   {
+    wordNo: 713,
     word: "layer",
     meaning: "層",
     sentence: "the ozone (   )",
@@ -10670,6 +12185,7 @@ const units = {
   },
   // 714-1
   {
+    wordNo: 714,
     word: "agriculture",
     meaning: "農業",
     sentence: "organic (   )",
@@ -10677,6 +12193,7 @@ const units = {
   },
   // 715-1
   {
+    wordNo: 715,
     word: "crops",
     meaning: "作物",
     sentence: "the main (   ) in this area",
@@ -10684,6 +12201,7 @@ const units = {
   },
   // 715-2
   {
+    wordNo: 715,
     word: "crop",
     meaning: "収穫（高）",
     sentence: "this region's rice (   )",
@@ -10691,6 +12209,7 @@ const units = {
   },
   // 715-3
   {
+    wordNo: 715,
     word: "cropped",
     meaning: "（up）生じる",
     sentence: "A new problem (   ) up.",
@@ -10698,6 +12217,7 @@ const units = {
   },
   // 716-1
   {
+    wordNo: 716,
     word: "soil",
     meaning: "土，土壌",
     sentence: "cultivate the (   )",
@@ -10705,6 +12225,7 @@ const units = {
   },
   // 717-1
   {
+    wordNo: 717,
     word: "weeds",
     meaning: "雑草，海草",
     sentence: "pull up (   )",
@@ -10712,6 +12233,7 @@ const units = {
   },
   // 717-2
   {
+    wordNo: 717,
     word: "weed",
     meaning: "〜の雑草を抜く",
     sentence: "(   ) the garden",
@@ -10719,6 +12241,7 @@ const units = {
   },
   // 718-1
   {
+    wordNo: 718,
     word: "Pollen",
     meaning: "花粉",
     sentence: "(   ) levels are high today.",
@@ -10726,6 +12249,7 @@ const units = {
   },
   // 719-1
   {
+    wordNo: 719,
     word: "drowned",
     meaning: "溺れ死ぬ",
     sentence: "He almost (   ), but luckily he was saved.",
@@ -10733,6 +12257,7 @@ const units = {
   },
   // 720-1
   {
+    wordNo: 720,
     word: "leaks",
     meaning: "漏れる",
     sentence: "This roof (   ).",
@@ -10740,6 +12265,7 @@ const units = {
   },
   // 720-2
   {
+    wordNo: 720,
     word: "leak",
     meaning: "〜を漏らす",
     sentence: "(   ) secret information",
@@ -10747,6 +12273,7 @@ const units = {
   },
   // 720-3
   {
+    wordNo: 720,
     word: "leak",
     meaning: "漏れ",
     sentence: "a gas (   )",
@@ -10754,6 +12281,7 @@ const units = {
   },
   // 721-1
   {
+    wordNo: 721,
     word: "climate",
     meaning: "気候",
     sentence: "This town has a mild [harsh] (   ).",
@@ -10761,6 +12289,7 @@ const units = {
   },
   // 721-2
   {
+    wordNo: 721,
     word: "climate",
     meaning: "（政治，経済，文化の）状況",
     sentence: "the present economic (   )",
@@ -10768,6 +12297,7 @@ const units = {
   },
   // 722-1
   {
+    wordNo: 722,
     word: "atmosphere",
     meaning: "（地球，惑星の）大気",
     sentence: "ice crystals in the (   )",
@@ -10775,6 +12305,7 @@ const units = {
   },
   // 722-2
   {
+    wordNo: 722,
     word: "atmosphere",
     meaning: "雰囲気",
     sentence: "Our workplace has a friendly (   ).",
@@ -10782,6 +12313,7 @@ const units = {
   },
   // 722-3
   {
+    wordNo: 722,
     word: "atmosphere",
     meaning: "（地球，惑星の）大気",
     sentence: "re-enter the (   )",
@@ -10789,6 +12321,7 @@ const units = {
   },
   // 723-1
   {
+    wordNo: 723,
     word: "forecast",
     meaning: "（天気）予報",
     sentence: "according to the weather (   )",
@@ -10796,6 +12329,7 @@ const units = {
   },
   // 723-2
   {
+    wordNo: 723,
     word: "forecast",
     meaning: "〜を予報する",
     sentence: "Snow is (   ) for the weekend.",
@@ -10803,6 +12337,7 @@ const units = {
   },
   // 724-1
   {
+    wordNo: 724,
     word: "humid",
     meaning: "湿気が多い",
     sentence: "Kyoto is hot and (   ) in summer.",
@@ -10810,6 +12345,7 @@ const units = {
   },
   // 725-1
   {
+    wordNo: 725,
     word: "rainforests",
     meaning: "熱帯の",
     sentence: "tropical (   )",
@@ -10817,6 +12353,7 @@ const units = {
   },
   // 726-1
   {
+    wordNo: 726,
     word: "solar",
     meaning: "太陽の，太陽光線を利用した",
     sentence: "install (   ) panels on the roof",
@@ -10824,6 +12361,7 @@ const units = {
   },
   // 800-1
   {
+    wordNo: 800,
     word: "available",
     meaning: "手に入る，利用できる",
     sentence: "This T-shirt is (   ) in all sizes.",
@@ -11607,6 +13145,7 @@ const units = {
 800: [
   // 800-2
   {
+    wordNo: 800,
     word: "available",
     meaning: "（人の予定が）空いている",
     sentence: "Mr. Rogers is (   ) today.",
@@ -11614,6 +13153,7 @@ const units = {
   },
   // 801-1
   {
+    wordNo: 801,
     word: "practical",
     meaning: "（人，知識が）現実的な，実務の",
     sentence: "gain (   ) experience",
@@ -11621,6 +13161,7 @@ const units = {
   },
   // 801-2
   {
+    wordNo: 801,
     word: "practical",
     meaning: "（発明，道具などが）実用的な，実践的な",
     sentence: "a (   ) training system",
@@ -11628,6 +13169,7 @@ const units = {
   },
   // 802-1
   {
+    wordNo: 802,
     word: "abstract",
     meaning: "抽象的な",
     sentence: "an (   ) work of art",
@@ -11635,6 +13177,7 @@ const units = {
   },
   // 802-2
   {
+    wordNo: 802,
     word: "abstract",
     meaning: "（論文などの）要旨",
     sentence: "an (   ) of this paper",
@@ -11642,6 +13185,7 @@ const units = {
   },
   // 803-1
   {
+    wordNo: 803,
     word: "brand-new",
     meaning: "新品の，真新しい",
     sentence: "(   ) climbing boots",
@@ -11649,6 +13193,7 @@ const units = {
   },
   // 804-1
   {
+    wordNo: 804,
     word: "secondhand",
     meaning: "中古の",
     sentence: "buy (   ) clothes cheaply",
@@ -11656,6 +13201,7 @@ const units = {
   },
   // 804-2
   {
+    wordNo: 804,
     word: "secondhand",
     meaning: "間接的な",
     sentence: "(   ) news",
@@ -11663,6 +13209,7 @@ const units = {
   },
   // 805-1
   {
+    wordNo: 805,
     word: "rapid",
     meaning: "急速な，速い",
     sentence: "(   ) economic growth",
@@ -11670,6 +13217,7 @@ const units = {
   },
   // 805-2
   {
+    wordNo: 805,
     word: "rapids",
     meaning: "急速な，速い",
     sentence: "shoot the (   ) in our canoe",
@@ -11677,6 +13225,7 @@ const units = {
   },
   // 806-1
   {
+    wordNo: 806,
     word: "urgent",
     meaning: "緊急の，差し迫った",
     sentence: "There is an (   ) need for more nursery schools.",
@@ -11684,6 +13233,7 @@ const units = {
   },
   // 807-1
   {
+    wordNo: 807,
     word: "shallow",
     meaning: "浅い",
     sentence: "a (   ) bathtub",
@@ -11691,6 +13241,7 @@ const units = {
   },
   // 807-2
   {
+    wordNo: 807,
     word: "shallow",
     meaning: "（人，言動などが）浅はかな",
     sentence: "(   ) speech",
@@ -11698,6 +13249,7 @@ const units = {
   },
   // 808-1
   {
+    wordNo: 808,
     word: "sharp",
     meaning: "（変化，方向転換などが）急激な",
     sentence: "a (   ) increase in prices",
@@ -11705,6 +13257,7 @@ const units = {
   },
   // 808-2
   {
+    wordNo: 808,
     word: "sharp",
     meaning: "（言葉が）きつい",
     sentence: "his (   ) tongue",
@@ -11712,6 +13265,7 @@ const units = {
   },
   // 808-3
   {
+    wordNo: 808,
     word: "sharp",
     meaning: "（刃物，感覚，人などが）鋭い",
     sentence: "a (   ) knife",
@@ -11719,6 +13273,7 @@ const units = {
   },
   // 808-4
   {
+    wordNo: 808,
     word: "sharp",
     meaning: "（時間）きっかりで",
     sentence: "at ten (o'clock) (   )",
@@ -11726,6 +13281,7 @@ const units = {
   },
   // 809-1
   {
+    wordNo: 809,
     word: "calm",
     meaning: "落ち着いた",
     sentence: "The supporters stayed (   ).",
@@ -11733,6 +13289,7 @@ const units = {
   },
   // 809-2
   {
+    wordNo: 809,
     word: "calm",
     meaning: "落ち着く",
     sentence: "Try and (   ) down.",
@@ -11740,6 +13297,7 @@ const units = {
   },
   // 809-3
   {
+    wordNo: 809,
     word: "calm",
     meaning: "〜を落ち着かせる",
     sentence: "The doctor used medicine to (   ) him down.",
@@ -11747,6 +13305,7 @@ const units = {
   },
   // 810-1
   {
+    wordNo: 810,
     word: "naked",
     meaning: "（人が）裸の，むき出しの",
     sentence: "swim (   ) in the river",
@@ -11754,6 +13313,7 @@ const units = {
   },
   // 811-1
   {
+    wordNo: 811,
     word: "independent",
     meaning: "独立した，無所属の",
     sentence: "I am (   ) of my parents.",
@@ -11761,6 +13321,7 @@ const units = {
   },
   // 811-2
   {
+    wordNo: 811,
     word: "independent",
     meaning: "独立した，無所属の",
     sentence: "run as an (   )",
@@ -11768,6 +13329,7 @@ const units = {
   },
   // 812-1
   {
+    wordNo: 812,
     word: "tense",
     meaning: "（雰囲気が）張り詰めた",
     sentence: "a (   ) atmosphere in the waiting room",
@@ -11775,6 +13337,7 @@ const units = {
   },
   // 812-2
   {
+    wordNo: 812,
     word: "tense",
     meaning: "（人が）緊張した",
     sentence: "The examinees looked (   ).",
@@ -11782,6 +13345,7 @@ const units = {
   },
   // 812-3
   {
+    wordNo: 812,
     word: "tense",
     meaning: "時制",
     sentence: "the present (   )",
@@ -11789,6 +13353,7 @@ const units = {
   },
   // 813-1
   {
+    wordNo: 813,
     word: "narrow",
     meaning: "狭い",
     sentence: "a (   ) mountain path",
@@ -11796,6 +13361,7 @@ const units = {
   },
   // 813-2
   {
+    wordNo: 813,
     word: "narrow",
     meaning: "〜を狭くする，細める",
     sentence: "(   ) my eyes",
@@ -11803,6 +13369,7 @@ const units = {
   },
   // 814-1
   {
+    wordNo: 814,
     word: "vacant",
     meaning: "（席などが）空いている，使用されていない",
     sentence: "The seat next to mine was (   ).",
@@ -11810,6 +13377,7 @@ const units = {
   },
   // 815-1
   {
+    wordNo: 815,
     word: "vivid",
     meaning: "（記憶，描写などが）鮮明な",
     sentence: "have (   ) memories of my time in Sydney",
@@ -11820,6 +13388,7 @@ const units = {
 815: [
   // 815-2
   {
+    wordNo: 815,
     word: "vivid",
     meaning: "（色が）鮮やかな",
     sentence: "a (   ) blue sky",
@@ -11827,6 +13396,7 @@ const units = {
   },
   // 816-1
   {
+    wordNo: 816,
     word: "awkward",
     meaning: "（動きなどが）ぎこちない",
     sentence: "the (   ) movements of the robot",
@@ -11834,6 +13404,7 @@ const units = {
   },
   // 816-2
   {
+    wordNo: 816,
     word: "awkward",
     meaning: "（状況が）気まずい",
     sentence: "After I laughed out loud, there was an (   ) silence.",
@@ -11841,6 +13412,7 @@ const units = {
   },
   // 816-3
   {
+    wordNo: 816,
     word: "awkward",
     meaning: "扱いにくい",
     sentence: "(   ) questions like \"Where do babies come from?\"",
@@ -11848,6 +13420,7 @@ const units = {
   },
   // 817-1
   {
+    wordNo: 817,
     word: "objective",
     meaning: "客観的な",
     sentence: "Historians try to be (   ).",
@@ -11855,6 +13428,7 @@ const units = {
   },
   // 817-2
   {
+    wordNo: 817,
     word: "objective",
     meaning: "目標",
     sentence: "Our main (   ) is to help the homeless.",
@@ -11862,6 +13436,7 @@ const units = {
   },
   // 818-1
   {
+    wordNo: 818,
     word: "manual",
     meaning: "手を使う，身体を使う",
     sentence: "(   ) work",
@@ -11869,6 +13444,7 @@ const units = {
   },
   // 818-2
   {
+    wordNo: 818,
     word: "manual",
     meaning: "手動の",
     sentence: "switch to (   ) operation",
@@ -11876,6 +13452,7 @@ const units = {
   },
   // 818-3
   {
+    wordNo: 818,
     word: "manual",
     meaning: "手引書",
     sentence: "a computer (   )",
@@ -11883,6 +13460,7 @@ const units = {
   },
   // 819-1
   {
+    wordNo: 819,
     word: "alike",
     meaning: "似ている",
     sentence: "The twins are very (   ).",
@@ -11890,6 +13468,7 @@ const units = {
   },
   // 819-2
   {
+    wordNo: 819,
     word: "alike",
     meaning: "（A and B 〜）（AもBも）同様に",
     sentence: "Children and parents (   ) can enjoy this book.",
@@ -11897,6 +13476,7 @@ const units = {
   },
   // 820-1
   {
+    wordNo: 820,
     word: "alien",
     meaning: "異質な",
     sentence: "a custom that is (   ) to me",
@@ -11904,6 +13484,7 @@ const units = {
   },
   // 820-2
   {
+    wordNo: 820,
     word: "alien",
     meaning: "外国の",
     sentence: "(   ) cultures",
@@ -11911,6 +13492,7 @@ const units = {
   },
   // 821-1
   {
+    wordNo: 821,
     word: "tend",
     meaning: "（to do）〜する傾向にある",
     sentence: "Women (   ) to count calories more than men do.",
@@ -11918,6 +13500,7 @@ const units = {
   },
   // 822-1
   {
+    wordNo: 822,
     word: "deserves",
     meaning: "〜に値する",
     sentence: "Masato has trained so hard that he (   ) to win.",
@@ -11925,6 +13508,7 @@ const units = {
   },
   // 823-1
   {
+    wordNo: 823,
     word: "fragments",
     meaning: "破片",
     sentence: "glass (   )",
@@ -11932,6 +13516,7 @@ const units = {
   },
   // 824-1
   {
+    wordNo: 824,
     word: "range",
     meaning: "範囲",
     sentence: "a wide (   ) of topics",
@@ -11939,6 +13524,7 @@ const units = {
   },
   // 824-2
   {
+    wordNo: 824,
     word: "range",
     meaning: "（from A to B）（AからBの）範囲に及ぶ",
     sentence: "Their ages (   ) from seven to eleven.",
@@ -11946,6 +13532,7 @@ const units = {
   },
   // 825-1
   {
+    wordNo: 825,
     word: "scale",
     meaning: "規模",
     sentence: "do business on a large (   )",
@@ -11953,6 +13540,7 @@ const units = {
   },
   // 825-2
   {
+    wordNo: 825,
     word: "scale(s)",
     meaning: "（-s）体重計",
     sentence: "step on the (   )",
@@ -11960,6 +13548,7 @@ const units = {
   },
   // 825-3
   {
+    wordNo: 825,
     word: "scales",
     meaning: "うろこ",
     sentence: "remove (   ) from a fish",
@@ -11967,6 +13556,7 @@ const units = {
   },
   // 826-1
   {
+    wordNo: 826,
     word: "unique",
     meaning: "（to 〜）（〜に）特有の，独自の",
     sentence: "This custom is (   ) to Japan.",
@@ -11974,6 +13564,7 @@ const units = {
   },
   // 826-2
   {
+    wordNo: 826,
     word: "unique",
     meaning: "ほかに類を見ない",
     sentence: "Her voice is totally (   ).",
@@ -11981,6 +13572,7 @@ const units = {
   },
   // 827-1
   {
+    wordNo: 827,
     word: "particular",
     meaning: "ある特定の",
     sentence: "a (   ) situation",
@@ -11988,6 +13580,7 @@ const units = {
   },
   // 827-2
   {
+    wordNo: 827,
     word: "particular",
     meaning: "（about 〜）（〜に）こだわりがある",
     sentence: "I am (   ) about pillows.",
@@ -11995,6 +13588,7 @@ const units = {
   },
   // 827-3
   {
+    wordNo: 827,
     word: "particular",
     meaning: "ある特定の",
     sentence: "Nothing in (   ).",
@@ -12002,6 +13596,7 @@ const units = {
   },
   // 828-1
   {
+    wordNo: 828,
     word: "typical",
     meaning: "典型的な",
     sentence: "a (   ) Japanese-style breakfast",
@@ -12009,6 +13604,7 @@ const units = {
   },
   // 829-1
   {
+    wordNo: 829,
     word: "general",
     meaning: "一般的な，全体の",
     sentence: "the (   ) public",
@@ -12016,6 +13612,7 @@ const units = {
   },
   // 829-2
   {
+    wordNo: 829,
     word: "General",
     meaning: "大将，将軍",
     sentence: "(   ) Grant",
@@ -12023,6 +13620,7 @@ const units = {
   },
   // 830-1
   {
+    wordNo: 830,
     word: "ordinary",
     meaning: "平凡な，ふつうの",
     sentence: "the lives of (   ) people",
@@ -12033,6 +13631,7 @@ const units = {
 831: [
   // 831-1
   {
+    wordNo: 831,
     word: "account",
     meaning: "割合を占める",
     sentence: "Middle-aged and older people (   ) for 70% of the group.",
@@ -12040,6 +13639,7 @@ const units = {
   },
   // 831-2
   {
+    wordNo: 831,
     word: "accounts",
     meaning: "（〜の）原因を説明する",
     sentence: "Stress (   ) for his failure.",
@@ -12047,6 +13647,7 @@ const units = {
   },
   // 831-3
   {
+    wordNo: 831,
     word: "account",
     meaning: "説明",
     sentence: "by her (   )",
@@ -12054,6 +13655,7 @@ const units = {
   },
   // 831-4
   {
+    wordNo: 831,
     word: "account",
     meaning: "口座",
     sentence: "open a bank (   )",
@@ -12061,6 +13663,7 @@ const units = {
   },
   // 832-1
   {
+    wordNo: 832,
     word: "calculate",
     meaning: "〜を計算する",
     sentence: "(   ) this month's expenses",
@@ -12068,6 +13671,7 @@ const units = {
   },
   // 833-1
   {
+    wordNo: 833,
     word: "measure",
     meaning: "〜を測る",
     sentence: "Please (   ) your blood pressure.",
@@ -12075,6 +13679,7 @@ const units = {
   },
   // 833-2
   {
+    wordNo: 833,
     word: "measures",
     meaning: "（〜の）寸法がある",
     sentence: "His waist (   ) over a meter.",
@@ -12082,6 +13687,7 @@ const units = {
   },
   // 833-3
   {
+    wordNo: 833,
     word: "measures",
     meaning: "（-s）手段",
     sentence: "take drastic (   ) to pass the bill",
@@ -12089,6 +13695,7 @@ const units = {
   },
   // 834-1
   {
+    wordNo: 834,
     word: "declining",
     meaning: "減る，衰退する",
     sentence: "Educational standards are (   ).",
@@ -12096,6 +13703,7 @@ const units = {
   },
   // 834-2
   {
+    wordNo: 834,
     word: "decline",
     meaning: "〜を断る",
     sentence: "(   ) an invitation to dinner",
@@ -12103,6 +13711,7 @@ const units = {
   },
   // 834-3
   {
+    wordNo: 834,
     word: "decline",
     meaning: "減少，下落",
     sentence: "a sharp (   ) in unemployment",
@@ -12110,6 +13719,7 @@ const units = {
   },
   // 835-1
   {
+    wordNo: 835,
     word: "split",
     meaning: "〜を割る",
     sentence: "Let's (   ) the bill.",
@@ -12117,6 +13727,7 @@ const units = {
   },
   // 835-2
   {
+    wordNo: 835,
     word: "split",
     meaning: "〜を分裂させる",
     sentence: "The issue (   ) the church.",
@@ -12124,6 +13735,7 @@ const units = {
   },
   // 835-3
   {
+    wordNo: 835,
     word: "split",
     meaning: "〜を割る",
     sentence: "(   ) into three groups",
@@ -12131,6 +13743,7 @@ const units = {
   },
   // 835-4
   {
+    wordNo: 835,
     word: "split",
     meaning: "分裂",
     sentence: "a (   ) in the party",
@@ -12138,6 +13751,7 @@ const units = {
   },
   // 836-1
   {
+    wordNo: 836,
     word: "volume",
     meaning: "容積，体積",
     sentence: "the (   ) of a cylinder",
@@ -12145,6 +13759,7 @@ const units = {
   },
   // 836-2
   {
+    wordNo: 836,
     word: "volume",
     meaning: "ボリューム，音量",
     sentence: "turn down the (   ) on the TV",
@@ -12152,6 +13767,7 @@ const units = {
   },
   // 836-3
   {
+    wordNo: 836,
     word: "volumes",
     meaning: "（全集などの）1巻",
     sentence: "an encyclopedia in 30 (   )",
@@ -12159,6 +13775,7 @@ const units = {
   },
   // 837-1
   {
+    wordNo: 837,
     word: "proportion",
     meaning: "比率",
     sentence: "The (   ) of boys to girls in my school is five to one.",
@@ -12166,6 +13783,7 @@ const units = {
   },
   // 837-2
   {
+    wordNo: 837,
     word: "proportion",
     meaning: "部分",
     sentence: "a large (   ) of the audience",
@@ -12173,6 +13791,7 @@ const units = {
   },
   // 837-3
   {
+    wordNo: 837,
     word: "proportions",
     meaning: "（-s）規模，大きさ",
     sentence: "a dam of great (   )",
@@ -12180,6 +13799,7 @@ const units = {
   },
   // 838-1
   {
+    wordNo: 838,
     word: "dozen",
     meaning: "1ダース（12個）",
     sentence: "two (   ) eggs",
@@ -12187,6 +13807,7 @@ const units = {
   },
   // 838-2
   {
+    wordNo: 838,
     word: "dozens",
     meaning: "（-s of 〜）数〜",
     sentence: "(   ) of people",
@@ -12194,6 +13815,7 @@ const units = {
   },
   // 839-1
   {
+    wordNo: 839,
     word: "amount",
     meaning: "量",
     sentence: "a large (   ) of fat",
@@ -12201,6 +13823,7 @@ const units = {
   },
   // 839-2
   {
+    wordNo: 839,
     word: "amount",
     meaning: "（to 〜）（合計が）〜に達する",
     sentence: "My debts (   ) to $200.",
@@ -12208,6 +13831,7 @@ const units = {
   },
   // 839-3
   {
+    wordNo: 839,
     word: "amount",
     meaning: "結局〜になる",
     sentence: "Our ideas (   ) to the same thing.",
@@ -12215,6 +13839,7 @@ const units = {
   },
   // 840-1
   {
+    wordNo: 840,
     word: "mass",
     meaning: "大量",
     sentence: "a huge (   ) of data",
@@ -12222,6 +13847,7 @@ const units = {
   },
   // 840-2
   {
+    wordNo: 840,
     word: "masses",
     meaning: "（the -es）大衆",
     sentence: "a movie aimed at the (   )",
@@ -12229,6 +13855,7 @@ const units = {
   },
   // 840-3
   {
+    wordNo: 840,
     word: "mass",
     meaning: "かたまり",
     sentence: "a (   ) of concrete",
@@ -12236,6 +13863,7 @@ const units = {
   },
   // 840-4
   {
+    wordNo: 840,
     word: "mass",
     meaning: "質量",
     sentence: "the (   ) of our solar system",
@@ -12246,6 +13874,7 @@ const units = {
 840: [
   // 840-5
   {
+    wordNo: 840,
     word: "Mass",
     meaning: "（M-）ミサ",
     sentence: "go to (   )",
@@ -12253,6 +13882,7 @@ const units = {
   },
   // 841-1
   {
+    wordNo: 841,
     word: "shortage",
     meaning: "不足",
     sentence: "There is a water (   ) in this area.",
@@ -12260,6 +13890,7 @@ const units = {
   },
   // 842-1
   {
+    wordNo: 842,
     word: "enormous",
     meaning: "莫大な，巨大な",
     sentence: "an (   ) amount of time",
@@ -12267,6 +13898,7 @@ const units = {
   },
   // 843-1
   {
+    wordNo: 843,
     word: "spare",
     meaning: "余分な，予備の",
     sentence: "in my (   ) time",
@@ -12274,6 +13906,7 @@ const units = {
   },
   // 843-2
   {
+    wordNo: 843,
     word: "spare",
     meaning: "（時間やお金，労力）を割く",
     sentence: "Could you (   ) me a few minutes?",
@@ -12281,6 +13914,7 @@ const units = {
   },
   // 843-3
   {
+    wordNo: 843,
     word: "spare",
     meaning: "〜を惜しむ",
     sentence: "(   ) no expense",
@@ -12288,6 +13922,7 @@ const units = {
   },
   // 844-1
   {
+    wordNo: 844,
     word: "arrange",
     meaning: "〜を手配する",
     sentence: "(   ) for someone to drive her home",
@@ -12295,6 +13930,7 @@ const units = {
   },
   // 844-2
   {
+    wordNo: 844,
     word: "arrange",
     meaning: "〜を整理する",
     sentence: "(   ) the documents according to size [their size(s)]",
@@ -12302,6 +13938,7 @@ const units = {
   },
   // 845-1
   {
+    wordNo: 845,
     word: "adapt",
     meaning: "適応する",
     sentence: "(   ) to a new school life",
@@ -12309,6 +13946,7 @@ const units = {
   },
   // 845-2
   {
+    wordNo: 845,
     word: "adapt",
     meaning: "〜を適応させる",
     sentence: "(   ) the menu to customers' needs",
@@ -12316,6 +13954,7 @@ const units = {
   },
   // 846-1
   {
+    wordNo: 846,
     word: "matches",
     meaning: "（サイズが人に）合う",
     sentence: "This sweater (   ) (= goes with) your skirt.",
@@ -12323,6 +13962,7 @@ const units = {
   },
   // 846-2
   {
+    wordNo: 846,
     word: "match",
     meaning: "〜に匹敵する",
     sentence: "No one can (   ) her in tennis.",
@@ -12330,6 +13970,7 @@ const units = {
   },
   // 846-3
   {
+    wordNo: 846,
     word: "match",
     meaning: "（釣り合う人，物）好敵手",
     sentence: "He is no (   ) for the champion.",
@@ -12337,6 +13978,7 @@ const units = {
   },
   // 847-1
   {
+    wordNo: 847,
     word: "fits",
     meaning: "（サイズが人に）合う",
     sentence: "This dress (   ) you.",
@@ -12344,6 +13986,7 @@ const units = {
   },
   // 847-2
   {
+    wordNo: 847,
     word: "fit",
     meaning: "健康な",
     sentence: "walk every morning to keep (   )",
@@ -12351,6 +13994,7 @@ const units = {
   },
   // 847-3
   {
+    wordNo: 847,
     word: "fit",
     meaning: "（to do）〜（するの）に適した",
     sentence: "This mushroom is not (   ) to eat.",
@@ -12358,6 +14002,7 @@ const units = {
   },
   // 848-1
   {
+    wordNo: 848,
     word: "emergency",
     meaning: "緊急事態",
     sentence: "An (   ) has arisen.",
@@ -12365,6 +14010,7 @@ const units = {
   },
   // 848-2
   {
+    wordNo: 848,
     word: "emergency",
     meaning: "緊急の",
     sentence: "an (   ) room (ER)",
@@ -12372,6 +14018,7 @@ const units = {
   },
   // 849-1
   {
+    wordNo: 849,
     word: "occasion",
     meaning: "場合",
     sentence: "on this (   )",
@@ -12379,6 +14026,7 @@ const units = {
   },
   // 849-2
   {
+    wordNo: 849,
     word: "occasions",
     meaning: "行事，祝い事",
     sentence: "keep the dress for special (   )",
@@ -12386,6 +14034,7 @@ const units = {
   },
   // 850-1
   {
+    wordNo: 850,
     word: "accidental",
     meaning: "偶然の，偶発的な",
     sentence: "an (   ) meeting",
@@ -12393,6 +14042,7 @@ const units = {
   },
   // 851-1
   {
+    wordNo: 851,
     word: "current",
     meaning: "最新の，今の",
     sentence: "the (   ) energy crisis",
@@ -12400,6 +14050,7 @@ const units = {
   },
   // 851-2
   {
+    wordNo: 851,
     word: "current",
     meaning: "流通して",
     sentence: "according to a (   ) rumor",
@@ -12407,6 +14058,7 @@ const units = {
   },
   // 851-3
   {
+    wordNo: 851,
     word: "current",
     meaning: "流れ，風潮",
     sentence: "a 10 amp electrical (   )",
@@ -12414,6 +14066,7 @@ const units = {
   },
   // 852-1
   {
+    wordNo: 852,
     word: "temporary",
     meaning: "一時的な",
     sentence: "a (   ) license",
@@ -12421,6 +14074,7 @@ const units = {
   },
   // 853-1
   {
+    wordNo: 853,
     word: "permanent",
     meaning: "永久的な",
     sentence: "a (   ) member of the U.N. Security Council",
@@ -12428,6 +14082,7 @@ const units = {
   },
   // 854-1
   {
+    wordNo: 854,
     word: "previous",
     meaning: "（時間，順序で）前の，以前の",
     sentence: "the (   ) morning",
@@ -12435,6 +14090,7 @@ const units = {
   },
   // 855-1
   {
+    wordNo: 855,
     word: "former",
     meaning: "（the 〜）前者",
     sentence: "the (   ) and the latter",
@@ -12442,6 +14098,7 @@ const units = {
   },
   // 855-2
   {
+    wordNo: 855,
     word: "former",
     meaning: "元の，前の，旧",
     sentence: "a (   ) colony of Britain",
@@ -12449,6 +14106,7 @@ const units = {
   },
   // 856-1
   {
+    wordNo: 856,
     word: "contemporary",
     meaning: "現代の",
     sentence: "(   ) literature",
@@ -12459,6 +14117,7 @@ const units = {
 856: [
   // 856-2
   {
+    wordNo: 856,
     word: "contemporary",
     meaning: "同時代の",
     sentence: "Shakespeare was (   ) with Tokugawa Ieyasu.",
@@ -12466,6 +14125,7 @@ const units = {
   },
   // 856-3
   {
+    wordNo: 856,
     word: "contemporaries",
     meaning: "同時代の人",
     sentence: "We were (   ) at high school.",
@@ -12473,6 +14133,7 @@ const units = {
   },
   // 857-1
   {
+    wordNo: 857,
     word: "lately",
     meaning: "最近",
     sentence: "Have you seen him (   )?",
@@ -12480,6 +14141,7 @@ const units = {
   },
   // 858-1
   {
+    wordNo: 858,
     word: "immediately",
     meaning: "すぐに",
     sentence: "(   ) after breakfast",
@@ -12487,6 +14149,7 @@ const units = {
   },
   // 858-2
   {
+    wordNo: 858,
     word: "immediately",
     meaning: "直後に",
     sentence: "(   ) behind the driver",
@@ -12494,6 +14157,7 @@ const units = {
   },
   // 859-1
   {
+    wordNo: 859,
     word: "deadline",
     meaning: "（〜の）締め切り（日）",
     sentence: "The (   ) for entries is next Monday.",
@@ -12501,6 +14165,7 @@ const units = {
   },
   // 860-1
   {
+    wordNo: 860,
     word: "decade",
     meaning: "10年",
     sentence: "decades of research",
@@ -12508,6 +14173,7 @@ const units = {
   },
   // 861-1
   {
+    wordNo: 861,
     word: "supply",
     meaning: "〜を供給する",
     sentence: "(   ) people with drinking water",
@@ -12515,6 +14181,7 @@ const units = {
   },
   // 861-2
   {
+    wordNo: 861,
     word: "supply",
     meaning: "供給",
     sentence: "(   ) and demand",
@@ -12522,6 +14189,7 @@ const units = {
   },
   // 862-1
   {
+    wordNo: 862,
     word: "replaced",
     meaning: "〜に取って代わる",
     sentence: "AI has (   ) humans in many fields.",
@@ -12529,6 +14197,7 @@ const units = {
   },
   // 862-2
   {
+    wordNo: 862,
     word: "replace",
     meaning: "（A with [by] B）（AをBに）取り替える",
     sentence: "(   ) [exchange] the worn tire with a new one",
@@ -12536,6 +14205,7 @@ const units = {
   },
   // 863-1
   {
+    wordNo: 863,
     word: "exchange",
     meaning: "〜を交換する",
     sentence: "(   ) Japanese yen for U.S. dollars",
@@ -12543,6 +14213,7 @@ const units = {
   },
   // 863-2
   {
+    wordNo: 863,
     word: "exchange",
     meaning: "交換",
     sentence: "go abroad on a student (   ) program",
@@ -12550,6 +14221,7 @@ const units = {
   },
   // 864-1
   {
+    wordNo: 864,
     word: "substitute",
     meaning: "（A for B）（Bの代わりにA）を用いる",
     sentence: "(   ) honey for sugar",
@@ -12557,6 +14229,7 @@ const units = {
   },
   // 864-2
   {
+    wordNo: 864,
     word: "substitute",
     meaning: "〜を代わりにする",
     sentence: "(   ) for her",
@@ -12564,6 +14237,7 @@ const units = {
   },
   // 864-3
   {
+    wordNo: 864,
     word: "substitute",
     meaning: "身代わり，代用品",
     sentence: "a (   ) national holiday",
@@ -12571,6 +14245,7 @@ const units = {
   },
   // 864-4
   {
+    wordNo: 864,
     word: "substitute",
     meaning: "（for 〜）（〜の）代わりになる",
     sentence: "There is no (   ) for experience.",
@@ -12578,6 +14253,7 @@ const units = {
   },
   // 865-1
   {
+    wordNo: 865,
     word: "submit",
     meaning: "（書類，発表などを）提出する",
     sentence: "(   ) an application form",
@@ -12585,6 +14261,7 @@ const units = {
   },
   // 865-2
   {
+    wordNo: 865,
     word: "submit",
     meaning: "（to 〜）（〜に）屈服する",
     sentence: "(   ) to authority",
@@ -12592,6 +14269,7 @@ const units = {
   },
   // 866-1
   {
+    wordNo: 866,
     word: "alternative",
     meaning: "（to 〜）（〜の）代わり（のもの）",
     sentence: "an (   ) to nuclear power",
@@ -12599,6 +14277,7 @@ const units = {
   },
   // 866-2
   {
+    wordNo: 866,
     word: "alternative",
     meaning: "選択肢",
     sentence: "There is no other (   ).",
@@ -12606,6 +14285,7 @@ const units = {
   },
   // 866-3
   {
+    wordNo: 866,
     word: "alternative",
     meaning: "代替エネルギー源",
     sentence: "(   ) energy sources",
@@ -12613,6 +14293,7 @@ const units = {
   },
   // 867-1
   {
+    wordNo: 867,
     word: "deliver",
     meaning: "〜を配達する",
     sentence: "(   ) pizzas",
@@ -12620,6 +14301,7 @@ const units = {
   },
   // 867-2
   {
+    wordNo: 867,
     word: "deliver",
     meaning: "（演説など）をする",
     sentence: "(   ) his inaugural address",
@@ -12627,6 +14309,7 @@ const units = {
   },
   // 868-1
   {
+    wordNo: 868,
     word: "enclose",
     meaning: "〜を同封する",
     sentence: "(   ) several photos",
@@ -12634,6 +14317,7 @@ const units = {
   },
   // 868-2
   {
+    wordNo: 868,
     word: "enclosed",
     meaning: "〜を囲む，閉じ込める",
     sentence: "be (   ) by high walls",
@@ -12641,6 +14325,7 @@ const units = {
   },
   // 869-1
   {
+    wordNo: 869,
     word: "envelope",
     meaning: "封筒",
     sentence: "put a stamp on the (   )",
@@ -12648,6 +14333,7 @@ const units = {
   },
   // 870-1
   {
+    wordNo: 870,
     word: "tricks",
     meaning: "（悪意のない）いたずら",
     sentence: "play (   ) on Kevin",
@@ -12655,6 +14341,7 @@ const units = {
   },
   // 870-2
   {
+    wordNo: 870,
     word: "tricks",
     meaning: "（巧妙な）手口，策略",
     sentence: "use cheap (   ) to get promoted",
@@ -12662,6 +14349,7 @@ const units = {
   },
   // 870-3
   {
+    wordNo: 870,
     word: "tricks",
     meaning: "芸，手品",
     sentence: "teach a dog some (   )",
@@ -12672,6 +14360,7 @@ const units = {
 870: [
   // 870-4
   {
+    wordNo: 870,
     word: "tricks",
     meaning: "（of 〜）秘訣",
     sentence: "learn the (   ) of the trade",
@@ -12679,6 +14368,7 @@ const units = {
   },
   // 870-5
   {
+    wordNo: 870,
     word: "trick",
     meaning: "〜をだます",
     sentence: "(   ) him out of his money",
@@ -12686,6 +14376,7 @@ const units = {
   },
   // 871-1
   {
+    wordNo: 871,
     word: "load",
     meaning: "荷（物）",
     sentence: "carry a heavy (   ) on my back",
@@ -12693,6 +14384,7 @@ const units = {
   },
   // 871-2
   {
+    wordNo: 871,
     word: "loaded",
     meaning: "（A with B）（AにB（荷））を積む",
     sentence: "be (   ) with timber",
@@ -12700,6 +14392,7 @@ const units = {
   },
   // 872-1
   {
+    wordNo: 872,
     word: "contents",
     meaning: "中身，内容",
     sentence: "the (   ) of her bag",
@@ -12707,6 +14400,7 @@ const units = {
   },
   // 872-2
   {
+    wordNo: 872,
     word: "content",
     meaning: "（〜に）満足して",
     sentence: "I'm (   ) with my current job.",
@@ -12714,6 +14408,7 @@ const units = {
   },
   // 873-1
   {
+    wordNo: 873,
     word: "households",
     meaning: "（集団的に）世帯，家庭",
     sentence: "a survey of 2,000 (   )",
@@ -12721,6 +14416,7 @@ const units = {
   },
   // 873-2
   {
+    wordNo: 873,
     word: "household",
     meaning: "家庭の",
     sentence: "do (   ) chores",
@@ -12728,6 +14424,7 @@ const units = {
   },
   // 874-1
   {
+    wordNo: 874,
     word: "goods",
     meaning: "（-s）商品",
     sentence: "antibacterial (   )",
@@ -12735,6 +14432,7 @@ const units = {
   },
   // 874-2
   {
+    wordNo: 874,
     word: "good",
     meaning: "利益",
     sentence: "Walking will do you (   ).",
@@ -12742,6 +14440,7 @@ const units = {
   },
   // 874-3
   {
+    wordNo: 874,
     word: "good",
     meaning: "（a 〜 many 〜）かなりの",
     sentence: "a (   ) many hours",
@@ -12749,6 +14448,7 @@ const units = {
   },
   // 875-1
   {
+    wordNo: 875,
     word: "luxuries",
     meaning: "高級（品），ぜいたく品",
     sentence: "spend a lot of money on (   )",
@@ -12756,6 +14456,7 @@ const units = {
   },
   // 875-2
   {
+    wordNo: 875,
     word: "luxury",
     meaning: "豪華な，ぜいたくな",
     sentence: "a (   ) hotel",
@@ -12763,6 +14464,7 @@ const units = {
   },
   // 876-1
   {
+    wordNo: 876,
     word: "credit",
     meaning: "クレジットカード",
     sentence: "Do you accept (   ) cards?",
@@ -12770,6 +14472,7 @@ const units = {
   },
   // 876-2
   {
+    wordNo: 876,
     word: "credit",
     meaning: "功績，手柄",
     sentence: "All the (   ) goes to him.",
@@ -12777,6 +14480,7 @@ const units = {
   },
   // 876-3
   {
+    wordNo: 876,
     word: "credits",
     meaning: "（大学の）単位",
     sentence: "cannot get (   ) simply by attending class",
@@ -12784,6 +14488,7 @@ const units = {
   },
   // 876-4
   {
+    wordNo: 876,
     word: "credited",
     meaning: "〜の功績を認める",
     sentence: "He is (   ) with that invention.",
@@ -12791,6 +14496,7 @@ const units = {
   },
   // 877-1
   {
+    wordNo: 877,
     word: "questionnaire",
     meaning: "アンケート",
     sentence: "a survey using a (   )",
@@ -12798,6 +14504,7 @@ const units = {
   },
   // 878-1
   {
+    wordNo: 878,
     word: "reservation",
     meaning: "予約",
     sentence: "make a (   ) under the name of Sophie",
@@ -12805,6 +14512,7 @@ const units = {
   },
   // 878-2
   {
+    wordNo: 878,
     word: "reservations",
     meaning: "慎重な姿勢",
     sentence: "have (   ) about the proposal",
@@ -12812,6 +14520,7 @@ const units = {
   },
   // 879-1
   {
+    wordNo: 879,
     word: "fuss",
     meaning: "大騒ぎ",
     sentence: "make a (   ) about trivial things",
@@ -12819,6 +14528,7 @@ const units = {
   },
   // 880-1
   {
+    wordNo: 880,
     word: "reward",
     meaning: "報酬，報奨金",
     sentence: "the (   ) for the job",
@@ -12826,6 +14536,7 @@ const units = {
   },
   // 880-2
   {
+    wordNo: 880,
     word: "reward",
     meaning: "〜に褒美を与える，報いる",
     sentence: "(   ) children for behaving well",
@@ -12833,6 +14544,7 @@ const units = {
   },
   // 881-1
   {
+    wordNo: 881,
     word: "farewell",
     meaning: "別れのあいさつ",
     sentence: "have a (   ) party",
@@ -12840,6 +14552,7 @@ const units = {
   },
   // 882-1
   {
+    wordNo: 882,
     word: "reception",
     meaning: "（受付の）もてなし，歓迎会",
     sentence: "receive a warm (   )",
@@ -12847,6 +14560,7 @@ const units = {
   },
   // 882-2
   {
+    wordNo: 882,
     word: "reception",
     meaning: "（ホテルの）フロント",
     sentence: "leave the key at the (   ) desk",
@@ -12854,6 +14568,7 @@ const units = {
   },
   // 882-3
   {
+    wordNo: 882,
     word: "reception",
     meaning: "受信状況",
     sentence: "The phone (   ) is not good here.",
@@ -12861,6 +14576,7 @@ const units = {
   },
   // 883-1
   {
+    wordNo: 883,
     word: "portion",
     meaning: "（食事の）1盛り",
     sentence: "a large (   ) of roast beef",
@@ -12868,6 +14584,7 @@ const units = {
   },
   // 883-2
   {
+    wordNo: 883,
     word: "portions",
     meaning: "食事の分",
     sentence: "eat two (   ) of spaghetti",
@@ -12875,6 +14592,7 @@ const units = {
   },
   // 883-3
   {
+    wordNo: 883,
     word: "portion",
     meaning: "（全体の）一部分",
     sentence: "a (   ) of his income",
@@ -12885,6 +14603,7 @@ const units = {
 884: [
   // 884-1
   {
+    wordNo: 884,
     word: "laundry",
     meaning: "（集中的に）洗濯物",
     sentence: "cook, clean, and do the (   )",
@@ -12892,6 +14611,7 @@ const units = {
   },
   // 884-2
   {
+    wordNo: 884,
     word: "laundry",
     meaning: "（集中的に）洗濯物",
     sentence: "bring the (   ) in",
@@ -12899,6 +14619,7 @@ const units = {
   },
   // 884-3
   {
+    wordNo: 884,
     word: "laundry",
     meaning: "（集中的に）洗濯物",
     sentence: "a coin-operated (   )",
@@ -12906,6 +14627,7 @@ const units = {
   },
   // 885-1
   {
+    wordNo: 885,
     word: "nap",
     meaning: "昼寝，仮眠",
     sentence: "I'll just take a little (   ).",
@@ -12913,6 +14635,7 @@ const units = {
   },
   // 885-2
   {
+    wordNo: 885,
     word: "nap",
     meaning: "昼寝をする，仮眠をとる",
     sentence: "(   ) after lunch",
@@ -12920,6 +14643,7 @@ const units = {
   },
   // 886-1
   {
+    wordNo: 886,
     word: "woke",
     meaning: "目が覚める",
     sentence: "I (   ) up at six a.m., but did not get up.",
@@ -12927,6 +14651,7 @@ const units = {
   },
   // 886-2
   {
+    wordNo: 886,
     word: "Wake",
     meaning: "（寝ている人）を起こす",
     sentence: "(   ) me up at five a.m.",
@@ -12934,6 +14659,7 @@ const units = {
   },
   // 887-1
   {
+    wordNo: 887,
     word: "vending machine",
     meaning: "自動販売機",
     sentence: "a soft drink (   )",
@@ -12941,6 +14667,7 @@ const units = {
   },
   // 888-1
   {
+    wordNo: 888,
     word: "grocery",
     meaning: "食料雑貨店",
     sentence: "a local (   ) (store)",
@@ -12948,6 +14675,7 @@ const units = {
   },
   // 888-2
   {
+    wordNo: 888,
     word: "groceries",
     meaning: "（-ies）食料雑貨類",
     sentence: "put my (   ) in a plastic bag",
@@ -12955,6 +14683,7 @@ const units = {
   },
   // 889-1
   {
+    wordNo: 889,
     word: "appointment",
     meaning: "（病院などの）予約，（会合などの）約束",
     sentence: "I have an (   ) to see the dentist at five.",
@@ -12962,6 +14691,7 @@ const units = {
   },
   // 889-2
   {
+    wordNo: 889,
     word: "appointment",
     meaning: "（役職などの）任命，指名",
     sentence: "the (   ) of new ministers",
@@ -12969,6 +14699,7 @@ const units = {
   },
   // 890-1
   {
+    wordNo: 890,
     word: "consult",
     meaning: "〜に相談する",
     sentence: "You'd better (   ) your doctor.",
@@ -12976,6 +14707,7 @@ const units = {
   },
   // 890-2
   {
+    wordNo: 890,
     word: "consult",
     meaning: "（辞書などを）引く",
     sentence: "(   ) a dictionary",
@@ -12983,6 +14715,7 @@ const units = {
   },
   // 890-3
   {
+    wordNo: 890,
     word: "consult",
     meaning: "（with 〜）（〜に）相談する",
     sentence: "(   ) with a friend about study methods",
@@ -12990,6 +14723,7 @@ const units = {
   },
   // 891-1
   {
+    wordNo: 891,
     word: "registered",
     meaning: "〜を登録する，記録する",
     sentence: "Koyasan is (   ) as a World Heritage Site.",
@@ -12997,6 +14731,7 @@ const units = {
   },
   // 891-2
   {
+    wordNo: 891,
     word: "register",
     meaning: "（for 〜）（授業などに）登録する",
     sentence: "(   ) for the first semester",
@@ -13004,6 +14739,7 @@ const units = {
   },
   // 891-3
   {
+    wordNo: 891,
     word: "register",
     meaning: "（ホテルなどで）記帳する",
     sentence: "(   ) at the reception desk",
@@ -13011,6 +14747,7 @@ const units = {
   },
   // 891-4
   {
+    wordNo: 891,
     word: "register",
     meaning: "名簿",
     sentence: "a class (   )",
@@ -13018,6 +14755,7 @@ const units = {
   },
   // 892-1
   {
+    wordNo: 892,
     word: "dye",
     meaning: "〜を染める",
     sentence: "(   ) my hair brown",
@@ -13025,6 +14763,7 @@ const units = {
   },
   // 892-2
   {
+    wordNo: 892,
     word: "dye",
     meaning: "染料",
     sentence: "an acid (   )",
@@ -13032,6 +14771,7 @@ const units = {
   },
   // 893-1
   {
+    wordNo: 893,
     word: "subscribe",
     meaning: "（to 〜）（〜を）定期購読する，加入している",
     sentence: "(   ) to the magazine",
@@ -13039,6 +14779,7 @@ const units = {
   },
   // 893-2
   {
+    wordNo: 893,
     word: "subscribe",
     meaning: "（主に否定文で）（to 〜）（考えなどを）支持する",
     sentence: "cannot (   ) to that opinion",
@@ -13046,6 +14787,7 @@ const units = {
   },
   // 894-1
   {
+    wordNo: 894,
     word: "guaranteed",
     meaning: "〜を保証する",
     sentence: "Freedom of speech is (   ) under the Constitution of Japan.",
@@ -13053,6 +14795,7 @@ const units = {
   },
   // 894-2
   {
+    wordNo: 894,
     word: "guarantee",
     meaning: "保証（期間）",
     sentence: "a PC with a one-year (   )",
@@ -13060,6 +14803,7 @@ const units = {
   },
   // 895-1
   {
+    wordNo: 895,
     word: "wipe",
     meaning: "〜を拭く",
     sentence: "(   ) the table",
@@ -13067,6 +14811,7 @@ const units = {
   },
   // 895-2
   {
+    wordNo: 895,
     word: "wiped",
     meaning: "〜を拭き取る，壊滅させる",
     sentence: "The entire village was (   ) out by the tornado.",
@@ -13074,6 +14819,7 @@ const units = {
   },
   // 896-1
   {
+    wordNo: 896,
     word: "sweep",
     meaning: "（床，地面を）掃く",
     sentence: "(   ) the floor with a broom",
@@ -13081,6 +14827,7 @@ const units = {
   },
   // 896-2
   {
+    wordNo: 896,
     word: "swept",
     meaning: "（嵐，波などが）〜を押し流す",
     sentence: "The flood (   ) away the bridge.",
@@ -13088,6 +14835,7 @@ const units = {
   },
   // 897-1
   {
+    wordNo: 897,
     word: "transfer",
     meaning: "乗り換える",
     sentence: "(   ) at Rome",
@@ -13098,6 +14846,7 @@ const units = {
 897: [
   // 897-2
   {
+    wordNo: 897,
     word: "transferred",
     meaning: "（転勤，転校，移動）させる",
     sentence: "be (   ) to the London branch",
@@ -13105,6 +14854,7 @@ const units = {
   },
   // 897-3
   {
+    wordNo: 897,
     word: "transferred",
     meaning: "（転勤，転校，移動）させる",
     sentence: "be (   ) to another department",
@@ -13112,6 +14862,7 @@ const units = {
   },
   // 897-4
   {
+    wordNo: 897,
     word: "transfer",
     meaning: "（銀行で）〜を振り込む",
     sentence: "(   ) 100,000 yen to his bank account",
@@ -13119,6 +14870,7 @@ const units = {
   },
   // 898-1
   {
+    wordNo: 898,
     word: "divorced",
     meaning: "離婚する",
     sentence: "They have (   ).",
@@ -13126,6 +14878,7 @@ const units = {
   },
   // 898-2
   {
+    wordNo: 898,
     word: "divorce",
     meaning: "〜と離婚する",
     sentence: "(   ) my wife",
@@ -13133,6 +14886,7 @@ const units = {
   },
   // 898-3
   {
+    wordNo: 898,
     word: "divorce",
     meaning: "離婚",
     sentence: "a rise in the (   ) rate",
@@ -13140,6 +14894,7 @@ const units = {
   },
   // 899-1
   {
+    wordNo: 899,
     word: "fate",
     meaning: "運命，宿命",
     sentence: "A terrible (   ) awaited them.",
@@ -13147,6 +14902,7 @@ const units = {
   },
   // 900-1
   {
+    wordNo: 900,
     word: "destiny",
     meaning: "運命",
     sentence: "It was his (   ) to save his nation.",
@@ -13154,6 +14910,7 @@ const units = {
   },
   // 901-1
   {
+    wordNo: 901,
     word: "flavor",
     meaning: "風味，味",
     sentence: "ice cream with a green tea (   )",
@@ -13161,6 +14918,7 @@ const units = {
   },
   // 902-1
   {
+    wordNo: 902,
     word: "perfume",
     meaning: "香水",
     sentence: "the (   ) of roses",
@@ -13168,6 +14926,7 @@ const units = {
   },
   // 902-2
   {
+    wordNo: 902,
     word: "perfume",
     meaning: "香水",
     sentence: "wear a cheap (   )",
@@ -13175,6 +14934,7 @@ const units = {
   },
   // 903-1
   {
+    wordNo: 903,
     word: "ingredients",
     meaning: "（料理などの）材料",
     sentence: "the (   ) of lasagne",
@@ -13182,6 +14942,7 @@ const units = {
   },
   // 903-2
   {
+    wordNo: 903,
     word: "ingredient",
     meaning: "（何かを達成するための）要因",
     sentence: "the essential (   ) of a great team",
@@ -13189,6 +14950,7 @@ const units = {
   },
   // 903-3
   {
+    wordNo: 903,
     word: "ingredients",
     meaning: "成分",
     sentence: "active (   ) in these cosmetics",
@@ -13196,6 +14958,7 @@ const units = {
   },
   // 904-1
   {
+    wordNo: 904,
     word: "bitter",
     meaning: "苦い，つらい",
     sentence: "a (   ) experience",
@@ -13203,6 +14966,7 @@ const units = {
   },
   // 904-2
   {
+    wordNo: 904,
     word: "bitter",
     meaning: "憤慨して",
     sentence: "feel (   ) about the way I have been treated",
@@ -13210,6 +14974,7 @@ const units = {
   },
   // 905-1
   {
+    wordNo: 905,
     word: "aisle",
     meaning: "通路",
     sentence: "prefer an (   ) seat to a window seat",
@@ -13217,6 +14982,7 @@ const units = {
   },
   // 906-1
   {
+    wordNo: 906,
     word: "track",
     meaning: "足跡，小道",
     sentence: "keep (   ) of my schedule",
@@ -13224,6 +14990,7 @@ const units = {
   },
   // 906-2
   {
+    wordNo: 906,
     word: "track",
     meaning: "（鉄道の）線路，プラットホーム",
     sentence: "This train leaves from (   ) 5.",
@@ -13231,6 +14998,7 @@ const units = {
   },
   // 906-3
   {
+    wordNo: 906,
     word: "track",
     meaning: "〜を追跡する",
     sentence: "(   ) the plane with radar",
@@ -13238,6 +15006,7 @@ const units = {
   },
   // 907-1
   {
+    wordNo: 907,
     word: "district",
     meaning: "地区",
     sentence: "an election (   )",
@@ -13245,6 +15014,7 @@ const units = {
   },
   // 908-1
   {
+    wordNo: 908,
     word: "facilities",
     meaning: "施設，設備",
     sentence: "indoor sports (   )",
@@ -13252,6 +15022,7 @@ const units = {
   },
   // 908-2
   {
+    wordNo: 908,
     word: "facility",
     meaning: "能力，器用さ",
     sentence: "have a great (   ) for language",
@@ -13259,6 +15030,7 @@ const units = {
   },
   // 909-1
   {
+    wordNo: 909,
     word: "height",
     meaning: "高さ",
     sentence: "line up in order of (   )",
@@ -13266,6 +15038,7 @@ const units = {
   },
   // 909-2
   {
+    wordNo: 909,
     word: "heights",
     meaning: "高い所",
     sentence: "I am scared of (   ).",
@@ -13273,6 +15046,7 @@ const units = {
   },
   // 909-3
   {
+    wordNo: 909,
     word: "height",
     meaning: "最盛期",
     sentence: "at the (   ) of the tourist season",
@@ -13280,6 +15054,7 @@ const units = {
   },
   // 910-1
   {
+    wordNo: 910,
     word: "distant",
     meaning: "遠い",
     sentence: "a (   ) [far] island",
@@ -13287,6 +15062,7 @@ const units = {
   },
   // 911-1
   {
+    wordNo: 911,
     word: "located",
     meaning: "（be 〜d）〜に位置している",
     sentence: "New Mexico is (   ) 2,240 meters above sea level.",
@@ -13294,6 +15070,7 @@ const units = {
   },
   // 911-2
   {
+    wordNo: 911,
     word: "locate",
     meaning: "〜の場所を見つける",
     sentence: "(   ) the restaurant on the map",
@@ -13301,6 +15078,7 @@ const units = {
   },
   // 912-1
   {
+    wordNo: 912,
     word: "occupy",
     meaning: "〜を占める",
     sentence: "(   ) two seats on the train",
@@ -13311,6 +15089,7 @@ const units = {
 913: [
   // 913-1
   {
+    wordNo: 913,
     word: "surrounded",
     meaning: "〜を取り囲む，包囲する",
     sentence: "a mansion (   ) by red brick walls",
@@ -13318,6 +15097,7 @@ const units = {
   },
   // 914-1
   {
+    wordNo: 914,
     word: "classical",
     meaning: "（音楽，バレエなどで）クラシックの",
     sentence: "(   ) music",
@@ -13325,6 +15105,7 @@ const units = {
   },
   // 914-2
   {
+    wordNo: 914,
     word: "classical",
     meaning: "古典的な",
     sentence: "(   ) literature",
@@ -13332,6 +15113,7 @@ const units = {
   },
   // 915-1
   {
+    wordNo: 915,
     word: "civilization",
     meaning: "文明",
     sentence: "an advanced (   )",
@@ -13339,6 +15121,7 @@ const units = {
   },
   // 916-1
   {
+    wordNo: 916,
     word: "heritage",
     meaning: "遺産",
     sentence: "the cultural (   ) of Japan",
@@ -13346,6 +15129,7 @@ const units = {
   },
   // 917-1
   {
+    wordNo: 917,
     word: "script",
     meaning: "台本，脚本",
     sentence: "a film (   )",
@@ -13353,6 +15137,7 @@ const units = {
   },
   // 917-2
   {
+    wordNo: 917,
     word: "script",
     meaning: "（ある言語の）文字",
     sentence: "in Arabic (   )",
@@ -13360,6 +15145,7 @@ const units = {
   },
   // 917-3
   {
+    wordNo: 917,
     word: "scripts",
     meaning: "（手書きの）文字",
     sentence: "try to read his badly written (   )",
@@ -13367,6 +15153,7 @@ const units = {
   },
   // 918-1
   {
+    wordNo: 918,
     word: "tale",
     meaning: "話",
     sentence: "a Japanese folk (   )",
@@ -13374,6 +15161,7 @@ const units = {
   },
   // 919-1
   {
+    wordNo: 919,
     word: "literature",
     meaning: "文学",
     sentence: "the Nobel Prize in (   )",
@@ -13381,6 +15169,7 @@ const units = {
   },
   // 919-2
   {
+    wordNo: 919,
     word: "literature",
     meaning: "（特定の分野の）文献",
     sentence: "the medical (   )",
@@ -13388,6 +15177,7 @@ const units = {
   },
   // 920-1
   {
+    wordNo: 920,
     word: "tragedy",
     meaning: "悲劇",
     sentence: "9/11 was a terrible (   ).",
@@ -13395,6 +15185,7 @@ const units = {
   },
   // 921-1
   {
+    wordNo: 921,
     word: "poetry",
     meaning: "（集合的に）詩",
     sentence: "learn a lot of (   ) by heart",
@@ -13402,6 +15193,7 @@ const units = {
   },
   // 921-2
   {
+    wordNo: 921,
     word: "poem",
     meaning: "個々の詩",
     sentence: "learn a (   ) by heart",
@@ -13409,6 +15201,7 @@ const units = {
   },
   // 922-1
   {
+    wordNo: 922,
     word: "biography",
     meaning: "伝記",
     sentence: "a (   ) of Helen Keller",
@@ -13416,6 +15209,7 @@ const units = {
   },
   // 923-1
   {
+    wordNo: 923,
     word: "term",
     meaning: "用語，言葉",
     sentence: "the (   ) \"digital native\"",
@@ -13423,6 +15217,7 @@ const units = {
   },
   // 923-2
   {
+    wordNo: 923,
     word: "term",
     meaning: "期間，学期，任期",
     sentence: "our autumn (   )",
@@ -13430,6 +15225,7 @@ const units = {
   },
   // 923-3
   {
+    wordNo: 923,
     word: "terms",
     meaning: "関係にある",
     sentence: "I am on good (   ) with her after our divorce.",
@@ -13437,6 +15233,7 @@ const units = {
   },
   // 923-4
   {
+    wordNo: 923,
     word: "terms",
     meaning: "契約などの条件",
     sentence: "I'll only take the job on my own (   ).",
@@ -13444,6 +15241,7 @@ const units = {
   },
   // 924-1
   {
+    wordNo: 924,
     word: "proverb",
     meaning: "ことわざ",
     sentence: "As the (   ) goes [says], time flies.",
@@ -13451,6 +15249,7 @@ const units = {
   },
   // 925-1
   {
+    wordNo: 925,
     word: "dialect",
     meaning: "方言",
     sentence: "speak in the Kansai (   )",
@@ -13458,6 +15257,7 @@ const units = {
   },
   // 926-1
   {
+    wordNo: 926,
     word: "fluent",
     meaning: "流暢な",
     sentence: "He speaks (   ) Spanish.",
@@ -13465,6 +15265,7 @@ const units = {
   },
   // 927-1
   {
+    wordNo: 927,
     word: "translate",
     meaning: "〜を翻訳する",
     sentence: "(   ) a sentence literally",
@@ -13472,6 +15273,7 @@ const units = {
   },
   // 927-2
   {
+    wordNo: 927,
     word: "translate",
     meaning: "（into 〜）（結果として）〜に変わる",
     sentence: "Anger can (   ) into violence.",
@@ -13479,6 +15281,7 @@ const units = {
   },
   // 928-1
   {
+    wordNo: 928,
     word: "defined",
     meaning: "〜を定義する",
     sentence: "Obesity is (   ) as a BMI of 30 or above.",
@@ -13486,6 +15289,7 @@ const units = {
   },
   // 928-2
   {
+    wordNo: 928,
     word: "define",
     meaning: "〜を規定する",
     sentence: "(   ) our duties",
@@ -13493,6 +15297,7 @@ const units = {
   },
   // 929-1
   {
+    wordNo: 929,
     word: "interpret",
     meaning: "〜を解釈する",
     sentence: "(   ) his silence as a refusal",
@@ -13500,6 +15305,7 @@ const units = {
   },
   // 929-2
   {
+    wordNo: 929,
     word: "interpret",
     meaning: "〜を通訳する",
     sentence: "(   ) foreign languages",
@@ -13507,6 +15313,7 @@ const units = {
   },
   // 929-3
   {
+    wordNo: 929,
     word: "interpret",
     meaning: "通訳する",
     sentence: "I'll (   ) for you.",
@@ -13514,6 +15321,7 @@ const units = {
   },
   // 930-1
   {
+    wordNo: 930,
     word: "quote",
     meaning: "〜を引用する",
     sentence: "(   ) a passage from the Bible",
@@ -13524,6 +15332,7 @@ const units = {
 930: [
   // 930-2
   {
+    wordNo: 930,
     word: "quote",
     meaning: "（人に）価格を提示する",
     sentence: "(   ) $100 for this table",
@@ -13531,6 +15340,7 @@ const units = {
   },
   // 930-3
   {
+    wordNo: 930,
     word: "quote",
     meaning: "引用",
     sentence: "a (   ) from a paper",
@@ -13538,6 +15348,7 @@ const units = {
   },
   // 930-4
   {
+    wordNo: 930,
     word: "quote",
     meaning: "提示価格",
     sentence: "the original (   )",
@@ -13545,6 +15356,7 @@ const units = {
   },
   // 931-1
   {
+    wordNo: 931,
     word: "literally",
     meaning: "文字どおりに",
     sentence: "The word bōnen-kai (   ) means \"a forget-the-year party.\"",
@@ -13552,6 +15364,7 @@ const units = {
   },
   // 932-1
   {
+    wordNo: 932,
     word: "indicates",
     meaning: "（データなどが）〜を示す",
     sentence: "Research (   ) that the medicine can be harmful to children.",
@@ -13559,6 +15372,7 @@ const units = {
   },
   // 932-2
   {
+    wordNo: 932,
     word: "indicate",
     meaning: "〜を指し示す",
     sentence: "(   ) a place on a map",
@@ -13566,6 +15380,7 @@ const units = {
   },
   // 933-1
   {
+    wordNo: 933,
     word: "reveal",
     meaning: "〜を明らかにする，暴露する",
     sentence: "(   ) a secret to her",
@@ -13573,6 +15388,7 @@ const units = {
   },
   // 934-1
   {
+    wordNo: 934,
     word: "announce",
     meaning: "〜を発表する",
     sentence: "(   ) the results of the election",
@@ -13580,6 +15396,7 @@ const units = {
   },
   // 935-1
   {
+    wordNo: 935,
     word: "broadcast",
     meaning: "〜を放送する",
     sentence: "The interview with him was (   ) live.",
@@ -13587,6 +15404,7 @@ const units = {
   },
   // 935-2
   {
+    wordNo: 935,
     word: "broadcast",
     meaning: "（1回の）放送",
     sentence: "watch a live (   ) of a baseball game",
@@ -13594,6 +15412,7 @@ const units = {
   },
   // 936-1
   {
+    wordNo: 936,
     word: "prove",
     meaning: "〜を証明する",
     sentence: "(   ) (that) it is false",
@@ -13601,6 +15420,7 @@ const units = {
   },
   // 936-2
   {
+    wordNo: 936,
     word: "proved",
     meaning: "（to be 〜）〜だと判明する",
     sentence: "The rumor (   ) (to be) true.",
@@ -13608,6 +15428,7 @@ const units = {
   },
   // 937-1
   {
+    wordNo: 937,
     word: "advertise",
     meaning: "〜を宣伝する",
     sentence: "(   ) the concert",
@@ -13615,6 +15436,7 @@ const units = {
   },
   // 938-1
   {
+    wordNo: 938,
     word: "clarify",
     meaning: "〜を明らかにする",
     sentence: "Let me (   ) my point.",
@@ -13622,6 +15444,7 @@ const units = {
   },
   // 939-1
   {
+    wordNo: 939,
     word: "seek",
     meaning: "〜を求める",
     sentence: "(   ) specialist advice",
@@ -13629,6 +15452,7 @@ const units = {
   },
   // 939-2
   {
+    wordNo: 939,
     word: "seek",
     meaning: "（to do）〜しようと努める",
     sentence: "(   ) to achieve a goal",
@@ -13636,6 +15460,7 @@ const units = {
   },
   // 940-1
   {
+    wordNo: 940,
     word: "entertain",
     meaning: "〜を楽しませる",
     sentence: "(   ) an audience",
@@ -13643,6 +15468,7 @@ const units = {
   },
   // 940-2
   {
+    wordNo: 940,
     word: "entertain",
     meaning: "〜をもてなす",
     sentence: "(   ) them with Italian cuisine",
@@ -13650,6 +15476,7 @@ const units = {
   },
   // 941-1
   {
+    wordNo: 941,
     word: "amused",
     meaning: "（人）を（笑顔にさせて）楽しませる",
     sentence: "The clown (   ) us all.",
@@ -13657,6 +15484,7 @@ const units = {
   },
   // 942-1
   {
+    wordNo: 942,
     word: "attracted",
     meaning: "〜を引きつける，魅了する",
     sentence: "The pop star's marriage (   ) media attention.",
@@ -13664,6 +15492,7 @@ const units = {
   },
   // 943-1
   {
+    wordNo: 943,
     word: "fascinated",
     meaning: "〜を魅了する，〜にとても興味を持たせる",
     sentence: "I was (   ) by the Sagrada Familia.",
@@ -13671,6 +15500,7 @@ const units = {
   },
   // 944-1
   {
+    wordNo: 944,
     word: "absorbed",
     meaning: "（be 〜ed in 〜）〜に没頭する",
     sentence: "I was (   ) in a book.",
@@ -13678,6 +15508,7 @@ const units = {
   },
   // 944-2
   {
+    wordNo: 944,
     word: "absorb",
     meaning: "〜を吸収する",
     sentence: "(   ) water",
@@ -13685,6 +15516,7 @@ const units = {
   },
   // 945-1
   {
+    wordNo: 945,
     word: "fond",
     meaning: "（be 〜 of 〜）（〜が）好きだ",
     sentence: "I am very (   ) of ramen.",
@@ -13692,6 +15524,7 @@ const units = {
   },
   // 945-2
   {
+    wordNo: 945,
     word: "fond",
     meaning: "懐かしい",
     sentence: "bring back (   ) memories",
@@ -13699,6 +15532,7 @@ const units = {
   },
   // 946-1
   {
+    wordNo: 946,
     word: "scared",
     meaning: "〜を怯えさせる",
     sentence: "Oh! You (   ) me!",
@@ -13706,6 +15540,7 @@ const units = {
   },
   // 947-1
   {
+    wordNo: 947,
     word: "alarmed",
     meaning: "〜をぎょっとさせる",
     sentence: "I was (   ) to hear a man shout.",
@@ -13713,6 +15548,7 @@ const units = {
   },
   // 947-2
   {
+    wordNo: 947,
     word: "alarm",
     meaning: "恐怖，不安",
     sentence: "cry out in (   )",
@@ -13720,6 +15556,7 @@ const units = {
   },
   // 948-1
   {
+    wordNo: 948,
     word: "amazed",
     meaning: "〜を驚かせる",
     sentence: "Sam (   ) me with his cooking skills.",
@@ -13727,6 +15564,7 @@ const units = {
   },
   // 949-1
   {
+    wordNo: 949,
     word: "irritates",
     meaning: "（長期にわたって）〜をいらいらさせる",
     sentence: "Her habit of biting her nails (   ) me.",
@@ -13737,6 +15575,7 @@ const units = {
 950: [
   // 950-1
   {
+    wordNo: 950,
     word: "upset",
     meaning: "〜を当惑させる，動揺させる",
     sentence: "The news (   ) her.",
@@ -13744,6 +15583,7 @@ const units = {
   },
   // 950-2
   {
+    wordNo: 950,
     word: "upset",
     meaning: "（秩序などを）乱す",
     sentence: "(   ) the environmental balance",
@@ -13751,6 +15591,7 @@ const units = {
   },
   // 950-3
   {
+    wordNo: 950,
     word: "upset",
     meaning: "当惑した，動揺した",
     sentence: "be (   ) about a friend's death",
@@ -13758,6 +15599,7 @@ const units = {
   },
   // 951-1
   {
+    wordNo: 951,
     word: "puzzles",
     meaning: "〜を当惑させる",
     sentence: "What (   ) me is why she can't understand me.",
@@ -13765,6 +15607,7 @@ const units = {
   },
   // 951-2
   {
+    wordNo: 951,
     word: "puzzle",
     meaning: "難問，パズル",
     sentence: "a 2,000-piece jigsaw (   )",
@@ -13772,6 +15615,7 @@ const units = {
   },
   // 952-1
   {
+    wordNo: 952,
     word: "confused",
     meaning: "〜を混乱させる，困惑させる",
     sentence: "His reply (   ) me.",
@@ -13779,6 +15623,7 @@ const units = {
   },
   // 952-2
   {
+    wordNo: 952,
     word: "confuse",
     meaning: "（A with [and] B）（AをBと）混同する",
     sentence: "(   ) Nancy with her twin sister",
@@ -13786,6 +15631,7 @@ const units = {
   },
   // 953-1
   {
+    wordNo: 953,
     word: "bored",
     meaning: "〜をうんざりさせる，退屈させる",
     sentence: "I was (   ) with his long speech.",
@@ -13793,6 +15639,7 @@ const units = {
   },
   // 954-1
   {
+    wordNo: 954,
     word: "frustrated",
     meaning: "〜を欲求不満にさせる",
     sentence: "I felt (   ) because I could not express myself well.",
@@ -13800,6 +15647,7 @@ const units = {
   },
   // 954-2
   {
+    wordNo: 954,
     word: "frustrated",
     meaning: "（計画などを）挫折させる",
     sentence: "His plan was (   ) by a lack of money.",
@@ -13807,6 +15655,7 @@ const units = {
   },
   // 955-1
   {
+    wordNo: 955,
     word: "disappointed",
     meaning: "〜を失望させる",
     sentence: "I was (   ) with the soccer game.",
@@ -13814,6 +15663,7 @@ const units = {
   },
   // 956-1
   {
+    wordNo: 956,
     word: "embarrassed",
     meaning: "〜に恥ずかしい思いをさせる，困惑させる",
     sentence: "I was (   ) about using the wrong fork at dinner.",
@@ -13821,6 +15671,7 @@ const units = {
   },
   // 957-1
   {
+    wordNo: 957,
     word: "ashamed",
     meaning: "恥ずかしい",
     sentence: "I'm (   ) of hurting her feelings.",
@@ -13828,6 +15679,7 @@ const units = {
   },
   // 958-1
   {
+    wordNo: 958,
     word: "uneasy",
     meaning: "不安な，落ち着かない",
     sentence: "feel (   ) about living alone",
@@ -13835,6 +15687,7 @@ const units = {
   },
   // 959-1
   {
+    wordNo: 959,
     word: "hesitate",
     meaning: "ためらう",
     sentence: "Please do not (   ) to contact me if you have any questions.",
@@ -13842,6 +15695,7 @@ const units = {
   },
   // 960-1
   {
+    wordNo: 960,
     word: "reluctant",
     meaning: "（to do）〜（するの）が気が進まない",
     sentence: "I was (   ) to go with him.",
@@ -13849,6 +15703,7 @@ const units = {
   },
   // 961-1
   {
+    wordNo: 961,
     word: "trembling",
     meaning: "震える",
     sentence: "The little girl was (   ) with fear.",
@@ -13856,6 +15711,7 @@ const units = {
   },
   // 962-1
   {
+    wordNo: 962,
     word: "boast",
     meaning: "自慢する",
     sentence: "(   ) about how clever my son is",
@@ -13863,6 +15719,7 @@ const units = {
   },
   // 962-2
   {
+    wordNo: 962,
     word: "boasts",
     meaning: "（場所や組織が）〜を誇りにしている",
     sentence: "Our school (   ) a long history of 110 years.",
@@ -13870,6 +15727,7 @@ const units = {
   },
   // 963-1
   {
+    wordNo: 963,
     word: "jealous",
     meaning: "（of 〜）（〜に）嫉妬した",
     sentence: "be (   ) of his promotion",
@@ -13877,6 +15735,7 @@ const units = {
   },
   // 964-1
   {
+    wordNo: 964,
     word: "envy",
     meaning: "〜をうらやましく思う",
     sentence: "(   ) him for his wealth",
@@ -13884,6 +15743,7 @@ const units = {
   },
   // 964-2
   {
+    wordNo: 964,
     word: "envy",
     meaning: "羨望",
     sentence: "feel (   ) at her success",
@@ -13891,6 +15751,7 @@ const units = {
   },
   // 965-1
   {
+    wordNo: 965,
     word: "yell",
     meaning: "叫ぶ，大声をあげる",
     sentence: "(   ) at the children to be quiet",
@@ -13898,6 +15759,7 @@ const units = {
   },
   // 965-2
   {
+    wordNo: 965,
     word: "yell",
     meaning: "叫び，わめき声",
     sentence: "let out a (   ) of delight",
@@ -13905,6 +15767,7 @@ const units = {
   },
   // 966-1
   {
+    wordNo: 966,
     word: "respect",
     meaning: "（人）を尊敬する",
     sentence: "(   ) Gandhi",
@@ -13912,6 +15775,7 @@ const units = {
   },
   // 966-2
   {
+    wordNo: 966,
     word: "respect",
     meaning: "（物）を尊重する",
     sentence: "(   ) his judgement",
@@ -13919,6 +15783,7 @@ const units = {
   },
   // 966-3
   {
+    wordNo: 966,
     word: "respect",
     meaning: "敬意",
     sentence: "a deep (   ) for the aged",
@@ -13926,6 +15791,7 @@ const units = {
   },
   // 966-4
   {
+    wordNo: 966,
     word: "respect",
     meaning: "〜の点で",
     sentence: "differ in this (   )",
@@ -13933,6 +15799,7 @@ const units = {
   },
   // 967-1
   {
+    wordNo: 967,
     word: "despair",
     meaning: "絶望",
     sentence: "a deep sense of (   )",
@@ -13940,6 +15807,7 @@ const units = {
   },
   // 968-1
   {
+    wordNo: 968,
     word: "emotions",
     meaning: "（特に強い）感情",
     sentence: "show my (   )",
@@ -13950,6 +15818,7 @@ const units = {
 969: [
   // 969-1
   {
+    wordNo: 969,
     word: "sympathy",
     meaning: "同情",
     sentence: "have deep (   ) for the victims",
@@ -13957,6 +15826,7 @@ const units = {
   },
   // 969-2
   {
+    wordNo: 969,
     word: "sympathy",
     meaning: "共感",
     sentence: "be in (   ) with his opinion",
@@ -13964,6 +15834,7 @@ const units = {
   },
   // 970-1
   {
+    wordNo: 970,
     word: "shame",
     meaning: "残念なこと",
     sentence: "It is a (   ) that you didn't see that movie.",
@@ -13971,6 +15842,7 @@ const units = {
   },
   // 970-2
   {
+    wordNo: 970,
     word: "shame",
     meaning: "恥",
     sentence: "To my (   ), I lied to him.",
@@ -13978,6 +15850,7 @@ const units = {
   },
   // 971-1
   {
+    wordNo: 971,
     word: "confidence",
     meaning: "自信",
     sentence: "boost my (   )",
@@ -13985,6 +15858,7 @@ const units = {
   },
   // 971-2
   {
+    wordNo: 971,
     word: "confidence",
     meaning: "（in 〜）（〜に対する）信頼",
     sentence: "I have great (   ) in my staff.",
@@ -13992,6 +15866,7 @@ const units = {
   },
   // 972-1
   {
+    wordNo: 972,
     word: "courage",
     meaning: "勇気",
     sentence: "have the (   ) to say no",
@@ -13999,6 +15874,7 @@ const units = {
   },
   // 973-1
   {
+    wordNo: 973,
     word: "passion",
     meaning: "情熱",
     sentence: "have a (   ) for music",
@@ -14006,6 +15882,7 @@ const units = {
   },
   // 974-1
   {
+    wordNo: 974,
     word: "sorrows",
     meaning: "悲しみ",
     sentence: "experience the joys and (   ) of life",
@@ -14013,6 +15890,7 @@ const units = {
   },
   // 975-1
   {
+    wordNo: 975,
     word: "ignore",
     meaning: "〜を無視する",
     sentence: "completely (   ) him",
@@ -14020,6 +15898,7 @@ const units = {
   },
   // 976-1
   {
+    wordNo: 976,
     word: "offended",
     meaning: "（人，気分）を怒らせる，の気分を害する",
     sentence: "His jokes (   ) Irish people.",
@@ -14027,6 +15906,7 @@ const units = {
   },
   // 977-1
   {
+    wordNo: 977,
     word: "depressed",
     meaning: "〜を憂うつにさせる，落ち込ませる",
     sentence: "The rainy weather (   ) me.",
@@ -14034,6 +15914,7 @@ const units = {
   },
   // 978-1
   {
+    wordNo: 978,
     word: "owe",
     meaning: "（A to B）（AはBの）おかげだ",
     sentence: "I (   ) my success to him.",
@@ -14041,6 +15922,7 @@ const units = {
   },
   // 978-2
   {
+    wordNo: 978,
     word: "owe",
     meaning: "（A（金）をBに）借りている",
     sentence: "I (   ) 2,000 yen to him. / I (   ) him 2,000 yen.",
@@ -14048,6 +15930,7 @@ const units = {
   },
   // 979-1
   {
+    wordNo: 979,
     word: "fear",
     meaning: "恐怖",
     sentence: "overcome my (   ) of snakes",
@@ -14055,6 +15938,7 @@ const units = {
   },
   // 979-2
   {
+    wordNo: 979,
     word: "fear",
     meaning: "恐れる",
     sentence: "(   ) that we may not receive a pension",
@@ -14062,6 +15946,7 @@ const units = {
   },
   // 979-3
   {
+    wordNo: 979,
     word: "fear",
     meaning: "〜を心配する",
     sentence: "(   ) that it will rain tomorrow",
@@ -14069,6 +15954,7 @@ const units = {
   },
   // 980-1
   {
+    wordNo: 980,
     word: "method",
     meaning: "方法",
     sentence: "a (   ) for reducing stress",
@@ -14076,6 +15962,7 @@ const units = {
   },
   // 981-1
   {
+    wordNo: 981,
     word: "media",
     meaning: "（情報伝達の）手段，媒体，メディア",
     sentence: "receive a great deal of (   ) attention",
@@ -14083,6 +15970,7 @@ const units = {
   },
   // 981-2
   {
+    wordNo: 981,
     word: "medium",
     meaning: "中間の",
     sentence: "What size shirt do you wear — small, (   ), or large?",
@@ -14090,6 +15978,7 @@ const units = {
   },
   // 982-1
   {
+    wordNo: 982,
     word: "means",
     meaning: "手段",
     sentence: "a (   ) of communication",
@@ -14097,6 +15986,7 @@ const units = {
   },
   // 982-2
   {
+    wordNo: 982,
     word: "means",
     meaning: "財産，収入",
     sentence: "live beyond my (   )",
@@ -14104,6 +15994,7 @@ const units = {
   },
   // 983-1
   {
+    wordNo: 983,
     word: "extent",
     meaning: "程度",
     sentence: "You are correct to some (   ).",
@@ -14111,6 +16002,7 @@ const units = {
   },
   // 984-1
   {
+    wordNo: 984,
     word: "extremely",
     meaning: "極度に，非常に",
     sentence: "It's (   ) hot outside.",
@@ -14118,6 +16010,7 @@ const units = {
   },
   // 985-1
   {
+    wordNo: 985,
     word: "total",
     meaning: "全体の",
     sentence: "the (   ) cost",
@@ -14125,6 +16018,7 @@ const units = {
   },
   // 985-2
   {
+    wordNo: 985,
     word: "total",
     meaning: "まったったくの",
     sentence: "a (   ) stranger",
@@ -14132,6 +16026,7 @@ const units = {
   },
   // 985-3
   {
+    wordNo: 985,
     word: "total",
     meaning: "合計",
     sentence: "The (   ) comes to 50 dollars.",
@@ -14139,6 +16034,7 @@ const units = {
   },
   // 986-1
   {
+    wordNo: 986,
     word: "largely",
     meaning: "大部分は",
     sentence: "Our customers are (   ) women.",
@@ -14146,6 +16042,7 @@ const units = {
   },
   // 986-2
   {
+    wordNo: 986,
     word: "largely",
     meaning: "主に",
     sentence: "(   ) because of its beauty",
@@ -14153,6 +16050,7 @@ const units = {
   },
   // 987-1
   {
+    wordNo: 987,
     word: "moderate",
     meaning: "適度な，度を超さない",
     sentence: "get (   ) exercise",
@@ -14163,6 +16061,7 @@ const units = {
 988: [
   // 988-1
   {
+    wordNo: 988,
     word: "somewhat",
     meaning: "いくぶん",
     sentence: "feel (   ) sad",
@@ -14170,6 +16069,7 @@ const units = {
   },
   // 989-1
   {
+    wordNo: 989,
     word: "subtle",
     meaning: "かすかな",
     sentence: "a (   ) difference in meaning",
@@ -14177,6 +16077,7 @@ const units = {
   },
   // 990-1
   {
+    wordNo: 990,
     word: "possibly",
     meaning: "ひょっとすると",
     sentence: "It will take two weeks, (   ) longer.",
@@ -14184,6 +16085,7 @@ const units = {
   },
   // 990-2
   {
+    wordNo: 990,
     word: "possibly",
     meaning: "（cannot 〜）どうしても（〜できない）",
     sentence: "I cannot (   ) solve this problem.",
@@ -14191,6 +16093,7 @@ const units = {
   },
   // 991-1
   {
+    wordNo: 991,
     word: "eventually",
     meaning: "最終的に，ついに",
     sentence: "After changing jobs many times, I (   ) found a job in a bank.",
@@ -14198,6 +16101,7 @@ const units = {
   },
   // 992-1
   {
+    wordNo: 992,
     word: "necessarily",
     meaning: "（not 〜）必ずしも（〜でない）",
     sentence: "Rich people are not (   ) happy.",
@@ -14205,6 +16109,7 @@ const units = {
   },
   // 993-1
   {
+    wordNo: 993,
     word: "frankly",
     meaning: "率率に",
     sentence: "talk (   ) with a friend",
@@ -14212,6 +16117,7 @@ const units = {
   },
   // 994-1
   {
+    wordNo: 994,
     word: "Ironically",
     meaning: "皮肉なことに",
     sentence: "(   ), my car was stolen right in front of the police station.",
@@ -14219,6 +16125,7 @@ const units = {
   },
   // 995-1
   {
+    wordNo: 995,
     word: "Moreover",
     meaning: "そのうえ，さらに",
     sentence: "Smoking is bad for you. (   ), it costs a lot.",
@@ -14226,6 +16133,7 @@ const units = {
   },
   // 996-1
   {
+    wordNo: 996,
     word: "otherwise",
     meaning: "さもなければ",
     sentence: "Hurry up; (   ) you'll be late.",
@@ -14233,6 +16141,7 @@ const units = {
   },
   // 996-2
   {
+    wordNo: 996,
     word: "otherwise",
     meaning: "ほかの点では",
     sentence: "This room is small but (   ) perfect.",
@@ -14240,6 +16149,7 @@ const units = {
   },
   // 996-3
   {
+    wordNo: 996,
     word: "otherwise",
     meaning: "違うと思うように",
     sentence: "They say that the movie is wonderful, but I think (   ).",
@@ -14247,6 +16157,7 @@ const units = {
   },
   // 997-1
   {
+    wordNo: 997,
     word: "regardless",
     meaning: "（of 〜）（〜に）とは無関係に",
     sentence: "(   ) of gender, race, or nationality",
@@ -14254,6 +16165,7 @@ const units = {
   },
   // 998-1
   {
+    wordNo: 998,
     word: "worth",
     meaning: "〜の価値がある",
     sentence: "This ring is (   ) over two million dollars.",
@@ -14261,6 +16173,7 @@ const units = {
   },
   // 998-2
   {
+    wordNo: 998,
     word: "worth",
     meaning: "（〜する）価値がある",
     sentence: "The film is (   ) seeing.",
@@ -14268,6 +16181,7 @@ const units = {
   },
   // 998-3
   {
+    wordNo: 998,
     word: "worth",
     meaning: "価値，（〜相当）",
     sentence: "$100,000 (   ) of damage",
@@ -14275,6 +16189,7 @@ const units = {
   },
   // 999-1
   {
+    wordNo: 999,
     word: "according to",
     meaning: "（調査，人の話など）によれば",
     sentence: "(   ) a public poll",
@@ -14282,6 +16197,7 @@ const units = {
   },
   // 999-2
   {
+    wordNo: 999,
     word: "according to",
     meaning: "（調査，人の話など）によれば",
     sentence: "Charges vary (   ) size.",
@@ -14289,6 +16205,7 @@ const units = {
   },
   // 1000-1
   {
+    wordNo: 1000,
     word: "despite",
     meaning: "〜にもかかわらず",
     sentence: "The soccer match was held, (   ) the heavy rain.",
@@ -14307,8 +16224,6 @@ const units = {
   let inputStartTime = null;
   let animSerial = 0;
   let animMode = "simple";
-  let sourceWordNumbers = [];
-  let sourceWordNumbersLoaded = false;
   
   // ====== DOM ======
   const home = document.getElementById("home");
@@ -14331,20 +16246,6 @@ const units = {
   const rangeEndInput = document.getElementById("rangeEnd");
   const rangeTestBtn = document.getElementById("rangeTestBtn");
 
-  function loadWordNumbersFromSource() {
-    fetch("script.js", { cache: "no-store" })
-      .then(res => res.text())
-      .then(text => {
-        const matches = [...text.matchAll(/\/\/\s*(\d{1,4})-\d+\s*\n\s*\{/g)];
-        sourceWordNumbers = matches.map(m => Number.parseInt(m[1], 10));
-        sourceWordNumbersLoaded = sourceWordNumbers.length > 0;
-      })
-      .catch(() => {
-        sourceWordNumbers = [];
-        sourceWordNumbersLoaded = false;
-      });
-  }
-  loadWordNumbersFromSource();
 
   // ====== Word Animation DOM ======
   const animModeEl = document.getElementById("animMode");
@@ -15179,13 +17080,9 @@ speakBtn.onclick = () => {
   }
   function getAllWords() {
     let all = [];
-    let index = 0;
     Object.values(units).forEach(arr => {
       arr.forEach(entry => {
-        const fallbackNumber = index + 1;
-        const mappedNumber = sourceWordNumbersLoaded ? sourceWordNumbers[index] : null;
-        all.push({ ...entry, number: mappedNumber ?? fallbackNumber });
-        index += 1;
+        all.push({ ...entry, number: entry.wordNo ?? 0 });
       });
     });
     return all;
