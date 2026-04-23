@@ -21,16 +21,19 @@
     <!-- 📘 単語アプリ本体 -->
     <div id="app" style="display:none;">
       <div id="home" class="screen">
+  <div class="home-top">
+    <button id="themeToggle" class="icon-toggle" aria-label="テーマ切り替え">
+      🌙
+    </button>
+  </div>
+
   <img id="logoImg" src="images/logo.png" alt="LEAP WORD ロゴ">
 
   <label class="toggle">
+    <span>ランダム出題</span>
     <input type="checkbox" id="randomToggle">
-    ランダム出題
   </label>
 
-  <button id="themeToggle" class="icon-toggle" aria-label="テーマ切り替え">
-    🌙
-  </button>
   <select id="animMode" class="anim-mode" aria-label="アニメ演出モード">
     <option value="simple">シンプル</option>
     <option value="neon">ネオン</option>
@@ -39,7 +42,7 @@
 
   <div id="unitList" class="unit-list">
   <button id="random10Btn" class="unit-btn special">
-      10問
+      ランダム出題
   </button>
 
   <div class="range-test">
