@@ -16245,6 +16245,12 @@ const units = {
   const rangeStartInput = document.getElementById("rangeStart");
   const rangeEndInput = document.getElementById("rangeEnd");
   const rangeTestBtn = document.getElementById("rangeTestBtn");
+  const appModal = document.getElementById("appModal");
+  const appModalBackdrop = document.getElementById("appModalBackdrop");
+  const appModalTitle = document.getElementById("appModalTitle");
+  const appModalMessage = document.getElementById("appModalMessage");
+  const appModalCancel = document.getElementById("appModalCancel");
+  const appModalOk = document.getElementById("appModalOk");
 
 
   // ====== Word Animation DOM ======
@@ -16258,6 +16264,68 @@ const units = {
   const quizCardEl = document.querySelector("#quiz .card");
   const globalFxEl = document.getElementById("globalFx");
   const comboDisplayEl = document.getElementById("comboDisplay");
+  let appModalResolve = null;
+  let appModalIsConfirm = false;
+
+  function closeAppModal(result) {
+    if (!appModal || !appModalResolve) return;
+    appModal.classList.add("hidden");
+    const resolve = appModalResolve;
+    appModalResolve = null;
+    appModalIsConfirm = false;
+    resolve(result);
+  }
+
+  function openAppModal({
+    title = "お知らせ",
+    message = "",
+    okText = "OK",
+    cancelText = "キャンセル",
+    isConfirm = false
+  }) {
+    if (!appModal || !appModalTitle || !appModalMessage || !appModalOk || !appModalCancel) {
+      return Promise.resolve(isConfirm ? false : true);
+    }
+
+    appModalTitle.textContent = title;
+    appModalMessage.textContent = message;
+    appModalOk.textContent = okText;
+    appModalCancel.textContent = cancelText;
+    appModalCancel.classList.toggle("hidden", !isConfirm);
+    appModal.classList.remove("hidden");
+    appModalIsConfirm = isConfirm;
+
+    return new Promise(resolve => {
+      appModalResolve = resolve;
+      setTimeout(() => appModalOk.focus(), 0);
+    });
+  }
+
+  function showAppAlert(message, title = "お知らせ") {
+    return openAppModal({ title, message, isConfirm: false });
+  }
+
+  function showAppConfirm(message, title = "確認") {
+    return openAppModal({ title, message, isConfirm: true });
+  }
+
+  appModalOk?.addEventListener("click", () => closeAppModal(true));
+  appModalCancel?.addEventListener("click", () => closeAppModal(false));
+  appModalBackdrop?.addEventListener("click", () => {
+    if (!appModalIsConfirm) closeAppModal(true);
+  });
+  document.addEventListener("keydown", e => {
+    if (!appModal || appModal.classList.contains("hidden")) return;
+    if (e.key === "Escape") {
+      e.preventDefault();
+      closeAppModal(appModalIsConfirm ? false : true);
+      return;
+    }
+    if (e.key === "Enter") {
+      e.preventDefault();
+      closeAppModal(true);
+    }
+  });
 
 
   
@@ -16314,8 +16382,9 @@ const units = {
 
   homeBtn.style.display = "none";
 
-homeBtn.onclick = () => {
-  if (confirm("Unitを中断してホームに戻りますか？")) {
+homeBtn.onclick = async () => {
+  const shouldGoHome = await showAppConfirm("Unitを中断してホームに戻りますか？", "確認");
+  if (shouldGoHome) {
     quiz.classList.add("hidden");
     resultScreen.classList.add("hidden");
     home.classList.remove("hidden");
@@ -17096,7 +17165,7 @@ speakBtn.onclick = () => {
       document.getElementById("login").style.display = "none";
       document.getElementById("app").style.display = "block";
     } else {
-      alert("パスワードが違います");
+      showAppAlert("パスワードが違います", "入力エラー");
     }
   }
   function getAllWords() {
@@ -17117,28 +17186,28 @@ speakBtn.onclick = () => {
     startQuizWithWords(allWords.slice(0, 10)); // 先頭10個だけ取る
   };
 
-  rangeTestBtn?.addEventListener("click", () => {
+  rangeTestBtn?.addEventListener("click", async () => {
     const allWords = getAllWords();
     const maxNumber = allWords.reduce((max, entry) => Math.max(max, entry.number || 0), 0);
     const start = Number.parseInt(rangeStartInput?.value || "", 10);
     const end = Number.parseInt(rangeEndInput?.value || "", 10);
 
     if (!Number.isInteger(start) || !Number.isInteger(end)) {
-      alert(`開始番号と終了番号を入力してください（1〜${maxNumber}）。`);
+      await showAppAlert(`開始番号と終了番号を入力してください（1〜${maxNumber}）。`, "入力エラー");
       return;
     }
     if (start < 1 || end < 1 || start > maxNumber || end > maxNumber) {
-      alert(`番号は1〜${maxNumber}の範囲で入力してください。`);
+      await showAppAlert(`番号は1〜${maxNumber}の範囲で入力してください。`, "入力エラー");
       return;
     }
     if (start > end) {
-      alert("開始番号は終了番号以下にしてください。");
+      await showAppAlert("開始番号は終了番号以下にしてください。", "入力エラー");
       return;
     }
 
     const selectedWords = allWords.filter(entry => entry.number >= start && entry.number <= end);
     if (selectedWords.length === 0) {
-      alert("指定範囲に単語がありません。");
+      await showAppAlert("指定範囲に単語がありません。", "お知らせ");
       return;
     }
 
