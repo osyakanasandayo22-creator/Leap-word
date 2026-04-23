@@ -208,12 +208,11 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #1d3d5e;
-    font-size: 22px;
+    font-size: 0;
   }
   
   .home-btn:hover {
-    background: #31689f;
+    background-color: #f8fafc;
   }
   
   .card {
@@ -317,12 +316,15 @@ button {
     width: 64px;
     height: 64px;
     border-radius: 50%;
-    border: none;
-    font-size: 20px;
+    border: 1px solid #d1d5db;
+    font-size: 0;
     cursor: pointer;
-    color: #fff;
+    color: transparent;
     transition: transform .12s, box-shadow .12s, filter .12s;
     box-shadow: 0 4px 10px rgba(0,0,0,.2);
+    background-color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   
   .controls button:hover {
@@ -336,13 +338,18 @@ button {
   }
   
   .btn-speak {
-    color: #ffffff;
-    background: #ffce0c;
+    background-size: 30px 30px;
+    background-image: url("images/icons8-大音量-96.png");
   }
   
   .btn-next {
-    color: #ffffff;
-    background: #800000;
+    background-size: 28px 28px;
+    background-image: url("images/icons8-右-100.png");
+  }
+
+  #homeBtn {
+    background-size: 30px 30px;
+    background-image: url("images/家の無料アイコン.png");
   }
   
   /* ================= FINISH ================= */
