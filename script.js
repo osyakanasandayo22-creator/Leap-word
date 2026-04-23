@@ -16360,6 +16360,7 @@ homeBtn.onclick = () => {
   
     input.value = "";
     input.disabled = false;
+    judgeBtn.disabled = false;
     inputStartTime = null;
   
     resultEl.textContent = "";
@@ -16886,6 +16887,7 @@ homeBtn.onclick = () => {
     const elapsedMs = inputStartTime ? (performance.now() - inputStartTime) : 0;
   
     input.disabled = true;
+    judgeBtn.disabled = true;
   
     // 意味表示
     meaningEl.textContent = `意味：${q.meaning}`;
