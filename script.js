@@ -14307,6 +14307,8 @@ const units = {
   let inputStartTime = null;
   let animSerial = 0;
   let animMode = "simple";
+  let sourceWordNumbers = [];
+  let sourceWordNumbersLoaded = false;
   
   // ====== DOM ======
   const home = document.getElementById("home");
@@ -14328,6 +14330,21 @@ const units = {
   const rangeStartInput = document.getElementById("rangeStart");
   const rangeEndInput = document.getElementById("rangeEnd");
   const rangeTestBtn = document.getElementById("rangeTestBtn");
+
+  function loadWordNumbersFromSource() {
+    fetch("script.js", { cache: "no-store" })
+      .then(res => res.text())
+      .then(text => {
+        const matches = [...text.matchAll(/\/\/\s*(\d{1,4})-\d+\s*\n\s*\{/g)];
+        sourceWordNumbers = matches.map(m => Number.parseInt(m[1], 10));
+        sourceWordNumbersLoaded = sourceWordNumbers.length > 0;
+      })
+      .catch(() => {
+        sourceWordNumbers = [];
+        sourceWordNumbersLoaded = false;
+      });
+  }
+  loadWordNumbersFromSource();
 
   // ====== Word Animation DOM ======
   const animModeEl = document.getElementById("animMode");
@@ -15162,11 +15179,13 @@ speakBtn.onclick = () => {
   }
   function getAllWords() {
     let all = [];
-    let number = 1;
+    let index = 0;
     Object.values(units).forEach(arr => {
       arr.forEach(entry => {
-        all.push({ ...entry, number });
-        number += 1;
+        const fallbackNumber = index + 1;
+        const mappedNumber = sourceWordNumbersLoaded ? sourceWordNumbers[index] : null;
+        all.push({ ...entry, number: mappedNumber ?? fallbackNumber });
+        index += 1;
       });
     });
     return all;
@@ -15182,7 +15201,7 @@ speakBtn.onclick = () => {
 
   rangeTestBtn?.addEventListener("click", () => {
     const allWords = getAllWords();
-    const maxNumber = allWords.length;
+    const maxNumber = allWords.reduce((max, entry) => Math.max(max, entry.number || 0), 0);
     const start = Number.parseInt(rangeStartInput?.value || "", 10);
     const end = Number.parseInt(rangeEndInput?.value || "", 10);
 
