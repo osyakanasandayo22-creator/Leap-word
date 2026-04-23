@@ -16288,15 +16288,24 @@ const units = {
 
   // テーマ切り替え
   if (themeToggle) {
+    const moonIconPath = "images/月のアイコン.png";
+    const setThemeIcon = isDark => {
+      if (isDark) {
+        themeToggle.textContent = "☀";
+        return;
+      }
+      themeToggle.innerHTML = `<img src="${moonIconPath}" alt="月アイコン" class="theme-icon">`;
+    };
+
     const savedTheme = localStorage.getItem("theme") || "light";
     if (savedTheme === "dark") {
       document.body.classList.add("dark");
-      themeToggle.textContent = "☀";
     }
+    setThemeIcon(savedTheme === "dark");
 
     themeToggle.onclick = () => {
       const isDark = document.body.classList.toggle("dark");
-      themeToggle.textContent = isDark ? "☀" : "🌙";
+      setThemeIcon(isDark);
       localStorage.setItem("theme", isDark ? "dark" : "light");
     };
   }
@@ -17057,7 +17066,17 @@ speakBtn.onclick = () => {
   });
 
   input.addEventListener("keydown", e => {
-    if (e.key === "Enter" && !input.disabled) judge();
+    if (e.key !== "Enter") return;
+    e.preventDefault();
+
+    if (!input.disabled) {
+      judge();
+      return;
+    }
+
+    const canGoNextAfterJudge =
+      !nextBtn.disabled && !nextBtn.classList.contains("hidden");
+    if (canGoNextAfterJudge) next();
   });
   
   // ====== シャッフル ======

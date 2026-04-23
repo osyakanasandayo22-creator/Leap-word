@@ -300,6 +300,13 @@ body.dark .toggle input[type="checkbox"]:checked::after {
   border-color: var(--border-strong);
 }
 
+.icon-toggle .theme-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  pointer-events: none;
+}
+
 /* 演出モードのセレクト */
 .anim-mode {
   display: block;
