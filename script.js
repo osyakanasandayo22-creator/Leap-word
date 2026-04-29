@@ -17149,6 +17149,21 @@ speakBtn.onclick = () => {
       !nextBtn.disabled && !nextBtn.classList.contains("hidden");
     if (canGoNextAfterJudge) next();
   });
+
+  // inputがdisabled中はinput自身でkeydownを受け取れないため、画面全体でもEnterを監視
+  document.addEventListener("keydown", e => {
+    if (e.key !== "Enter") return;
+    if (appModal && !appModal.classList.contains("hidden")) return;
+    if (quiz.classList.contains("hidden")) return;
+    if (!input.disabled) return;
+
+    const canGoNextAfterJudge =
+      !nextBtn.disabled && !nextBtn.classList.contains("hidden");
+    if (!canGoNextAfterJudge) return;
+
+    e.preventDefault();
+    next();
+  });
   
   // ====== シャッフル ======
   function shuffle(arr) {
