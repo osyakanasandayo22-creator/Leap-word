@@ -17093,31 +17093,37 @@ function resolveEnglishVoice() {
 function speakWord(word) {
   if (!('speechSynthesis' in window)) return;
 
-  const utter = new SpeechSynthesisUtterance(word);
-  utter.lang = 'en-US';
-  utter.rate = 1.0;
-  utter.pitch = 1.05;
+  const synth = window.speechSynthesis;
+  synth.cancel();
 
-  // 既に再生中なら一旦止める
-  window.speechSynthesis.cancel();
+  const doSpeak = () => {
+    const utter = new SpeechSynthesisUtterance(word);
+    utter.lang = "en-US";
+    utter.rate = 1.0;
+    utter.pitch = 1.05;
+    const v = resolveEnglishVoice();
+    if (v) utter.voice = v;
+    synth.speak(utter);
+  };
 
-  let voice = resolveEnglishVoice();
-
-  if (!voice) {
-    // まだvoiceがロードされていないケース（特にiOS）
-    window.speechSynthesis.onvoiceschanged = () => {
-      const v = resolveEnglishVoice();
-      if (v) {
-        utter.voice = v;
-      }
-      window.speechSynthesis.speak(utter);
-    };
-    // トリガー用に一度getVoicesを呼ぶ
-    window.speechSynthesis.getVoices();
-  } else {
-    utter.voice = voice;
-    window.speechSynthesis.speak(utter);
+  if (resolveEnglishVoice()) {
+    doSpeak();
+    return;
   }
+
+  // voiceschanged はブラウザによって複数回飛ぶ。毎回 speak すると二重読み上げになるので1回だけ実行する
+  let spoken = false;
+  const fireOnce = () => {
+    if (spoken) return;
+    spoken = true;
+    synth.removeEventListener("voiceschanged", onVoicesChanged);
+    clearTimeout(fallbackTimer);
+    doSpeak();
+  };
+  const onVoicesChanged = () => fireOnce();
+  const fallbackTimer = setTimeout(fireOnce, 800);
+  synth.addEventListener("voiceschanged", onVoicesChanged);
+  void synth.getVoices();
 }
 
 speakBtn.onclick = () => {
