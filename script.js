@@ -17136,27 +17136,45 @@ function resolveEnglishVoice() {
     let r = 0;
     if (name.includes("female")) r += 120;
     else if (/wavenet-f|neural2-f|neural-f|[-_]f\b|_f_/i.test(name)) r += 100;
-    if (name.includes("wavenet")) r += 45;
-    if (name.includes("neural")) r += 40;
-    if (name.includes("studio")) r += 35;
-    if (name.includes("polyglot")) r += 25;
-    if (name.includes("journey")) r += 25;
+    if (name.includes("journey")) r += 55;
+    if (name.includes("generative")) r += 50;
+    if (name.includes("premium")) r += 42;
+    if (name.includes("neural2")) r += 38;
+    if (name.includes("wavenet")) r += 35;
+    if (name.includes("neural")) r += 32;
+    if (name.includes("studio")) r += 28;
+    if (name.includes("polyglot")) r += 22;
     if (name.includes("us english")) r += 18;
     if (name.includes("en-us")) r += 8;
     return r;
   }
 
-  let best = null;
-  let bestRank = -1;
-  for (const v of voices) {
-    const r = rankGoogleUsFemale(v);
-    if (r > bestRank) {
-      bestRank = r;
-      best = v;
-    }
+  /** 同スコア時は「明るい／高めになりやすい」エンジンを優先 */
+  function tieBreakGoogleFemale(a, b) {
+    const key = v => {
+      const n = (v.name || "").toLowerCase();
+      let k = 0;
+      if (n.includes("journey")) k += 80;
+      if (n.includes("generative")) k += 70;
+      if (n.includes("neural2")) k += 60;
+      if (n.includes("premium")) k += 50;
+      if (n.includes("wavenet")) k += 40;
+      if (n.includes("neural")) k += 35;
+      if (n.includes("studio")) k += 30;
+      if (n.includes("female")) k += 25;
+      return k;
+    };
+    return key(b) - key(a);
   }
-  // 女性系（Female または Google の F 系ニューラル）にマッチしたときだけ Google US を優先採用
-  if (best && bestRank >= 100) return best;
+
+  const googleUsFemaleCandidates = voices
+    .map(v => ({ v, r: rankGoogleUsFemale(v) }))
+    .filter(x => x.r >= 100)
+    .sort((a, b) => {
+      if (b.r !== a.r) return b.r - a.r;
+      return tieBreakGoogleFemale(a.v, b.v);
+    });
+  if (googleUsFemaleCandidates.length > 0) return googleUsFemaleCandidates[0].v;
 
   const englishVoices = voices.filter(v => langNorm(v.lang).startsWith("en"));
   if (englishVoices.length === 0) return null;
@@ -17166,12 +17184,12 @@ function resolveEnglishVoice() {
   const femalePriority = [
     "Google US English Female",
     "Google UK English Female",
+    "Microsoft Jenny",
+    "Microsoft Aria",
     "Microsoft Zira",
     "Samantha",
     "Victoria",
     "Karen",
-    "Jenny",
-    "Microsoft Aria",
     "Tessa",
     "Moira",
     "Fiona"
@@ -17205,8 +17223,8 @@ function speakWord(word) {
   const doSpeak = () => {
     const utter = new SpeechSynthesisUtterance(word);
     utter.lang = "en-US";
-    utter.rate = 1.0;
-    utter.pitch = 1.05;
+    utter.rate = 1.05;
+    utter.pitch = 1.26;
     const v = resolveEnglishVoice();
     if (v) utter.voice = v;
     synth.speak(utter);
