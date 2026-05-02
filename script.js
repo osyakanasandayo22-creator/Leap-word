@@ -16588,18 +16588,35 @@ homeBtn.onclick = async () => {
     }
   }
 
+  let correct2AudioEl = null;
+  function playCorrect2Sound() {
+    primeAudio();
+    try {
+      if (!correct2AudioEl) {
+        correct2AudioEl = new Audio("クイズ正解2.mp3");
+        correct2AudioEl.preload = "auto";
+      }
+      correct2AudioEl.pause();
+      correct2AudioEl.currentTime = 0;
+      void correct2AudioEl.play().catch(() => {});
+    } catch {
+      // ignore
+    }
+  }
+
   function playJudgeSound(kind) {
-    // kind: fall / click / wrong
+    // kind: fall / click / wrong / correct2（correct2 はクイズ正解2.mp3）
     // 正解時：刺さりにくい（低め・サイン寄り・音量控えめ）
     if (kind === "fallCorrect") playTone(560, 45, "sine", 0.012);
     if (kind === "fallWrong") playTone(190, 65, "triangle", 0.012);
     if (kind === "fall") playTone(520, 55, "sine", 0.012);
 
-    // 正解時クリック / 正解音2：高音域より「ふわっとした短い音」（2音）
-    if (kind === "click" || kind === "correct2") {
+    // 正解時クリック：高音域より「ふわっとした短い音」（2音）
+    if (kind === "click") {
       playTone(880, 75, "sine", 0.018);
       setTimeout(() => playTone(1320, 55, "sine", 0.009), 12);
     }
+    if (kind === "correct2") playCorrect2Sound();
     if (kind === "wrong") playTone(180, 140, "triangle", 0.018);
   }
 

@@ -1,9 +1,10 @@
-const CACHE_NAME = 'leap-cache-v1';
+const CACHE_NAME = 'leap-cache-v2';
 const urlsToCache = [
   '/',
   '/index.html',
   '/style.css',
   '/script.js',
+  '/クイズ正解2.mp3',
   '/images/logo.png',
   '/images/icon-192.png',
   '/images/icon-512.png'
