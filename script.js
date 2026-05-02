@@ -17033,15 +17033,16 @@ homeBtn.onclick = async () => {
       resultEl.className = "wrong";
       wrongWords.push(q);
 
+      // 正解と同様、判定直後に読み上げ（落下リズム・不正解SEと時間が重なりやすくなる）
+      speakWord(q.word);
+      speechNextIsWord = false;
+
       setTimeout(() => {
         if (input.disabled === false) return;
         speakBtn.disabled = false;
         nextBtn.disabled = false;
         speakBtn.classList.remove("hidden");
         nextBtn.classList.remove("hidden");
-        // 不正解時も単語を自動再生（次の手動再生は例文から交互）
-        speakWord(q.word);
-        speechNextIsWord = false;
       }, fallDuration + 40);
     }
   }
@@ -17123,9 +17124,41 @@ function isLikelyFemaleVoiceName(name) {
 
 function resolveEnglishVoice() {
   const voices = window.speechSynthesis.getVoices();
-  if (!voices || voices.length === 0) return null;
+  if (!voices?.length) return null;
 
-  const englishVoices = voices.filter(v => v.lang && v.lang.toLowerCase().startsWith("en"));
+  const langNorm = s => (s || "").toLowerCase().replace("_", "-");
+
+  function rankGoogleUsFemale(v) {
+    const name = (v.name || "").toLowerCase();
+    const lang = langNorm(v.lang);
+    if (!name.includes("google")) return -1;
+    if (lang !== "en-us" && !lang.startsWith("en-us")) return -1;
+    let r = 0;
+    if (name.includes("female")) r += 120;
+    else if (/wavenet-f|neural2-f|neural-f|[-_]f\b|_f_/i.test(name)) r += 100;
+    if (name.includes("wavenet")) r += 45;
+    if (name.includes("neural")) r += 40;
+    if (name.includes("studio")) r += 35;
+    if (name.includes("polyglot")) r += 25;
+    if (name.includes("journey")) r += 25;
+    if (name.includes("us english")) r += 18;
+    if (name.includes("en-us")) r += 8;
+    return r;
+  }
+
+  let best = null;
+  let bestRank = -1;
+  for (const v of voices) {
+    const r = rankGoogleUsFemale(v);
+    if (r > bestRank) {
+      bestRank = r;
+      best = v;
+    }
+  }
+  // 女性系（Female または Google の F 系ニューラル）にマッチしたときだけ Google US を優先採用
+  if (best && bestRank >= 100) return best;
+
+  const englishVoices = voices.filter(v => langNorm(v.lang).startsWith("en"));
   if (englishVoices.length === 0) return null;
 
   const femaleVoices = englishVoices.filter(v => isLikelyFemaleVoiceName(v.name));
@@ -17154,6 +17187,11 @@ function resolveEnglishVoice() {
     const found = englishVoices.find(v => v.name.indexOf(name) !== -1);
     if (found) return found;
   }
+
+  const googleUs = englishVoices.find(
+    v => /google/i.test(v.name) && /us english/i.test(v.name.toLowerCase())
+  );
+  if (googleUs) return googleUs;
 
   return englishVoices[0];
 }
