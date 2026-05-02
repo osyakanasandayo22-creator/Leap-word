@@ -16243,6 +16243,7 @@ const units = {
   const nextBtn = document.getElementById("nextBtn");
   const speakBtn = document.getElementById("speakBtn");
   const reviewBtn = document.getElementById("reviewBtn");
+  const backHomeBtn = document.getElementById("backHome");
   const meaningEl = document.getElementById("meaning");
   const rangeStartInput = document.getElementById("rangeStart");
   const rangeEndInput = document.getElementById("rangeEnd");
@@ -16281,7 +16282,7 @@ const units = {
   function openAppModal({
     title = "お知らせ",
     message = "",
-    okText = "OK",
+    okText = "はい",
     cancelText = "キャンセル",
     isConfirm = false
   }) {
@@ -16304,11 +16305,17 @@ const units = {
   }
 
   function showAppAlert(message, title = "お知らせ") {
-    return openAppModal({ title, message, isConfirm: false });
+    return openAppModal({ title, message, isConfirm: false, okText: "はい" });
   }
 
   function showAppConfirm(message, title = "確認") {
-    return openAppModal({ title, message, isConfirm: true });
+    return openAppModal({
+      title,
+      message,
+      isConfirm: true,
+      okText: "はい",
+      cancelText: "いいえ"
+    });
   }
 
   appModalOk?.addEventListener("click", () => closeAppModal(true));
@@ -16316,18 +16323,24 @@ const units = {
   appModalBackdrop?.addEventListener("click", () => {
     if (!appModalIsConfirm) closeAppModal(true);
   });
-  document.addEventListener("keydown", e => {
-    if (!appModal || appModal.classList.contains("hidden")) return;
-    if (e.key === "Escape") {
-      e.preventDefault();
-      closeAppModal(appModalIsConfirm ? false : true);
-      return;
-    }
-    if (e.key === "Enter") {
-      e.preventDefault();
-      closeAppModal(true);
-    }
-  });
+  document.addEventListener(
+    "keydown",
+    e => {
+      if (!appModal || appModal.classList.contains("hidden")) return;
+      if (e.key === "Escape") {
+        e.preventDefault();
+        e.stopPropagation();
+        closeAppModal(appModalIsConfirm ? false : true);
+        return;
+      }
+      if (e.key === "Enter" || e.key === "NumpadEnter") {
+        e.preventDefault();
+        e.stopPropagation();
+        closeAppModal(true);
+      }
+    },
+    true
+  );
 
 
   
@@ -17073,28 +17086,75 @@ homeBtn.onclick = async () => {
   };
   
   // ====== ホーム ======
-  document.getElementById("backHome").onclick = () => {
+  backHomeBtn.onclick = () => {
     resultScreen.classList.add("hidden");
     home.classList.remove("hidden");
   };
   
 // ====== 発音（スマホ対応 改良版） ======
+function isLikelyFemaleVoiceName(name) {
+  if (!name) return false;
+  const n = name.toLowerCase();
+  if (n.includes("female")) return true;
+  const hints = [
+    "zira",
+    "jenny",
+    "aria",
+    "samantha",
+    "victoria",
+    "karen",
+    "tessa",
+    "moira",
+    "fiona",
+    "serena",
+    "veena",
+    "emma",
+    "amy",
+    "olivia",
+    "sarah",
+    "hazel",
+    "martha",
+    "catherine",
+    "google us english female",
+    "google uk english female"
+  ];
+  return hints.some(h => n.includes(h));
+}
+
 function resolveEnglishVoice() {
   const voices = window.speechSynthesis.getVoices();
   if (!voices || voices.length === 0) return null;
 
-  // 英語系だけに絞る
-  const englishVoices = voices.filter(v => v.lang && v.lang.toLowerCase().startsWith('en'));
+  const englishVoices = voices.filter(v => v.lang && v.lang.toLowerCase().startsWith("en"));
   if (englishVoices.length === 0) return null;
 
-  // モバイルでも比較的安定している順に優先
-  const priorityNames = ['Google US English', 'Google UK English', 'Samantha', 'Daniel'];
-  for (const name of priorityNames) {
+  const femaleVoices = englishVoices.filter(v => isLikelyFemaleVoiceName(v.name));
+
+  const femalePriority = [
+    "Google US English Female",
+    "Google UK English Female",
+    "Microsoft Zira",
+    "Samantha",
+    "Victoria",
+    "Karen",
+    "Jenny",
+    "Microsoft Aria",
+    "Tessa",
+    "Moira",
+    "Fiona"
+  ];
+  for (const name of femalePriority) {
+    const found = femaleVoices.find(v => v.name.indexOf(name) !== -1);
+    if (found) return found;
+  }
+  if (femaleVoices.length > 0) return femaleVoices[0];
+
+  const softFemaleNames = ["Samantha", "Victoria", "Karen", "Moira", "Tessa", "Fiona", "Serena"];
+  for (const name of softFemaleNames) {
     const found = englishVoices.find(v => v.name.indexOf(name) !== -1);
     if (found) return found;
   }
 
-  // 上記がなければ最初の英語ボイス
   return englishVoices[0];
 }
 
@@ -17144,8 +17204,8 @@ function playAlternatingSpeech() {
   if (!q) return;
   primeAudio();
   const text = speechNextIsWord ? q.word : sentenceForSpeech(q);
-  speechNextIsWord = !speechNextIsWord;
   speakWord(text);
+  speechNextIsWord = !speechNextIsWord;
 }
 
 speakBtn.onclick = () => {
@@ -17203,6 +17263,42 @@ speakBtn.onclick = () => {
 
     e.preventDefault();
     playAlternatingSpeech();
+  });
+
+  // Unit終了画面: Enter で「間違えた単語を復習」（表示中なら）／なければホームへ
+  document.addEventListener("keydown", e => {
+    if (e.key !== "Enter") return;
+    if (e.repeat) return;
+    if (appModal && !appModal.classList.contains("hidden")) return;
+    if (resultScreen.classList.contains("hidden")) return;
+
+    e.preventDefault();
+    if (!reviewBtn.classList.contains("hidden")) {
+      reviewBtn.click();
+    } else {
+      backHomeBtn.click();
+    }
+  });
+
+  // Alt+H: クイズ中はホームボタン（🏠）と同じ／Unit終了画面ならホームへ戻る
+  document.addEventListener("keydown", e => {
+    if (!e.altKey || e.ctrlKey || e.metaKey) return;
+    if (e.key !== "h" && e.key !== "H") return;
+    if (e.repeat) return;
+    if (appModal && !appModal.classList.contains("hidden")) return;
+
+    const appEl = document.getElementById("app");
+    if (!appEl || appEl.style.display === "none") return;
+
+    if (!quiz.classList.contains("hidden") && homeBtn.style.display === "block") {
+      e.preventDefault();
+      homeBtn.click();
+      return;
+    }
+    if (!resultScreen.classList.contains("hidden")) {
+      e.preventDefault();
+      backHomeBtn?.click();
+    }
   });
   
   // ====== シャッフル ======
