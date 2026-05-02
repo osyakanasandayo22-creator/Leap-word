@@ -16224,7 +16224,9 @@ const units = {
   let inputStartTime = null;
   let animSerial = 0;
   let animMode = "simple";
-  
+  /** 音声: true のとき次は単語、false のとき次は例文（交互） */
+  let speechNextIsWord = true;
+
   // ====== DOM ======
   const home = document.getElementById("home");
   const quiz = document.getElementById("quiz");
@@ -16423,7 +16425,9 @@ homeBtn.onclick = async () => {
   // ====== 表示 ======
   function showCard() {
     const q = currentUnit[currentIndex];
-  
+
+    speechNextIsWord = true;
+
     sentenceEl.textContent = q.sentence;
     jpEl.textContent = q.jp;
   
@@ -16999,8 +17003,9 @@ homeBtn.onclick = async () => {
       // コンボ表示（3連続以上）
       showComboText(nextComboCount, comboTier);
 
-      // 正解の音声
+      // 正解の音声（常に単語。次の手動再生からは単語⇔例文の交互）
       speakWord(q.word);
+      speechNextIsWord = false;
 
       setTimeout(() => {
         next();
@@ -17021,6 +17026,9 @@ homeBtn.onclick = async () => {
         nextBtn.disabled = false;
         speakBtn.classList.remove("hidden");
         nextBtn.classList.remove("hidden");
+        // 不正解時も単語を自動再生（次の手動再生は例文から交互）
+        speakWord(q.word);
+        speechNextIsWord = false;
       }, fallDuration + 40);
     }
   }
@@ -17126,8 +17134,22 @@ function speakWord(word) {
   void synth.getVoices();
 }
 
+function sentenceForSpeech(q) {
+  return (q.sentence || "").replace(/\(\s+\)/g, q.word);
+}
+
+function playAlternatingSpeech() {
+  if (!("speechSynthesis" in window)) return;
+  const q = currentUnit[currentIndex];
+  if (!q) return;
+  primeAudio();
+  const text = speechNextIsWord ? q.word : sentenceForSpeech(q);
+  speechNextIsWord = !speechNextIsWord;
+  speakWord(text);
+}
+
 speakBtn.onclick = () => {
-  speakWord(currentUnit[currentIndex].word);
+  playAlternatingSpeech();
 };
   
   // ====== イベント ======
@@ -17169,6 +17191,18 @@ speakBtn.onclick = () => {
 
     e.preventDefault();
     next();
+  });
+
+  // V: 判定後のみ。単語と例文を交互に読み上げ（判定前は v を英文に打てるようにする）
+  document.addEventListener("keydown", e => {
+    if (e.key !== "v" && e.key !== "V") return;
+    if (e.repeat || e.ctrlKey || e.metaKey || e.altKey) return;
+    if (appModal && !appModal.classList.contains("hidden")) return;
+    if (quiz.classList.contains("hidden")) return;
+    if (!input.disabled) return;
+
+    e.preventDefault();
+    playAlternatingSpeech();
   });
   
   // ====== シャッフル ======
