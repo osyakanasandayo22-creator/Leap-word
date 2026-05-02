@@ -16595,8 +16595,8 @@ homeBtn.onclick = async () => {
     if (kind === "fallWrong") playTone(190, 65, "triangle", 0.012);
     if (kind === "fall") playTone(520, 55, "sine", 0.012);
 
-    // 正解時クリック：高音域より「ふわっとした短い音」
-    if (kind === "click") {
+    // 正解時クリック / 正解音2：高音域より「ふわっとした短い音」（2音）
+    if (kind === "click" || kind === "correct2") {
       playTone(880, 75, "sine", 0.018);
       setTimeout(() => playTone(1320, 55, "sine", 0.009), 12);
     }
@@ -16735,7 +16735,7 @@ homeBtn.onclick = async () => {
         wordRippleEl.classList.remove("play");
         void wordRippleEl.offsetWidth; // 再生を確実にする
         wordRippleEl.classList.add("play");
-        playJudgeSound("click");
+        // 正解音2は judge 側で読み上げに合わせて再生
       }, rippleAt);
 
       // 表示開始
@@ -17016,9 +17016,12 @@ homeBtn.onclick = async () => {
       // コンボ表示（3連続以上）
       showComboText(nextComboCount, comboTier);
 
-      // 正解の音声（常に単語。次の手動再生からは単語⇔例文の交互）
-      speakWord(q.word);
-      speechNextIsWord = false;
+      // 正解音2 → わずかに先行してから読み上げ（同時感を出しつつ先に入る）
+      playJudgeSound("correct2");
+      setTimeout(() => {
+        speakWord(q.word);
+        speechNextIsWord = false;
+      }, 36);
 
       setTimeout(() => {
         next();
