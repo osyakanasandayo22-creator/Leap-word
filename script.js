@@ -16355,9 +16355,37 @@ const units = {
   });
   
   // ====== 設定 ======
-  document.getElementById("randomToggle").onchange = e => {
-    isRandom = e.target.checked;
+  const randomToggleEl = document.getElementById("randomToggle");
+  const savedRandom = localStorage.getItem("quizRandom") === "1";
+  isRandom = savedRandom;
+  if (randomToggleEl) randomToggleEl.checked = savedRandom;
+
+  if (randomToggleEl) {
+    randomToggleEl.onchange = e => {
+      isRandom = e.target.checked;
+      localStorage.setItem("quizRandom", isRandom ? "1" : "0");
+    };
+  }
+
+  const persistRangeInputs = () => {
+    if (rangeStartInput) localStorage.setItem("quizRangeStart", rangeStartInput.value);
+    if (rangeEndInput) localStorage.setItem("quizRangeEnd", rangeEndInput.value);
   };
+
+  if (rangeStartInput) {
+    const s = localStorage.getItem("quizRangeStart");
+    if (s !== null) rangeStartInput.value = s;
+    rangeStartInput.addEventListener("change", persistRangeInputs);
+    rangeStartInput.addEventListener("input", persistRangeInputs);
+    rangeStartInput.addEventListener("blur", persistRangeInputs);
+  }
+  if (rangeEndInput) {
+    const s = localStorage.getItem("quizRangeEnd");
+    if (s !== null) rangeEndInput.value = s;
+    rangeEndInput.addEventListener("change", persistRangeInputs);
+    rangeEndInput.addEventListener("input", persistRangeInputs);
+    rangeEndInput.addEventListener("blur", persistRangeInputs);
+  }
 
   // アニメ演出モード
   if (animModeEl) {
