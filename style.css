@@ -485,6 +485,7 @@ body.dark .range-inputs input:focus {
   box-shadow: var(--shadow-md);
   border: 1px solid var(--border);
   position: relative;
+  isolation: isolate;
 }
 
 body.dark .card {
@@ -498,6 +499,8 @@ body.dark .card {
   line-height: 1.65;
   color: var(--text);
   text-align: left;
+  position: relative;
+  z-index: 4;
 }
 
 #jp {
@@ -505,6 +508,8 @@ body.dark .card {
   color: var(--text-sub);
   font-size: 14px;
   text-align: left;
+  position: relative;
+  z-index: 4;
 }
 
 #answerInput {
@@ -735,6 +740,9 @@ body.dark #reviewBtn:hover {
 
 .answer-area {
   margin-top: 18px;
+  position: relative;
+  /* 単語演出より手前（入力欄は不透明のため演出は主に周辺で見える） */
+  z-index: 3;
 }
 
 /* ================= LOGIN ================= */
@@ -831,7 +839,8 @@ body.dark .match-rate {
   transform: translate(-50%, -50%);
   width: 100%;
   height: 160px;
-  z-index: 20;
+  /* 問題文・和訳より下に置き、白い波紋やシルエットが英文を覆わないようにする */
+  z-index: 1;
   pointer-events: none;
 
   --fallDuration: 800ms;
@@ -1463,7 +1472,8 @@ body.scene-audio-pulse #globalFx {
   text-shadow: 0 0 0 rgba(30, 136, 229, 0.0);
   opacity: 0;
   pointer-events: none;
-  z-index: 80;
+  /* 問題文より手前に出さない（白い角丸が英文の一部を隠すのを防ぐ） */
+  z-index: 2;
   will-change: transform, opacity, filter, text-shadow;
 }
 
