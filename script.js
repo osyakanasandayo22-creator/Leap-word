@@ -16220,7 +16220,7 @@ const units = {
   let currentIndex = 0;
   let wrongWords = [];
   let isRandom = false;
-  let quizMode = "normal"; // normal | weakReview | sessionReview
+  let quizMode = "normal"; // normal | sessionReview
   let consecutiveCorrect = 0;
   let inputStartTime = null;
   let animSerial = 0;
@@ -16248,9 +16248,12 @@ const units = {
   const meaningEl = document.getElementById("meaning");
   const rangeStartInput = document.getElementById("rangeStart");
   const rangeEndInput = document.getElementById("rangeEnd");
-  const rangeCountInput = document.getElementById("rangeCount");
+  const rangeCountSelect = document.getElementById("rangeCount");
+  const rangeLimitToggle = document.getElementById("rangeLimitToggle");
+  const rangeCountField = document.getElementById("rangeCountField");
+  const rangeSizeHint = document.getElementById("rangeSizeHint");
+  const rangeModeInputs = document.querySelectorAll('input[name="rangeMode"]');
   const rangeTestBtn = document.getElementById("rangeTestBtn");
-  const weakReviewBtn = document.getElementById("weakReviewBtn");
   const appModal = document.getElementById("appModal");
   const appModalBackdrop = document.getElementById("appModalBackdrop");
   const appModalTitle = document.getElementById("appModalTitle");
@@ -16370,18 +16373,94 @@ const units = {
     };
   }
 
+  const getSelectedRangeMode = () => {
+    const checked = document.querySelector('input[name="rangeMode"]:checked');
+    return checked?.value === "weak" ? "weak" : "normal";
+  };
+
   const persistRangeInputs = () => {
     if (rangeStartInput) localStorage.setItem("quizRangeStart", rangeStartInput.value);
     if (rangeEndInput) localStorage.setItem("quizRangeEnd", rangeEndInput.value);
-    if (rangeCountInput) localStorage.setItem("quizRangeCount", rangeCountInput.value);
+    if (rangeCountSelect) localStorage.setItem("quizRangeCount", rangeCountSelect.value);
+    if (rangeLimitToggle) {
+      localStorage.setItem("quizRangeLimitEnabled", rangeLimitToggle.checked ? "1" : "0");
+    }
+    localStorage.setItem("quizRangeMode", getSelectedRangeMode());
   };
 
   const bindRangeInput = (el) => {
     if (!el) return;
-    el.addEventListener("change", persistRangeInputs);
-    el.addEventListener("input", persistRangeInputs);
+    el.addEventListener("change", () => {
+      updateRangeCountOptions();
+      persistRangeInputs();
+    });
+    el.addEventListener("input", () => {
+      updateRangeCountOptions();
+      persistRangeInputs();
+    });
     el.addEventListener("blur", persistRangeInputs);
   };
+
+  function syncRangeUiState() {
+    const mode = getSelectedRangeMode();
+    if (mode === "weak" && rangeLimitToggle) {
+      rangeLimitToggle.checked = true;
+    }
+    const limitOn = !!rangeLimitToggle?.checked;
+    rangeCountField?.classList.toggle("hidden", !limitOn);
+    updateRangeCountOptions();
+  }
+
+  function updateRangeCountOptions() {
+    const allWords = getAllWords();
+    const maxNumber = allWords.reduce((max, entry) => Math.max(max, entry.number || 0), 0);
+    const start = Number.parseInt(rangeStartInput?.value || "", 10);
+    const end = Number.parseInt(rangeEndInput?.value || "", 10);
+    const hasValidRange =
+      Number.isInteger(start) &&
+      Number.isInteger(end) &&
+      start >= 1 &&
+      end >= 1 &&
+      start <= maxNumber &&
+      end <= maxNumber &&
+      start <= end;
+
+    if (!hasValidRange) {
+      rangeSizeHint?.classList.add("hidden");
+      if (rangeCountSelect) {
+        rangeCountSelect.innerHTML = "";
+        rangeCountSelect.disabled = true;
+      }
+      return;
+    }
+
+    const rangeWords = getWordsInRange(allWords, start, end);
+    const rangeSize = rangeWords.length;
+
+    if (rangeSizeHint) {
+      rangeSizeHint.textContent = `この範囲: ${rangeSize}問`;
+      rangeSizeHint.classList.remove("hidden");
+    }
+
+    if (!rangeCountSelect || !rangeLimitToggle?.checked) return;
+
+    const savedCount = Number.parseInt(localStorage.getItem("quizRangeCount") || "", 10);
+    const defaultCount = Number.isInteger(savedCount)
+      ? savedCount
+      : Math.max(1, Math.min(30, rangeSize - 1));
+
+    rangeCountSelect.disabled = rangeSize < 1;
+    rangeCountSelect.innerHTML = "";
+    for (let i = 1; i <= rangeSize; i++) {
+      const option = document.createElement("option");
+      option.value = String(i);
+      option.textContent = String(i);
+      rangeCountSelect.appendChild(option);
+    }
+
+    const selectedCount = Math.max(1, Math.min(defaultCount, rangeSize));
+    rangeCountSelect.value = String(selectedCount);
+  }
 
   if (rangeStartInput) {
     const s = localStorage.getItem("quizRangeStart");
@@ -16393,11 +16472,28 @@ const units = {
     if (s !== null) rangeEndInput.value = s;
     bindRangeInput(rangeEndInput);
   }
-  if (rangeCountInput) {
-    const s = localStorage.getItem("quizRangeCount");
-    if (s !== null) rangeCountInput.value = s;
-    bindRangeInput(rangeCountInput);
+  if (rangeLimitToggle) {
+    rangeLimitToggle.checked = localStorage.getItem("quizRangeLimitEnabled") === "1";
+    rangeLimitToggle.addEventListener("change", () => {
+      if (getSelectedRangeMode() === "weak") {
+        rangeLimitToggle.checked = true;
+      }
+      syncRangeUiState();
+      persistRangeInputs();
+    });
   }
+  if (rangeCountSelect) {
+    rangeCountSelect.addEventListener("change", persistRangeInputs);
+  }
+  rangeModeInputs.forEach(radio => {
+    const savedMode = localStorage.getItem("quizRangeMode");
+    if (savedMode && radio.value === savedMode) radio.checked = true;
+    radio.addEventListener("change", () => {
+      syncRangeUiState();
+      persistRangeInputs();
+    });
+  });
+  syncRangeUiState();
 
   // アニメ演出モード
   if (animModeEl) {
@@ -16450,7 +16546,6 @@ homeBtn.onclick = async () => {
     quizMode = "normal";
 
     homeBtn.style.display = "none";
-    updateWeakReviewBtn();
   }
 };
   
@@ -16460,10 +16555,10 @@ homeBtn.onclick = async () => {
     startQuizWithWords(unitWords, "normal");
   }
 
-  function startQuizWithWords(words, mode = "normal") {
+  function startQuizWithWords(words, mode = "normal", options = {}) {
     quizMode = mode;
     currentUnit = [...words];
-    if (isRandom) shuffle(currentUnit);
+    if (!options.skipShuffle && isRandom) shuffle(currentUnit);
   
     currentIndex = 0;
     wrongWords = [];
@@ -16537,8 +16632,7 @@ homeBtn.onclick = async () => {
     speakBtn.classList.add("hidden");
   
     const numberLabel = q.number ? `No.${q.number} ` : "";
-    const modeLabel = quizMode === "weakReview" ? "苦手復習 " : "";
-    progress.textContent = `${modeLabel}${numberLabel}${currentIndex + 1} / ${currentUnit.length}`;
+    progress.textContent = `${numberLabel}${currentIndex + 1} / ${currentUnit.length}`;
     input.focus();
   }
   
@@ -17015,108 +17109,71 @@ homeBtn.onclick = async () => {
     comboDisplayEl.classList.add("play");
   }
 
-  const WEAK_WORDS_KEY = "weakWords_v1";
-  const WEAK_GRADUATE_STREAK = 2;
+  const ATTEMPT_STATS_KEY = "attemptStats_v1";
+  const WEAK_MIN_ATTEMPTS = 2;
 
   function getEntryId(entry) {
     return `${entry.wordNo ?? 0}|${entry.sentence}`;
   }
 
-  function loadWeakWordsStore() {
+  function loadAttemptStats() {
     try {
-      const raw = localStorage.getItem(WEAK_WORDS_KEY);
-      return raw ? JSON.parse(raw) : [];
+      const raw = localStorage.getItem(ATTEMPT_STATS_KEY);
+      return raw ? JSON.parse(raw) : {};
     } catch {
-      return [];
+      return {};
     }
   }
 
-  function saveWeakWordsStore(list) {
-    localStorage.setItem(WEAK_WORDS_KEY, JSON.stringify(list));
+  function saveAttemptStats(stats) {
+    localStorage.setItem(ATTEMPT_STATS_KEY, JSON.stringify(stats));
   }
 
-  function recordWeakWord(entry) {
+  function recordAttempt(entry, isExact) {
     const id = getEntryId(entry);
-    const list = loadWeakWordsStore();
-    const idx = list.findIndex(item => item.id === id);
-    const now = Date.now();
+    const stats = loadAttemptStats();
+    const current = stats[id] || {
+      attemptCount: 0,
+      wrongCount: 0,
+      correctCount: 0,
+      lastAt: 0
+    };
 
-    if (idx >= 0) {
-      list[idx].wrongCount = (list[idx].wrongCount || 0) + 1;
-      list[idx].lastWrongAt = now;
-      list[idx].reviewStreak = 0;
-    } else {
-      list.push({
-        id,
-        wordNo: entry.wordNo ?? 0,
-        wrongCount: 1,
-        addedAt: now,
-        lastWrongAt: now,
-        reviewStreak: 0
-      });
-    }
-
-    saveWeakWordsStore(list);
-    updateWeakReviewBtn();
+    current.attemptCount += 1;
+    if (isExact) current.correctCount += 1;
+    else current.wrongCount += 1;
+    current.lastAt = Date.now();
+    stats[id] = current;
+    saveAttemptStats(stats);
   }
 
-  function recordWeakReviewCorrect(entry) {
-    const id = getEntryId(entry);
-    const list = loadWeakWordsStore();
-    const idx = list.findIndex(item => item.id === id);
-    if (idx < 0) return false;
-
-    list[idx].reviewStreak = (list[idx].reviewStreak || 0) + 1;
-    if (list[idx].reviewStreak >= WEAK_GRADUATE_STREAK) {
-      list.splice(idx, 1);
-      saveWeakWordsStore(list);
-      updateWeakReviewBtn();
-      return true;
-    }
-
-    saveWeakWordsStore(list);
-    return false;
+  function getWeaknessScore(stat) {
+    if (!stat || stat.attemptCount < WEAK_MIN_ATTEMPTS || stat.wrongCount < 1) return -1;
+    return stat.wrongCount / stat.attemptCount;
   }
 
-  function resolveWeakEntries() {
-    const allWords = getAllWords();
-    const byId = new Map(allWords.map(entry => [getEntryId(entry), entry]));
-    const list = loadWeakWordsStore();
-    const valid = [];
-    const staleIds = [];
-
-    list.forEach(item => {
-      const entry = byId.get(item.id);
-      if (entry) {
-        valid.push({ ...entry, number: entry.wordNo ?? entry.number ?? 0 });
-      } else {
-        staleIds.push(item.id);
-      }
-    });
-
-    if (staleIds.length > 0) {
-      saveWeakWordsStore(list.filter(item => !staleIds.includes(item.id)));
-      updateWeakReviewBtn();
-    }
-
-    return valid;
+  function rankWordsByWeakness(words, limit) {
+    const stats = loadAttemptStats();
+    return words
+      .map(entry => {
+        const stat = stats[getEntryId(entry)];
+        return {
+          entry,
+          score: getWeaknessScore(stat),
+          wrongCount: stat?.wrongCount ?? 0
+        };
+      })
+      .filter(item => item.score >= 0)
+      .sort((a, b) => {
+        if (b.score !== a.score) return b.score - a.score;
+        return b.wrongCount - a.wrongCount;
+      })
+      .slice(0, limit)
+      .map(item => item.entry);
   }
 
-  function updateWeakReviewBtn() {
-    if (!weakReviewBtn) return;
-    const count = loadWeakWordsStore().length;
-    weakReviewBtn.textContent = count > 0 ? `苦手単語を復習 (${count})` : "苦手単語を復習";
-    weakReviewBtn.disabled = count === 0;
-  }
-
-  function startWeakReview() {
-    const words = resolveWeakEntries();
-    if (words.length === 0) {
-      showAppAlert("苦手単語はありません。", "お知らせ");
-      updateWeakReviewBtn();
-      return;
-    }
-    startQuizWithWords(words, "weakReview");
+  function getWordsInRange(allWords, start, end) {
+    return allWords.filter(entry => entry.number >= start && entry.number <= end);
   }
 
   // ====== 判定 ======
@@ -17175,20 +17232,8 @@ homeBtn.onclick = async () => {
 
     if (isExact) {
       consecutiveCorrect = nextComboCount;
-      let resultText = "⭕ 正解";
-      if (quizMode === "weakReview") {
-        const graduated = recordWeakReviewCorrect(q);
-        if (graduated) {
-          resultText = "⭕ 正解 — 克服しました！";
-        } else {
-          const item = loadWeakWordsStore().find(w => w.id === getEntryId(q));
-          const remaining = WEAK_GRADUATE_STREAK - (item?.reviewStreak || 0);
-          if (remaining === 1) {
-            resultText = "⭕ 正解 — あと1回正解で克服";
-          }
-        }
-      }
-      resultEl.textContent = resultText;
+      recordAttempt(q, true);
+      resultEl.textContent = "⭕ 正解";
       resultEl.className = "correct";
 
       // コンボ表示（3連続以上）
@@ -17213,7 +17258,7 @@ homeBtn.onclick = async () => {
       resultEl.textContent = `❌ 不正解：${q.word}`;
       resultEl.className = "wrong";
       wrongWords.push(q);
-      recordWeakWord(q);
+      recordAttempt(q, false);
 
       // 正解と同様、判定直後に読み上げ（落下リズム・不正解SEと時間が重なりやすくなる）
       speakWord(q.word);
@@ -17274,7 +17319,6 @@ homeBtn.onclick = async () => {
     resultScreen.classList.add("hidden");
     home.classList.remove("hidden");
     quizMode = "normal";
-    updateWeakReviewBtn();
   };
   
 // ====== 発音（スマホ対応 改良版） ======
@@ -17597,39 +17641,68 @@ speakBtn.onclick = () => {
       return;
     }
 
-    const selectedWords = allWords.filter(entry => entry.number >= start && entry.number <= end);
+    const selectedWords = getWordsInRange(allWords, start, end);
     if (selectedWords.length === 0) {
       await showAppAlert("指定範囲に単語がありません。", "お知らせ");
       return;
     }
 
-    const countRaw = rangeCountInput?.value.trim() ?? "";
-    let quizWords = selectedWords;
+    const rangeMode = getSelectedRangeMode();
+    const limitEnabled = !!rangeLimitToggle?.checked;
+    const rangeSize = selectedWords.length;
 
-    if (countRaw !== "") {
-      const count = Number.parseInt(countRaw, 10);
+    if (rangeMode === "weak") {
+      if (!limitEnabled) {
+        await showAppAlert("苦手克服モードでは出題数を指定してください。", "入力エラー");
+        return;
+      }
+
+      const count = Number.parseInt(rangeCountSelect?.value || "", 10);
       if (!Number.isInteger(count) || count < 1) {
-        await showAppAlert("出題数は1以上の整数で入力してください。", "入力エラー");
+        await showAppAlert("出題数を選択してください。", "入力エラー");
         return;
       }
-      if (count > selectedWords.length) {
-        await showAppAlert(`出題数は指定範囲の単語数（${selectedWords.length}語）以下にしてください。`, "入力エラー");
+      if (count >= rangeSize) {
+        await showAppAlert(
+          `出題数は範囲の単語数より少なくしてください（${rangeSize}問中${count}問）。`,
+          "入力エラー"
+        );
         return;
       }
-      if (count < selectedWords.length) {
+
+      const quizWords = rankWordsByWeakness(selectedWords, count);
+      if (quizWords.length === 0) {
+        await showAppAlert(
+          "この範囲に苦手データがありません。通常モードで先に解いてください。",
+          "お知らせ"
+        );
+        return;
+      }
+
+      shuffle(quizWords);
+      startQuizWithWords(quizWords, "normal", { skipShuffle: true });
+      return;
+    }
+
+    let quizWords = selectedWords;
+    if (limitEnabled) {
+      const count = Number.parseInt(rangeCountSelect?.value || "", 10);
+      if (!Number.isInteger(count) || count < 1) {
+        await showAppAlert("出題数を選択してください。", "入力エラー");
+        return;
+      }
+      if (count > rangeSize) {
+        await showAppAlert(`出題数は指定範囲の単語数（${rangeSize}語）以下にしてください。`, "入力エラー");
+        return;
+      }
+      if (count < rangeSize) {
         quizWords = [...selectedWords];
         if (isRandom) shuffle(quizWords);
         quizWords = quizWords.slice(0, count);
       }
     }
 
-    startQuizWithWords(quizWords);
+    startQuizWithWords(quizWords, "normal");
   });
-
-  weakReviewBtn?.addEventListener("click", () => {
-    startWeakReview();
-  });
-
-  updateWeakReviewBtn();
     
   
