@@ -16220,6 +16220,7 @@ const units = {
   let currentIndex = 0;
   let wrongWords = [];
   let isRandom = false;
+  let quizMode = "normal"; // normal | weakReview | sessionReview
   let consecutiveCorrect = 0;
   let inputStartTime = null;
   let animSerial = 0;
@@ -16247,7 +16248,9 @@ const units = {
   const meaningEl = document.getElementById("meaning");
   const rangeStartInput = document.getElementById("rangeStart");
   const rangeEndInput = document.getElementById("rangeEnd");
+  const rangeCountInput = document.getElementById("rangeCount");
   const rangeTestBtn = document.getElementById("rangeTestBtn");
+  const weakReviewBtn = document.getElementById("weakReviewBtn");
   const appModal = document.getElementById("appModal");
   const appModalBackdrop = document.getElementById("appModalBackdrop");
   const appModalTitle = document.getElementById("appModalTitle");
@@ -16370,21 +16373,30 @@ const units = {
   const persistRangeInputs = () => {
     if (rangeStartInput) localStorage.setItem("quizRangeStart", rangeStartInput.value);
     if (rangeEndInput) localStorage.setItem("quizRangeEnd", rangeEndInput.value);
+    if (rangeCountInput) localStorage.setItem("quizRangeCount", rangeCountInput.value);
+  };
+
+  const bindRangeInput = (el) => {
+    if (!el) return;
+    el.addEventListener("change", persistRangeInputs);
+    el.addEventListener("input", persistRangeInputs);
+    el.addEventListener("blur", persistRangeInputs);
   };
 
   if (rangeStartInput) {
     const s = localStorage.getItem("quizRangeStart");
     if (s !== null) rangeStartInput.value = s;
-    rangeStartInput.addEventListener("change", persistRangeInputs);
-    rangeStartInput.addEventListener("input", persistRangeInputs);
-    rangeStartInput.addEventListener("blur", persistRangeInputs);
+    bindRangeInput(rangeStartInput);
   }
   if (rangeEndInput) {
     const s = localStorage.getItem("quizRangeEnd");
     if (s !== null) rangeEndInput.value = s;
-    rangeEndInput.addEventListener("change", persistRangeInputs);
-    rangeEndInput.addEventListener("input", persistRangeInputs);
-    rangeEndInput.addEventListener("blur", persistRangeInputs);
+    bindRangeInput(rangeEndInput);
+  }
+  if (rangeCountInput) {
+    const s = localStorage.getItem("quizRangeCount");
+    if (s !== null) rangeCountInput.value = s;
+    bindRangeInput(rangeCountInput);
   }
 
   // アニメ演出モード
@@ -16435,18 +16447,21 @@ homeBtn.onclick = async () => {
     currentUnit = [];
     currentIndex = 0;
     wrongWords = [];
+    quizMode = "normal";
 
     homeBtn.style.display = "none";
+    updateWeakReviewBtn();
   }
 };
   
   // ====== 開始 ======
   function startUnit(key) {
     const unitWords = units[key].map(entry => ({ ...entry }));
-    startQuizWithWords(unitWords);
+    startQuizWithWords(unitWords, "normal");
   }
 
-  function startQuizWithWords(words) {
+  function startQuizWithWords(words, mode = "normal") {
+    quizMode = mode;
     currentUnit = [...words];
     if (isRandom) shuffle(currentUnit);
   
@@ -16522,7 +16537,8 @@ homeBtn.onclick = async () => {
     speakBtn.classList.add("hidden");
   
     const numberLabel = q.number ? `No.${q.number} ` : "";
-    progress.textContent = `${numberLabel}${currentIndex + 1} / ${currentUnit.length}`;
+    const modeLabel = quizMode === "weakReview" ? "苦手復習 " : "";
+    progress.textContent = `${modeLabel}${numberLabel}${currentIndex + 1} / ${currentUnit.length}`;
     input.focus();
   }
   
@@ -16999,6 +17015,110 @@ homeBtn.onclick = async () => {
     comboDisplayEl.classList.add("play");
   }
 
+  const WEAK_WORDS_KEY = "weakWords_v1";
+  const WEAK_GRADUATE_STREAK = 2;
+
+  function getEntryId(entry) {
+    return `${entry.wordNo ?? 0}|${entry.sentence}`;
+  }
+
+  function loadWeakWordsStore() {
+    try {
+      const raw = localStorage.getItem(WEAK_WORDS_KEY);
+      return raw ? JSON.parse(raw) : [];
+    } catch {
+      return [];
+    }
+  }
+
+  function saveWeakWordsStore(list) {
+    localStorage.setItem(WEAK_WORDS_KEY, JSON.stringify(list));
+  }
+
+  function recordWeakWord(entry) {
+    const id = getEntryId(entry);
+    const list = loadWeakWordsStore();
+    const idx = list.findIndex(item => item.id === id);
+    const now = Date.now();
+
+    if (idx >= 0) {
+      list[idx].wrongCount = (list[idx].wrongCount || 0) + 1;
+      list[idx].lastWrongAt = now;
+      list[idx].reviewStreak = 0;
+    } else {
+      list.push({
+        id,
+        wordNo: entry.wordNo ?? 0,
+        wrongCount: 1,
+        addedAt: now,
+        lastWrongAt: now,
+        reviewStreak: 0
+      });
+    }
+
+    saveWeakWordsStore(list);
+    updateWeakReviewBtn();
+  }
+
+  function recordWeakReviewCorrect(entry) {
+    const id = getEntryId(entry);
+    const list = loadWeakWordsStore();
+    const idx = list.findIndex(item => item.id === id);
+    if (idx < 0) return false;
+
+    list[idx].reviewStreak = (list[idx].reviewStreak || 0) + 1;
+    if (list[idx].reviewStreak >= WEAK_GRADUATE_STREAK) {
+      list.splice(idx, 1);
+      saveWeakWordsStore(list);
+      updateWeakReviewBtn();
+      return true;
+    }
+
+    saveWeakWordsStore(list);
+    return false;
+  }
+
+  function resolveWeakEntries() {
+    const allWords = getAllWords();
+    const byId = new Map(allWords.map(entry => [getEntryId(entry), entry]));
+    const list = loadWeakWordsStore();
+    const valid = [];
+    const staleIds = [];
+
+    list.forEach(item => {
+      const entry = byId.get(item.id);
+      if (entry) {
+        valid.push({ ...entry, number: entry.wordNo ?? entry.number ?? 0 });
+      } else {
+        staleIds.push(item.id);
+      }
+    });
+
+    if (staleIds.length > 0) {
+      saveWeakWordsStore(list.filter(item => !staleIds.includes(item.id)));
+      updateWeakReviewBtn();
+    }
+
+    return valid;
+  }
+
+  function updateWeakReviewBtn() {
+    if (!weakReviewBtn) return;
+    const count = loadWeakWordsStore().length;
+    weakReviewBtn.textContent = count > 0 ? `苦手単語を復習 (${count})` : "苦手単語を復習";
+    weakReviewBtn.disabled = count === 0;
+  }
+
+  function startWeakReview() {
+    const words = resolveWeakEntries();
+    if (words.length === 0) {
+      showAppAlert("苦手単語はありません。", "お知らせ");
+      updateWeakReviewBtn();
+      return;
+    }
+    startQuizWithWords(words, "weakReview");
+  }
+
   // ====== 判定 ======
   function judge() {
     if (input.disabled) return;
@@ -17055,7 +17175,20 @@ homeBtn.onclick = async () => {
 
     if (isExact) {
       consecutiveCorrect = nextComboCount;
-      resultEl.textContent = "⭕ 正解";
+      let resultText = "⭕ 正解";
+      if (quizMode === "weakReview") {
+        const graduated = recordWeakReviewCorrect(q);
+        if (graduated) {
+          resultText = "⭕ 正解 — 克服しました！";
+        } else {
+          const item = loadWeakWordsStore().find(w => w.id === getEntryId(q));
+          const remaining = WEAK_GRADUATE_STREAK - (item?.reviewStreak || 0);
+          if (remaining === 1) {
+            resultText = "⭕ 正解 — あと1回正解で克服";
+          }
+        }
+      }
+      resultEl.textContent = resultText;
       resultEl.className = "correct";
 
       // コンボ表示（3連続以上）
@@ -17080,6 +17213,7 @@ homeBtn.onclick = async () => {
       resultEl.textContent = `❌ 不正解：${q.word}`;
       resultEl.className = "wrong";
       wrongWords.push(q);
+      recordWeakWord(q);
 
       // 正解と同様、判定直後に読み上げ（落下リズム・不正解SEと時間が重なりやすくなる）
       speakWord(q.word);
@@ -17125,6 +17259,7 @@ homeBtn.onclick = async () => {
     currentIndex = 0;
     consecutiveCorrect = 0;
     inputStartTime = null;
+    quizMode = "sessionReview";
   
     resultScreen.classList.add("hidden");
     quiz.classList.remove("hidden");
@@ -17138,6 +17273,8 @@ homeBtn.onclick = async () => {
   backHomeBtn.onclick = () => {
     resultScreen.classList.add("hidden");
     home.classList.remove("hidden");
+    quizMode = "normal";
+    updateWeakReviewBtn();
   };
   
 // ====== 発音（スマホ対応 改良版） ======
@@ -17466,7 +17603,33 @@ speakBtn.onclick = () => {
       return;
     }
 
-    startQuizWithWords(selectedWords);
+    const countRaw = rangeCountInput?.value.trim() ?? "";
+    let quizWords = selectedWords;
+
+    if (countRaw !== "") {
+      const count = Number.parseInt(countRaw, 10);
+      if (!Number.isInteger(count) || count < 1) {
+        await showAppAlert("出題数は1以上の整数で入力してください。", "入力エラー");
+        return;
+      }
+      if (count > selectedWords.length) {
+        await showAppAlert(`出題数は指定範囲の単語数（${selectedWords.length}語）以下にしてください。`, "入力エラー");
+        return;
+      }
+      if (count < selectedWords.length) {
+        quizWords = [...selectedWords];
+        if (isRandom) shuffle(quizWords);
+        quizWords = quizWords.slice(0, count);
+      }
+    }
+
+    startQuizWithWords(quizWords);
   });
+
+  weakReviewBtn?.addEventListener("click", () => {
+    startWeakReview();
+  });
+
+  updateWeakReviewBtn();
     
   

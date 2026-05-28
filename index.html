@@ -39,6 +39,8 @@
   </select>
 
   <div id="unitList" class="unit-list">
+  <button id="weakReviewBtn" class="unit-btn special" type="button">苦手単語を復習</button>
+
   <button id="random10Btn" class="unit-btn special">
       ランダム出題
   </button>
@@ -49,6 +51,10 @@
       <input type="number" id="rangeStart" min="1" placeholder="開始番号">
       <span>〜</span>
       <input type="number" id="rangeEnd" min="1" placeholder="終了番号">
+    </div>
+    <div class="range-count">
+      <label for="rangeCount">出題数</label>
+      <input type="number" id="rangeCount" min="1" placeholder="すべて">
     </div>
     <button id="rangeTestBtn" class="unit-btn special">範囲テスト開始</button>
   </div>

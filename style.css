@@ -177,6 +177,23 @@ body.dark .unit-btn.special:hover {
   background: var(--surface-alt);
 }
 
+.unit-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.unit-btn:disabled:hover {
+  transform: none;
+  box-shadow: none;
+  background: var(--bg);
+}
+
+body.dark .unit-btn.special:disabled:hover {
+  background: var(--surface);
+}
+
 #random10Btn {
   position: relative;
   padding-left: 44px;
@@ -464,7 +481,49 @@ body.dark .anim-mode {
   box-shadow: 0 0 0 3px rgba(17, 17, 17, 0.08);
 }
 
+.range-count {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.range-count label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-sub);
+  white-space: nowrap;
+}
+
+.range-count input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+  background: var(--bg);
+  color: var(--text);
+  box-sizing: border-box;
+  transition: border-color .18s ease, box-shadow .18s ease;
+  text-align: center;
+}
+
+.range-count input::placeholder {
+  color: var(--text-muted);
+}
+
+.range-count input:focus {
+  outline: none;
+  border-color: var(--text);
+  box-shadow: 0 0 0 3px rgba(17, 17, 17, 0.08);
+}
+
 body.dark .range-inputs input:focus {
+  box-shadow: 0 0 0 3px rgba(245, 245, 245, 0.12);
+}
+
+body.dark .range-count input:focus {
   box-shadow: 0 0 0 3px rgba(245, 245, 245, 0.12);
 }
 
