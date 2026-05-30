@@ -580,6 +580,49 @@ body.dark .range-inputs input:focus {
   text-align: left;
 }
 
+.direction-mode {
+  margin: 12px auto 16px;
+  max-width: 320px;
+}
+
+.direction-mode-label {
+  margin: 0 0 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-sub);
+  text-align: center;
+}
+
+.direction-mode-options {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.direction-mode-option {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.direction-mode-option input {
+  accent-color: var(--text);
+}
+
+#quiz.mode-en-to-ja #jp {
+  font-size: 1.15em;
+  font-weight: 600;
+}
+
+#quiz.mode-en-to-ja #sentence {
+  font-size: 0.95em;
+  color: var(--text-sub);
+}
+
 body.dark .range-count-select:focus {
   box-shadow: 0 0 0 3px rgba(245, 245, 245, 0.12);
 }

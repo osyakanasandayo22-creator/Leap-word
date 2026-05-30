@@ -1,0 +1,530 @@
+[
+  {
+    "key": "5|(   ) my hidden past",
+    "wordNo": 5,
+    "word": "discuss",
+    "meaning": "〜を議題に出す",
+    "jp": "自分の隠された過去のことを話す",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "15|(   ) me, but do you happen to know where the station is?",
+    "wordNo": 15,
+    "word": "Excuse",
+    "meaning": "〜を許す",
+    "jp": "すみませんが，駅がどこにあるかご存じですか。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "67|enjoy her (   )",
+    "wordNo": 67,
+    "word": "society",
+    "meaning": "社交",
+    "jp": "彼女と同席することを楽しむ",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "76|My secretary is a real (   ).",
+    "wordNo": 76,
+    "word": "treasure",
+    "meaning": "大事な人物",
+    "jp": "私の秘書は本当に宝物のような存在だ。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "90|Taxi (   ) are low in Singapore.",
+    "wordNo": 90,
+    "word": "fares",
+    "meaning": "（乗り物の）運賃",
+    "jp": "シンガポールのタクシー料金は安い。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "95|The suit (   ) me 500 dollars.",
+    "wordNo": 95,
+    "word": "cost",
+    "meaning": "費用を要する，かかる",
+    "jp": "そのスーツは，500ドルした。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "95|That mistake (   ) me my fortune.",
+    "wordNo": 95,
+    "word": "cost",
+    "meaning": "犠牲にする",
+    "jp": "そのミスで全財産を失った。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "99|He (   ) his knee while playing football.",
+    "wordNo": 99,
+    "word": "hurt",
+    "meaning": "身体，感情を傷つける",
+    "jp": "彼はサッカーをやっていて膝を痛めた。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "119|an annual (   ) for the theme park",
+    "wordNo": 119,
+    "word": "pass",
+    "meaning": "通行証",
+    "jp": "そのテーマパークの年間パス",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "122|He is (   ) to become a star player.",
+    "wordNo": 122,
+    "word": "certain",
+    "meaning": "確かな",
+    "jp": "彼はきっとスター選手になるよ。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "125|(   ) making eye contact with monkeys.",
+    "wordNo": 125,
+    "word": "Avoid",
+    "meaning": "避ける",
+    "jp": "サルと目を合わせないようにしなさい。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "141|(   ) his attention to that fact",
+    "wordNo": 141,
+    "word": "draw",
+    "meaning": "引く",
+    "jp": "その事に彼の注目を向けさせる",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "183|(   ) what is in this bag.",
+    "wordNo": 183,
+    "word": "Guess",
+    "meaning": "推測する",
+    "jp": "この袋に何が入っているかを当ててごらん。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "186|(   ) me to your wife.",
+    "wordNo": 186,
+    "word": "Remember",
+    "meaning": "覚えている，忘れずに〜する",
+    "jp": "奥様によろしくお伝えください。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "187|(   ) him not to be late",
+    "wordNo": 187,
+    "word": "remind",
+    "meaning": "思い出させる",
+    "jp": "彼に遅れないように念を押す",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "189|I'd (   ) it if you could help me.",
+    "wordNo": 189,
+    "word": "appreciate",
+    "meaning": "理解する，よさがわかる，感謝する",
+    "jp": "助けていただければ，ありがたいのですが。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "324|(   ) five dollars for the book",
+    "wordNo": 324,
+    "word": "pay",
+    "meaning": "支払う",
+    "jp": "その本の代金として5ドルを払う",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "365|Ben is (   ) to see you.",
+    "wordNo": 365,
+    "word": "anxious",
+    "meaning": "（〜を）切望して",
+    "jp": "ベンは君に会いたがっているよ。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "368|I'm sorry to (   ) you, but could you give me a hand?",
+    "wordNo": 368,
+    "word": "bother",
+    "meaning": "〜に面倒をかける",
+    "jp": "ご迷惑をおかけしてすみませんが，手を貸していただけないでしょうか。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "372|Could you do me a couple of (   )?",
+    "wordNo": 372,
+    "word": "favors",
+    "meaning": "親切な行為",
+    "jp": "いくつかお願いがあるのですが。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "373|It is in your best (   ) to stay with your grandparents.",
+    "wordNo": 373,
+    "word": "interests",
+    "meaning": "利益",
+    "jp": "祖父母と暮らすのが君たちにとって一番よい。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "375|Our flight was delayed (   ) the storm.",
+    "wordNo": 375,
+    "word": "due to",
+    "meaning": "〜が原因で",
+    "jp": "嵐のために飛行機が遅れた。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "377|Serious damage (   ) from the earthquake.",
+    "wordNo": 377,
+    "word": "resulted",
+    "meaning": "（〜の結果として）起こる",
+    "jp": "地震の結果，深刻な被害が生じた。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "404|I (   ) that she wait.",
+    "wordNo": 404,
+    "word": "insisted",
+    "meaning": "強く求める",
+    "jp": "私は彼女が待つように求めた。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "413|It is an (   ) to be here.",
+    "wordNo": 413,
+    "word": "honor",
+    "meaning": "名誉，栄誉",
+    "jp": "お招き頂きありがとうございます。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "415|(   ) to my childhood",
+    "wordNo": 415,
+    "word": "refer",
+    "meaning": "言及する，参照する",
+    "jp": "私の子どものころについて触れる",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "416|You'd better not (   ) it.",
+    "wordNo": 416,
+    "word": "mention",
+    "meaning": "〜について述べる，言及する",
+    "jp": "それには触れないほうがいい。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "424|He (   ) that the pot was very old.",
+    "wordNo": 424,
+    "word": "remarked",
+    "meaning": "〜と述べる",
+    "jp": "そのつぼはとても古いものだと彼は言った。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "441|(   ) to finish by Wednesday",
+    "wordNo": 441,
+    "word": "aim",
+    "meaning": "〜しようとする",
+    "jp": "水曜日までに終わらせるつもりだ",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "446|I'm (   ). What's for dinner?",
+    "wordNo": 446,
+    "word": "starving",
+    "meaning": "とてもお腹が空いている",
+    "jp": "お腹がぺこぺこだ。夕食は何？",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "478|The street is (   ) by trees.",
+    "wordNo": 478,
+    "word": "bordered",
+    "meaning": "〜を縁取る",
+    "jp": "その通りは両側に木が植えてある。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "483|Are you in a (   ) right now?",
+    "wordNo": 483,
+    "word": "relationship",
+    "meaning": "親密な関係",
+    "jp": "今付き合っている人はいるの。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "495|The fresh air will (   ) you.",
+    "wordNo": 495,
+    "word": "benefit",
+    "meaning": "恩恵を与える",
+    "jp": "新鮮な空気はあなたによいでしょう。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "502|(   ) well with other students",
+    "wordNo": 502,
+    "word": "interact",
+    "meaning": "交流する",
+    "jp": "ほかの生徒とうまく付き合う",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "505|The government should (   ) a total ban on cigarette advertising.",
+    "wordNo": 505,
+    "word": "impose",
+    "meaning": "〜を課す",
+    "jp": "政府はタバコの広告を全面的に禁止すべきだ。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "508|The typhoon was (   ) for over 100 deaths.",
+    "wordNo": 508,
+    "word": "responsible",
+    "meaning": "原因となっている",
+    "jp": "その台風のため100人以上の人が犠牲になった。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "522|Don't (   ) so much time on video games.",
+    "wordNo": 522,
+    "word": "waste",
+    "meaning": "〜を浪費する",
+    "jp": "テレビゲームにそんなに多くの時間を費やしてはいけません。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "532|during her long (   ) as a teacher",
+    "wordNo": 532,
+    "word": "career",
+    "meaning": "経歴",
+    "jp": "彼女の長い教員生活の間に。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "560|In Japan, the current (   ) drinking age is 20.",
+    "wordNo": 560,
+    "word": "legal",
+    "meaning": "合法の",
+    "jp": "日本では，現在，飲酒が許されているのは20歳からだ。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "603|His remark (   ) me to study.",
+    "wordNo": 603,
+    "word": "inspired",
+    "meaning": "奮い立たせる",
+    "jp": "彼の言葉で私の勉強のスイッチが入った。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "615|cannot (   ) buying new shoes",
+    "wordNo": 615,
+    "word": "resist",
+    "meaning": "我慢する",
+    "jp": "ついつい新しい靴を買ってしまう。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "617|The puzzle (   ) his interest all day.",
+    "wordNo": 617,
+    "word": "engaged",
+    "meaning": "引く",
+    "jp": "彼は1日中パズルをしていた。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "668|the (   ) person to be late",
+    "wordNo": 668,
+    "word": "last",
+    "meaning": "最も〜でない",
+    "jp": "もっとも遅刻しそうにない人",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "669|If your fever (   ), you should see a doctor.",
+    "wordNo": 669,
+    "word": "persists",
+    "meaning": "持続する",
+    "jp": "熱が続くようなら，医者に行ったほうがいい。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "674|(   ) the house for my earrings",
+    "wordNo": 674,
+    "word": "search",
+    "meaning": "（for B）（Bを）求めて（A（場所））を捜す",
+    "jp": "イヤリングがないか家を捜す",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "685|(   ) you got lost there. What would you do?",
+    "wordNo": 685,
+    "word": "Suppose",
+    "meaning": "〜と思う，仮定する",
+    "jp": "そこで迷子になったとします。あなたならどうしますか。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "undefined|A ( ) child ate all the pies.",
+    "word": "greedy",
+    "meaning": "貪欲な",
+    "jp": "食い意地の張った子がパイを全部食べた。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "undefined|Lucy is ( ) to her smartphone.",
+    "word": "addicted",
+    "meaning": "～の中毒になっている",
+    "jp": "ルーシーはスマホ中毒である。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "undefined|What you're saying is ( ).",
+    "word": "reasonable",
+    "meaning": "理にかなった",
+    "jp": "あなたの言っていることはもっともだ。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "800|Mr. Rogers is (   ) today.",
+    "wordNo": 800,
+    "word": "available",
+    "meaning": "（人の予定が）空いている",
+    "jp": "ロジャース氏は本日時間がとれます。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "839|My debts (   ) to $200.",
+    "wordNo": 839,
+    "word": "amount",
+    "meaning": "（to 〜）（合計が）〜に達する",
+    "jp": "私の借金は合計200ドルになる。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "843|Could you (   ) me a few minutes?",
+    "wordNo": 843,
+    "word": "spare",
+    "meaning": "（時間やお金，労力）を割く",
+    "jp": "2，3分割いてもらえませんか？",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "845|(   ) the menu to customers' needs",
+    "wordNo": 845,
+    "word": "adapt",
+    "meaning": "〜を適応させる",
+    "jp": "メニューを客の要望に合わせる",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "853|a (   ) member of the U.N. Security Council",
+    "wordNo": 853,
+    "word": "permanent",
+    "meaning": "永久的な",
+    "jp": "国連安全保障理事会の常任理事国",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "886|(   ) me up at five a.m.",
+    "wordNo": 886,
+    "word": "Wake",
+    "meaning": "（寝ている人）を起こす",
+    "jp": "午前5時に起こしてください。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "913|a mansion (   ) by red brick walls",
+    "wordNo": 913,
+    "word": "surrounded",
+    "meaning": "〜を取り囲む，包囲する",
+    "jp": "赤れんがの塀に囲まれたお屋敷",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "923|I'll only take the job on my own (   ).",
+    "wordNo": 923,
+    "word": "terms",
+    "meaning": "契約などの条件",
+    "jp": "私の条件を受け入れていただけないなら，その仕事はやれません。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "924|As the (   ) goes [says], time flies.",
+    "wordNo": 924,
+    "word": "proverb",
+    "meaning": "ことわざ",
+    "jp": "諺にもあるように，光陰矢の如しだ。",
+    "err": "missing fields",
+    "jpAnswer": null
+  },
+  {
+    "key": "944|I was (   ) in a book.",
+    "wordNo": 944,
+    "word": "absorbed",
+    "meaning": "（be 〜ed in 〜）〜に没頭する",
+    "jp": "私は本に夢中になっていた。",
+    "err": "missing fields",
+    "jpAnswer": null
+  }
+]
