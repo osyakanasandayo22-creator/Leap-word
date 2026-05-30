@@ -3,8 +3,18 @@
   "6|(   ) the car's brakes for the accident": "にあるとする",
   "9|(   ) of a headache": "訴える",
   "12|What would you (   )?": "お勧め",
-  "8|Does anyone (   ) this umbrella?": "主張します",
-  "10|(   ) him some coffee": "申し出る",
+  "8|Does anyone (   ) this umbrella?": {
+    "jpAnswer": "いませんか",
+    "jpBlank": "自分の持ち主は(   )。"
+  },
+  "8|make a (   ) against the insurance company": {
+    "jpAnswer": "請求",
+    "jpBlank": "保険会社に(   )する"
+  },
+  "10|(   ) him some coffee": {
+    "jpAnswer": "尋ねる",
+    "jpBlank": "彼にコーヒーはどうですかと(   )。"
+  },
   "10|refuse his (   )": "申し出",
   "15|(   ) me, but do you happen to know where the station is?": "すみません",
   "17|(   ) her on her exam results": "祝福する",
@@ -181,5 +191,13 @@
   "960|I was (   ) to go with him.": "進まなかった",
   "undefined|Music ( ) me great joy.": "与えて",
   "undefined|The watermelons are ( )ed according to size.": "分類",
-  "steady|make ( ) progress": "着実に"
+  "steady|make ( ) progress": "着実に",
+  "241|when I was in (   ) school": {
+    "jpAnswer": "小学生",
+    "jpBlank": "(   )のとき"
+  },
+  "357|Your success (   ) on how much effort you make.": {
+    "jpAnswer": "次第",
+    "jpBlank": "成功は君の努力(   )だ。"
+  }
 }
