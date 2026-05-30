@@ -133,8 +133,8 @@ const units = {
     meaning: "〜を要求する，主張する",
     sentence: "Does anyone (   ) this umbrella?",
     jp: "自分の持ち主はいませんか（誰かこの傘の持ち主を主張しますか）。",
-    jpBlank: "自分の持ち主はいませんか（(   )）。",
-    jpAnswer: "誰かこの傘の持ち主を主張しますか"
+    jpBlank: "自分の持ち主はいませんか(   )。",
+    jpAnswer: "主張します"
   },
   {
     wordNo: 8,
@@ -142,7 +142,7 @@ const units = {
     meaning: "主張，要求",
     sentence: "make a (   ) against the insurance company",
     jp: "保険会社に（保険金を）請求する",
-    jpBlank: "保険会社に（(   )）請求する",
+    jpBlank: "保険会社に(   )請求する",
     jpAnswer: "保険金を"
   },
   {
@@ -160,8 +160,8 @@ const units = {
     meaning: "（病気など）を訴える",
     sentence: "(   ) of a headache",
     jp: "頭痛がすると訴える",
-    jpBlank: "(   )",
-    jpAnswer: "頭痛がすると訴える"
+    jpBlank: "頭痛がすると(   )",
+    jpAnswer: "訴える"
   },
   {
     wordNo: 10,
@@ -169,7 +169,7 @@ const units = {
     meaning: "〜を申し出る",
     sentence: "(   ) him some coffee",
     jp: "彼にコーヒーはどうですかと尋ねる（申し出る）。",
-    jpBlank: "彼にコーヒーはどうですかと尋ねる（(   )）。",
+    jpBlank: "彼にコーヒーはどうですかと尋ねる(   )。",
     jpAnswer: "申し出る"
   },
   {
@@ -187,8 +187,8 @@ const units = {
     meaning: "値引き",
     sentence: "T-shirts are on special (   ) today.",
     jp: "今日はTシャツが特価（特別な値引き）だ。",
-    jpBlank: "今日はTシャツが特価（(   )）だ。",
-    jpAnswer: "特別な値引き"
+    jpBlank: "今日はTシャツが特価(   )だ。",
+    jpAnswer: "値引き"
   },
   {
     wordNo: 11,
@@ -214,8 +214,8 @@ const units = {
     meaning: "〜を推薦する，勧める",
     sentence: "What would you (   )?",
     jp: "（レストランなどで）何がお勧めですか（何を勧めますか）。",
-    jpBlank: "（(   )）何がお勧めですか（何を勧めますか）。",
-    jpAnswer: "レストランなどで"
+    jpBlank: "何が(   )ですか。",
+    jpAnswer: "お勧め"
   },
   {
     wordNo: 13,
@@ -223,8 +223,8 @@ const units = {
     meaning: "感謝している",
     sentence: "I am (   ) for your help.",
     jp: "ご助力に感謝しています。",
-    jpBlank: "ご助力に(   )ています。",
-    jpAnswer: "感謝し"
+    jpBlank: "ご助力に(   )ます。",
+    jpAnswer: "感謝してい"
   },
   {
     wordNo: 14,
@@ -286,8 +286,8 @@ const units = {
     meaning: "（人）を祝う，〜に関して（人）を祝う",
     sentence: "(   ) her on her exam results",
     jp: "試験結果について彼女を祝福する",
-    jpBlank: "試験結果について彼女(   )福する",
-    jpAnswer: "を祝"
+    jpBlank: "試験結果について彼女を(   )",
+    jpAnswer: "祝福する"
   },
   {
     wordNo: 18,
@@ -304,7 +304,7 @@ const units = {
     meaning: "〜に感銘を与える，〜を感心させる",
     sentence: "I was deeply (   ) by his speech.",
     jp: "彼の演説に深く感銘を受けた（感銘を与えられた）。",
-    jpBlank: "彼の演説に深く感銘を受けた（(   )）。",
+    jpBlank: "彼の演説に深く感銘を受けた(   )。",
     jpAnswer: "感銘を与えられた"
   },
   {
@@ -322,7 +322,7 @@ const units = {
     meaning: "〜を授与する",
     sentence: "She was (   ) first prize.",
     jp: "彼女は一等賞をもらった（授与された）。",
-    jpBlank: "彼女は一等賞をもらった（(   )）。",
+    jpBlank: "彼女は一等賞をもらった(   )。",
     jpAnswer: "授与された"
   },
   {
@@ -349,8 +349,8 @@ const units = {
     meaning: "意思の疎通をはかる",
     sentence: "(   ) with each other in sign language",
     jp: "手話でお互いに意思の疎通をはかる",
-    jpBlank: "手話でお互いに(   )",
-    jpAnswer: "意思の疎通をはかる"
+    jpBlank: "手話でお互いに(   )をはかる",
+    jpAnswer: "意思の疎通"
   },
   {
     wordNo: 23,
@@ -367,7 +367,7 @@ const units = {
     meaning: "（意見，気持ち）を表現する",
     sentence: "(   ) your opinions clearly.",
     jp: "はっきりと意見を言い（表現し）なさい。",
-    jpBlank: "はっきりと意見を言い（(   )）なさい。",
+    jpBlank: "はっきりと意見を言い(   )なさい。",
     jpAnswer: "表現し"
   },
   {
@@ -412,8 +412,8 @@ const units = {
     meaning: "科学技術，テクノロジー",
     sentence: "science and (   )",
     jp: "科学技術（科学と科学技術）",
-    jpBlank: "科学技術（(   )）",
-    jpAnswer: "科学と科学技術"
+    jpBlank: "(   )",
+    jpAnswer: "科学技術"
   },
   {
     wordNo: 28,
@@ -531,7 +531,7 @@ const units = {
     meaning: "（出会い）",
     sentence: "(   ) the Beatles",
     jp: "ビートルズ（の音楽）に出会う",
-    jpBlank: "ビートルズ（(   )）に出会う",
+    jpBlank: "ビートルズ(   )に出会う",
     jpAnswer: "の音楽"
   },
   {
@@ -540,8 +540,8 @@ const units = {
     meaning: "発達する",
     sentence: "(   ) into a big city",
     jp: "大都市に発展する",
-    jpBlank: "大都市に(   )展する",
-    jpAnswer: "発"
+    jpBlank: "(   )",
+    jpAnswer: "大都市に発展する"
   },
   {
     wordNo: 34,
@@ -549,8 +549,8 @@ const units = {
     meaning: "〜を発達させる",
     sentence: "(   ) a sense of humor",
     jp: "ユーモアのセンスを伸ばす",
-    jpBlank: "(   )",
-    jpAnswer: "ユーモアのセンスを伸ばす"
+    jpBlank: "ユーモアのセンスを(   )",
+    jpAnswer: "伸ばす"
   },
   {
     wordNo: 34,
@@ -567,8 +567,8 @@ const units = {
     meaning: "〜を磨く",
     sentence: "(   ) your ideas",
     jp: "考えを発展させる",
-    jpBlank: "(   )",
-    jpAnswer: "考えを発展させる"
+    jpBlank: "考えを(   )",
+    jpAnswer: "発展させる"
   },
   {
     wordNo: 34,
@@ -594,8 +594,8 @@ const units = {
     meaning: "能力",
     sentence: "improve my (   ) to speak English",
     jp: "英語を話す力を伸ばす",
-    jpBlank: "(   )",
-    jpAnswer: "英語を話す力を伸ばす"
+    jpBlank: "英語を話す(   )を伸ばす",
+    jpAnswer: "力"
   },
   {
     wordNo: 37,
@@ -630,8 +630,8 @@ const units = {
     meaning: "実践",
     sentence: "put a plan into (   )",
     jp: "計画を実行に移す",
-    jpBlank: "計画を(   )行に移す",
-    jpAnswer: "実"
+    jpBlank: "(   )",
+    jpAnswer: "計画を実行に移す"
   },
   {
     wordNo: 39,
@@ -639,8 +639,8 @@ const units = {
     meaning: "慣習",
     sentence: "the (   ) of sleeping after dinner",
     jp: "夕食後に寝る習慣",
-    jpBlank: "夕食後に寝る習(   )",
-    jpAnswer: "慣"
+    jpBlank: "(   )",
+    jpAnswer: "夕食後に寝る習慣"
   },
   {
     wordNo: 39,
@@ -657,8 +657,8 @@ const units = {
     meaning: "〜を実践する",
     sentence: "(   ) my religion",
     jp: "宗教を実践する",
-    jpBlank: "宗教を(   )",
-    jpAnswer: "実践する"
+    jpBlank: "宗教を(   )る",
+    jpAnswer: "実践す"
   },
   {
     wordNo: 40,
@@ -675,8 +675,8 @@ const units = {
     meaning: "何とかして〜する",
     sentence: "I (   ) to catch the last train.",
     jp: "何とか終電に乗ることができた。",
-    jpBlank: "(   )終電に乗ることができた。",
-    jpAnswer: "何とか"
+    jpBlank: "何とか終電に乗ることが(   )。",
+    jpAnswer: "できた"
   },
   {
     wordNo: 41,
@@ -693,8 +693,8 @@ const units = {
     meaning: "〜を改善する，磨く",
     sentence: "(   ) my cooking skills",
     jp: "私の料理の腕を上達させる",
-    jpBlank: "(   )",
-    jpAnswer: "私の料理の腕を上達させる"
+    jpBlank: "私の料理の腕を(   )",
+    jpAnswer: "上達させる"
   },
   {
     wordNo: 42,
@@ -729,8 +729,8 @@ const units = {
     meaning: "農作物",
     sentence: "fresh farm (   )",
     jp: "新鮮な農産物",
-    jpBlank: "新鮮な(   )産物",
-    jpAnswer: "農"
+    jpBlank: "(   )",
+    jpAnswer: "新鮮な農産物"
   },
   {
     wordNo: 44,
@@ -756,8 +756,8 @@ const units = {
     meaning: "〜を確立する，定着させる",
     sentence: "(   ) a close friendship with him",
     jp: "彼と親密な友情を築く",
-    jpBlank: "(   )",
-    jpAnswer: "彼と親密な友情を築く"
+    jpBlank: "彼と親密な友情を(   )",
+    jpAnswer: "築く"
   },
   {
     wordNo: 45,
@@ -801,8 +801,8 @@ const units = {
     meaning: "（時間，手間）を省く",
     sentence: "This (   ) you a lot of trouble.",
     jp: "これによって多くの手間が省ける。",
-    jpBlank: "(   )。",
-    jpAnswer: "これによって多くの手間が省ける"
+    jpBlank: "これによって多くの手間が(   )。",
+    jpAnswer: "省ける"
   },
   {
     wordNo: 47,
@@ -810,8 +810,8 @@ const units = {
     meaning: "〜を貯金する",
     sentence: "(   ) some money every month.",
     jp: "毎月貯金する。",
-    jpBlank: "毎月(   )。",
-    jpAnswer: "貯金する"
+    jpBlank: "毎月(   )る。",
+    jpAnswer: "貯金す"
   },
   {
     wordNo: 47,
@@ -819,7 +819,7 @@ const units = {
     meaning: "（命など）を救う",
     sentence: "You (   ) my life.",
     jp: "君は私の恩人だ（私の命を救った）。",
-    jpBlank: "君は私の恩人だ（(   )）。",
+    jpBlank: "君は私の恩人だ(   )。",
     jpAnswer: "私の命を救った"
   },
   {
@@ -864,8 +864,8 @@ const units = {
     meaning: "忍耐強い",
     sentence: "Teachers need to be (   ).",
     jp: "教師は忍耐強くならなければならない。",
-    jpBlank: "教師は(   )くならなければならない。",
-    jpAnswer: "忍耐強"
+    jpBlank: "教師は(   )ならなければならない。",
+    jpAnswer: "忍耐強く"
   },
   {
     wordNo: 50,
@@ -873,8 +873,8 @@ const units = {
     meaning: "状態，容態",
     sentence: "My body is in good (   ).",
     jp: "私の体は調子がよい。",
-    jpBlank: "(   )。",
-    jpAnswer: "私の体は調子がよい"
+    jpBlank: "私の体は(   )。",
+    jpAnswer: "調子がよい"
   },
   {
     wordNo: 50,
@@ -918,8 +918,8 @@ const units = {
     meaning: "強調",
     sentence: "put (   ) on foreign language education",
     jp: "外国語教育に重点を置く。",
-    jpBlank: "(   )。",
-    jpAnswer: "外国語教育に重点を置く"
+    jpBlank: "外国語教育に(   )。",
+    jpAnswer: "重点を置く"
   },
   {
     wordNo: 52,
@@ -945,8 +945,8 @@ const units = {
     meaning: "（苦痛，損害）を経験する",
     sentence: "The company (   ) a heavy loss.",
     jp: "その会社は大きな損失を出した。",
-    jpBlank: "その会社は大きな損失(   )出した。",
-    jpAnswer: "を"
+    jpBlank: "その会社は大きな(   )。",
+    jpAnswer: "損失を出した"
   },
   {
     wordNo: 54,
@@ -990,8 +990,8 @@ const units = {
     meaning: "呼吸する，息を吸う",
     sentence: "(   ) deeply",
     jp: "深呼吸する",
-    jpBlank: "深(   )",
-    jpAnswer: "呼吸する"
+    jpBlank: "深(   )する",
+    jpAnswer: "呼吸"
   },
   {
     wordNo: 56,
@@ -1008,8 +1008,8 @@ const units = {
     meaning: "（〜を）切望して",
     sentence: "He is (   ) for power.",
     jp: "彼は権力志向が強い。",
-    jpBlank: "(   )。",
-    jpAnswer: "彼は権力志向が強い"
+    jpBlank: "彼は(   )。",
+    jpAnswer: "権力志向が強い"
   },
   {
     wordNo: 57,
@@ -1017,8 +1017,8 @@ const units = {
     meaning: "身体的な",
     sentence: "(   ) contact",
     jp: "身体的接触",
-    jpBlank: "(   )接触",
-    jpAnswer: "身体的"
+    jpBlank: "(   )的接触",
+    jpAnswer: "身体"
   },
   {
     wordNo: 57,
@@ -1044,8 +1044,8 @@ const units = {
     meaning: "熱狂",
     sentence: "be gripped by soccer (   )",
     jp: "サッカー熱に取りつかれる",
-    jpBlank: "サッカー(   )に取りつかれる",
-    jpAnswer: "熱"
+    jpBlank: "サッカー(   )",
+    jpAnswer: "熱に取りつかれる"
   },
   {
     wordNo: 59,
@@ -1062,8 +1062,8 @@ const units = {
     meaning: "（精神的な）強さ",
     sentence: "try with all my (   ) to lift the piano",
     jp: "持てるすべての力でピアノを持ち上げようとする",
-    jpBlank: "持てるすべての力でピアノ(   )",
-    jpAnswer: "を持ち上げようとする"
+    jpBlank: "持てるすべての(   )でピアノを持ち上げようとする",
+    jpAnswer: "力"
   },
   {
     wordNo: 60,
@@ -1071,8 +1071,8 @@ const units = {
     meaning: "涙",
     sentence: "I was moved to (   ).",
     jp: "私は感動して泣いた。",
-    jpBlank: "(   )。",
-    jpAnswer: "私は感動して泣いた"
+    jpBlank: "私は(   )泣いた。",
+    jpAnswer: "感動して"
   },
   {
     wordNo: 60,
@@ -1091,8 +1091,8 @@ const units = {
     meaning: "〜の味がする",
     sentence: "This apple (   ) sweet.",
     jp: "このリンゴは甘い。",
-    jpBlank: "(   )。",
-    jpAnswer: "このリンゴは甘い"
+    jpBlank: "こ(   )。",
+    jpAnswer: "のリンゴは甘い"
   },
   {
     wordNo: 61,
@@ -1100,8 +1100,8 @@ const units = {
     meaning: "〜の味見をする",
     sentence: "(   ) the soup",
     jp: "スープの味見をする",
-    jpBlank: "スープの(   )",
-    jpAnswer: "味見をする"
+    jpBlank: "スープの(   )する",
+    jpAnswer: "味見を"
   },
   {
     wordNo: 61,
@@ -1109,8 +1109,8 @@ const units = {
     meaning: "味",
     sentence: "This wine has a strong acid (   ).",
     jp: "このワインは酸味が強い。",
-    jpBlank: "このワインは酸(   )が強い。",
-    jpAnswer: "味"
+    jpBlank: "このワイ(   )。",
+    jpAnswer: "ンは酸味が強い"
   },
   {
     wordNo: 61,
@@ -1118,8 +1118,8 @@ const units = {
     meaning: "好み",
     sentence: "have good (   ) in clothes",
     jp: "服のセンスがよい",
-    jpBlank: "(   )",
-    jpAnswer: "服のセンスがよい"
+    jpBlank: "服(   )",
+    jpAnswer: "のセンスがよい"
   },
   {
     wordNo: 62,
@@ -1154,8 +1154,8 @@ const units = {
     meaning: "（無意識な）習慣",
     sentence: "have a (   ) of making excuses",
     jp: "言い訳をする癖がある",
-    jpBlank: "(   )",
-    jpAnswer: "言い訳をする癖がある"
+    jpBlank: "言い訳をする(   )がある",
+    jpAnswer: "癖"
   },
   {
     wordNo: 65,
@@ -1199,8 +1199,8 @@ const units = {
     meaning: "社交",
     sentence: "enjoy her (   )",
     jp: "彼女と同席することを楽しむ",
-    jpBlank: "彼女と(   )を楽しむ",
-    jpAnswer: "同席すること"
+    jpBlank: "彼女と(   )することを楽しむ",
+    jpAnswer: "同席"
   },
   {
     wordNo: 67,
@@ -1262,8 +1262,8 @@ const units = {
     meaning: "住民",
     sentence: "L.A. has a large Chinese (   ).",
     jp: "ロサンゼルスには多くの中国人が住んでいる。",
-    jpBlank: "ロサンゼルスには多くの中国人が(   )んでいる。",
-    jpAnswer: "住"
+    jpBlank: "ロサンゼルスには多くの(   )が住んでいる。",
+    jpAnswer: "中国人"
   },
   {
     wordNo: 71,
@@ -1271,8 +1271,8 @@ const units = {
     meaning: "母国の，その土地の",
     sentence: "his (   ) language",
     jp: "彼の母（国）語",
-    jpBlank: "彼の(   )（国）語",
-    jpAnswer: "母"
+    jpBlank: "彼の母(   )語",
+    jpAnswer: "国"
   },
   {
     wordNo: 71,
@@ -1361,8 +1361,8 @@ const units = {
     meaning: "お買い得品",
     sentence: "This shirt is really good (   ).",
     jp: "このシャツは本当にお買い得だ。",
-    jpBlank: "このシャツは本当に(   )得だ。",
-    jpAnswer: "お買い"
+    jpBlank: "このシャツは本当に(   )い得だ。",
+    jpAnswer: "お買"
   },
   {
     wordNo: 75,
@@ -1388,8 +1388,8 @@ const units = {
     meaning: "大事な人物",
     sentence: "My secretary is a real (   ).",
     jp: "私の秘書は本当に宝物のような存在だ。",
-    jpBlank: "私の秘書は本当に(   )だ。",
-    jpAnswer: "宝物のような存在"
+    jpBlank: "私の秘書は本当に(   )のような存在だ。",
+    jpAnswer: "宝物"
   },
   {
     wordNo: 76,
@@ -1406,8 +1406,8 @@ const units = {
     meaning: "流行",
     sentence: "follow the latest (   )",
     jp: "最新のファッションを追う",
-    jpBlank: "(   )",
-    jpAnswer: "最新のファッションを追う"
+    jpBlank: "最新のファッションを(   )",
+    jpAnswer: "追う"
   },
   {
     wordNo: 77,
@@ -1469,8 +1469,8 @@ const units = {
     meaning: "投票する",
     sentence: "the right to (   )",
     jp: "投票権（投票する権利）",
-    jpBlank: "投票権（(   )）",
-    jpAnswer: "投票する権利"
+    jpBlank: "(   )権",
+    jpAnswer: "投票"
   },
   {
     wordNo: 81,
@@ -1523,8 +1523,8 @@ const units = {
     meaning: "死に値する",
     sentence: "a (   ) offence",
     jp: "死罪",
-    jpBlank: "(   )罪",
-    jpAnswer: "死"
+    jpBlank: "(   )",
+    jpAnswer: "死罪"
   },
   {
     wordNo: 84,
@@ -1595,8 +1595,8 @@ const units = {
     meaning: "代償",
     sentence: "pay the (   ) of success",
     jp: "成功の代価を払う",
-    jpBlank: "成功の(   )価を払う",
-    jpAnswer: "代"
+    jpBlank: "(   )",
+    jpAnswer: "成功の代価を払う"
   },
   {
     wordNo: 87,
@@ -1613,8 +1613,8 @@ const units = {
     meaning: "合計",
     sentence: "The (   ) of 5 and 8 is 13.",
     jp: "5と8の和は13だ。",
-    jpBlank: "(   )。",
-    jpAnswer: "5と8の和は13だ"
+    jpBlank: "5と8の(   )は13だ。",
+    jpAnswer: "和"
   },
   {
     wordNo: 87,
@@ -1687,8 +1687,8 @@ const units = {
     meaning: "勘定",
     sentence: "May we have the (   )?",
     jp: "お会計お願いします。",
-    jpBlank: "(   )。",
-    jpAnswer: "お会計お願いします"
+    jpBlank: "(   )お願いします。",
+    jpAnswer: "お会計"
   },
   {
     wordNo: 91,
@@ -1768,8 +1768,8 @@ const units = {
     meaning: "豊富な〜",
     sentence: "a (   ) of knowledge",
     jp: "豊富な知識",
-    jpBlank: "(   )知識",
-    jpAnswer: "豊富な"
+    jpBlank: "(   )",
+    jpAnswer: "豊富な知識"
   },
   {
     wordNo: 94,
@@ -1813,8 +1813,8 @@ const units = {
     meaning: "費用，犠牲",
     sentence: "In Switzerland, the (   ) of living is very high.",
     jp: "スイスでは生活費がとても高い。",
-    jpBlank: "スイスでは生活(   )がとても高い。",
-    jpAnswer: "費"
+    jpBlank: "スイスでは生活(   )。",
+    jpAnswer: "費がとても高い"
   },
   {
     wordNo: 96,
@@ -1831,8 +1831,8 @@ const units = {
     meaning: "一緒にいること",
     sentence: "I always enjoy his (   ).",
     jp: "彼と一緒にいるときはいつも楽しい。",
-    jpBlank: "彼と(   )いるときはいつも楽しい。",
-    jpAnswer: "一緒に"
+    jpBlank: "彼と一緒にいるとき(   )。",
+    jpAnswer: "はいつも楽しい"
   },
   {
     wordNo: 96,
@@ -1921,8 +1921,8 @@ const units = {
     meaning: "損害",
     sentence: "seriously (   ) the environment",
     jp: "環境に深刻な被害を与える",
-    jpBlank: "(   )",
-    jpAnswer: "環境に深刻な被害を与える"
+    jpBlank: "環境に深刻な被害を(   )",
+    jpAnswer: "与える"
   },
   {
     wordNo: 101,
@@ -1957,8 +1957,8 @@ const units = {
     meaning: "全滅させる",
     sentence: "This horse has to be (   ).",
     jp: "この馬を殺処分するしかない。",
-    jpBlank: "(   )。",
-    jpAnswer: "この馬を殺処分するしかない"
+    jpBlank: "この馬を殺処(   )。",
+    jpAnswer: "分するしかない"
   },
   {
     wordNo: 103,
@@ -1966,8 +1966,8 @@ const units = {
     meaning: "台無しにする",
     sentence: "You (   ) my plan.",
     jp: "君のせいで計画が台無しだよ。",
-    jpBlank: "君のせいで計画が(   )だよ。",
-    jpAnswer: "台無し"
+    jpBlank: "君のせいで計画が(   )しだよ。",
+    jpAnswer: "台無"
   },
   {
     wordNo: 103,
@@ -2020,8 +2020,8 @@ const units = {
     meaning: "観客",
     sentence: "draw a large (   )",
     jp: "大観衆を集める",
-    jpBlank: "大(   )衆を集める",
-    jpAnswer: "観"
+    jpBlank: "(   )",
+    jpAnswer: "大観衆を集める"
   },
   {
     wordNo: 107,
@@ -2074,8 +2074,8 @@ const units = {
     meaning: "客",
     sentence: "The restaurant was crowded with (   ) from abroad.",
     jp: "そのレストランは外国人客で混雑していた。",
-    jpBlank: "そのレストランは外国人(   )で混雑していた。",
-    jpAnswer: "客"
+    jpBlank: "そのレストランは外国人客で(   )いた。",
+    jpAnswer: "混雑して"
   },
   {
     wordNo: 112,
@@ -2155,8 +2155,8 @@ const units = {
     meaning: "後について行く，続く",
     sentence: "Someone was (   ) me.",
     jp: "誰かが私をつけていた。",
-    jpBlank: "(   )。",
-    jpAnswer: "誰かが私をつけていた"
+    jpBlank: "誰かが私を(   )。",
+    jpAnswer: "つけていた"
   },
   {
     wordNo: 116,
@@ -2182,8 +2182,8 @@ const units = {
     meaning: "旅行する，移動する",
     sentence: "(   ) around the world",
     jp: "世界中を旅する",
-    jpBlank: "世界中を(   )する",
-    jpAnswer: "旅"
+    jpBlank: "(   )",
+    jpAnswer: "世界中を旅する"
   },
   {
     wordNo: 118,
@@ -2200,7 +2200,7 @@ const units = {
     meaning: "通り過ぎる",
     sentence: "(   ) the post office",
     jp: "郵便局の（前を）通り過ぎる",
-    jpBlank: "郵便局の（前を）(   )",
+    jpBlank: "郵便局の(   )",
     jpAnswer: "通り過ぎる"
   },
   {
@@ -2227,7 +2227,7 @@ const units = {
     meaning: "渡す",
     sentence: "(   ) me the salt, please.",
     jp: "塩を取って（私に渡して）ください。",
-    jpBlank: "塩を取って（(   )）ください。",
+    jpBlank: "塩を取って(   )ください。",
     jpAnswer: "私に渡して"
   },
   {
@@ -2236,8 +2236,8 @@ const units = {
     meaning: "過ぎる",
     sentence: "as time (   )",
     jp: "時の経過と共に",
-    jpBlank: "時の経(   )と共に",
-    jpAnswer: "過"
+    jpBlank: "(   )",
+    jpAnswer: "時の経過と共に"
   },
   {
     wordNo: 119,
@@ -2254,8 +2254,8 @@ const units = {
     meaning: "〜しそうだ",
     sentence: "Things are (   ) to improve.",
     jp: "事態はよくなりそうだ。",
-    jpBlank: "(   )。",
-    jpAnswer: "事態はよくなりそうだ"
+    jpBlank: "事態は(   )だ。",
+    jpAnswer: "よくなりそう"
   },
   {
     wordNo: 120,
@@ -2292,8 +2292,8 @@ const units = {
     meaning: "生まれながらの",
     sentence: "her (   ) talent",
     jp: "彼女の生まれつきの才能",
-    jpBlank: "彼女の(   )つきの才能",
-    jpAnswer: "生まれ"
+    jpBlank: "彼女の(   )れつきの才能",
+    jpAnswer: "生ま"
   },
   {
     wordNo: 122,
@@ -2337,8 +2337,8 @@ const units = {
     meaning: "向いている",
     sentence: "a window (   ) (the) south",
     jp: "南向きの窓",
-    jpBlank: "南(   )きの窓",
-    jpAnswer: "向"
+    jpBlank: "(   )",
+    jpAnswer: "南向きの窓"
   },
   {
     wordNo: 124,
@@ -2355,8 +2355,8 @@ const units = {
     meaning: "避ける",
     sentence: "(   ) making eye contact with monkeys.",
     jp: "サルと目を合わせないようにしなさい。",
-    jpBlank: "サルと(   )しなさい。",
-    jpAnswer: "目を合わせないように"
+    jpBlank: "サルと目を(   )しなさい。",
+    jpAnswer: "合わせないように"
   },
   {
     wordNo: 126,
@@ -2373,7 +2373,7 @@ const units = {
     meaning: "問題，ごたごた",
     sentence: "have (   ) sleeping",
     jp: "寝つけない（眠るのに苦労する）。",
-    jpBlank: "寝つけない（(   )）。",
+    jpBlank: "寝つけない(   )。",
     jpAnswer: "眠るのに苦労する"
   },
   {
@@ -2382,7 +2382,7 @@ const units = {
     meaning: "困らせる",
     sentence: "I'm sorry to (   ) you.",
     jp: "お手間をおかけして（あなたを困らせて）すみません。",
-    jpBlank: "お手間をおかけして（(   )）すみません。",
+    jpBlank: "お手間をおかけして(   )すみません。",
     jpAnswer: "あなたを困らせて"
   },
   {
@@ -2427,7 +2427,7 @@ const units = {
     meaning: "励ます",
     sentence: "His arrival (   ) me up.",
     jp: "彼の到着で元気が出た（私を励ました）。",
-    jpBlank: "彼の到着で元気が出た（(   )）。",
+    jpBlank: "彼の到着で元気が出た(   )。",
     jpAnswer: "私を励ました"
   },
   {
@@ -2463,8 +2463,8 @@ const units = {
     meaning: "励ます",
     sentence: "(   ) the students",
     jp: "生徒たちを元気づける",
-    jpBlank: "(   )",
-    jpAnswer: "生徒たちを元気づける"
+    jpBlank: "生徒たちを(   )",
+    jpAnswer: "元気づける"
   },
   {
     wordNo: 131,
@@ -2508,7 +2508,7 @@ const units = {
     meaning: "妨げる",
     sentence: "The heavy snow (   ) us from going out.",
     jp: "大雪のため（私たちの）外出できなかった。",
-    jpBlank: "大雪のため（(   )）外出できなかった。",
+    jpBlank: "大雪のため(   )外出できなかった。",
     jpAnswer: "私たちの"
   },
   {
@@ -2544,8 +2544,8 @@ const units = {
     meaning: "可能にする",
     sentence: "The internet has (   ) us to receive information right away.",
     jp: "インターネットのおかげで情報をすぐ得られるようになった（私たちに得ることを可能にした）。",
-    jpBlank: "インターネットのおかげで情報をすぐ得られるようになった（(   )）。",
-    jpAnswer: "私たちに得ることを可能にした"
+    jpBlank: "インターネットのおかげで情報をすぐ得られるようになった(   )。",
+    jpAnswer: "可能に"
   },
   {
     wordNo: 135,
@@ -2589,8 +2589,8 @@ const units = {
     meaning: "寂しく思う",
     sentence: "I (   ) you.",
     jp: "あなたに会えなくて寂しい（あなたを恋しく思う）。",
-    jpBlank: "あなたに会えなくて寂しい（(   )）。",
-    jpAnswer: "あなたを恋しく思う"
+    jpBlank: "あなたに会えなくて(   )い。",
+    jpAnswer: "寂し"
   },
   {
     wordNo: 137,
@@ -2598,8 +2598,8 @@ const units = {
     meaning: "失敗する",
     sentence: "(   ) in business",
     jp: "商売で失敗する",
-    jpBlank: "商売で(   )",
-    jpAnswer: "失敗する"
+    jpBlank: "商売で(   )る",
+    jpAnswer: "失敗す"
   },
   {
     wordNo: 137,
@@ -2607,8 +2607,8 @@ const units = {
     meaning: "できない",
     sentence: "(   ) to see what happened",
     jp: "何が起きたかわからない（知ることに失敗する）",
-    jpBlank: "何が起きたかわからない（(   )）",
-    jpAnswer: "知ることに失敗する"
+    jpBlank: "何が起きたか(   )",
+    jpAnswer: "わからない"
   },
   {
     wordNo: 137,
@@ -2625,7 +2625,7 @@ const units = {
     meaning: "役に立たない",
     sentence: "My memory (   ) me these days.",
     jp: "近頃，記憶が役に立たない（私に役立たない）。",
-    jpBlank: "近頃，記憶が(   )（私に役立たない）。",
+    jpBlank: "近頃，記憶が(   )。",
     jpAnswer: "役に立たない"
   },
   {
@@ -2697,7 +2697,7 @@ const units = {
     meaning: "抑制",
     sentence: "hold their activities in (   )",
     jp: "彼らの活動を食い止める（抑制して留める）",
-    jpBlank: "彼らの活動を食い止める（(   )）",
+    jpBlank: "彼らの活動を食い止める(   )",
     jpAnswer: "抑制して留める"
   },
   {
@@ -2751,8 +2751,8 @@ const units = {
     meaning: "加わる",
     sentence: "(   ) the Me Too movement",
     jp: "Me Too 運動に参加する",
-    jpBlank: "Me Too 運動に参(   )する",
-    jpAnswer: "加"
+    jpBlank: "Me Too (   )",
+    jpAnswer: "運動に参加する"
   },
   {
     wordNo: 142,
@@ -2778,7 +2778,7 @@ const units = {
     meaning: "参加する",
     sentence: "(   ) in the discussion",
     jp: "その議論に（途中から）参加する",
-    jpBlank: "その議論に（途中から）(   )",
+    jpBlank: "その議論に(   )",
     jpAnswer: "参加する"
   },
   {
@@ -2787,8 +2787,8 @@ const units = {
     meaning: "投げる",
     sentence: "(   ) me a rope.",
     jp: "ロープを投げてくれ。",
-    jpBlank: "ロープを(   )てくれ。",
-    jpAnswer: "投げ"
+    jpBlank: "ロープを(   )くれ。",
+    jpAnswer: "投げて"
   },
   {
     wordNo: 143,
@@ -2805,8 +2805,8 @@ const units = {
     meaning: "催す",
     sentence: "(   ) a party for him",
     jp: "彼のためにパーティを開く",
-    jpBlank: "(   )",
-    jpAnswer: "彼のためにパーティを開く"
+    jpBlank: "彼のためにパー(   )",
+    jpAnswer: "ティを開く"
   },
   {
     wordNo: 143,
@@ -2931,8 +2931,8 @@ const units = {
     meaning: "賃上げ",
     sentence: "get a pay (   )",
     jp: "給料が上がる（賃上げを得る）",
-    jpBlank: "給料が上がる（(   )）",
-    jpAnswer: "賃上げを得る"
+    jpBlank: "給料が上がる(   )",
+    jpAnswer: "賃上げ"
   },
   {
     wordNo: 148,
@@ -2958,7 +2958,7 @@ const units = {
     meaning: "役立つ",
     sentence: "The hospital (   ) as a school.",
     jp: "その病院は学校として使われていた（役立っていた）。",
-    jpBlank: "その病院は学校として使われていた（(   )）。",
+    jpBlank: "その病院は学校として使われていた(   )。",
     jpAnswer: "役立っていた"
   },
   {
@@ -2976,7 +2976,7 @@ const units = {
     meaning: "降りそそぐ",
     sentence: "It (   ) all night.",
     jp: "一晩中土砂降りだった（雨が降りそそいだ）。",
-    jpBlank: "一晩中土砂降りだった（(   )）。",
+    jpBlank: "一晩中土砂降りだった(   )。",
     jpAnswer: "雨が降りそそいだ"
   },
   {
@@ -3014,8 +3014,8 @@ const units = {
     meaning: "ふるまう",
     sentence: "He (   ) badly in class.",
     jp: "彼の授業中の態度は悪い（悪いふるまいをする）。",
-    jpBlank: "彼の授業中の態度は悪い（(   )）。",
-    jpAnswer: "悪いふるまいをする"
+    jpBlank: "彼の授業中の態度は悪い(   )。",
+    jpAnswer: "ふる"
   },
   {
     wordNo: 152,
@@ -3041,7 +3041,7 @@ const units = {
     meaning: "心に留める",
     sentence: "(   ) the responsibility for the accident",
     jp: "その事故の責任を負う（責任を心に持つ）",
-    jpBlank: "その事故の責任を負う（(   )）",
+    jpBlank: "その事故の責任を負う(   )",
     jpAnswer: "責任を心に持つ"
   },
   {
@@ -3050,8 +3050,8 @@ const units = {
     meaning: "〜を産む",
     sentence: "She was (   ) with a silver spoon in her mouth.",
     jp: "彼女は裕福な家に生まれた",
-    jpBlank: "(   )",
-    jpAnswer: "彼女は裕福な家に生まれた"
+    jpBlank: "彼女は裕福な家に(   )",
+    jpAnswer: "生まれた"
   },
   {
     wordNo: 154,
@@ -3059,8 +3059,8 @@ const units = {
     meaning: "探検する",
     sentence: "(   ) the surface of Mars",
     jp: "火星の地表を探査する（探検する）",
-    jpBlank: "火星の地表を探査する（(   )）",
-    jpAnswer: "探検する"
+    jpBlank: "火星の地表を探査する(   )",
+    jpAnswer: "探検す"
   },
   {
     wordNo: 154,
@@ -3086,7 +3086,7 @@ const units = {
     meaning: "偶然〜する",
     sentence: "I (   ) to meet him.",
     jp: "彼にたまたま（偶然）会った。",
-    jpBlank: "彼にたまたま（(   )）会った。",
+    jpBlank: "彼にたまたま(   )会った。",
     jpAnswer: "偶然"
   },
   {
@@ -3095,8 +3095,8 @@ const units = {
     meaning: "現れる",
     sentence: "The singer (   ) on the stage.",
     jp: "その歌手がステージに現れた。",
-    jpBlank: "その歌手がステージに(   )た。",
-    jpAnswer: "現れ"
+    jpBlank: "その歌手がステージに(   )。",
+    jpAnswer: "現れた"
   },
   {
     wordNo: 156,
@@ -3104,7 +3104,7 @@ const units = {
     meaning: "〜のように思える",
     sentence: "He (   ) to be sleeping.",
     jp: "彼は寝ているようだ（思える）。",
-    jpBlank: "彼は寝ているようだ（(   )）。",
+    jpBlank: "彼は寝ているようだ(   )。",
     jpAnswer: "思える"
   },
   {
@@ -3113,7 +3113,7 @@ const units = {
     meaning: "〜のままでいる",
     sentence: "The cause of the accident (   ) unknown.",
     jp: "その事故の原因はいまだに知られていない（未知のままである）。",
-    jpBlank: "その事故の原因はいまだに知られていない（(   )）。",
+    jpBlank: "その事故の原因はいまだに知られていない(   )。",
     jpAnswer: "未知のままである"
   },
   {
@@ -3122,8 +3122,8 @@ const units = {
     meaning: "残る",
     sentence: "Five people (   ) in the room.",
     jp: "部屋に5人が残っていた。",
-    jpBlank: "部屋に5人が(   )っていた。",
-    jpAnswer: "残"
+    jpBlank: "部屋に5(   )た。",
+    jpAnswer: "人が残ってい"
   },
   {
     wordNo: 158,
@@ -3131,7 +3131,7 @@ const units = {
     meaning: "生き残る",
     sentence: "eat grass in order to (   )",
     jp: "生き延びる（生き残る）ために草を食べる",
-    jpBlank: "生き延びる（(   )）ために草を食べる",
+    jpBlank: "生き延びる(   )ために草を食べる",
     jpAnswer: "生き残る"
   },
   {
@@ -3158,8 +3158,8 @@ const units = {
     meaning: "代表する",
     sentence: "(   ) Japan at the World Cup",
     jp: "ワールドカップ日本代表となる（代表する）",
-    jpBlank: "ワールドカップ日本代表となる（(   )）",
-    jpAnswer: "代表する"
+    jpBlank: "ワールドカップ日本代表となる(   )",
+    jpAnswer: "代表す"
   },
   {
     wordNo: 160,
@@ -3185,7 +3185,7 @@ const units = {
     meaning: "基礎を置く",
     sentence: "This novel is (   ) on facts.",
     jp: "この小説は事実に基づいている（基礎を置いている）。",
-    jpBlank: "この小説は事実に基づいている（(   )）。",
+    jpBlank: "この小説は事実に基づいている(   )。",
     jpAnswer: "基礎を置いている"
   },
   {
@@ -3221,7 +3221,7 @@ const units = {
     meaning: "含んでいる",
     sentence: "This soup (   ) various herbs.",
     jp: "このスープにはさまざまな薬草が入っている（含んでいる）。",
-    jpBlank: "このスープにはさまざまな薬草が入っている（(   )）。",
+    jpBlank: "このスープにはさまざまな薬草が入っている(   )。",
     jpAnswer: "含んでいる"
   },
   {
@@ -3248,8 +3248,8 @@ const units = {
     meaning: "自分自身の",
     sentence: "with my (   ) eyes",
     jp: "私自身の目で",
-    jpBlank: "私(   )身の目で",
-    jpAnswer: "自"
+    jpBlank: "(   )",
+    jpAnswer: "私自身の目で"
   },
   {
     wordNo: 164,
@@ -3257,7 +3257,7 @@ const units = {
     meaning: "自分自身のもの",
     sentence: "I decided to quit the company and start my (   ).",
     jp: "会社を辞め，自分の（会社を）始めることに決めた。",
-    jpBlank: "(   )辞め，自分の（会社を）始めることに決めた。",
+    jpBlank: "(   )辞め，自分の始めることに決めた。",
     jpAnswer: "会社を"
   },
   {
@@ -3266,8 +3266,8 @@ const units = {
     meaning: "〜を共有する",
     sentence: "(   ) a table with a stranger",
     jp: "知らない人と相席する（席を共有する）",
-    jpBlank: "知らない人と相席する（(   )）",
-    jpAnswer: "席を共有する"
+    jpBlank: "知らない人と相席する(   )",
+    jpAnswer: "共有す"
   },
   {
     wordNo: 165,
@@ -3275,7 +3275,7 @@ const units = {
     meaning: "伝える",
     sentence: "Could you (   ) your opinion about this?",
     jp: "これについてのあなたの意見を聞かせて（共有して）ください。",
-    jpBlank: "これについてのあなたの意見を聞かせて（(   )）ください。",
+    jpBlank: "これについてのあなたの意見を聞かせて(   )ください。",
     jpAnswer: "共有して"
   },
   {
@@ -3338,7 +3338,7 @@ const units = {
     meaning: "歴史",
     sentence: "the best soccer player in (   )",
     jp: "史上（歴史上）最高のサッカー選手",
-    jpBlank: "史上（(   )）最高のサッカー選手",
+    jpBlank: "史上(   )最高のサッカー選手",
     jpAnswer: "歴史上"
   },
   {
@@ -3383,8 +3383,8 @@ const units = {
     meaning: "受けやすい",
     sentence: "The program is (   ) to change.",
     jp: "プログラムは変更の可能性があります（変更を受けやすい）。",
-    jpBlank: "プログラムは変更の可能性があります（(   )）。",
-    jpAnswer: "変更を受けやすい"
+    jpBlank: "プログラムは変更の可能性があります(   )。",
+    jpAnswer: "受けやすい"
   },
   {
     wordNo: 170,
@@ -3428,7 +3428,7 @@ const units = {
     meaning: "学年",
     sentence: "She is in the eighth (   ).",
     jp: "彼女は8年生（中学2年生）だ。",
-    jpBlank: "彼女は8年生（(   )）だ。",
+    jpBlank: "彼女は8年生(   )だ。",
     jpAnswer: "中学2年生"
   },
   {
@@ -3473,8 +3473,8 @@ const units = {
     meaning: "上位の",
     sentence: "a (   ) manager",
     jp: "上級管理者",
-    jpBlank: "(   )級管理者",
-    jpAnswer: "上"
+    jpBlank: "(   )",
+    jpAnswer: "上級管理者"
   },
   {
     wordNo: 175,
@@ -3482,8 +3482,8 @@ const units = {
     meaning: "卒業する",
     sentence: "(   ) from high school",
     jp: "高校を卒業する",
-    jpBlank: "高校を(   )",
-    jpAnswer: "卒業する"
+    jpBlank: "高校を(   )る",
+    jpAnswer: "卒業す"
   },
   {
     wordNo: 176,
@@ -3536,7 +3536,7 @@ const units = {
     meaning: "引退する，退職する",
     sentence: "(   ) from the company",
     jp: "会社を（定年で）退職する",
-    jpBlank: "会社を（定年で）(   )",
+    jpBlank: "会社を(   )",
     jpAnswer: "退職する"
   },
   {
@@ -3619,8 +3619,8 @@ const units = {
     meaning: "予期する，期待する",
     sentence: "We are (   ) a typhoon.",
     jp: "台風が来るらしい（来ることを予期している）。",
-    jpBlank: "台風が来るらしい（(   )）。",
-    jpAnswer: "来ることを予期している"
+    jpBlank: "台風が来るらしい(   )。",
+    jpAnswer: "予期"
   },
   {
     wordNo: 184,
@@ -3637,8 +3637,8 @@ const units = {
     meaning: "予期する，期待する",
     sentence: "She is (   ) (a baby).",
     jp: "彼女はおめでたです（赤ん坊を予期しています）。",
-    jpBlank: "彼女はおめでたです（(   )）。",
-    jpAnswer: "赤ん坊を予期しています"
+    jpBlank: "彼女はおめでたです(   )。",
+    jpAnswer: "予期"
   },
   {
     wordNo: 185,
@@ -3664,8 +3664,8 @@ const units = {
     meaning: "覚えている，忘れずに〜する",
     sentence: "Did you (   ) to feed the dog?",
     jp: "イヌにエサをやるのを覚えてた？",
-    jpBlank: "イヌにエサをやるのを(   )た？",
-    jpAnswer: "覚えて"
+    jpBlank: "イヌにエサをやるのを(   )てた？",
+    jpAnswer: "覚え"
   },
   {
     wordNo: 186,
@@ -3673,8 +3673,8 @@ const units = {
     meaning: "覚えている，忘れずに〜する",
     sentence: "(   ) me to your wife.",
     jp: "奥様によろしくお伝えください。",
-    jpBlank: "奥様に(   )。",
-    jpAnswer: "よろしくお伝えください"
+    jpBlank: "奥様によろしく(   )。",
+    jpAnswer: "お伝えください"
   },
   {
     wordNo: 187,
@@ -3700,7 +3700,7 @@ const units = {
     meaning: "理解する，実現する",
     sentence: "Jim (   ) that he did not love her any more.",
     jp: "ジムはもう彼女のことを愛していないことに気づいた（理解した）。",
-    jpBlank: "ジムはもう彼女のことを愛していないことに気づいた（(   )）。",
+    jpBlank: "ジムはもう彼女のことを愛していないことに気づいた(   )。",
     jpAnswer: "理解した"
   },
   {
@@ -3727,7 +3727,7 @@ const units = {
     meaning: "理解する，よさがわかる，感謝する",
     sentence: "(   ) the delicate flavors of Japanese cuisine",
     jp: "和食の（繊細な）味がわかる",
-    jpBlank: "和食の（(   )）味がわかる",
+    jpBlank: "和食の(   )味がわかる",
     jpAnswer: "繊細な"
   },
   {
@@ -3754,8 +3754,8 @@ const units = {
     meaning: "考慮する，思いやる，みなす",
     sentence: "(   ) all the possibilities",
     jp: "すべての可能性を考える（考慮する）",
-    jpBlank: "すべての可能性を考える（(   )）",
-    jpAnswer: "考慮する"
+    jpBlank: "すべての可能性を考える(   )",
+    jpAnswer: "考慮す"
   },
   {
     wordNo: 191,
@@ -3763,7 +3763,7 @@ const units = {
     meaning: "考慮する，思いやる，みなす",
     sentence: "(   ) other people",
     jp: "人の（気持ちを）思いやる",
-    jpBlank: "人の（気持ちを）(   )",
+    jpBlank: "人の(   )",
     jpAnswer: "思いやる"
   },
   {
@@ -3781,7 +3781,7 @@ const units = {
     meaning: "気にする",
     sentence: "Do you (   ) if I open the window?",
     jp: "窓を開けていいですか（気になさいますか）？",
-    jpBlank: "窓を開けていいですか（(   )）？",
+    jpBlank: "窓を開けていいですか(   )？",
     jpAnswer: "気になさいますか"
   },
   {
@@ -3799,7 +3799,7 @@ const units = {
     meaning: "才能のある人",
     sentence: "Great (   ) think alike.",
     jp: "（ことわざ）賢人は同じように考える。",
-    jpBlank: "（(   )）賢人は同じように考える。",
+    jpBlank: "(   )賢人は同じように考える。",
     jpAnswer: "ことわざ"
   },
   {
@@ -3808,8 +3808,8 @@ const units = {
     meaning: "〜かなと思う",
     sentence: "I (   ) where he has gone.",
     jp: "彼はどこに行ってしまったのだろうか。",
-    jpBlank: "彼はどこに行ってしまったのだろう(   )。",
-    jpAnswer: "か"
+    jpBlank: "彼はどこに行ってしまったの(   )。",
+    jpAnswer: "だろうか"
   },
   {
     wordNo: 193,
@@ -3853,8 +3853,8 @@ const units = {
     meaning: "匹敵する",
     sentence: "No one can (   ) with him in academic ability.",
     jp: "学力で彼に匹敵する者はいない。",
-    jpBlank: "学力で彼に(   )者はいない。",
-    jpAnswer: "匹敵する"
+    jpBlank: "学力で彼に(   )る者はいない。",
+    jpAnswer: "匹敵す"
   },
   {
     wordNo: 196,
@@ -3862,8 +3862,8 @@ const units = {
     meaning: "集中する",
     sentence: "(   ) on my studies",
     jp: "勉強に集中する",
-    jpBlank: "勉強に(   )",
-    jpAnswer: "集中する"
+    jpBlank: "勉強に(   )る",
+    jpAnswer: "集中す"
   },
   {
     wordNo: 196,
@@ -3871,8 +3871,8 @@ const units = {
     meaning: "集中させる",
     sentence: "(   ) your attention on your job.",
     jp: "仕事に集中しなさい。",
-    jpBlank: "仕事に(   )しなさい。",
-    jpAnswer: "集中"
+    jpBlank: "仕事(   )。",
+    jpAnswer: "に集中しなさい"
   },
   {
     wordNo: 197,
@@ -3880,8 +3880,8 @@ const units = {
     meaning: "〜に焦点を当てる",
     sentence: "This book (   ) on French culture.",
     jp: "この本はフランス文化に焦点を当てている。",
-    jpBlank: "この本はフランス文化に(   )当てている。",
-    jpAnswer: "焦点を"
+    jpBlank: "この本はフランス文化に(   )ている。",
+    jpAnswer: "焦点を当て"
   },
   {
     wordNo: 197,
@@ -3889,8 +3889,8 @@ const units = {
     meaning: "焦点",
     sentence: "become the (   ) of media attention",
     jp: "マスコミの注目の的になる",
-    jpBlank: "(   )",
-    jpAnswer: "マスコミの注目の的になる"
+    jpBlank: "マスコミの(   )の的になる",
+    jpAnswer: "注目"
   },
   {
     wordNo: 198,
@@ -3898,8 +3898,8 @@ const units = {
     meaning: "許可する",
     sentence: "Please (   ) me to introduce myself.",
     jp: "自己紹介をさせてください（自己紹介することを許可してください）。",
-    jpBlank: "自己紹介をさせてください（(   )）。",
-    jpAnswer: "自己紹介することを許可してください"
+    jpBlank: "自己紹介をさせてください(   )。",
+    jpAnswer: "許可"
   },
   {
     wordNo: 198,
@@ -3907,8 +3907,8 @@ const units = {
     meaning: "可能にする",
     sentence: "This machine (   ) you to measure your blood pressure.",
     jp: "この機械で血圧を測ることができます（測ることを可能にする）。",
-    jpBlank: "この機械で血圧を測ることができます（(   )）。",
-    jpAnswer: "測ることを可能にする"
+    jpBlank: "この機械で血圧を測ることができます(   )。",
+    jpAnswer: "可能に"
   },
   {
     wordNo: 199,
@@ -3916,8 +3916,8 @@ const units = {
     meaning: "認める",
     sentence: "Tom (   ) that he had been mistaken.",
     jp: "トムは自分が間違っていたことを認めた。",
-    jpBlank: "トムは自分が間違っていたことを(   )た。",
-    jpAnswer: "認め"
+    jpBlank: "トムは自分が間違っていたことを(   )。",
+    jpAnswer: "認めた"
   },
   {
     wordNo: 199,
@@ -3934,8 +3934,8 @@ const units = {
     meaning: "地面",
     sentence: "deep in the (   )",
     jp: "地中深く",
-    jpBlank: "(   )中深く",
-    jpAnswer: "地"
+    jpBlank: "(   )",
+    jpAnswer: "地中深く"
   },
   {
     wordNo: 200,
@@ -3943,7 +3943,7 @@ const units = {
     meaning: "根拠",
     sentence: "on the (   ) that he is young",
     jp: "彼が若いという理由（根拠）で",
-    jpBlank: "彼が若いという理由（(   )）で",
+    jpBlank: "彼が若いという理由(   )で",
     jpAnswer: "根拠"
   },
   {
@@ -3979,7 +3979,7 @@ const units = {
     meaning: "眺め",
     sentence: "enjoy a night (   ) of Kobe",
     jp: "神戸の夜景（の景色）を楽しむ",
-    jpBlank: "神戸の夜景（(   )）を楽しむ",
+    jpBlank: "神戸の夜景(   )を楽しむ",
     jpAnswer: "の景色"
   },
   {
@@ -3988,7 +3988,7 @@ const units = {
     meaning: "視点",
     sentence: "look at things from a different point of (   )",
     jp: "物事を（異なる視点から）別の角度から見る",
-    jpBlank: "物事を（(   )）別の角度から見る",
+    jpBlank: "物事を(   )別の角度から見る",
     jpAnswer: "異なる視点から"
   },
   {
@@ -4096,8 +4096,8 @@ const units = {
     meaning: "開花",
     sentence: "The cherry trees are in full (   ).",
     jp: "サクラが満開だ。",
-    jpBlank: "サクラが満(   )だ。",
-    jpAnswer: "開"
+    jpBlank: "(   )。",
+    jpAnswer: "サクラが満開だ"
   },
   {
     wordNo: 209,
@@ -4114,8 +4114,8 @@ const units = {
     meaning: "収穫する",
     sentence: "newly-(   ) rice",
     jp: "新米（新しく収穫された米）",
-    jpBlank: "新米（(   )）",
-    jpAnswer: "新しく収穫された米"
+    jpBlank: "新米(   )",
+    jpAnswer: "収穫"
   },
   {
     wordNo: 209,
@@ -4123,8 +4123,8 @@ const units = {
     meaning: "摘出する",
     sentence: "(   ) organs",
     jp: "臓器を摘出する",
-    jpBlank: "臓器を(   )",
-    jpAnswer: "摘出する"
+    jpBlank: "臓器を(   )る",
+    jpAnswer: "摘出す"
   },
   {
     wordNo: 210,
@@ -4132,7 +4132,7 @@ const units = {
     meaning: "昆虫",
     sentence: "the chirping of (   )",
     jp: "虫（昆虫）の音",
-    jpBlank: "虫（(   )）の音",
+    jpBlank: "虫(   )の音",
     jpAnswer: "昆虫"
   },
 ],
@@ -4206,8 +4206,8 @@ const units = {
     meaning: "水浸しにする",
     sentence: "The streets are (   ).",
     jp: "通りは水浸しだ（水浸しにされた）。",
-    jpBlank: "通りは水浸しだ（(   )）。",
-    jpAnswer: "水浸しにされた"
+    jpBlank: "通りは水浸しだ(   )。",
+    jpAnswer: "水浸しに"
   },
   {
     wordNo: 215,
@@ -4215,8 +4215,8 @@ const units = {
     meaning: "凍る",
     sentence: "The pond (   ) over.",
     jp: "池が一面凍った。",
-    jpBlank: "池が一面(   )った。",
-    jpAnswer: "凍"
+    jpBlank: "(   )。",
+    jpAnswer: "池が一面凍った"
   },
   {
     wordNo: 215,
@@ -4233,8 +4233,8 @@ const units = {
     meaning: "反射する",
     sentence: "(   ) the sunlight",
     jp: "日光を反射する",
-    jpBlank: "日光を(   )",
-    jpAnswer: "反射する"
+    jpBlank: "日光を(   )る",
+    jpAnswer: "反射す"
   },
   {
     wordNo: 216,
@@ -4251,8 +4251,8 @@ const units = {
     meaning: "熟考する",
     sentence: "(   ) on my successes and failures",
     jp: "私の成功と失敗について振り返る（熟考する）",
-    jpBlank: "私の成功と失敗について振り返る（(   )）",
-    jpAnswer: "熟考する"
+    jpBlank: "私の成功と失敗について振り返る(   )",
+    jpAnswer: "熟考す"
   },
   {
     wordNo: 217,
@@ -4269,7 +4269,7 @@ const units = {
     meaning: "無礼な",
     sentence: "It is (   ) to ask women their age.",
     jp: "女性に年齢を尋ねるのは失礼（無礼）です。",
-    jpBlank: "女性に年齢を尋ねるのは失礼（(   )）です。",
+    jpBlank: "女性に年齢を尋ねるのは失礼(   )です。",
     jpAnswer: "無礼"
   },
   {
@@ -4287,7 +4287,7 @@ const units = {
     meaning: "怠惰な",
     sentence: "He is (   ) at work.",
     jp: "彼は仕事中いい加減（怠惰）である。",
-    jpBlank: "彼は仕事中いい加減（(   )）である。",
+    jpBlank: "彼は仕事中いい加減(   )である。",
     jpAnswer: "怠惰"
   },
   {
@@ -4296,7 +4296,7 @@ const units = {
     meaning: "寛いだ",
     sentence: "spend (   ) days on the beach",
     jp: "浜辺でのんびりした（寛いだ）日々を過ごす",
-    jpBlank: "浜辺でのんびりした（(   )）日々を過ごす",
+    jpBlank: "浜辺でのんびりした(   )日々を過ごす",
     jpAnswer: "寛いだ"
   },
   {
@@ -4323,7 +4323,7 @@ const units = {
     meaning: "知的な",
     sentence: "a highly (   ) woman",
     jp: "きわめて聡明な（知的な）女性",
-    jpBlank: "きわめて聡明な（(   )）女性",
+    jpBlank: "きわめて聡明な(   )女性",
     jpAnswer: "知的な"
   },
   {
@@ -4341,8 +4341,8 @@ const units = {
     meaning: "あがって",
     sentence: "get (   ) during the exam",
     jp: "試験中にあがる",
-    jpBlank: "試験中に(   )る",
-    jpAnswer: "あが"
+    jpBlank: "(   )",
+    jpAnswer: "試験中にあがる"
   },
   {
     wordNo: 225,
@@ -4350,7 +4350,7 @@ const units = {
     meaning: "神経質な",
     sentence: "a (   ) child",
     jp: "臆病な（神経質な）子ども",
-    jpBlank: "臆病な（(   )）子ども",
+    jpBlank: "臆病な(   )子ども",
     jpAnswer: "神経質な"
   },
   {
@@ -4368,8 +4368,8 @@ const units = {
     meaning: "目を覚まして",
     sentence: "The noise kept me (   ) all night.",
     jp: "騒音で一晩中（目を覚ました状態にさせられた）眠れなかった。",
-    jpBlank: "騒音で一晩中（(   )）眠れなかった。",
-    jpAnswer: "目を覚ました状態にさせられた"
+    jpBlank: "騒音で一晩中(   )眠れなかった。",
+    jpAnswer: "目を"
   },
   {
     wordNo: 227,
@@ -4377,8 +4377,8 @@ const units = {
     meaning: "1人で",
     sentence: "She lives (   ).",
     jp: "彼女は一人暮らしだ。",
-    jpBlank: "(   )。",
-    jpAnswer: "彼女は一人暮らしだ"
+    jpBlank: "彼女は(   )だ。",
+    jpAnswer: "一人暮らし"
   },
   {
     wordNo: 227,
@@ -4395,7 +4395,7 @@ const units = {
     meaning: "態度",
     sentence: "have a positive (   ) toward life",
     jp: "人生に対し前向きな姿勢（態度）でいる",
-    jpBlank: "人生に対し前向きな姿勢（(   )）でいる",
+    jpBlank: "人生に対し前向きな姿勢(   )でいる",
     jpAnswer: "態度"
   },
   {
@@ -4404,7 +4404,7 @@ const units = {
     meaning: "性格",
     sentence: "Printed books have (   ).",
     jp: "活字本には味（性格）がある。",
-    jpBlank: "活字本には味（(   )）がある。",
+    jpBlank: "活字本には味(   )がある。",
     jpAnswer: "性格"
   },
   {
@@ -4413,8 +4413,8 @@ const units = {
     meaning: "登場人物",
     sentence: "the main (   ) of this novel",
     jp: "この小説の主人公（主な登場人物）",
-    jpBlank: "この小説の主人公（(   )）",
-    jpAnswer: "主な登場人物"
+    jpBlank: "この小説の主人公(   )",
+    jpAnswer: "登場人物"
   },
   {
     wordNo: 229,
@@ -4422,8 +4422,8 @@ const units = {
     meaning: "文字",
     sentence: "Chinese (   )",
     jp: "漢字（中国の文字）",
-    jpBlank: "漢字（(   )）",
-    jpAnswer: "中国の文字"
+    jpBlank: "漢字(   )",
+    jpAnswer: "文字"
   },
   {
     wordNo: 230,
@@ -4467,7 +4467,7 @@ const units = {
     meaning: "特集する",
     sentence: "The exhibition (   ) paintings by Van Gogh.",
     jp: "その展覧会はヴァン・ゴッホの絵画を目玉としている（特集している）。",
-    jpBlank: "その展覧会はヴァン・ゴッホの絵画を目玉としている（(   )）。",
+    jpBlank: "その展覧会はヴァン・ゴッホの絵画を目玉としている(   )。",
     jpAnswer: "特集している"
   },
   {
@@ -4494,7 +4494,7 @@ const units = {
     meaning: "利点",
     sentence: "There are (   ) and disadvantages to self-driving cars.",
     jp: "自動運転の車にはメリット（利点）とデメリットがある。",
-    jpBlank: "自動運転の車にはメリット（(   )）とデメリットがある。",
+    jpBlank: "自動運転の車にはメリット(   )とデメリットがある。",
     jpAnswer: "利点"
   },
   {
@@ -4539,7 +4539,7 @@ const units = {
     meaning: "正確な",
     sentence: "Let's see if our answers are (   ).",
     jp: "答えが正しい（正確な）かどうか見てみよう。",
-    jpBlank: "答えが正しい（(   )）かどうか見てみよう。",
+    jpBlank: "答えが正しい(   )かどうか見てみよう。",
     jpAnswer: "正確な"
   },
   {
@@ -4548,8 +4548,8 @@ const units = {
     meaning: "訂正する",
     sentence: "(   ) his pronunciation",
     jp: "彼の発音を矯正する（訂正する）",
-    jpBlank: "彼の発音を矯正する（(   )）",
-    jpAnswer: "訂正する"
+    jpBlank: "彼の発音を矯正する(   )",
+    jpAnswer: "訂正す"
   },
   {
     wordNo: 237,
@@ -4557,7 +4557,7 @@ const units = {
     meaning: "理想的な",
     sentence: "an (   ) place for camping",
     jp: "キャンプにはうってつけの（理想的な）場所",
-    jpBlank: "キャンプにはうってつけの（(   )）場所",
+    jpBlank: "キャンプにはうってつけの(   )場所",
     jpAnswer: "理想的な"
   },
   {
@@ -4575,7 +4575,7 @@ const units = {
     meaning: "公正な",
     sentence: "It's not (   )!",
     jp: "それは不公平だ（公正ではない）。",
-    jpBlank: "それは不公平だ（(   )）。",
+    jpBlank: "それは不公平だ(   )。",
     jpAnswer: "公正ではない"
   },
   {
@@ -4584,7 +4584,7 @@ const units = {
     meaning: "品評会",
     sentence: "an international trade (   )",
     jp: "国際（産業）見本市",
-    jpBlank: "国際（(   )）見本市",
+    jpBlank: "国際(   )見本市",
     jpAnswer: "産業"
   },
   {
@@ -4602,8 +4602,8 @@ const units = {
     meaning: "有名な",
     sentence: "Kyoto is (   ) for its temples.",
     jp: "京都は寺で有名だ。",
-    jpBlank: "京都は寺で(   )だ。",
-    jpAnswer: "有名"
+    jpBlank: "(   )。",
+    jpAnswer: "京都は寺で有名だ"
   },
   {
     wordNo: 240,
@@ -4611,8 +4611,8 @@ const units = {
     meaning: "〜として有名な",
     sentence: "Arima is (   ) as a hot-spring resort.",
     jp: "有馬は温泉地として有名だ。",
-    jpBlank: "有馬は温泉地と(   )名だ。",
-    jpAnswer: "して有"
+    jpBlank: "有馬は温泉地と(   )有名だ。",
+    jpAnswer: "して"
   },
 ],
 241: [
@@ -4622,7 +4622,7 @@ const units = {
     meaning: "初歩的な",
     sentence: "when I was in (   ) school",
     jp: "小学生（初等教育の学校）のとき",
-    jpBlank: "小学生（(   )）のとき",
+    jpBlank: "小学生(   )のとき",
     jpAnswer: "初等教育の学校"
   },
   {
@@ -4658,8 +4658,8 @@ const units = {
     meaning: "重要である",
     sentence: "It does not (   ) whether he succeeds or not.",
     jp: "彼が成功するかどうかは重要ではない。",
-    jpBlank: "彼が成功するかどうかは(   )はない。",
-    jpAnswer: "重要で"
+    jpBlank: "彼が成功するかどうか(   )。",
+    jpAnswer: "は重要ではない"
   },
   {
     wordNo: 243,
@@ -4676,7 +4676,7 @@ const units = {
     meaning: "事情",
     sentence: "To make (   ) worse, it began to snow.",
     jp: "さらに悪いこと（事情）には，雪が降り始めた。",
-    jpBlank: "さらに悪いこと（(   )）には，雪が降り始めた。",
+    jpBlank: "さらに悪いこと(   )には，雪が降り始めた。",
     jpAnswer: "事情"
   },
   {
@@ -4694,7 +4694,7 @@ const units = {
     meaning: "賢い",
     sentence: "a (   ) child",
     jp: "聡明な（賢い）子ども",
-    jpBlank: "聡明な（(   )）子ども",
+    jpBlank: "聡明な(   )子ども",
     jpAnswer: "賢い"
   },
   {
@@ -4739,8 +4739,8 @@ const units = {
     meaning: "心地よい",
     sentence: "I feel (   ) in that café.",
     jp: "あのカフェは居心地がよい（心地よく感じる）。",
-    jpBlank: "あのカフェは居心地がよい（(   )）。",
-    jpAnswer: "心地よく感じる"
+    jpBlank: "あのカフェは居心地がよい(   )。",
+    jpAnswer: "心地よく"
   },
   {
     wordNo: 248,
@@ -4766,8 +4766,8 @@ const units = {
     meaning: "都合がよい",
     sentence: "Call me when it is (   ) for you.",
     jp: "都合のよいときに電話してください。",
-    jpBlank: "(   )のよいときに電話してください。",
-    jpAnswer: "都合"
+    jpBlank: "都合のよいときに電(   )。",
+    jpAnswer: "話してください"
   },
   {
     wordNo: 250,
@@ -4784,8 +4784,8 @@ const units = {
     meaning: "偽の",
     sentence: "give a (   ) name",
     jp: "偽名（偽の名前）を使う",
-    jpBlank: "偽名（(   )）を使う",
-    jpAnswer: "偽の名前"
+    jpBlank: "偽名(   )を使う",
+    jpAnswer: "偽の"
   },
   {
     wordNo: 251,
@@ -4811,8 +4811,8 @@ const units = {
     meaning: "ひどい",
     sentence: "an (   ) smell of cat urine",
     jp: "ネコのひどい（おしっこの）臭い",
-    jpBlank: "ネコのひどい（(   )）臭い",
-    jpAnswer: "おしっこの"
+    jpBlank: "ネコの(   )臭い",
+    jpAnswer: "ひどい"
   },
   {
     wordNo: 253,
@@ -4829,8 +4829,8 @@ const units = {
     meaning: "やせた",
     sentence: "Although she eats a lot, she is very (   ).",
     jp: "彼女はたくさん食べるが，とてもやせている。",
-    jpBlank: "彼女はたくさん食べるが，とても(   )ている。",
-    jpAnswer: "やせ"
+    jpBlank: "彼女はたくさん食べるが，(   )。",
+    jpAnswer: "とてもやせている"
   },
   {
     wordNo: 253,
@@ -4865,7 +4865,7 @@ const units = {
     meaning: "ゆるい",
     sentence: "wear (   ) clothes",
     jp: "ダボっとした（ゆるい）服を着ている",
-    jpBlank: "ダボっとした（(   )）服を着ている",
+    jpBlank: "ダボっとした(   )服を着ている",
     jpAnswer: "ゆるい"
   },
   {
@@ -4883,8 +4883,8 @@ const units = {
     meaning: "生の",
     sentence: "(   ) materials",
     jp: "原料（生の材料）",
-    jpBlank: "原料（(   )）",
-    jpAnswer: "生の材料"
+    jpBlank: "原料(   )",
+    jpAnswer: "生の"
   },
   {
     wordNo: 256,
@@ -4901,8 +4901,8 @@ const units = {
     meaning: "空の",
     sentence: "an (   ) bottle",
     jp: "空瓶",
-    jpBlank: "(   )瓶",
-    jpAnswer: "空"
+    jpBlank: "(   )",
+    jpAnswer: "空瓶"
   },
   {
     wordNo: 257,
@@ -4910,7 +4910,7 @@ const units = {
     meaning: "空にする",
     sentence: "(   ) his glass in one gulp",
     jp: "一気に（一口で）グラスを空にする",
-    jpBlank: "一気に（一口で）グラスを(   )",
+    jpBlank: "一気にグラスを(   )",
     jpAnswer: "空にする"
   },
   {
@@ -4919,7 +4919,7 @@ const units = {
     meaning: "滑らかな",
     sentence: "This soap makes your skin very (   ).",
     jp: "この石けんでお肌はとてもツルツル（滑らか）になります。",
-    jpBlank: "この石けんでお肌はとてもツルツル（(   )）になります。",
+    jpBlank: "この石けんでお肌はとてもツルツル(   )になります。",
     jpAnswer: "滑らか"
   },
   {
@@ -4946,8 +4946,8 @@ const units = {
     meaning: "直接的な",
     sentence: "a (   ) flight to Paris",
     jp: "パリへの直行便（直接的なフライト）",
-    jpBlank: "パリへの直行便（(   )）",
-    jpAnswer: "直接的なフライト"
+    jpBlank: "パリへの直行便(   )",
+    jpAnswer: "直接的な"
   },
   {
     wordNo: 259,
@@ -4991,7 +4991,7 @@ const units = {
     meaning: "よく知られている",
     sentence: "Shakespeare is (   ) to people all over the world.",
     jp: "シェイクスピアは世界中の人々に（よく知られている）親しまれている。",
-    jpBlank: "シェイクスピアは世界中の人々に（(   )）親しまれている。",
+    jpBlank: "シェイクスピアは世界中の人々に(   )親しまれている。",
     jpAnswer: "よく知られている"
   },
   {
@@ -5009,7 +5009,7 @@ const units = {
     meaning: "異なる",
     sentence: "His tastes (   ) from mine.",
     jp: "彼の趣味（好み）は私のと異なる。",
-    jpBlank: "彼の趣味（好み）は私のと(   )。",
+    jpBlank: "彼の趣味は私のと(   )。",
     jpAnswer: "異なる"
   },
   {
@@ -5045,8 +5045,8 @@ const units = {
     meaning: "普及した",
     sentence: "E-books are becoming (   ).",
     jp: "電子書籍は普及しつつある。",
-    jpBlank: "電子書籍は(   )つつある。",
-    jpAnswer: "普及し"
+    jpBlank: "電子書籍は(   )しつつある。",
+    jpAnswer: "普及"
   },
   {
     wordNo: 265,
@@ -5063,8 +5063,8 @@ const units = {
     meaning: "珍しい",
     sentence: "These days it is not (   ) for men to wear makeup.",
     jp: "最近は，男性が化粧するのは（珍しいことではない）よくあることだ。",
-    jpBlank: "最近は，男性が化粧するのは（(   )）よくあることだ。",
-    jpAnswer: "珍しいことではない"
+    jpBlank: "最近は，男性が化粧するのは(   )よくあることだ。",
+    jpAnswer: "珍しい"
   },
   {
     wordNo: 267,
@@ -5081,8 +5081,8 @@ const units = {
     meaning: "増やす",
     sentence: "His chilling words (   ) to her fear.",
     jp: "彼のぞっとするような言葉で彼女の恐怖は増した。",
-    jpBlank: "彼のぞっとするような言葉で彼女の恐怖は(   )した。",
-    jpAnswer: "増"
+    jpBlank: "彼のぞっとするような言葉で彼女の恐怖は(   )。",
+    jpAnswer: "増した"
   },
   {
     wordNo: 268,
@@ -5108,7 +5108,7 @@ const units = {
     meaning: "増加",
     sentence: "an (   ) in land prices",
     jp: "地価の上昇（増加）",
-    jpBlank: "地価の上昇（(   )）",
+    jpBlank: "地価の上昇(   )",
     jpAnswer: "増加"
   },
   {
@@ -5135,8 +5135,8 @@ const units = {
     meaning: "分割する",
     sentence: "(   ) the stew into small portions",
     jp: "シチューを小分けにする（分割する）",
-    jpBlank: "シチューを小分けにする（(   )）",
-    jpAnswer: "分割する"
+    jpBlank: "シチューを小分けにする(   )",
+    jpAnswer: "分割す"
   },
   {
     wordNo: 270,
@@ -5144,8 +5144,8 @@ const units = {
     meaning: "割る",
     sentence: "Eight (   ) by four is two.",
     jp: "8 ÷ 4 = 2",
-    jpBlank: "(   )",
-    jpAnswer: "8 ÷ 4 = 2"
+    jpBlank: "8 (   ) 4 = 2",
+    jpAnswer: "÷"
   },
 ],
 271: [
@@ -5182,8 +5182,8 @@ const units = {
     meaning: "重さがある",
     sentence: "(   ) 40 kilograms",
     jp: "40キロの重さだ",
-    jpBlank: "40キロの(   )だ",
-    jpAnswer: "重さ"
+    jpBlank: "(   )",
+    jpAnswer: "40キロの重さだ"
   },
   {
     wordNo: 272,
@@ -5209,8 +5209,8 @@ const units = {
     meaning: "4分の1",
     sentence: "a (   ) to ten",
     jp: "10時15分前（10時への4分の1）",
-    jpBlank: "10時15分前（(   )）",
-    jpAnswer: "10時への4分の1"
+    jpBlank: "10時15分前(   )",
+    jpAnswer: "4分の1"
   },
   {
     wordNo: 273,
@@ -5218,7 +5218,7 @@ const units = {
     meaning: "地域",
     sentence: "a student (   )",
     jp: "学生街（地域）",
-    jpBlank: "学生街（(   )）",
+    jpBlank: "学生街(   )",
     jpAnswer: "地域"
   },
   {
@@ -5227,8 +5227,8 @@ const units = {
     meaning: "多くの〜",
     sentence: "a (   ) of dolphins",
     jp: "多くのイルカ",
-    jpBlank: "(   )イルカ",
-    jpAnswer: "多くの"
+    jpBlank: "(   )",
+    jpAnswer: "多くのイルカ"
   },
   {
     wordNo: 274,
@@ -5272,7 +5272,7 @@ const units = {
     meaning: "多量の仕事",
     sentence: "(   ) of work",
     jp: "山のような（多量の）仕事",
-    jpBlank: "山のような（(   )）仕事",
+    jpBlank: "山のような(   )仕事",
     jpAnswer: "多量の"
   },
   {
@@ -5290,8 +5290,8 @@ const units = {
     meaning: "割合",
     sentence: "the declining birth (   )",
     jp: "少子化（出生の割合の低下）",
-    jpBlank: "少子化（(   )）",
-    jpAnswer: "出生の割合の低下"
+    jpBlank: "少子化(   )",
+    jpAnswer: "割合"
   },
   {
     wordNo: 276,
@@ -5326,8 +5326,8 @@ const units = {
     meaning: "人物",
     sentence: "a political (   )",
     jp: "政治家（政治的人物）",
-    jpBlank: "政治家（(   )）",
-    jpAnswer: "政治的人物"
+    jpBlank: "政治家(   )",
+    jpAnswer: "人物"
   },
   {
     wordNo: 277,
@@ -5344,8 +5344,8 @@ const units = {
     meaning: "図",
     sentence: "See (   ) 1.",
     jp: "図1を見なさい。",
-    jpBlank: "(   )1を見なさい。",
-    jpAnswer: "図"
+    jpBlank: "(   )。",
+    jpAnswer: "図1を見なさい"
   },
   {
     wordNo: 277,
@@ -5362,7 +5362,7 @@ const units = {
     meaning: "不足",
     sentence: "I am tired due to (   ) of sleep.",
     jp: "私は睡眠不足（の不足）のため疲れている。",
-    jpBlank: "私は睡眠不足（(   )）のため疲れている。",
+    jpBlank: "私は睡眠不足(   )のため疲れている。",
     jpAnswer: "の不足"
   },
   {
@@ -5371,7 +5371,7 @@ const units = {
     meaning: "欠いている",
     sentence: "He (   ) confidence.",
     jp: "彼は自信がない（を欠いている）。",
-    jpBlank: "彼は自信がない（を(   )）。",
+    jpBlank: "彼は自信がない(   )。",
     jpAnswer: "欠いている"
   },
   {
@@ -5380,8 +5380,8 @@ const units = {
     meaning: "追加の",
     sentence: "an (   ) charge",
     jp: "追加料金（追加の料金）",
-    jpBlank: "追加料金（(   )）",
-    jpAnswer: "追加の料金"
+    jpBlank: "追加料金(   )",
+    jpAnswer: "追加の"
   },
   {
     wordNo: 279,
@@ -5398,7 +5398,7 @@ const units = {
     meaning: "用意ができている",
     sentence: "I'm not (   ) yet.",
     jp: "まだ準備（用意）ができていません。",
-    jpBlank: "まだ準備（(   )）ができていません。",
+    jpBlank: "まだ準備(   )ができていません。",
     jpAnswer: "用意"
   },
   {
@@ -5407,8 +5407,8 @@ const units = {
     meaning: "進んで〜する",
     sentence: "be (   ) to help us",
     jp: "進んで私たちを助けてくれる",
-    jpBlank: "(   )私たちを助けてくれる",
-    jpAnswer: "進んで"
+    jpBlank: "(   )で私たちを助けてくれる",
+    jpAnswer: "進ん"
   },
   {
     wordNo: 281,
@@ -5416,8 +5416,8 @@ const units = {
     meaning: "準備をする",
     sentence: "(   ) a meal",
     jp: "食事の準備をする",
-    jpBlank: "食事の(   )",
-    jpAnswer: "準備をする"
+    jpBlank: "食事の(   )する",
+    jpAnswer: "準備を"
   },
   {
     wordNo: 281,
@@ -5434,7 +5434,7 @@ const units = {
     meaning: "準備ができて",
     sentence: "I am (   ) to accept your advice.",
     jp: "あなたの助言を（進んで）受け入れる準備ができています。",
-    jpBlank: "あなたの助言を（進んで）受け入れる(   )います。",
+    jpBlank: "あなたの助言を受け入れる(   )います。",
     jpAnswer: "準備ができて"
   },
   {
@@ -5461,7 +5461,7 @@ const units = {
     meaning: "当てはまる",
     sentence: "That rule (   ) to students.",
     jp: "その規則は学生に適用される（当てはまる）。",
-    jpBlank: "その規則は学生に適用される（(   )）。",
+    jpBlank: "その規則は学生に適用される(   )。",
     jpAnswer: "当てはまる"
   },
   {
@@ -5470,7 +5470,7 @@ const units = {
     meaning: "申し込む",
     sentence: "(   ) for a passport",
     jp: "パスポートを申請する（申し込む）",
-    jpBlank: "パスポートを申請する（(   )）",
+    jpBlank: "パスポートを申請する(   )",
     jpAnswer: "申し込む"
   },
   {
@@ -5497,7 +5497,7 @@ const units = {
     meaning: "好都合だ",
     sentence: "What time (   ) you best?",
     jp: "何時があなたにとって（好都合）一番都合がいいですか。",
-    jpBlank: "何時があなたにとって（(   )）一番都合がいいですか。",
+    jpBlank: "何時があなたにとって(   )一番都合がいいですか。",
     jpAnswer: "好都合"
   },
   {
@@ -5542,7 +5542,7 @@ const units = {
     meaning: "事実",
     sentence: "This is the (   ) with humans.",
     jp: "これは人間にも当てはまる（事実である）。",
-    jpBlank: "これは人間にも当てはまる（(   )）。",
+    jpBlank: "これは人間にも当てはまる(   )。",
     jpAnswer: "事実である"
   },
   {
@@ -5569,7 +5569,7 @@ const units = {
     meaning: "主張",
     sentence: "make a (   ) before the judge",
     jp: "裁判官の前で自分の分（主張）を述べる",
-    jpBlank: "裁判官の前で自分の分（(   )）を述べる",
+    jpBlank: "裁判官の前で自分の分(   )を述べる",
     jpAnswer: "主張"
   },
   {
@@ -5578,7 +5578,7 @@ const units = {
     meaning: "場面",
     sentence: "a love (   )",
     jp: "ラブシーン（場面）",
-    jpBlank: "ラブシーン（(   )）",
+    jpBlank: "ラブシーン(   )",
     jpAnswer: "場面"
   },
   {
@@ -5668,8 +5668,8 @@ const units = {
     meaning: "回",
     sentence: "change jobs many (   )",
     jp: "職を何回も変える",
-    jpBlank: "職を何(   )も変える",
-    jpAnswer: "回"
+    jpBlank: "(   )",
+    jpAnswer: "職を何回も変える"
   },
   {
     wordNo: 290,
@@ -5787,8 +5787,8 @@ const units = {
     meaning: "分",
     sentence: "The station is ten (   ) walk from here.",
     jp: "駅はここから歩いて10分です。",
-    jpBlank: "駅はここから歩いて10(   )です。",
-    jpAnswer: "分"
+    jpBlank: "駅はここから歩いて10(   )。",
+    jpAnswer: "分です"
   },
   {
     wordNo: 292,
@@ -5913,8 +5913,8 @@ const units = {
     meaning: "以前は〜だった",
     sentence: "I (   ) to drive to work, but nowadays I take the train.",
     jp: "以前は車で仕事に行っていたが，今は電車を利用する。",
-    jpBlank: "(   )車で仕事に行っていたが，今は電車を利用する。",
-    jpAnswer: "以前は"
+    jpBlank: "(   )は車で仕事に行っていたが，今は電車を利用する。",
+    jpAnswer: "以前"
   },
   {
     wordNo: 297,
@@ -6041,7 +6041,7 @@ const units = {
     meaning: "古代の",
     sentence: "in (   ) times",
     jp: "大昔に（古代に）",
-    jpBlank: "大昔に（(   )）",
+    jpBlank: "大昔に(   )",
     jpAnswer: "古代に"
   },
   {
@@ -6068,8 +6068,8 @@ const units = {
     meaning: "お金を使う",
     sentence: "(   ) too much money on clothes",
     jp: "洋服にお金をかけすぎる",
-    jpBlank: "洋服に(   )かけすぎる",
-    jpAnswer: "お金を"
+    jpBlank: "洋服に(   )をかけすぎる",
+    jpAnswer: "お金"
   },
   {
     wordNo: 304,
@@ -6104,8 +6104,8 @@ const units = {
     meaning: "貸す",
     sentence: "Could you (   ) me 10,000 yen?",
     jp: "1万円貸してもらえませんか。",
-    jpBlank: "1万円(   )してもらえませんか。",
-    jpAnswer: "貸"
+    jpBlank: "1(   )もらえませんか。",
+    jpAnswer: "万円貸して"
   },
   {
     wordNo: 306,
@@ -6140,7 +6140,7 @@ const units = {
     meaning: "家賃",
     sentence: "pay a high (   )",
     jp: "高い（高い）家賃を払う",
-    jpBlank: "高い（高い）(   )を払う",
+    jpBlank: "高い(   )を払う",
     jpAnswer: "家賃"
   },
   {
@@ -6149,7 +6149,7 @@ const units = {
     meaning: "〜を供給する，与える",
     sentence: "(   ) students with an opportunity to study in the U.K.",
     jp: "イギリス留学（を学ぶ）の機会を学生に与える",
-    jpBlank: "イギリス留学（を学ぶ）の機会を学生に(   )",
+    jpBlank: "イギリス留学の機会を学生に(   )",
     jpAnswer: "与える"
   },
   {
@@ -6158,8 +6158,8 @@ const units = {
     meaning: "板",
     sentence: "drill a hole through a (   )",
     jp: "板にドリルで穴を開ける",
-    jpBlank: "(   )にドリルで穴を開ける",
-    jpAnswer: "板"
+    jpBlank: "板にドリル(   )",
+    jpAnswer: "で穴を開ける"
   },
   {
     wordNo: 309,
@@ -6194,7 +6194,7 @@ const units = {
     meaning: "品物",
     sentence: "buy (   ) on sale",
     jp: "バーゲン品（品物）を買う",
-    jpBlank: "バーゲン品（(   )）を買う",
+    jpBlank: "バーゲン品(   )を買う",
     jpAnswer: "品物"
   },
   {
@@ -6203,7 +6203,7 @@ const units = {
     meaning: "ニュース",
     sentence: "a news (   ) about the village",
     jp: "その村に関する1つのニュース（ニュース）",
-    jpBlank: "その村に関する1つの(   )（ニュース）",
+    jpBlank: "その村に関する1つの(   )",
     jpAnswer: "ニュース"
   },
   {
@@ -6221,8 +6221,8 @@ const units = {
     meaning: "車輪",
     sentence: "the front (   ) of my bicycle",
     jp: "自転車の前輪（前の車輪）",
-    jpBlank: "自転車の前輪（(   )）",
-    jpAnswer: "前の車輪"
+    jpBlank: "自転車の前輪(   )",
+    jpAnswer: "車輪"
   },
   {
     wordNo: 312,
@@ -6230,8 +6230,8 @@ const units = {
     meaning: "ハンドル",
     sentence: "sit at the (   )",
     jp: "運転する（ハンドルの所に座る）",
-    jpBlank: "運転する（(   )）",
-    jpAnswer: "ハンドルの所に座る"
+    jpBlank: "運転する(   )",
+    jpAnswer: "ハンドル"
   },
   {
     wordNo: 312,
@@ -6302,8 +6302,8 @@ const units = {
     meaning: "出席者",
     sentence: "those (   )",
     jp: "出席者（出席している人々）",
-    jpBlank: "出席者（(   )）",
-    jpAnswer: "出席している人々"
+    jpBlank: "(   )",
+    jpAnswer: "出席者"
   },
   {
     wordNo: 314,
@@ -6311,7 +6311,7 @@ const units = {
     meaning: "今の",
     sentence: "my (   ) job",
     jp: "（私の）今の仕事",
-    jpBlank: "（私の）(   )仕事",
+    jpBlank: "(   )仕事",
     jpAnswer: "今の"
   },
   {
@@ -6401,7 +6401,7 @@ const units = {
     meaning: "産業",
     sentence: "the (   ) industry",
     jp: "レジャー（余暇）産業",
-    jpBlank: "レジャー（余暇）(   )",
+    jpBlank: "レジャー(   )",
     jpAnswer: "産業"
   },
   {
@@ -6455,8 +6455,8 @@ const units = {
     meaning: "車",
     sentence: "There is little (   ) on the street today.",
     jp: "今日は，通りに車が（交通量がほとんどない）少ない。",
-    jpBlank: "今日は，通りに車が（(   )）少ない。",
-    jpAnswer: "交通量がほとんどない"
+    jpBlank: "今日は，通りに車が(   )。",
+    jpAnswer: "少ない"
   },
   {
     wordNo: 323,
@@ -6473,8 +6473,8 @@ const units = {
     meaning: "売れる",
     sentence: "Her books (   ) very well.",
     jp: "彼女の本は売れ行きがとてもよい（よく売れる）。",
-    jpBlank: "彼女の本は売れ行きがとてもよい（(   )）。",
-    jpAnswer: "よく売れる"
+    jpBlank: "彼女の本は売れ行きがとてもよい(   )。",
+    jpAnswer: "売れる"
   },
   {
     wordNo: 324,
@@ -6500,8 +6500,8 @@ const units = {
     meaning: "割に合わない",
     sentence: "Honesty does not (   ).",
     jp: "正直者は馬鹿を見る（正直は割に合わない）。",
-    jpBlank: "正直者は馬鹿を見る（(   )）。",
-    jpAnswer: "正直は割に合わない"
+    jpBlank: "正直者は馬鹿を見る(   )。",
+    jpAnswer: "割に合わない"
   },
   {
     wordNo: 324,
@@ -6527,7 +6527,7 @@ const units = {
     meaning: "をつけている",
     sentence: "I am (   ) contact lenses.",
     jp: "（私は今）コンタクトレンズをつけている。",
-    jpBlank: "（私は今）コンタクトレンズ(   )。",
+    jpBlank: "コンタクトレンズ(   )。",
     jpAnswer: "をつけている"
   },
   {
@@ -6554,7 +6554,7 @@ const units = {
     meaning: "〜と結婚する",
     sentence: "Will you (   ) me?",
     jp: "（私と）結婚してくれますか？",
-    jpBlank: "（私と）(   )してくれますか？",
+    jpBlank: "(   )してくれますか？",
     jpAnswer: "結婚"
   },
   {
@@ -6563,8 +6563,8 @@ const units = {
     meaning: "夫婦",
     sentence: "a (   ) couple",
     jp: "夫婦（結婚しているカップル）",
-    jpBlank: "夫婦（(   )）",
-    jpAnswer: "結婚しているカップル"
+    jpBlank: "(   )",
+    jpAnswer: "夫婦"
   },
   {
     wordNo: 328,
@@ -6572,8 +6572,8 @@ const units = {
     meaning: "〜に挨拶をする",
     sentence: "(   ) each other",
     jp: "お互いに挨拶をする",
-    jpBlank: "お互いに(   )",
-    jpAnswer: "挨拶をする"
+    jpBlank: "お互いに(   )する",
+    jpAnswer: "挨拶を"
   },
   {
     wordNo: 329,
@@ -6644,8 +6644,8 @@ const units = {
     meaning: "別腹",
     sentence: "have (   ) for dessert",
     jp: "デザートは別腹だ（デザートのための余地がある）。",
-    jpBlank: "デザートは別腹だ（(   )）。",
-    jpAnswer: "デザートのための余地がある"
+    jpBlank: "デザートは(   )だ。",
+    jpAnswer: "別腹"
   },
 ],
 331: [
@@ -6673,8 +6673,8 @@ const units = {
     meaning: "現場",
     sentence: "a construction (   )",
     jp: "建設現場（工事現場）",
-    jpBlank: "建設現場（(   )）",
-    jpAnswer: "工事現場"
+    jpBlank: "建設(   )",
+    jpAnswer: "現場"
   },
   {
     wordNo: 332,
@@ -6682,8 +6682,8 @@ const units = {
     meaning: "跡",
     sentence: "the (   ) of the Battle of Sekigahara",
     jp: "関ケ原の戦いの跡",
-    jpBlank: "関ケ原の戦いの(   )",
-    jpAnswer: "跡"
+    jpBlank: "(   )",
+    jpAnswer: "関ケ原の戦いの跡"
   },
   {
     wordNo: 333,
@@ -6718,8 +6718,8 @@ const units = {
     meaning: "下",
     sentence: "Look at the (   ) of page 10.",
     jp: "10ページの下を見てください。",
-    jpBlank: "10ページの(   )を見てください。",
-    jpAnswer: "下"
+    jpBlank: "10ページの下(   )。",
+    jpAnswer: "を見てください"
   },
   {
     wordNo: 334,
@@ -6727,7 +6727,7 @@ const units = {
     meaning: "尻",
     sentence: "fall on my (   )",
     jp: "尻もちをつく（尻の上に落ちる）",
-    jpBlank: "尻もちをつく（(   )）",
+    jpBlank: "尻もちをつく(   )",
     jpAnswer: "尻の上に落ちる"
   },
   {
@@ -6745,8 +6745,8 @@ const units = {
     meaning: "サインする",
     sentence: "sign on the dotted (   )",
     jp: "点線のところにサインする",
-    jpBlank: "点線のところに(   )",
-    jpAnswer: "サインする"
+    jpBlank: "点線のところに(   )する",
+    jpAnswer: "サイン"
   },
   {
     wordNo: 335,
@@ -6781,8 +6781,8 @@ const units = {
     meaning: "列",
     sentence: "the people sitting in the back (   )",
     jp: "後列に座っている人々",
-    jpBlank: "後(   )に座っている人々",
-    jpAnswer: "列"
+    jpBlank: "(   )人々",
+    jpAnswer: "後列に座っている"
   },
   {
     wordNo: 336,
@@ -6799,7 +6799,7 @@ const units = {
     meaning: "背景",
     sentence: "Classical music was playing in the (   ).",
     jp: "BGM（背景）にクラシック音楽が流れていた。",
-    jpBlank: "BGM（(   )）にクラシック音楽が流れていた。",
+    jpBlank: "BGM(   )にクラシック音楽が流れていた。",
     jpAnswer: "背景"
   },
   {
@@ -6871,8 +6871,8 @@ const units = {
     meaning: "養殖",
     sentence: "(   ) pearls",
     jp: "養殖（された）真珠",
-    jpBlank: "養殖（(   )）真珠",
-    jpAnswer: "された"
+    jpBlank: "(   )真珠",
+    jpAnswer: "養殖"
   },
   {
     wordNo: 340,
@@ -6907,8 +6907,8 @@ const units = {
     meaning: "漫画",
     sentence: "Japanese animated (   )",
     jp: "日本の（アニメーション作品）漫画",
-    jpBlank: "日本の（(   )）漫画",
-    jpAnswer: "アニメーション作品"
+    jpBlank: "日本の(   )",
+    jpAnswer: "漫画"
   },
   {
     wordNo: 342,
@@ -6979,8 +6979,8 @@ const units = {
     meaning: "文",
     sentence: "delete the (   )",
     jp: "その1文を削除する",
-    jpBlank: "その1(   )を削除する",
-    jpAnswer: "文"
+    jpBlank: "その1文を(   )",
+    jpAnswer: "削除する"
   },
   {
     wordNo: 345,
@@ -6997,7 +6997,7 @@ const units = {
     meaning: "判決を下される",
     sentence: "be (   ) to five years in prison",
     jp: "懲役5年の刑を言い渡される（判決を下される）。",
-    jpBlank: "懲役5年の刑を言い渡される（(   )）。",
+    jpBlank: "懲役5年の刑を言い渡される(   )。",
     jpAnswer: "判決を下される"
   },
   {
@@ -7015,7 +7015,7 @@ const units = {
     meaning: "品物",
     sentence: "an (   ) of furniture",
     jp: "家具1点（品物）",
-    jpBlank: "家具1点（(   )）",
+    jpBlank: "家具1点(   )",
     jpAnswer: "品物"
   },
   {
@@ -7033,8 +7033,8 @@ const units = {
     meaning: "条項",
     sentence: "(   ) 9 of the Japanese Constitution",
     jp: "日本の憲法第9条",
-    jpBlank: "日本の憲法第9(   )",
-    jpAnswer: "条"
+    jpBlank: "(   )",
+    jpAnswer: "日本の憲法第9条"
   },
   {
     wordNo: 347,
@@ -7096,7 +7096,7 @@ const units = {
     meaning: "期間",
     sentence: "I've had a (   ) of bad luck recently.",
     jp: "最近ずっと（期間）ついてない。",
-    jpBlank: "最近ずっと（(   )）ついてない。",
+    jpBlank: "最近ずっと(   )ついてない。",
     jpAnswer: "期間"
   },
   {
@@ -7105,8 +7105,8 @@ const units = {
     meaning: "発音する",
     sentence: "How do you (   ) your name?",
     jp: "お名前はどう発音するのですか。",
-    jpBlank: "お名前はどう(   )のですか。",
-    jpAnswer: "発音する"
+    jpBlank: "お名前はどう(   )るのですか。",
+    jpAnswer: "発音す"
   },
   {
     wordNo: 351,
@@ -7114,8 +7114,8 @@ const units = {
     meaning: "宣告する",
     sentence: "(   ) a sentence",
     jp: "判決を宣告する",
-    jpBlank: "判決を(   )",
-    jpAnswer: "宣告する"
+    jpBlank: "判決を(   )る",
+    jpAnswer: "宣告す"
   },
   {
     wordNo: 352,
@@ -7123,7 +7123,7 @@ const units = {
     meaning: "兆候",
     sentence: "show (   ) of recovery",
     jp: "回復の兆し（兆候）が見られる",
-    jpBlank: "回復の兆し（(   )）が見られる",
+    jpBlank: "回復の兆し(   )が見られる",
     jpAnswer: "兆候"
   },
   {
@@ -7141,8 +7141,8 @@ const units = {
     meaning: "署名する",
     sentence: "(   ) an autograph for a fan",
     jp: "ファンのためにサインをする（署名する）",
-    jpBlank: "ファンのためにサインをする（(   )）",
-    jpAnswer: "署名する"
+    jpBlank: "ファンのためにサインをする(   )",
+    jpAnswer: "署名す"
   },
   {
     wordNo: 353,
@@ -7150,7 +7150,7 @@ const units = {
     meaning: "意味する",
     sentence: "What does that (   )?",
     jp: "それはどういう意味ですか（意味しますか）。",
-    jpBlank: "それはどういう意味ですか（(   )）。",
+    jpBlank: "それはどういう意味ですか(   )。",
     jpAnswer: "意味しますか"
   },
   {
@@ -7159,8 +7159,8 @@ const units = {
     meaning: "つもりだ",
     sentence: "I didn't (   ) to bother you.",
     jp: "邪魔をするつもりじゃなかった。",
-    jpBlank: "邪魔をする(   )じゃなかった。",
-    jpAnswer: "つもり"
+    jpBlank: "邪魔をする(   )りじゃなかった。",
+    jpAnswer: "つも"
   },
   {
     wordNo: 353,
@@ -7168,8 +7168,8 @@ const units = {
     meaning: "意地悪な",
     sentence: "Don't be so (   ).",
     jp: "そんなに意地悪（意地悪なこと）言わないでよ。",
-    jpBlank: "そんなに意地悪（(   )）言わないでよ。",
-    jpAnswer: "意地悪なこと"
+    jpBlank: "そんなに意地悪(   )言わないでよ。",
+    jpAnswer: "意地悪な"
   },
   {
     wordNo: 354,
@@ -7177,8 +7177,8 @@ const units = {
     meaning: "発行される",
     sentence: "This magazine is (   ) twice a year.",
     jp: "この雑誌は年に2回発行されている。",
-    jpBlank: "この雑誌は年に2回(   )れている。",
-    jpAnswer: "発行さ"
+    jpBlank: "この雑誌は年に2回(   )ている。",
+    jpAnswer: "発行され"
   },
   {
     wordNo: 354,
@@ -7206,8 +7206,8 @@ const units = {
     meaning: "（実力など）を発揮する",
     sentence: "(   ) my real ability",
     jp: "実力を発揮する",
-    jpBlank: "実力(   )",
-    jpAnswer: "を発揮する"
+    jpBlank: "実力(   )する",
+    jpAnswer: "を発揮"
   },
   {
     wordNo: 355,
@@ -7215,8 +7215,8 @@ const units = {
     meaning: "〜を誇示する",
     sentence: "(   ) my jewelry",
     jp: "宝石を誇示する",
-    jpBlank: "宝石を(   )",
-    jpAnswer: "誇示する"
+    jpBlank: "宝石を(   )る",
+    jpAnswer: "誇示す"
   },
   {
     wordNo: 355,
@@ -7251,8 +7251,8 @@ const units = {
     meaning: "〜次第である",
     sentence: "Your success (   ) on how much effort you make.",
     jp: "成功は君の努力（がどれくらい努力するか）次第だ。",
-    jpBlank: "成功は君の努力（(   )）次第だ。",
-    jpAnswer: "がどれくらい努力するか"
+    jpBlank: "成功は君の努力(   )だ。",
+    jpAnswer: "次第"
   },
   {
     wordNo: 357,
@@ -7314,8 +7314,8 @@ const units = {
     meaning: "（しくしく）泣く",
     sentence: "All America (   ).",
     jp: "全米が泣いた。",
-    jpBlank: "全米が(   )いた。",
-    jpAnswer: "泣"
+    jpBlank: "(   )。",
+    jpAnswer: "全米が泣いた"
   },
   {
     wordNo: 363,
@@ -7332,8 +7332,8 @@ const units = {
     meaning: "心配する",
     sentence: "Don't (   ) about it.",
     jp: "そんなことを気にするな。",
-    jpBlank: "(   )。",
-    jpAnswer: "そんなことを気にするな"
+    jpBlank: "そんなことを(   )な。",
+    jpAnswer: "気にする"
   },
   {
     wordNo: 364,
@@ -7368,8 +7368,8 @@ const units = {
     meaning: "〜を満足させる",
     sentence: "I'm not (   ) with the exam result.",
     jp: "試験結果に満足していない。",
-    jpBlank: "試験結果に(   )していない。",
-    jpAnswer: "満足"
+    jpBlank: "試験結果に(   )。",
+    jpAnswer: "満足していない"
   },
   {
     wordNo: 366,
@@ -7377,8 +7377,8 @@ const units = {
     meaning: "（必要条件などを）満たす",
     sentence: "(   ) the needs of tourists",
     jp: "旅行者のニーズに応える",
-    jpBlank: "(   )",
-    jpAnswer: "旅行者のニーズに応える"
+    jpBlank: "旅行者のニー(   )",
+    jpAnswer: "ズに応える"
   },
   {
     wordNo: 367,
@@ -7386,8 +7386,8 @@ const units = {
     meaning: "〜をわずらわせる",
     sentence: "It really (   ) me when I see people smoking while (they are) walking.",
     jp: "歩きタバコを見かけると頭にくる（歩きタバコは私を苛立たせる）。",
-    jpBlank: "歩きタバコを見かけると頭にくる（(   )）。",
-    jpAnswer: "歩きタバコは私を苛立たせる"
+    jpBlank: "歩きタバコを見かけると(   )。",
+    jpAnswer: "頭にくる"
   },
   {
     wordNo: 368,
@@ -7395,8 +7395,8 @@ const units = {
     meaning: "〜に面倒をかける",
     sentence: "I'm sorry to (   ) you, but could you give me a hand?",
     jp: "ご迷惑をおかけしてすみませんが，手を貸していただけないでしょうか。",
-    jpBlank: "(   )すみませんが，手を貸していただけないでしょうか。",
-    jpAnswer: "ご迷惑をおかけして"
+    jpBlank: "ご迷惑を(   )すみませんが，手を貸していただけないでしょうか。",
+    jpAnswer: "おかけして"
   },
   {
     wordNo: 368,
@@ -7422,8 +7422,8 @@ const units = {
     meaning: "（うるさくして）〜に迷惑をかける",
     sentence: "Don't (   ) other people.",
     jp: "ほかの人に迷惑をかけないようにしなさい。",
-    jpBlank: "ほかの人に(   )かけないようにしなさい。",
-    jpAnswer: "迷惑を"
+    jpBlank: "ほかの人に(   )ないようにしなさい。",
+    jpAnswer: "迷惑をかけ"
   },
   {
     wordNo: 369,
@@ -7431,8 +7431,8 @@ const units = {
     meaning: "（平和などを）乱す",
     sentence: "(   ) my sleep [concentration]",
     jp: "睡眠［集中］を妨げる",
-    jpBlank: "(   )",
-    jpAnswer: "睡眠［集中］を妨げる"
+    jpBlank: "睡眠［集中］(   )",
+    jpAnswer: "を妨げる"
   },
   {
     wordNo: 370,
@@ -7440,8 +7440,8 @@ const units = {
     meaning: "〜を怯えさせる",
     sentence: "I am (   ) of spiders.",
     jp: "クモがこわい（クモに怯えさせられる）。",
-    jpBlank: "クモがこわい（(   )）。",
-    jpAnswer: "クモに怯えさせられる"
+    jpBlank: "クモがこわい(   )。",
+    jpAnswer: "怯えさせ"
   },
   {
     wordNo: 371,
@@ -7494,8 +7494,8 @@ const units = {
     meaning: "関心",
     sentence: "have [show] an (   ) in history",
     jp: "歴史に興味を持っている",
-    jpBlank: "(   )",
-    jpAnswer: "歴史に興味を持っている"
+    jpBlank: "歴史に(   )を持っている",
+    jpAnswer: "興味"
   },
   {
     wordNo: 373,
@@ -7530,8 +7530,8 @@ const units = {
     meaning: "哀れみ",
     sentence: "feel (   ) for the child",
     jp: "その子をかわいそうに思う",
-    jpBlank: "(   )",
-    jpAnswer: "その子をかわいそうに思う"
+    jpBlank: "その子を(   )に思う",
+    jpAnswer: "かわいそう"
   },
   {
     wordNo: 375,
@@ -7548,8 +7548,8 @@ const units = {
     meaning: "締め切りの",
     sentence: "The report is (   ) on Monday.",
     jp: "報告書は月曜日が締め切りだ。",
-    jpBlank: "報告書は月曜日が(   )りだ。",
-    jpAnswer: "締め切"
+    jpBlank: "報告書は月曜日が(   )切りだ。",
+    jpAnswer: "締め"
   },
   {
     wordNo: 375,
@@ -7557,8 +7557,8 @@ const units = {
     meaning: "到着予定の",
     sentence: "The train is (   ) to arrive at 9:00.",
     jp: "電車は9時に到着予定です。",
-    jpBlank: "電車は9時に(   )定です。",
-    jpAnswer: "到着予"
+    jpBlank: "電車は9(   )。",
+    jpAnswer: "時に到着予定です"
   },
   {
     wordNo: 376,
@@ -7593,8 +7593,8 @@ const units = {
     meaning: "思考する",
     sentence: "have the ability to (   )",
     jp: "（論理的に）思考する力がある",
-    jpBlank: "（論理的に）(   )力がある",
-    jpAnswer: "思考する"
+    jpBlank: "(   )る力がある",
+    jpAnswer: "思考す"
   },
   {
     wordNo: 377,
@@ -7611,8 +7611,8 @@ const units = {
     meaning: "（〜という結果に）なる",
     sentence: "The project (   ) in success.",
     jp: "その事業は結果として成功した。",
-    jpBlank: "(   )。",
-    jpAnswer: "その事業は結果として成功した"
+    jpBlank: "その事業は結果として(   )。",
+    jpAnswer: "成功した"
   },
   {
     wordNo: 377,
@@ -7647,8 +7647,8 @@ const units = {
     meaning: "〜に影響を与える",
     sentence: "This book deeply (   ) my way of thinking.",
     jp: "この本は私の考え方に深く影響を与えた。",
-    jpBlank: "この本は私の考え方に深く(   )与えた。",
-    jpAnswer: "影響を"
+    jpBlank: "この本は私の考え方に深く(   )た。",
+    jpAnswer: "影響を与え"
   },
   {
     wordNo: 380,
@@ -7701,7 +7701,7 @@ const units = {
     meaning: "〜に影響を与える，作用する",
     sentence: "Lack of sleep seriously (   ) your performance at work.",
     jp: "睡眠不足は仕事（の出来栄え）に悪影響を及ぼす。",
-    jpBlank: "睡眠不足は仕事（(   )）に悪影響を及ぼす。",
+    jpBlank: "睡眠不足は仕事(   )に悪影響を及ぼす。",
     jpAnswer: "の出来栄え"
   },
   {
@@ -7710,8 +7710,8 @@ const units = {
     meaning: "方法",
     sentence: "my (   ) of studying",
     jp: "私の勉強の仕方",
-    jpBlank: "私の勉強の仕(   )",
-    jpAnswer: "方"
+    jpBlank: "(   )",
+    jpAnswer: "私の勉強の仕方"
   },
   {
     wordNo: 383,
@@ -7728,7 +7728,7 @@ const units = {
     meaning: "道",
     sentence: "go all the (   ) to Tokyo",
     jp: "はるばる（長い道中を）東京まで行く",
-    jpBlank: "はるばる（(   )）東京まで行く",
+    jpBlank: "はるばる(   )東京まで行く",
     jpAnswer: "長い道中を"
   },
   {
@@ -7820,8 +7820,8 @@ const units = {
     meaning: "右の",
     sentence: "my (   ) hand",
     jp: "私の右手",
-    jpBlank: "私の(   )手",
-    jpAnswer: "右"
+    jpBlank: "(   )",
+    jpAnswer: "私の右手"
   },
   {
     wordNo: 387,
@@ -7829,8 +7829,8 @@ const units = {
     meaning: "権利",
     sentence: "the (   ) to vote",
     jp: "投票権",
-    jpBlank: "投票(   )",
-    jpAnswer: "権"
+    jpBlank: "(   )",
+    jpAnswer: "投票権"
   },
   {
     wordNo: 388,
@@ -7838,7 +7838,7 @@ const units = {
     meaning: "完全な",
     sentence: "a (   ) stranger",
     jp: "見ず知らずの人（完全に知らない人）",
-    jpBlank: "見ず知らずの人（(   )）",
+    jpBlank: "見ず知らずの人(   )",
     jpAnswer: "完全に知らない人"
   },
   {
@@ -7856,7 +7856,7 @@ const units = {
     meaning: "ほとんど〜ない",
     sentence: "I can (   ) wait for the summer.",
     jp: "夏が待ち遠しい（ほとんど待てない）。",
-    jpBlank: "夏が待ち遠しい（(   )）。",
+    jpBlank: "夏が待ち遠しい(   )。",
     jpAnswer: "ほとんど待てない"
   },
   {
@@ -7865,8 +7865,8 @@ const units = {
     meaning: "めったに〜ない",
     sentence: "He (   ) ever smiles.",
     jp: "彼はめったに笑わない。",
-    jpBlank: "彼は(   )に笑わない。",
-    jpAnswer: "めった"
+    jpBlank: "彼はめ(   )。",
+    jpAnswer: "ったに笑わない"
   },
   {
     wordNo: 390,
@@ -7937,8 +7937,8 @@ const units = {
     meaning: "平らな，揃った",
     sentence: "white, (   ) teeth",
     jp: "白くきれいにそろった歯",
-    jpBlank: "(   )",
-    jpAnswer: "白くきれいにそろった歯"
+    jpBlank: "白くきれいに(   )歯",
+    jpAnswer: "そろった"
   },
   {
     wordNo: 393,
@@ -7982,8 +7982,8 @@ const units = {
     meaning: "それゆえに",
     sentence: "Even experts are only human, and (   ) mistakes sometimes occur.",
     jp: "専門家でもただの人間だ。それゆえ，ミスが時々起きる。",
-    jpBlank: "専門家でもただの人間だ。(   )え，ミスが時々起きる。",
-    jpAnswer: "それゆ"
+    jpBlank: "専門家でもただの人間だ。(   )ゆえ，ミスが時々起きる。",
+    jpAnswer: "それ"
   },
   {
     wordNo: 397,
@@ -8009,8 +8009,8 @@ const units = {
     meaning: "〜まで（ずっと）",
     sentence: "We are open (   ) 11 p.m. on weekdays.",
     jp: "平日は午後11時まで営業しています。",
-    jpBlank: "平日は午後11(   )ます。",
-    jpAnswer: "時まで営業してい"
+    jpBlank: "平日は午後11時まで(   )います。",
+    jpAnswer: "営業して"
   },
   {
     wordNo: 398,
@@ -8018,8 +8018,8 @@ const units = {
     meaning: "〜して初めて",
     sentence: "Stay here (   ) I get back.",
     jp: "私が戻るまでここにいて。",
-    jpBlank: "(   )。",
-    jpAnswer: "私が戻るまでここにいて"
+    jpBlank: "私が戻る(   )ここにいて。",
+    jpAnswer: "まで"
   },
   {
     wordNo: 399,
@@ -8027,8 +8027,8 @@ const units = {
     meaning: "〜に加えて",
     sentence: "learn another foreign language (   ) English",
     jp: "英語以外の外国語を勉強する",
-    jpBlank: "(   )",
-    jpAnswer: "英語以外の外国語を勉強する"
+    jpBlank: "英語(   )の外国語を勉強する",
+    jpAnswer: "以外"
   },
   {
     wordNo: 399,
@@ -8045,8 +8045,8 @@ const units = {
     meaning: "〜を除いて",
     sentence: "Everybody was asleep (   ) (for) him.",
     jp: "彼以外は皆眠っていた。",
-    jpBlank: "(   )。",
-    jpAnswer: "彼以外は皆眠っていた"
+    jpBlank: "彼(   )は皆眠っていた。",
+    jpAnswer: "以外"
   },
   {
     wordNo: 400,
@@ -8072,8 +8072,8 @@ const units = {
     meaning: "〜を討論する",
     sentence: "(   ) the pros and cons of this",
     jp: "この是非について話し合う",
-    jpBlank: "(   )",
-    jpAnswer: "この是非について話し合う"
+    jpBlank: "この是非について(   )",
+    jpAnswer: "話し合う"
   },
   {
     wordNo: 402,
@@ -8081,8 +8081,8 @@ const units = {
     meaning: "〜を批判する",
     sentence: "Stop (   ) my cooking!",
     jp: "私の料理を批判するのをやめて。",
-    jpBlank: "私の料理を(   )のをやめて。",
-    jpAnswer: "批判する"
+    jpBlank: "私の料理を(   )るのをやめて。",
+    jpAnswer: "批判す"
   },
   {
     wordNo: 403,
@@ -8189,8 +8189,8 @@ const units = {
     meaning: "きっと〜する",
     sentence: "He is (   ) to be in the classroom now.",
     jp: "今彼はきっと教室にいるはずだ。",
-    jpBlank: "今彼は(   )教室にいるはずだ。",
-    jpAnswer: "きっと"
+    jpBlank: "今彼は(   )と教室にいるはずだ。",
+    jpAnswer: "きっ"
   },
   {
     wordNo: 408,
@@ -8207,8 +8207,8 @@ const units = {
     meaning: "きっと〜だと思う",
     sentence: "I'll (   ) (that) he's coming.",
     jp: "きっと彼は来ると思う。",
-    jpBlank: "(   )彼は来ると思う。",
-    jpAnswer: "きっと"
+    jpBlank: "(   )と彼は来ると思う。",
+    jpAnswer: "きっ"
   },
   {
     wordNo: 409,
@@ -8225,8 +8225,8 @@ const units = {
     meaning: "要求する",
     sentence: "(   ) an apology",
     jp: "謝罪を要求する",
-    jpBlank: "謝罪を(   )",
-    jpAnswer: "要求する"
+    jpBlank: "謝罪を(   )る",
+    jpAnswer: "要求す"
   },
   {
     wordNo: 410,
@@ -8270,8 +8270,8 @@ const units = {
     meaning: "賞賛",
     sentence: "His novel won high (   ).",
     jp: "彼の小説は絶賛された。",
-    jpBlank: "(   )。",
-    jpAnswer: "彼の小説は絶賛された"
+    jpBlank: "彼の小説は(   )された。",
+    jpAnswer: "絶賛"
   },
   {
     wordNo: 413,
@@ -8297,8 +8297,8 @@ const units = {
     meaning: "おしゃべりする",
     sentence: "(   ) over tea",
     jp: "お茶を飲みながらおしゃべりする",
-    jpBlank: "お茶を飲みながら(   )",
-    jpAnswer: "おしゃべりする"
+    jpBlank: "お茶を飲みながら(   )する",
+    jpAnswer: "おしゃべり"
   },
   {
     wordNo: 414,
@@ -8353,8 +8353,8 @@ const units = {
     meaning: "〜を運ぶ",
     sentence: "Blood is (   ) to the heart by the veins.",
     jp: "血液は静脈から心臓へと運ばれる。",
-    jpBlank: "血液は静脈から心臓へと(   )ばれる。",
-    jpAnswer: "運"
+    jpBlank: "血液は静脈から心臓へと(   )。",
+    jpAnswer: "運ばれる"
   },
   {
     wordNo: 418,
@@ -8362,7 +8362,7 @@ const units = {
     meaning: "〜をはっきり示す，実演する",
     sentence: "(   ) my real ability",
     jp: "実力を発揮する（真の実力を示す）",
-    jpBlank: "実力を発揮する（(   )）",
+    jpBlank: "実力を発揮する(   )",
     jpAnswer: "真の実力を示す"
   },
   {
@@ -8380,8 +8380,8 @@ const units = {
     meaning: "〜を誇張する",
     sentence: "greatly (   ) a story",
     jp: "話をとても大げさに言う",
-    jpBlank: "(   )",
-    jpAnswer: "話をとても大げさに言う"
+    jpBlank: "話をとても(   )言う",
+    jpAnswer: "大げさに"
   },
   {
     wordNo: 420,
@@ -8524,7 +8524,7 @@ const units = {
     meaning: "分析",
     sentence: "handwriting (   )",
     jp: "筆跡鑑定（分析）",
-    jpBlank: "筆跡鑑定（(   )）",
+    jpBlank: "筆跡鑑定(   )",
     jpAnswer: "分析"
   },
   {
@@ -8569,8 +8569,8 @@ const units = {
     meaning: "実験する",
     sentence: "(   ) with a new medicine",
     jp: "新薬で実験する",
-    jpBlank: "新薬で(   )",
-    jpAnswer: "実験する"
+    jpBlank: "新薬で(   )る",
+    jpAnswer: "実験す"
   },
   {
     wordNo: 431,
@@ -8641,8 +8641,8 @@ const units = {
     meaning: "〜を追求する",
     sentence: "(   ) a career in journalism",
     jp: "報道関係の道に進む",
-    jpBlank: "(   )",
-    jpAnswer: "報道関係の道に進む"
+    jpBlank: "報道関係の道に(   )",
+    jpAnswer: "進む"
   },
   {
     wordNo: 435,
@@ -8650,8 +8650,8 @@ const units = {
     meaning: "〜を追跡する",
     sentence: "(   ) a criminal",
     jp: "犯人を追いかける",
-    jpBlank: "犯人を(   )いかける",
-    jpAnswer: "追"
+    jpBlank: "(   )",
+    jpAnswer: "犯人を追いかける"
   },
   {
     wordNo: 436,
@@ -8722,8 +8722,8 @@ const units = {
     meaning: "〜向けだ",
     sentence: "This book is (   ) at teenagers.",
     jp: "この本は10代の若者向けです。",
-    jpBlank: "この本は10代の若者(   )です。",
-    jpAnswer: "向け"
+    jpBlank: "この本は10(   )。",
+    jpAnswer: "代の若者向けです"
   },
   {
     wordNo: 441,
@@ -8785,8 +8785,8 @@ const units = {
     meaning: "めまいがして",
     sentence: "I felt (   ) when I stood up.",
     jp: "立ち上がったときにめまいがした。",
-    jpBlank: "立ち上がったときに(   )がした。",
-    jpAnswer: "めまい"
+    jpBlank: "立ち上がったときに(   )いがした。",
+    jpAnswer: "めま"
   },
 ],
 445: [
@@ -8805,8 +8805,8 @@ const units = {
     meaning: "飢える",
     sentence: "A lot of people are (   ) to death in Africa.",
     jp: "アフリカでは多くの人が餓死している。",
-    jpBlank: "アフリカ(   )。",
-    jpAnswer: "では多くの人が餓死している"
+    jpBlank: "アフリカでは多くの人が(   )している。",
+    jpAnswer: "餓死"
   },
   {
     wordNo: 446,
@@ -8832,8 +8832,8 @@ const units = {
     meaning: "知的な，頭脳に関わる",
     sentence: "(   ) labor",
     jp: "知的労働",
-    jpBlank: "(   )労働",
-    jpAnswer: "知的"
+    jpBlank: "(   )",
+    jpAnswer: "知的労働"
   },
   {
     wordNo: 448,
@@ -8841,8 +8841,8 @@ const units = {
     meaning: "休憩",
     sentence: "take a (   )",
     jp: "（ちょっと）休憩する",
-    jpBlank: "（(   )）休憩する",
-    jpAnswer: "ちょっと"
+    jpBlank: "(   )する",
+    jpAnswer: "休憩"
   },
   {
     wordNo: 448,
@@ -8904,8 +8904,8 @@ const units = {
     meaning: "病気",
     sentence: "the risk of heart (   )",
     jp: "心臓病のリスク",
-    jpBlank: "心臓(   )のリスク",
-    jpAnswer: "病"
+    jpBlank: "(   )",
+    jpAnswer: "心臓病のリスク"
   },
   {
     wordNo: 451,
@@ -9012,8 +9012,8 @@ const units = {
     meaning: "咳をする",
     sentence: "(   ) loudly",
     jp: "大きく咳をする",
-    jpBlank: "大きく(   )",
-    jpAnswer: "咳をする"
+    jpBlank: "大きく(   )る",
+    jpAnswer: "咳をす"
   },
   {
     wordNo: 458,
@@ -9030,8 +9030,8 @@ const units = {
     meaning: "出血する",
     sentence: "My nose has started to (   ).",
     jp: "鼻血が出てきた。",
-    jpBlank: "鼻血が(   )てきた。",
-    jpAnswer: "出"
+    jpBlank: "鼻血が(   )。",
+    jpAnswer: "出てきた"
   },
   {
     wordNo: 460,
@@ -9066,8 +9066,8 @@ const units = {
     meaning: "〜を疲れ果てさせる",
     sentence: "I am (   ) from walking all day.",
     jp: "1日中歩いてくたくただ。",
-    jpBlank: "(   )。",
-    jpAnswer: "1日中歩いてくたくただ"
+    jpBlank: "1日中歩いて(   )。",
+    jpAnswer: "くたくただ"
   },
   {
     wordNo: 461,
@@ -9075,8 +9075,8 @@ const units = {
     meaning: "〜を使い果たす",
     sentence: "I have (   ) my savings.",
     jp: "貯金を使い果たした。",
-    jpBlank: "貯金を(   )たした。",
-    jpAnswer: "使い果"
+    jpBlank: "貯金を(   )果たした。",
+    jpAnswer: "使い"
   },
   {
     wordNo: 461,
@@ -9111,8 +9111,8 @@ const units = {
     meaning: "障がいのある",
     sentence: "He is physically (   ).",
     jp: "彼は身体に障がいがある。",
-    jpBlank: "彼は身体に(   )がある。",
-    jpAnswer: "障がい"
+    jpBlank: "彼は身体に(   )いがある。",
+    jpAnswer: "障が"
   },
   {
     wordNo: 463,
@@ -9156,8 +9156,8 @@ const units = {
     meaning: "舌",
     sentence: "stick my (   ) out at him",
     jp: "彼にあかんべえをする。",
-    jpBlank: "(   )。",
-    jpAnswer: "彼にあかんべえをする"
+    jpBlank: "彼に(   )をする。",
+    jpAnswer: "あかんべえ"
   },
   {
     wordNo: 466,
@@ -9219,8 +9219,8 @@ const units = {
     meaning: "汗",
     sentence: "wipe the (   ) off my forehead",
     jp: "額の汗をぬぐう",
-    jpBlank: "額の(   )をぬぐう",
-    jpAnswer: "汗"
+    jpBlank: "(   )",
+    jpAnswer: "額の汗をぬぐう"
   },
   {
     wordNo: 468,
@@ -9228,8 +9228,8 @@ const units = {
     meaning: "汗をかく",
     sentence: "(   ) a lot",
     jp: "汗だくになる（たくさん汗をかく）",
-    jpBlank: "汗だくになる（(   )）",
-    jpAnswer: "たくさん汗をかく"
+    jpBlank: "汗だくになる(   )",
+    jpAnswer: "汗をかく"
   },
   {
     wordNo: 469,
@@ -9264,8 +9264,8 @@ const units = {
     meaning: "国民",
     sentence: "British (   ) living in Japan",
     jp: "日本に住むイギリス人",
-    jpBlank: "(   )",
-    jpAnswer: "日本に住むイギリス人"
+    jpBlank: "日本に住むイギリス(   )",
+    jpAnswer: "人"
   },
   {
     wordNo: 472,
@@ -9365,8 +9365,8 @@ const units = {
     meaning: "〜を縁取る",
     sentence: "The street is (   ) by trees.",
     jp: "その通りは両側に木が植えてある。",
-    jpBlank: "その通りは両側に(   )。",
-    jpAnswer: "木が植えてある"
+    jpBlank: "その通りは両側に木が(   )。",
+    jpAnswer: "植えてある"
   },
   {
     wordNo: 479,
@@ -9401,8 +9401,8 @@ const units = {
     meaning: "影響を与える",
     sentence: "This strategy (   ) on sales.",
     jp: "この戦略が売り上げに影響を与えた。",
-    jpBlank: "この戦略が売り上げに(   )与えた。",
-    jpAnswer: "影響を"
+    jpBlank: "この戦略が売り上げに(   )た。",
+    jpAnswer: "影響を与え"
   },
   {
     wordNo: 481,
@@ -9428,8 +9428,8 @@ const units = {
     meaning: "等しい",
     sentence: "All human beings are created (   ).",
     jp: "すべての人は平等に作られている。",
-    jpBlank: "すべての人は平(   )に作られている。",
-    jpAnswer: "等"
+    jpBlank: "すべての人は(   )に作られている。",
+    jpAnswer: "平等"
   },
   {
     wordNo: 482,
@@ -9437,8 +9437,8 @@ const units = {
     meaning: "〜に等しい",
     sentence: "Two plus three (   ) five.",
     jp: "2 + 3 = 5",
-    jpBlank: "(   )",
-    jpAnswer: "2 + 3 = 5"
+    jpBlank: "2 + 3 (   ) 5",
+    jpAnswer: "="
   },
   {
     wordNo: 483,
@@ -9455,8 +9455,8 @@ const units = {
     meaning: "親密な関係",
     sentence: "Are you in a (   ) right now?",
     jp: "今付き合っている人はいるの。",
-    jpBlank: "今(   )はいるの。",
-    jpAnswer: "付き合っている人"
+    jpBlank: "今(   )人はいるの。",
+    jpAnswer: "付き合っている"
   },
   {
     wordNo: 484,
@@ -9509,8 +9509,8 @@ const units = {
     meaning: "便",
     sentence: "There is no bus (   ) to that town.",
     jp: "その町へのバスの便はない。",
-    jpBlank: "その町へのバスの(   )はない。",
-    jpAnswer: "便"
+    jpBlank: "その町へのバス(   )。",
+    jpAnswer: "の便はない"
   },
   {
     wordNo: 486,
@@ -9536,8 +9536,8 @@ const units = {
     meaning: "道徳的な",
     sentence: "a (   ) responsibility",
     jp: "道徳的責任",
-    jpBlank: "(   )責任",
-    jpAnswer: "道徳的"
+    jpBlank: "(   )的責任",
+    jpAnswer: "道徳"
   },
   {
     wordNo: 488,
@@ -9608,8 +9608,8 @@ const units = {
     meaning: "〜に偏見をもたせる",
     sentence: "Don't be (   ) against Muslims.",
     jp: "イスラム教徒に対して偏見をもつな。",
-    jpBlank: "イスラム教徒に対して(   )もつな。",
-    jpAnswer: "偏見を"
+    jpBlank: "イスラム教徒に対して(   )をもつな。",
+    jpAnswer: "偏見"
   },
   {
     wordNo: 493,
@@ -9680,8 +9680,8 @@ const units = {
     meaning: "恩恵を得る",
     sentence: "(   ) from the new treatment",
     jp: "新しい治療法から恩恵を受ける",
-    jpBlank: "新しい治療法から(   )受ける",
-    jpAnswer: "恩恵を"
+    jpBlank: "新しい治療法から(   )を受ける",
+    jpAnswer: "恩恵"
   },
   {
     wordNo: 495,
@@ -9761,8 +9761,8 @@ const units = {
     meaning: "公式の",
     sentence: "an (   ) language",
     jp: "公用語",
-    jpBlank: "(   )用語",
-    jpAnswer: "公"
+    jpBlank: "(   )",
+    jpAnswer: "公用語"
   },
   {
     wordNo: 500,
@@ -9943,8 +9943,8 @@ const units = {
     meaning: "業界",
     sentence: "commerce and (   )",
     jp: "商工業",
-    jpBlank: "商工(   )",
-    jpAnswer: "業"
+    jpBlank: "(   )",
+    jpAnswer: "商工業"
   },
   {
     wordNo: 511,
@@ -9970,8 +9970,8 @@ const units = {
     meaning: "収入",
     sentence: "my monthly (   )",
     jp: "私の月収",
-    jpBlank: "私の月(   )",
-    jpAnswer: "収"
+    jpBlank: "(   )",
+    jpAnswer: "私の月収"
   },
   {
     wordNo: 513,
@@ -10042,8 +10042,8 @@ const units = {
     meaning: "堆積物",
     sentence: "a rich (   ) of oil",
     jp: "豊富な石油の埋蔵量",
-    jpBlank: "(   )",
-    jpAnswer: "豊富な石油の埋蔵量"
+    jpBlank: "豊富な石油の(   )",
+    jpAnswer: "埋蔵量"
   },
   {
     wordNo: 517,
@@ -10051,8 +10051,8 @@ const units = {
     meaning: "預ける",
     sentence: "(   ) ¥10,000 in a bank",
     jp: "銀行口座に10,000円を預金する",
-    jpBlank: "銀行口座に10,000円を(   )金する",
-    jpAnswer: "預"
+    jpBlank: "銀行口座に10,000(   )",
+    jpAnswer: "円を預金する"
   },
   {
     wordNo: 518,
@@ -10096,8 +10096,8 @@ const units = {
     meaning: "告訴する",
     sentence: "be (   ) with accepting bribes",
     jp: "賄賂を受け取ったとして告発される",
-    jpBlank: "賄賂を受け取ったとして(   )発される",
-    jpAnswer: "告"
+    jpBlank: "賄賂を受け取ったとして(   )される",
+    jpAnswer: "告発"
   },
   {
     wordNo: 518,
@@ -10114,8 +10114,8 @@ const units = {
     meaning: "賃金",
     sentence: "get a daily (   ) of $100",
     jp: "日給100ドルを得る",
-    jpBlank: "(   )",
-    jpAnswer: "日給100ドルを得る"
+    jpBlank: "(   )100ドルを得る",
+    jpAnswer: "日給"
   },
   {
     wordNo: 520,
@@ -10206,8 +10206,8 @@ const units = {
     meaning: "財政的な",
     sentence: "receive (   ) support",
     jp: "経済的支援を受ける。",
-    jpBlank: "(   )。",
-    jpAnswer: "経済的支援を受ける"
+    jpBlank: "(   )支援を受ける。",
+    jpAnswer: "経済的"
   },
   {
     wordNo: 526,
@@ -10251,8 +10251,8 @@ const units = {
     meaning: "辞職する",
     sentence: "(   ) as a coach",
     jp: "コーチを辞める。",
-    jpBlank: "コーチを(   )める。",
-    jpAnswer: "辞"
+    jpBlank: "コーチ(   )。",
+    jpAnswer: "を辞める"
   },
   {
     wordNo: 528,
@@ -10287,8 +10287,8 @@ const units = {
     meaning: "資格を与える",
     sentence: "World Cup (   ) game",
     jp: "ワールドカップの予選。",
-    jpBlank: "(   )。",
-    jpAnswer: "ワールドカップの予選"
+    jpBlank: "ワールドカップの(   )。",
+    jpAnswer: "予選"
   },
   {
     wordNo: 530,
@@ -10332,8 +10332,8 @@ const units = {
     meaning: "職業",
     sentence: "start a (   ) as a doctor",
     jp: "医者として働き始める。",
-    jpBlank: "(   )。",
-    jpAnswer: "医者として働き始める"
+    jpBlank: "医者として(   )始める。",
+    jpAnswer: "働き"
   },
   {
     wordNo: 532,
@@ -10350,8 +10350,8 @@ const units = {
     meaning: "職業",
     sentence: "enter the legal (   )",
     jp: "法律関係の仕事に就く。",
-    jpBlank: "(   )。",
-    jpAnswer: "法律関係の仕事に就く"
+    jpBlank: "法律関係の仕事に(   )。",
+    jpAnswer: "就く"
   },
   {
     wordNo: 533,
@@ -10449,8 +10449,8 @@ const units = {
     meaning: "小売り",
     sentence: "recommended (   ) price",
     jp: "希望小売価格。",
-    jpBlank: "希望(   )価格。",
-    jpAnswer: "小売"
+    jpBlank: "(   )。",
+    jpAnswer: "希望小売価格"
   },
   {
     wordNo: 538,
@@ -10476,8 +10476,8 @@ const units = {
     meaning: "制度",
     sentence: "the tax (   )",
     jp: "税制。",
-    jpBlank: "税(   )。",
-    jpAnswer: "制"
+    jpBlank: "(   )。",
+    jpAnswer: "税制"
   },
   {
     wordNo: 540,
@@ -10568,8 +10568,8 @@ const units = {
     meaning: "端",
     sentence: "sit on the (   ) of the bed",
     jp: "ベッドの端に座る。",
-    jpBlank: "ベッドの(   )に座る。",
-    jpAnswer: "端"
+    jpBlank: "(   )。",
+    jpAnswer: "ベッドの端に座る"
   },
   {
     wordNo: 547,
@@ -10577,8 +10577,8 @@ const units = {
     meaning: "刃",
     sentence: "This knife has a sharp (   ).",
     jp: "このナイフはよく切れる。",
-    jpBlank: "(   )。",
-    jpAnswer: "このナイフはよく切れる"
+    jpBlank: "このナイフはよく(   )。",
+    jpAnswer: "切れる"
   },
   {
     wordNo: 547,
@@ -10631,8 +10631,8 @@ const units = {
     meaning: "〜で構成されている",
     sentence: "The audience (   ) mainly of young people.",
     jp: "観客は大半が若者だった。",
-    jpBlank: "(   )。",
-    jpAnswer: "観客は大半が若者だった"
+    jpBlank: "観客は(   )が若者だった。",
+    jpAnswer: "大半"
   },
   {
     wordNo: 549,
@@ -10667,8 +10667,8 @@ const units = {
     meaning: "落ち着いている",
     sentence: "remain perfectly (   )",
     jp: "落ち着き払う。",
-    jpBlank: "(   )き払う。",
-    jpAnswer: "落ち着"
+    jpBlank: "(   )。",
+    jpAnswer: "落ち着き払う"
   },
   {
     wordNo: 551,
@@ -10685,8 +10685,8 @@ const units = {
     meaning: "愛着を持たせる",
     sentence: "feel (   ) to this jacket",
     jp: "この上着に愛着を感じる。",
-    jpBlank: "この上着に(   )感じる。",
-    jpAnswer: "愛着を"
+    jpBlank: "この上着に(   )を感じる。",
+    jpAnswer: "愛着"
   },
   {
     wordNo: 552,
@@ -10703,8 +10703,8 @@ const units = {
     meaning: "関連づける",
     sentence: "Exercise is closely (   ) with your health.",
     jp: "運動は健康に密接に関わっている。",
-    jpBlank: "運動は健康に密接に(   )わっている。",
-    jpAnswer: "関"
+    jpBlank: "運動は健康に密接に(   )いる。",
+    jpAnswer: "関わって"
   },
   {
     wordNo: 552,
@@ -10739,8 +10739,8 @@ const units = {
     meaning: "共感する",
     sentence: "cannot (   ) to his way of thinking",
     jp: "彼の考え方が理解できない。",
-    jpBlank: "(   )。",
-    jpAnswer: "彼の考え方が理解できない"
+    jpBlank: "彼の考え方(   )。",
+    jpAnswer: "が理解できない"
   },
   {
     wordNo: 554,
@@ -10775,8 +10775,8 @@ const units = {
     meaning: "主義などを守る",
     sentence: "(   ) to my principles",
     jp: "自分の主義を守る。",
-    jpBlank: "自分の(   )を守る。",
-    jpAnswer: "主義"
+    jpBlank: "(   )。",
+    jpAnswer: "自分の主義を守る"
   },
   {
     wordNo: 556,
@@ -10820,8 +10820,8 @@ const units = {
     meaning: "侵害する",
     sentence: "(   ) human rights",
     jp: "人権を侵害する。",
-    jpBlank: "人権を(   )。",
-    jpAnswer: "侵害する"
+    jpBlank: "人権を(   )る。",
+    jpAnswer: "侵害す"
   },
   {
     wordNo: 560,
@@ -10838,8 +10838,8 @@ const units = {
     meaning: "法律の",
     sentence: "seek (   ) advice",
     jp: "法的助言を求める。",
-    jpBlank: "(   )的助言を求める。",
-    jpAnswer: "法"
+    jpBlank: "(   )。",
+    jpAnswer: "法的助言を求める"
   },
   {
     wordNo: 561,
@@ -10847,8 +10847,8 @@ const units = {
     meaning: "関連づける",
     sentence: "(   ) brand names with high quality",
     jp: "ブランド名から高品質を連想する。",
-    jpBlank: "ブランド(   )。",
-    jpAnswer: "名から高品質を連想する"
+    jpBlank: "ブランド名から高品質を(   )する。",
+    jpAnswer: "連想"
   },
   {
     wordNo: 561,
@@ -10919,8 +10919,8 @@ const units = {
     meaning: "競争する",
     sentence: "(   ) with each other for good grades",
     jp: "よい成績を目指してお互いに競い合う。",
-    jpBlank: "よい成績を目指してお互いに(   )い合う。",
-    jpAnswer: "競"
+    jpBlank: "よい成績を目指してお互いに(   )合う。",
+    jpAnswer: "競い"
   },
   {
     wordNo: 564,
@@ -10984,8 +10984,8 @@ const units = {
     meaning: "害",
     sentence: "(   ) his reputation",
     jp: "彼の評判を悪くする。",
-    jpBlank: "(   )。",
-    jpAnswer: "彼の評判を悪くする"
+    jpBlank: "彼の評判を(   )する。",
+    jpAnswer: "悪く"
   },
   {
     wordNo: 569,
@@ -11083,8 +11083,8 @@ const units = {
     meaning: "相対的な",
     sentence: "(   ) merits",
     jp: "相対的な利点。",
-    jpBlank: "(   )利点。",
-    jpAnswer: "相対的な"
+    jpBlank: "(   )的な利点。",
+    jpAnswer: "相対"
   },
   {
     wordNo: 575,
@@ -11164,8 +11164,8 @@ const units = {
     meaning: "によって",
     sentence: "send a message to a friend (   ) email",
     jp: "Eメールで友だちにメッセージを送る。",
-    jpBlank: "Eメールで友だち(   )メッセージを送る。",
-    jpAnswer: "に"
+    jpBlank: "Eメール(   )友だちにメッセージを送る。",
+    jpAnswer: "で"
   },
   {
     wordNo: 581,
@@ -11191,8 +11191,8 @@ const units = {
     meaning: "〜させる",
     sentence: "What (   ) you to do it?",
     jp: "なぜそんなことをしたの。",
-    jpBlank: "(   )。",
-    jpAnswer: "なぜそんなことをしたの"
+    jpBlank: "(   )そんなことをしたの。",
+    jpAnswer: "なぜ"
   },
   {
     wordNo: 581,
@@ -11200,8 +11200,8 @@ const units = {
     meaning: "鉛",
     sentence: "The pencil (   ) has broken.",
     jp: "鉛筆の芯が折れた。",
-    jpBlank: "(   )筆の芯が折れた。",
-    jpAnswer: "鉛"
+    jpBlank: "(   )。",
+    jpAnswer: "鉛筆の芯が折れた"
   },
   {
     wordNo: 582,
@@ -11265,8 +11265,8 @@ const units = {
     meaning: "溶ける",
     sentence: "The ice cream quickly (   ).",
     jp: "アイスクリームがすぐに溶けてしまった。",
-    jpBlank: "アイスクリームがすぐに(   )てしまった。",
-    jpAnswer: "溶け"
+    jpBlank: "アイスクリームがすぐに(   )しまった。",
+    jpAnswer: "溶けて"
   },
   {
     wordNo: 585,
@@ -11328,8 +11328,8 @@ const units = {
     meaning: "進歩",
     sentence: "make great (   ) in English",
     jp: "英語が格段に上達する。",
-    jpBlank: "(   )。",
-    jpAnswer: "英語が格段に上達する"
+    jpBlank: "英語が格段に(   )する。",
+    jpAnswer: "上達"
   },
   {
     wordNo: 589,
@@ -11355,8 +11355,8 @@ const units = {
     meaning: "前進する",
     sentence: "The team (   ) to the final.",
     jp: "チームは決勝戦に進んだ。",
-    jpBlank: "(   )。",
-    jpAnswer: "チームは決勝戦に進んだ"
+    jpBlank: "チームは決勝戦に(   )。",
+    jpAnswer: "進んだ"
   },
   {
     wordNo: 590,
@@ -11400,8 +11400,8 @@ const units = {
     meaning: "手を触れる",
     sentence: "Please do not (   ) the exhibits.",
     jp: "展示品に手を触れないでください。",
-    jpBlank: "展示品に(   )れないでください。",
-    jpAnswer: "手を触"
+    jpBlank: "展示品に(   )ないでください。",
+    jpAnswer: "手を触れ"
   },
   {
     wordNo: 592,
@@ -11427,8 +11427,8 @@ const units = {
     meaning: "治療する",
     sentence: "(   ) patients",
     jp: "患者を治療する。",
-    jpBlank: "患者を(   )。",
-    jpAnswer: "治療する"
+    jpBlank: "患者を(   )る。",
+    jpAnswer: "治療す"
   },
   {
     wordNo: 593,
@@ -11436,8 +11436,8 @@ const units = {
     meaning: "ご馳走する",
     sentence: "Let me (   ) you to dinner tonight.",
     jp: "今夜の食事は私におごらせてください。",
-    jpBlank: "今夜の食事は私にお(   )らせてください。",
-    jpAnswer: "ご"
+    jpBlank: "今夜の食事は私におご(   )。",
+    jpAnswer: "らせてください"
   },
   {
     wordNo: 593,
@@ -11571,8 +11571,8 @@ const units = {
     meaning: "説得して〜させる",
     sentence: "(   ) him to study hard",
     jp: "彼を説得して熱心に勉強させる。",
-    jpBlank: "彼を(   )て熱心に勉強させる。",
-    jpAnswer: "説得し"
+    jpBlank: "彼を(   )して熱心に勉強させる。",
+    jpAnswer: "説得"
   },
   {
     wordNo: 603,
@@ -11645,8 +11645,8 @@ const units = {
     meaning: "拡大する",
     sentence: "(   ) my business",
     jp: "ビジネスを拡張する。",
-    jpBlank: "ビジネスを(   )張する。",
-    jpAnswer: "拡"
+    jpBlank: "ビジネス(   )。",
+    jpAnswer: "を拡張する"
   },
   {
     wordNo: 608,
@@ -11672,8 +11672,8 @@ const units = {
     meaning: "広げる",
     sentence: "Travel (   ) your horizons.",
     jp: "旅は視野を広げてくれる。",
-    jpBlank: "旅は視野を(   )てくれる。",
-    jpAnswer: "広げ"
+    jpBlank: "旅は視野を(   )くれる。",
+    jpAnswer: "広げて"
   },
   {
     wordNo: 609,
@@ -11735,8 +11735,8 @@ const units = {
     meaning: "ネクタイを直す",
     sentence: "fix my (   )",
     jp: "ネクタイを直す。",
-    jpBlank: "(   )。",
-    jpAnswer: "ネクタイを直す"
+    jpBlank: "(   )を直す。",
+    jpAnswer: "ネクタイ"
   },
   {
     wordNo: 611,
@@ -11789,8 +11789,8 @@ const units = {
     meaning: "用意する",
     sentence: "(   ) lunch",
     jp: "昼食を用意する。",
-    jpBlank: "昼食を(   )。",
-    jpAnswer: "用意する"
+    jpBlank: "昼食を(   )る。",
+    jpAnswer: "用意す"
   },
   {
     wordNo: 614,
@@ -11807,8 +11807,8 @@ const units = {
     meaning: "インストールする",
     sentence: "(   ) the app on my smartphone",
     jp: "私のスマートフォンにそのアプリをインストールする。",
-    jpBlank: "私のスマートフォンにそのアプリを(   )。",
-    jpAnswer: "インストールする"
+    jpBlank: "私のスマートフォンにそのアプリを(   )する。",
+    jpAnswer: "インストール"
   },
   {
     wordNo: 615,
@@ -11888,8 +11888,8 @@ const units = {
     meaning: "身をかがめる",
     sentence: "(   ) down to pick up the pen",
     jp: "ペンを拾い上げるために腰をかがめる。",
-    jpBlank: "ペン(   )。",
-    jpAnswer: "を拾い上げるために腰をかがめる"
+    jpBlank: "ペンを拾い上げるために腰を(   )。",
+    jpAnswer: "かがめる"
   },
   {
     wordNo: 619,
@@ -11915,8 +11915,8 @@ const units = {
     meaning: "抱き合う",
     sentence: "The players (   ) each other tightly.",
     jp: "選手たちは互いにしっかり抱き合った。",
-    jpBlank: "選手たちは互いにしっかり(   )った。",
-    jpAnswer: "抱き合"
+    jpBlank: "選手たちは互いにしっかり(   )合った。",
+    jpAnswer: "抱き"
   },
   {
     wordNo: 620,
@@ -11942,8 +11942,8 @@ const units = {
     meaning: "凝視",
     sentence: "give him a long, hard (   )",
     jp: "彼を長い間睨みつける。",
-    jpBlank: "(   )。",
-    jpAnswer: "彼を長い間睨みつける"
+    jpBlank: "彼を長い間(   )。",
+    jpAnswer: "睨みつける"
   },
   {
     wordNo: 622,
@@ -12160,8 +12160,8 @@ const units = {
     meaning: "うたた寝する",
     sentence: "(   ) off in class",
     jp: "授業中にうたた寝する。",
-    jpBlank: "授業中に(   )。",
-    jpAnswer: "うたた寝する"
+    jpBlank: "授業中に(   )する。",
+    jpAnswer: "うたた寝"
   },
   {
     wordNo: 632,
@@ -12178,8 +12178,8 @@ const units = {
     meaning: "ため息をつく",
     sentence: "He (   ) saying, \"You win.\"",
     jp: "「降参だ」と言って彼はため息をついた。",
-    jpBlank: "「降参だ」と言って彼は(   )をついた。",
-    jpAnswer: "ため息"
+    jpBlank: "「降参だ」と言って彼は(   )いた。",
+    jpAnswer: "ため息をつ"
   },
   {
     wordNo: 633,
@@ -12196,8 +12196,8 @@ const units = {
     meaning: "あくびをする",
     sentence: "stretch and (   ) loudly",
     jp: "伸びをして大きな声であくびをする。",
-    jpBlank: "伸びをして大きな声で(   )。",
-    jpAnswer: "あくびをする"
+    jpBlank: "伸びをして大きな声で(   )する。",
+    jpAnswer: "あくびを"
   },
   {
     wordNo: 634,
@@ -12214,8 +12214,8 @@ const units = {
     meaning: "くしゃみをする",
     sentence: "Cover your mouth when you (   ).",
     jp: "くしゃみをするときには口を覆いなさい。",
-    jpBlank: "(   )ときには口を覆いなさい。",
-    jpAnswer: "くしゃみをする"
+    jpBlank: "(   )するときには口を覆いなさい。",
+    jpAnswer: "くしゃみを"
   },
   {
     wordNo: 636,
@@ -12313,8 +12313,8 @@ const units = {
     meaning: "脱ぎ散らかされていた",
     sentence: "His clothes were (   ) all over the floor.",
     jp: "彼の服が部屋中に脱ぎ散らかされていた。",
-    jpBlank: "彼の服が部屋中に(   )。",
-    jpAnswer: "脱ぎ散らかされていた"
+    jpBlank: "彼の服が部屋中に(   )ていた。",
+    jpAnswer: "脱ぎ散らかされ"
   },
   {
     wordNo: 640,
@@ -12394,8 +12394,8 @@ const units = {
     meaning: "解放する",
     sentence: "(   ) the hostages",
     jp: "人質を解放する。",
-    jpBlank: "人質を(   )。",
-    jpAnswer: "解放する"
+    jpBlank: "人質を(   )る。",
+    jpAnswer: "解放す"
   },
   {
     wordNo: 643,
@@ -12511,8 +12511,8 @@ const units = {
     meaning: "捻挫する",
     sentence: "(   ) my ankle",
     jp: "足首を捻挫する。",
-    jpBlank: "足首を(   )。",
-    jpAnswer: "捻挫する"
+    jpBlank: "足首を(   )る。",
+    jpAnswer: "捻挫す"
   },
   {
     wordNo: 648,
@@ -12520,8 +12520,8 @@ const units = {
     meaning: "サボる",
     sentence: "(   ) cram school",
     jp: "塾をサボる。",
-    jpBlank: "塾を(   )。",
-    jpAnswer: "サボる"
+    jpBlank: "塾を(   )る。",
+    jpAnswer: "サボ"
   },
   {
     wordNo: 649,
@@ -12538,8 +12538,8 @@ const units = {
     meaning: "暴露する",
     sentence: "(   ) a secret",
     jp: "秘密を暴露する。",
-    jpBlank: "秘密を(   )。",
-    jpAnswer: "暴露する"
+    jpBlank: "秘密を(   )る。",
+    jpAnswer: "暴露す"
   },
 ],
 650: [
@@ -12576,8 +12576,8 @@ const units = {
     meaning: "震える",
     sentence: "The powerful earthquake (   ) the town.",
     jp: "大地震がその町を襲った（その町を揺さぶった）。",
-    jpBlank: "大地震がその町を襲った（(   )）。",
-    jpAnswer: "その町を揺さぶった"
+    jpBlank: "大地震がその町を(   )。",
+    jpAnswer: "襲った"
   },
   {
     wordNo: 651,
@@ -12594,8 +12594,8 @@ const units = {
     meaning: "〜を磨く",
     sentence: "(   ) my glasses with a piece of cloth",
     jp: "布で眼鏡（のレンズ）を磨く",
-    jpBlank: "布で眼鏡（のレンズ）を(   )",
-    jpAnswer: "磨く"
+    jpBlank: "布で眼鏡(   )を磨く",
+    jpAnswer: "のレンズ"
   },
   {
     wordNo: 653,
@@ -12621,8 +12621,8 @@ const units = {
     meaning: "（to 〜）（〜を）世話する",
     sentence: "A nurse (   ) to his broken arm.",
     jp: "看護師が折れた腕の手当てをした。",
-    jpBlank: "(   )。",
-    jpAnswer: "看護師が折れた腕の手当てをした"
+    jpBlank: "看護師が折れた腕の(   )をした。",
+    jpAnswer: "手当て"
   },
   {
     wordNo: 654,
@@ -12702,8 +12702,8 @@ const units = {
     meaning: "ごまかす",
     sentence: "(   ) in an exam",
     jp: "試験でカンニングをする",
-    jpBlank: "(   )",
-    jpAnswer: "試験でカンニングをする"
+    jpBlank: "試験で(   )をする",
+    jpAnswer: "カンニング"
   },
   {
     wordNo: 658,
@@ -12720,7 +12720,7 @@ const units = {
     meaning: "（in 〜）（〜に）参加する",
     sentence: "(   ) in the National Sports Festival",
     jp: "国民体育大会（国体）に参加する",
-    jpBlank: "国民体育大会（国体）に(   )",
+    jpBlank: "国民体育大会に(   )",
     jpAnswer: "参加する"
   },
   {
@@ -12729,8 +12729,8 @@ const units = {
     meaning: "存在する",
     sentence: "believe that Santa Claus (   )",
     jp: "サンタクロースは存在すると信じる",
-    jpBlank: "サンタクロースは(   )と信じる",
-    jpAnswer: "存在する"
+    jpBlank: "サンタクロースは(   )ると信じる",
+    jpAnswer: "存在す"
   },
   {
     wordNo: 661,
@@ -12738,8 +12738,8 @@ const units = {
     meaning: "生じる",
     sentence: "Several problems (   ).",
     jp: "いくつかの問題が生じた。",
-    jpBlank: "いくつかの問題が(   )た。",
-    jpAnswer: "生じ"
+    jpBlank: "いくつかの問題が(   )。",
+    jpAnswer: "生じた"
   },
   {
     wordNo: 662,
@@ -12756,8 +12756,8 @@ const units = {
     meaning: "（to A）（考えなどが）（Aに）思いつく",
     sentence: "A wonderful idea suddenly (   ) to me.",
     jp: "いい考えが突然浮かんだ。",
-    jpBlank: "(   )。",
-    jpAnswer: "いい考えが突然浮かんだ"
+    jpBlank: "いい考えが突然(   )。",
+    jpAnswer: "浮かんだ"
   },
   {
     wordNo: 663,
@@ -12765,8 +12765,8 @@ const units = {
     meaning: "（be 〜ed in 〜）（事件などに）巻き込まれる",
     sentence: "I was (   ) in a traffic accident.",
     jp: "交通事故に巻き込まれた。",
-    jpBlank: "交通事故に(   )まれた。",
-    jpAnswer: "巻き込"
+    jpBlank: "交通事故に(   )た。",
+    jpAnswer: "巻き込まれ"
   },
   {
     wordNo: 663,
@@ -12801,7 +12801,7 @@ const units = {
     meaning: "（to 〜）（〜に対応する）（〜と同等の）人［物，事］",
     sentence: "The Japanese officials discussed the issue with their French (   ).",
     jp: "日本政府高官はフランス政府の高官（対応する人）とその問題について話し合った。",
-    jpBlank: "日本政府高官はフランス政府の高官（(   )）とその問題について話し合った。",
+    jpBlank: "日本政府高官はフランス政府の高官(   )とその問題について話し合った。",
     jpAnswer: "対応する人"
   },
   {
@@ -12857,8 +12857,8 @@ const units = {
     meaning: "（服などが）長持ちする",
     sentence: "A quality jacket will (   ) (you) a long time.",
     jp: "よい上着は長持ちするものだ。",
-    jpBlank: "よい上着は(   )ものだ。",
-    jpAnswer: "長持ちする"
+    jpBlank: "よい上着は(   )するものだ。",
+    jpAnswer: "長持ち"
   },
   {
     wordNo: 668,
@@ -12866,8 +12866,8 @@ const units = {
     meaning: "この前の，最後の",
     sentence: "for the [this / (   )] twenty days",
     jp: "この20日間",
-    jpBlank: "(   )20日間",
-    jpAnswer: "この"
+    jpBlank: "(   )",
+    jpAnswer: "この20日間"
   },
   {
     wordNo: 668,
@@ -12884,8 +12884,8 @@ const units = {
     meaning: "この前の，最後の",
     sentence: "(   ), she passed the exam.",
     jp: "ついに，彼女は試験に合格した。",
-    jpBlank: "ついに，(   )。",
-    jpAnswer: "彼女は試験に合格した"
+    jpBlank: "(   )，彼女は試験に合格した。",
+    jpAnswer: "ついに"
   },
   {
     wordNo: 669,
@@ -12902,7 +12902,7 @@ const units = {
     meaning: "（in [with] 〜）（〜を）しつこく貫く，（〜に）固執する",
     sentence: "(   ) in causing trouble",
     jp: "厄介なことばかり引き起こす（引き起こし続ける）",
-    jpBlank: "厄介なことばかり引き起こす（(   )）",
+    jpBlank: "厄介なことばかり引き起こす(   )",
     jpAnswer: "引き起こし続ける"
   },
   {
@@ -12911,8 +12911,8 @@ const units = {
     meaning: "〜を調査する",
     sentence: "(   ) the old records",
     jp: "古い記録を調べる",
-    jpBlank: "古い記録を(   )べる",
-    jpAnswer: "調"
+    jpBlank: "(   )",
+    jpAnswer: "古い記録を調べる"
   },
   {
     wordNo: 670,
@@ -12920,8 +12920,8 @@ const units = {
     meaning: "〜を検査する",
     sentence: "have my stomach (   )",
     jp: "胃の検査を受ける（胃を検査してもらう）",
-    jpBlank: "胃の検査を受ける（(   )）",
-    jpAnswer: "胃を検査してもらう"
+    jpBlank: "胃の(   )を受ける",
+    jpAnswer: "検査"
   },
   {
     wordNo: 671,
@@ -12974,8 +12974,8 @@ const units = {
     meaning: "〜を獲得する",
     sentence: "(   ) U.S. citizenship",
     jp: "アメリカ市民権を取得する",
-    jpBlank: "(   )",
-    jpAnswer: "アメリカ市民権を取得する"
+    jpBlank: "アメリカ(   )",
+    jpAnswer: "市民権を取得する"
   },
   {
     wordNo: 673,
@@ -13010,8 +13010,8 @@ const units = {
     meaning: "論理的な",
     sentence: "(   ) thinking",
     jp: "論理的な思考",
-    jpBlank: "(   )思考",
-    jpAnswer: "論理的な"
+    jpBlank: "(   )的な思考",
+    jpAnswer: "論理"
   },
   {
     wordNo: 676,
@@ -13046,8 +13046,8 @@ const units = {
     meaning: "〜を決める",
     sentence: "People's lifestyles are often (   ) by their incomes.",
     jp: "人の生活スタイルは収入で決まることが多い。",
-    jpBlank: "人の生活スタイルは収入で(   )まることが多い。",
-    jpAnswer: "決"
+    jpBlank: "人の生活スタイルは収入で決(   )。",
+    jpAnswer: "まることが多い"
   },
   {
     wordNo: 678,
@@ -13055,8 +13055,8 @@ const units = {
     meaning: "〜を大きく影響する",
     sentence: "I am (   ) to win the game.",
     jp: "私は試合に勝つ決意をしている。",
-    jpBlank: "(   )。",
-    jpAnswer: "私は試合に勝つ決意をしている"
+    jpBlank: "私は試合に勝つ(   )をしている。",
+    jpAnswer: "決意"
   },
   {
     wordNo: 678,
@@ -13064,8 +13064,8 @@ const units = {
     meaning: "（原因など）を特定する",
     sentence: "(   ) the cause of the accident",
     jp: "その事故の原因を特定する",
-    jpBlank: "その事故の原因(   )",
-    jpAnswer: "を特定する"
+    jpBlank: "その事故の原因(   )する",
+    jpAnswer: "を特定"
   },
   {
     wordNo: 679,
@@ -13156,8 +13156,8 @@ const units = {
     meaning: "（be 〜d to 〜）〜することになっている",
     sentence: "You are (   ) to take off your shoes at the door.",
     jp: "玄関では靴を脱ぐことになっています。",
-    jpBlank: "玄関では靴を脱ぐことになっていま(   )。",
-    jpAnswer: "す"
+    jpBlank: "玄関では靴を脱ぐことに(   )ます。",
+    jpAnswer: "なってい"
   },
   {
     wordNo: 685,
@@ -13201,8 +13201,8 @@ const units = {
     meaning: "世話をする",
     sentence: "(   ) for orphans",
     jp: "孤児の世話をする",
-    jpBlank: "孤児の(   )",
-    jpAnswer: "世話をする"
+    jpBlank: "孤児の(   )する",
+    jpAnswer: "世話を"
   },
   {
     wordNo: 687,
@@ -13219,8 +13219,8 @@ const units = {
     meaning: "（of 〜）（〜を）認める，承認する",
     sentence: "Her parents (   ) of her marriage.",
     jp: "彼女の両親は彼女の結婚を認めた。",
-    jpBlank: "彼女の両親は彼女の結婚を(   )た。",
-    jpAnswer: "認め"
+    jpBlank: "彼女の両親は彼女の結婚を(   )。",
+    jpAnswer: "認めた"
   },
   {
     wordNo: 688,
@@ -13237,8 +13237,8 @@ const units = {
     meaning: "〜に気がついている",
     sentence: "I (   ) that there was a hole in my sock.",
     jp: "靴下に穴が空いていることに気がついた。",
-    jpBlank: "靴下に穴が空いていることに(   )いた。",
-    jpAnswer: "気がつ"
+    jpBlank: "靴下に穴が空いていることに(   )ついた。",
+    jpAnswer: "気が"
   },
   {
     wordNo: 689,
@@ -13255,8 +13255,8 @@ const units = {
     meaning: "気づいている",
     sentence: "I am (   ) that my time on earth is limited.",
     jp: "この世の時間には限りがあると思っている。",
-    jpBlank: "(   )。",
-    jpAnswer: "この世の時間には限りがあると思っている"
+    jpBlank: "この世の時間には(   )があると思っている。",
+    jpAnswer: "限り"
   },
   {
     wordNo: 691,
@@ -13264,8 +13264,8 @@ const units = {
     meaning: "意識している，気づいている",
     sentence: "I was (   ) of the fact that it was an important meeting.",
     jp: "それが重要な会議であるということを意識していた。",
-    jpBlank: "それが重要な会議であるということを(   )ていた。",
-    jpAnswer: "意識し"
+    jpBlank: "それが重要な会議であるということを(   )た。",
+    jpAnswer: "意識してい"
   },
   {
     wordNo: 691,
@@ -13273,8 +13273,8 @@ const units = {
     meaning: "意識がある",
     sentence: "He was still (   ) when we arrived.",
     jp: "私たちが到着したとき，彼はまだ意識があった。",
-    jpBlank: "私たちが到着したとき，彼はまだ(   )あった。",
-    jpAnswer: "意識が"
+    jpBlank: "私たちが到着したとき，彼はまだ(   )った。",
+    jpAnswer: "意識があ"
   },
   {
     wordNo: 692,
@@ -13309,8 +13309,8 @@ const units = {
     meaning: "（as B）（AをBと）みなす",
     sentence: "Zack was born in the U.S. but he (   ) Japan as his home.",
     jp: "ザックはアメリカ生まれだが，日本を故郷だと思っている。",
-    jpBlank: "ザックはアメリカ生まれだが，(   )。",
-    jpAnswer: "日本を故郷だと思っている"
+    jpBlank: "ザックはアメリカ生まれだが，日本を(   )だと思っている。",
+    jpAnswer: "故郷"
   },
   {
     wordNo: 693,
@@ -13336,8 +13336,8 @@ const units = {
     meaning: "よろしくという挨拶",
     sentence: "Please give [send] my (   ) to Mr. Smith.",
     jp: "スミスさんによろしくお伝えください。",
-    jpBlank: "スミスさんに(   )くお伝えください。",
-    jpAnswer: "よろし"
+    jpBlank: "スミスさんによろしく(   )。",
+    jpAnswer: "お伝えください"
   },
   {
     wordNo: 694,
@@ -13354,8 +13354,8 @@ const units = {
     meaning: "（言葉を）記憶する",
     sentence: "(   ) the words to memory",
     jp: "その言葉を記憶する（言葉を記憶に委ねる）",
-    jpBlank: "その言葉を記憶する（(   )）",
-    jpAnswer: "言葉を記憶に委ねる"
+    jpBlank: "その言葉を(   )る",
+    jpAnswer: "記憶す"
   },
 ],
 694: [
@@ -13374,8 +13374,8 @@ const units = {
     meaning: "〜を疑う",
     sentence: "I have never once (   ) him.",
     jp: "彼のことを疑ったことは一度もない。",
-    jpBlank: "彼のことを(   )ったことは一度もない。",
-    jpAnswer: "疑"
+    jpBlank: "彼のことを疑ったこ(   )。",
+    jpAnswer: "とは一度もない"
   },
   {
     wordNo: 695,
@@ -13383,8 +13383,8 @@ const units = {
     meaning: "（that SV）〜とは思わない",
     sentence: "I (   ) that this diamond is real.",
     jp: "このダイヤモンドは本物ではないと思う。",
-    jpBlank: "このダイヤモンド(   )本物ではないと思う。",
-    jpAnswer: "は"
+    jpBlank: "このダイヤモンドは本物では(   )。",
+    jpAnswer: "ないと思う"
   },
   {
     wordNo: 695,
@@ -13392,7 +13392,7 @@ const units = {
     meaning: "疑い",
     sentence: "There is no (   ) that he was happy.",
     jp: "きっと（疑いなく）彼は幸せだった。",
-    jpBlank: "きっと（(   )）彼は幸せだった。",
+    jpBlank: "きっと(   )彼は幸せだった。",
     jpAnswer: "疑いなく"
   },
   {
@@ -13401,8 +13401,8 @@ const units = {
     meaning: "〜を暗記する",
     sentence: "(   ) the times tables",
     jp: "九九を暗記する",
-    jpBlank: "九九を(   )",
-    jpAnswer: "暗記する"
+    jpBlank: "九九を(   )る",
+    jpAnswer: "暗記す"
   },
   {
     wordNo: 697,
@@ -13446,8 +13446,8 @@ const units = {
     meaning: "〜を思い出す",
     sentence: "I (   ) that I had seen him cheating on the test.",
     jp: "彼がテストでカンニングするのを目撃したことを思い出した。",
-    jpBlank: "彼がテストでカンニングするのを目撃したことを(   )した。",
-    jpAnswer: "思い出"
+    jpBlank: "彼がテストでカンニングするのを目撃したことを(   )出した。",
+    jpAnswer: "思い"
   },
   {
     wordNo: 699,
@@ -13491,8 +13491,8 @@ const units = {
     meaning: "（大局的な）見方，遠近法",
     sentence: "keep the situation in (   )",
     jp: "状況を大局的に捉える",
-    jpBlank: "(   )",
-    jpAnswer: "状況を大局的に捉える"
+    jpBlank: "状況を(   )的に捉える",
+    jpAnswer: "大局"
   },
   {
     wordNo: 702,
@@ -13500,8 +13500,8 @@ const units = {
     meaning: "〜を捨てる，放棄する",
     sentence: "(   ) my dream of studying abroad",
     jp: "留学する夢を諦める",
-    jpBlank: "(   )",
-    jpAnswer: "留学する夢を諦める"
+    jpBlank: "留学する夢を(   )",
+    jpAnswer: "諦める"
   },
   {
     wordNo: 703,
@@ -13509,8 +13509,8 @@ const units = {
     meaning: "（不要な人，物）を排除する",
     sentence: "(   ) gender discrimination",
     jp: "性差別をなくす",
-    jpBlank: "性差別(   )なくす",
-    jpAnswer: "を"
+    jpBlank: "(   )",
+    jpAnswer: "性差別をなくす"
   },
   {
     wordNo: 703,
@@ -13527,8 +13527,8 @@ const units = {
     meaning: "（get 〜 of 〜）（不要な人，物）を処分する",
     sentence: "(   ) my old toys",
     jp: "古いおもちゃを処分する",
-    jpBlank: "古いおもちゃ(   )",
-    jpAnswer: "を処分する"
+    jpBlank: "古いおもちゃ(   )する",
+    jpAnswer: "を処分"
   },
   {
     wordNo: 704,
@@ -13536,8 +13536,8 @@ const units = {
     meaning: "〜を取り除く",
     sentence: "(   ) cockroaches",
     jp: "ゴキブリを駆除する",
-    jpBlank: "(   )",
-    jpAnswer: "ゴキブリを駆除する"
+    jpBlank: "ゴキブリ(   )",
+    jpAnswer: "を駆除する"
   },
   {
     wordNo: 705,
@@ -13545,8 +13545,8 @@ const units = {
     meaning: "〜を取り除く，取り去る",
     sentence: "Illegally parked bicycles will be (   ).",
     jp: "放置自転車（不法駐輪された自転車）は撤去される。",
-    jpBlank: "放置自転車（(   )）は撤去される。",
-    jpAnswer: "不法駐輪された自転車"
+    jpBlank: "放置自転車(   )。",
+    jpAnswer: "は撤去される"
   },
   {
     wordNo: 705,
@@ -13617,8 +13617,8 @@ const units = {
     meaning: "（景観，平和，食品など）を保つ",
     sentence: "a well-(   ) fossil",
     jp: "保存状態のよい（よく保存されている）化石",
-    jpBlank: "保存状態のよい（(   )）化石",
-    jpAnswer: "よく保存されている"
+    jpBlank: "(   )状態のよい化石",
+    jpAnswer: "保存"
   },
   {
     wordNo: 709,
@@ -13709,8 +13709,8 @@ const units = {
     meaning: "作物",
     sentence: "the main (   ) in this area",
     jp: "この地域の主要な農産物",
-    jpBlank: "(   )",
-    jpAnswer: "この地域の主要な農産物"
+    jpBlank: "この地域の主要な(   )",
+    jpAnswer: "農産物"
   },
   {
     wordNo: 715,
@@ -13718,7 +13718,7 @@ const units = {
     meaning: "収穫（高）",
     sentence: "this region's rice (   )",
     jp: "この地域の米の収穫（高）",
-    jpBlank: "この地域の米の(   )（高）",
+    jpBlank: "この地域の米の(   )",
     jpAnswer: "収穫"
   },
   {
@@ -13727,8 +13727,8 @@ const units = {
     meaning: "（up）生じる",
     sentence: "A new problem (   ) up.",
     jp: "新たな問題が突然生じた。",
-    jpBlank: "新たな問題が突然(   )た。",
-    jpAnswer: "生じ"
+    jpBlank: "新たな問題が突然(   )。",
+    jpAnswer: "生じた"
   },
   {
     wordNo: 716,
@@ -13781,8 +13781,8 @@ const units = {
     meaning: "漏れる",
     sentence: "This roof (   ).",
     jp: "雨漏りがする（この屋根は漏れる）。",
-    jpBlank: "雨漏りがする（(   )）。",
-    jpAnswer: "この屋根は漏れる"
+    jpBlank: "雨漏りがする(   )。",
+    jpAnswer: "漏れる"
   },
   {
     wordNo: 720,
@@ -13862,7 +13862,7 @@ const units = {
     meaning: "〜を予報する",
     sentence: "Snow is (   ) for the weekend.",
     jp: "週末は雪の予報だ（雪が予報された）。",
-    jpBlank: "週末は雪の予報だ（(   )）。",
+    jpBlank: "週末は雪の予報だ(   )。",
     jpAnswer: "雪が予報された"
   },
   {
@@ -13871,8 +13871,8 @@ const units = {
     meaning: "湿気が多い",
     sentence: "Kyoto is hot and (   ) in summer.",
     jp: "京都の夏は蒸し暑い。",
-    jpBlank: "(   )。",
-    jpAnswer: "京都の夏は蒸し暑い"
+    jpBlank: "京都(   )。",
+    jpAnswer: "の夏は蒸し暑い"
   },
   {
     wordNo: 725,
@@ -13898,7 +13898,7 @@ const units = {
     meaning: "手に入る，利用できる",
     sentence: "This T-shirt is (   ) in all sizes.",
     jp: "このTシャツはすべてのサイズでご用意できます（手に入る）。",
-    jpBlank: "このTシャツはすべてのサイズでご用意できます（(   )）。",
+    jpBlank: "このTシャツはすべてのサイズでご用意できます(   )。",
     jpAnswer: "手に入る"
   },
 ],
@@ -13918,8 +13918,8 @@ const units = {
     meaning: "（虫や小動物などの）殺虫剤、除草剤",
     sentence: "Spray crops with ( ).",
     jp: "作物に農薬を散布する",
-    jpBlank: "(   )",
-    jpAnswer: "作物に農薬を散布する"
+    jpBlank: "作物に農薬を(   )する",
+    jpAnswer: "散布"
   },
   {
     wordNo: undefined,
@@ -13954,8 +13954,8 @@ const units = {
     meaning: "（on ～）（～を）常食とする",
     sentence: "Sheep ( ) on grass.",
     jp: "ヒツジは草を常食とする",
-    jpBlank: "ヒツジは草を(   )",
-    jpAnswer: "常食とする"
+    jpBlank: "ヒツジは草を(   )する",
+    jpAnswer: "常食と"
   },
   {
     wordNo: undefined,
@@ -13999,8 +13999,8 @@ const units = {
     meaning: "知的な",
     sentence: "( ) property",
     jp: "知的財産",
-    jpBlank: "(   )財産",
-    jpAnswer: "知的"
+    jpBlank: "(   )",
+    jpAnswer: "知的財産"
   },
   {
     wordNo: undefined,
@@ -14026,8 +14026,8 @@ const units = {
     meaning: "想像力豊かな",
     sentence: "Children are very ( ).",
     jp: "子どもは非常に想像力が豊かだ。",
-    jpBlank: "子どもは非常に(   )が豊かだ。",
-    jpAnswer: "想像力"
+    jpBlank: "子どもは非常に(   )力が豊かだ。",
+    jpAnswer: "想像"
   },
   {
     wordNo: undefined,
@@ -14035,8 +14035,8 @@ const units = {
     meaning: "（can ～）〜する余裕がある",
     sentence: "I can't ( ) to buy a new car.",
     jp: "新車を買う余裕がない。",
-    jpBlank: "(   )。",
-    jpAnswer: "新車を買う余裕がない"
+    jpBlank: "新車を(   )。",
+    jpAnswer: "買う余裕がない"
   },
   {
     wordNo: undefined,
@@ -14053,8 +14053,8 @@ const units = {
     meaning: "熱心な",
     sentence: "She is ( ) to buy a fur coat.",
     jp: "彼女は毛皮のコートを買いたがっている。",
-    jpBlank: "彼女は毛皮のコート(   )。",
-    jpAnswer: "を買いたがっている"
+    jpBlank: "彼女は毛皮のコートを(   )。",
+    jpAnswer: "買いたがっている"
   },
   {
     wordNo: undefined,
@@ -14071,8 +14071,8 @@ const units = {
     meaning: "攻撃的な",
     sentence: "Her attitude suddenly became ( ).",
     jp: "彼女の態度が突然攻撃的になった。",
-    jpBlank: "彼女の態度が突然(   )になった。",
-    jpAnswer: "攻撃的"
+    jpBlank: "彼女の態度が突然(   )的になった。",
+    jpAnswer: "攻撃"
   },
   {
     wordNo: undefined,
@@ -14080,8 +14080,8 @@ const units = {
     meaning: "積極的な",
     sentence: "A successful businessperson needs to be ( ).",
     jp: "ビジネスで成功するには積極的でないといけない。",
-    jpBlank: "ビジネスで成功するには(   )でないといけない。",
-    jpAnswer: "積極的"
+    jpBlank: "ビジネスで成功するには(   )的でないといけない。",
+    jpAnswer: "積極"
   },
   {
     wordNo: undefined,
@@ -14134,8 +14134,8 @@ const units = {
     meaning: "（of ～）罪を犯した",
     sentence: "He was ( ) of cheating at cards.",
     jp: "彼はいかさまをした。",
-    jpBlank: "(   )。",
-    jpAnswer: "彼はいかさまをした"
+    jpBlank: "彼は(   )をした。",
+    jpAnswer: "いかさま"
   },
   {
     wordNo: undefined,
@@ -14179,8 +14179,8 @@ const units = {
     meaning: "（人が）謙虚な",
     sentence: "He is ( ) about his success.",
     jp: "彼は成功を鼻にかけない。",
-    jpBlank: "(   )。",
-    jpAnswer: "彼は成功を鼻にかけない"
+    jpBlank: "彼は成功(   )。",
+    jpAnswer: "を鼻にかけない"
   },
   {
     wordNo: undefined,
@@ -14206,8 +14206,8 @@ const units = {
     meaning: "無関心な",
     sentence: "He is ( ) to politics.",
     jp: "彼は政治に無関心だ。",
-    jpBlank: "彼は政治に(   )だ。",
-    jpAnswer: "無関心"
+    jpBlank: "彼は政治に(   )心だ。",
+    jpAnswer: "無関"
   },
   {
     wordNo: undefined,
@@ -14260,8 +14260,8 @@ const units = {
     meaning: "整然とした",
     sentence: "Keep the office ( ).",
     jp: "事務所をきちんとしておく",
-    jpBlank: "(   )",
-    jpAnswer: "事務所をきちんとしておく"
+    jpBlank: "事務所を(   )としておく",
+    jpAnswer: "きちん"
   },
   {
     wordNo: undefined,
@@ -14350,8 +14350,8 @@ const units = {
     meaning: "不可欠な",
     sentence: "Water is ( ) to living things.",
     jp: "水は生物にとって不可欠だ。",
-    jpBlank: "水は生物にとって(   )だ。",
-    jpAnswer: "不可欠"
+    jpBlank: "水は生物にとって(   )欠だ。",
+    jpAnswer: "不可"
   },
   {
     wordNo: undefined,
@@ -14359,8 +14359,8 @@ const units = {
     meaning: "最も重要な、本質的な",
     sentence: "The bare ( )s",
     jp: "最低限必要なもの",
-    jpBlank: "(   )低限必要なもの",
-    jpAnswer: "最"
+    jpBlank: "(   )",
+    jpAnswer: "最低限必要なもの"
   },
 ],
 763: [
@@ -14388,8 +14388,8 @@ const units = {
     meaning: "…に（価値・重要性・影響力で）勝る",
     sentence: "The advantages ( ) the disadvantages.",
     jp: "メリットがデメリットを上回る（デメリットより勝る）",
-    jpBlank: "メリットがデメリットを上回る（(   )）",
-    jpAnswer: "デメリットより勝る"
+    jpBlank: "メリットがデメリットを(   )",
+    jpAnswer: "上回る"
   },
   {
     wordNo: undefined,
@@ -14397,7 +14397,7 @@ const units = {
     meaning: "重大な、危機的な状況の",
     sentence: "in a ( ) condition",
     jp: "危篤状態（危機的な体調）で",
-    jpBlank: "危篤状態（(   )）で",
+    jpBlank: "危篤状態(   )で",
     jpAnswer: "危機的な体調"
   },
   {
@@ -14406,8 +14406,8 @@ const units = {
     meaning: "批判的な",
     sentence: "be ( ) of the policy",
     jp: "その政策に批判的だ",
-    jpBlank: "その政策に(   )だ",
-    jpAnswer: "批判的"
+    jpBlank: "その政策に(   )的だ",
+    jpAnswer: "批判"
   },
   {
     wordNo: undefined,
@@ -14424,8 +14424,8 @@ const units = {
     meaning: "（人が）真面目な、本気の",
     sentence: "be ( ) about finding a job",
     jp: "職探しに真面目だ",
-    jpBlank: "職探しに(   )だ",
-    jpAnswer: "真面目"
+    jpBlank: "(   )",
+    jpAnswer: "職探しに真面目だ"
   },
   {
     wordNo: undefined,
@@ -14442,7 +14442,7 @@ const units = {
     meaning: "複合的な（建物）",
     sentence: "a leisure ( )",
     jp: "総合レジャーセンター（複合施設）",
-    jpBlank: "総合レジャーセンター（(   )）",
+    jpBlank: "総合レジャーセンター(   )",
     jpAnswer: "複合施設"
   },
   {
@@ -14451,8 +14451,8 @@ const units = {
     meaning: "強迫観念（まれ）",
     sentence: "an inferiority ( )",
     jp: "劣等感（劣っているという強迫観念）",
-    jpBlank: "劣等感（(   )）",
-    jpAnswer: "劣っているという強迫観念"
+    jpBlank: "劣等感(   )",
+    jpAnswer: "強迫観念"
   },
   {
     wordNo: undefined,
@@ -14460,8 +14460,8 @@ const units = {
     meaning: "複雑な、ややこしい",
     sentence: "make things ( )",
     jp: "事態を複雑にする",
-    jpBlank: "事態を(   )にする",
-    jpAnswer: "複雑"
+    jpBlank: "(   )",
+    jpAnswer: "事態を複雑にする"
   },
   {
     wordNo: undefined,
@@ -14568,7 +14568,7 @@ const units = {
     meaning: "種類",
     sentence: "What ( ) of soap do you use?",
     jp: "どのような（種類の）石けんを使っているの。",
-    jpBlank: "どのような（(   )）石けんを使っているの。",
+    jpBlank: "どのような(   )石けんを使っているの。",
     jpAnswer: "種類の"
   },
   {
@@ -14577,8 +14577,8 @@ const units = {
     meaning: "（副詞的に）（～が多少）",
     sentence: "I'm ( ) of tired today.",
     jp: "今日はちょっと疲れている。",
-    jpBlank: "(   )。",
-    jpAnswer: "今日はちょっと疲れている"
+    jpBlank: "今日は(   )疲れている。",
+    jpAnswer: "ちょっと"
   },
   {
     wordNo: undefined,
@@ -14586,8 +14586,8 @@ const units = {
     meaning: "…を分類する",
     sentence: "The watermelons are ( )ed according to size.",
     jp: "スイカは大きさによって分類されている。",
-    jpBlank: "スイカ(   )。",
-    jpAnswer: "は大きさによって分類されている"
+    jpBlank: "スイカは大きさによって(   )されている。",
+    jpAnswer: "分類"
   },
   {
     wordNo: undefined,
@@ -14622,7 +14622,7 @@ const units = {
     meaning: "確信している",
     sentence: "Are you ( )?",
     jp: "自信あるの（確信しているの）？",
-    jpBlank: "自信あるの（(   )の）？",
+    jpBlank: "自信あるの(   )？",
     jpAnswer: "確信している"
   },
   {
@@ -14631,7 +14631,7 @@ const units = {
     meaning: "純粋な",
     sentence: "a ( ) wool blanket",
     jp: "100%（純粋な）ウールの毛布",
-    jpBlank: "100%（(   )）ウールの毛布",
+    jpBlank: "100%(   )ウールの毛布",
     jpAnswer: "純粋な"
   },
   {
@@ -14649,8 +14649,8 @@ const units = {
     meaning: "着実な、一定の",
     sentence: "make ( ) progress",
     jp: "着実に進歩する（着実な進歩をする）",
-    jpBlank: "(   )進歩を遂げる",
-    jpAnswer: "注目すべき"
+    jpBlank: "(   )進歩する",
+    jpAnswer: "着実に"
   },
   {
     wordNo: undefined,
@@ -14676,8 +14676,8 @@ const units = {
     meaning: "安定した",
     sentence: "His temperature remains ( ).",
     jp: "彼の体温は安定している。",
-    jpBlank: "彼の体温は(   )ている。",
-    jpAnswer: "安定し"
+    jpBlank: "彼の体温は(   )いる。",
+    jpAnswer: "安定して"
   },
   {
     wordNo: undefined,
@@ -14730,7 +14730,7 @@ const units = {
     meaning: "おおざっぱな",
     sentence: "a ( ) idea of the plan",
     jp: "その計画の概略（おおまかな考え）",
-    jpBlank: "その計画の概略（(   )）",
+    jpBlank: "その計画の概略(   )",
     jpAnswer: "おおまかな考え"
   },
   {
@@ -14739,8 +14739,8 @@ const units = {
     meaning: "（海、天候などが）荒れている",
     sentence: "( ) weather",
     jp: "荒れた天候",
-    jpBlank: "(   )た天候",
-    jpAnswer: "荒れ"
+    jpBlank: "(   )",
+    jpAnswer: "荒れた天候"
   },
   {
     wordNo: undefined,
@@ -14766,8 +14766,8 @@ const units = {
     meaning: "受動的な、消極的な",
     sentence: "He is quite ( ), and never speaks out.",
     jp: "彼はかなり消極的で、決して意見をはっきり言わない。",
-    jpBlank: "彼はかなり(   )で、決して意見をはっきり言わない。",
-    jpAnswer: "消極的"
+    jpBlank: "彼はかなり(   )的で、決して意見をはっきり言わない。",
+    jpAnswer: "消極"
   },
   {
     wordNo: undefined,
@@ -14784,8 +14784,8 @@ const units = {
     meaning: "（努力などが）無益な",
     sentence: "( ) attempt",
     jp: "無駄な試みをして",
-    jpBlank: "(   )駄な試みをして",
-    jpAnswer: "無"
+    jpBlank: "(   )",
+    jpAnswer: "無駄な試みをして"
   },
   {
     wordNo: undefined,
@@ -14847,8 +14847,8 @@ const units = {
     meaning: "半端な、雑多な",
     sentence: "an ( ) job",
     jp: "雑用（雑多な仕事）",
-    jpBlank: "雑用（(   )）",
-    jpAnswer: "雑多な仕事"
+    jpBlank: "雑用(   )",
+    jpAnswer: "雑多な"
   },
   {
     wordNo: undefined,
@@ -14865,8 +14865,8 @@ const units = {
     meaning: "無知の",
     sentence: "Doris is ( ) of the world.",
     jp: "ドリスは世間知らずだ（世界について無知だ）",
-    jpBlank: "ドリスは世間知らずだ（(   )）",
-    jpAnswer: "世界について無知だ"
+    jpBlank: "ドリスは世間知らずだ(   )",
+    jpAnswer: "無知"
   },
   {
     wordNo: undefined,
@@ -14883,8 +14883,8 @@ const units = {
     meaning: "…を対比する",
     sentence: "( ) two things",
     jp: "2つの物を対比する",
-    jpBlank: "(   )",
-    jpAnswer: "2つの物を対比する"
+    jpBlank: "2(   )",
+    jpAnswer: "つの物を対比する"
   },
   {
     wordNo: undefined,
@@ -14892,7 +14892,7 @@ const units = {
     meaning: "対照をなす",
     sentence: "( ) with the previous results",
     jp: "前回の結果と対照的だ（対照をなす）",
-    jpBlank: "前回の結果と対照的だ（(   )）",
+    jpBlank: "前回の結果と対照的だ(   )",
     jpAnswer: "対照をなす"
   },
   {
@@ -14910,8 +14910,8 @@ const units = {
     meaning: "（切符などが）有効な",
     sentence: "This passport is ( ) for ten years.",
     jp: "このパスポートは10年間有効です。",
-    jpBlank: "このパスポートは10年間(   )です。",
-    jpAnswer: "有効"
+    jpBlank: "このパスポートは10(   )。",
+    jpAnswer: "年間有効です"
   },
   {
     wordNo: undefined,
@@ -14928,7 +14928,7 @@ const units = {
     meaning: "ふとした、何気ない",
     sentence: "I feel more relaxed in ( ) clothes",
     jp: "ふだん着（気楽な服）のほうが落ち着く",
-    jpBlank: "ふだん着（(   )）のほうが落ち着く",
+    jpBlank: "ふだん着(   )のほうが落ち着く",
     jpAnswer: "気楽な服"
   },
   {
@@ -14957,8 +14957,8 @@ const units = {
     meaning: "（人，知識が）現実的な，実務の",
     sentence: "gain (   ) experience",
     jp: "実践経験を積む",
-    jpBlank: "(   )践経験を積む",
-    jpAnswer: "実"
+    jpBlank: "(   )",
+    jpAnswer: "実践経験を積む"
   },
   {
     wordNo: 801,
@@ -15074,8 +15074,8 @@ const units = {
     meaning: "（言葉が）きつい",
     sentence: "his (   ) tongue",
     jp: "彼の毒舌（きつい言葉）",
-    jpBlank: "彼の毒舌（(   )）",
-    jpAnswer: "きつい言葉"
+    jpBlank: "彼の毒舌(   )",
+    jpAnswer: "きつい"
   },
   {
     wordNo: 808,
@@ -15092,8 +15092,8 @@ const units = {
     meaning: "（時間）きっかりで",
     sentence: "at ten (o'clock) (   )",
     jp: "10時きっかりに",
-    jpBlank: "10時(   )りに",
-    jpAnswer: "きっか"
+    jpBlank: "(   )",
+    jpAnswer: "10時きっかりに"
   },
   {
     wordNo: 809,
@@ -15101,8 +15101,8 @@ const units = {
     meaning: "落ち着いた",
     sentence: "The supporters stayed (   ).",
     jp: "サポーターたちは落ち着いていた。",
-    jpBlank: "サポーターたちは(   )いていた。",
-    jpAnswer: "落ち着"
+    jpBlank: "サポーターたちは(   )着いていた。",
+    jpAnswer: "落ち"
   },
   {
     wordNo: 809,
@@ -15128,7 +15128,7 @@ const units = {
     meaning: "（人が）裸の，むき出しの",
     sentence: "swim (   ) in the river",
     jp: "川で裸で（裸の状態で）泳ぐ",
-    jpBlank: "川で裸で（(   )）泳ぐ",
+    jpBlank: "川で裸で(   )泳ぐ",
     jpAnswer: "裸の状態で"
   },
   {
@@ -15137,8 +15137,8 @@ const units = {
     meaning: "独立した，無所属の",
     sentence: "I am (   ) of my parents.",
     jp: "私は両親の世話になっていない（両親から独立している）。",
-    jpBlank: "私は両親の世話になっていない（(   )）。",
-    jpAnswer: "両親から独立している"
+    jpBlank: "私は両親の世話になっていない(   )。",
+    jpAnswer: "独立"
   },
   {
     wordNo: 811,
@@ -15164,8 +15164,8 @@ const units = {
     meaning: "（人が）緊張した",
     sentence: "The examinees looked (   ).",
     jp: "受験生たちは緊張しているようだった。",
-    jpBlank: "受験生たちは(   )ているようだった。",
-    jpAnswer: "緊張し"
+    jpBlank: "受験生たちは(   )いるようだった。",
+    jpAnswer: "緊張して"
   },
   {
     wordNo: 812,
@@ -15200,8 +15200,8 @@ const units = {
     meaning: "（席などが）空いている，使用されていない",
     sentence: "The seat next to mine was (   ).",
     jp: "私の隣の席は空いていた。",
-    jpBlank: "私の隣の席は(   )いた。",
-    jpAnswer: "空いて"
+    jpBlank: "私の隣の席は(   )た。",
+    jpAnswer: "空いてい"
   },
   {
     wordNo: 815,
@@ -15220,8 +15220,8 @@ const units = {
     meaning: "（色が）鮮やかな",
     sentence: "a (   ) blue sky",
     jp: "目の覚めるような青空。",
-    jpBlank: "(   )。",
-    jpAnswer: "目の覚めるような青空"
+    jpBlank: "目の(   )青空。",
+    jpAnswer: "覚めるような"
   },
   {
     wordNo: 816,
@@ -15247,7 +15247,7 @@ const units = {
     meaning: "扱いにくい",
     sentence: "(   ) questions like \"Where do babies come from?\"",
     jp: "「赤ちゃんはどこから来るの？」といった困った（扱いにくい）質問",
-    jpBlank: "「赤ちゃんはどこから来るの？」といった困った（(   )）質問",
+    jpBlank: "「赤ちゃんはどこから来るの？」といった困った(   )質問",
     jpAnswer: "扱いにくい"
   },
   {
@@ -15256,8 +15256,8 @@ const units = {
     meaning: "客観的な",
     sentence: "Historians try to be (   ).",
     jp: "歴史家は客観的であるよう努める。",
-    jpBlank: "歴史家は(   )であるよう努める。",
-    jpAnswer: "客観的"
+    jpBlank: "歴史家は(   )的であるよう努める。",
+    jpAnswer: "客観"
   },
   {
     wordNo: 817,
@@ -15274,7 +15274,7 @@ const units = {
     meaning: "手を使う，身体を使う",
     sentence: "(   ) work",
     jp: "手仕事（＝頭脳労働）",
-    jpBlank: "手仕事（(   )）",
+    jpBlank: "手仕事(   )",
     jpAnswer: "＝頭脳労働"
   },
   {
@@ -15283,7 +15283,7 @@ const units = {
     meaning: "手動の",
     sentence: "switch to (   ) operation",
     jp: "手動（の操作）に切り替える",
-    jpBlank: "手動（(   )）に切り替える",
+    jpBlank: "手動(   )に切り替える",
     jpAnswer: "の操作"
   },
   {
@@ -15310,8 +15310,8 @@ const units = {
     meaning: "（A and B 〜）（AもBも）同様に",
     sentence: "Children and parents (   ) can enjoy this book.",
     jp: "この本は子ども共々（子どもも親も）同様に楽しめる。",
-    jpBlank: "この本は子ども共々（(   )）同様に楽しめる。",
-    jpAnswer: "子どもも親も"
+    jpBlank: "この本は子ども共々(   )楽しめる。",
+    jpAnswer: "同様に"
   },
   {
     wordNo: 820,
@@ -15337,8 +15337,8 @@ const units = {
     meaning: "（to do）〜する傾向にある",
     sentence: "Women (   ) to count calories more than men do.",
     jp: "女性は男性よりカロリー計算をする傾向がある。",
-    jpBlank: "女性は男性よりカロリー計算を(   )向がある。",
-    jpAnswer: "する傾"
+    jpBlank: "女性は男性よりカロリー計算を(   )傾向がある。",
+    jpAnswer: "する"
   },
   {
     wordNo: 822,
@@ -15346,8 +15346,8 @@ const units = {
     meaning: "〜に値する",
     sentence: "Masato has trained so hard that he (   ) to win.",
     jp: "マサトは一生懸命トレーニングしたので，勝ってもおかしくない（勝つのに値する）。",
-    jpBlank: "マサトは一生懸命トレーニングしたので，勝ってもおかしくない（(   )）。",
-    jpAnswer: "勝つのに値する"
+    jpBlank: "マサトは一生懸命トレーニングしたので，勝ってもおかしくない(   )。",
+    jpAnswer: "値する"
   },
   {
     wordNo: 823,
@@ -15382,7 +15382,7 @@ const units = {
     meaning: "規模",
     sentence: "do business on a large (   )",
     jp: "手広く（大規模に）商売をする",
-    jpBlank: "手広く（(   )）商売をする",
+    jpBlank: "手広く(   )商売をする",
     jpAnswer: "大規模に"
   },
   {
@@ -15418,8 +15418,8 @@ const units = {
     meaning: "ほかに類を見ない",
     sentence: "Her voice is totally (   ).",
     jp: "彼女の声はとても独特だ。",
-    jpBlank: "(   )。",
-    jpAnswer: "彼女の声はとても独特だ"
+    jpBlank: "彼女の声はとても(   )だ。",
+    jpAnswer: "独特"
   },
   {
     wordNo: 827,
@@ -15445,8 +15445,8 @@ const units = {
     meaning: "ある特定の",
     sentence: "Nothing in (   ).",
     jp: "（意見や予定などを尋ねられた答えとして）特にないです。",
-    jpBlank: "（(   )）特にないです。",
-    jpAnswer: "意見や予定などを尋ねられた答えとして"
+    jpBlank: "(   )。",
+    jpAnswer: "特にないです"
   },
   {
     wordNo: 828,
@@ -15481,8 +15481,8 @@ const units = {
     meaning: "平凡な，ふつうの",
     sentence: "the lives of (   ) people",
     jp: "庶民（ふつうの人々）の生活",
-    jpBlank: "庶民（(   )）の生活",
-    jpAnswer: "ふつうの人々"
+    jpBlank: "庶民(   )の生活",
+    jpAnswer: "ふつうの"
   },
 ],
 831: [
@@ -15537,8 +15537,8 @@ const units = {
     meaning: "〜を測る",
     sentence: "Please (   ) your blood pressure.",
     jp: "血圧を測ってください。",
-    jpBlank: "血圧を(   )ってください。",
-    jpAnswer: "測"
+    jpBlank: "血圧を(   )。",
+    jpAnswer: "測ってください"
   },
   {
     wordNo: 833,
@@ -15546,7 +15546,7 @@ const units = {
     meaning: "（〜の）寸法がある",
     sentence: "His waist (   ) over a meter.",
     jp: "彼のウエストは1メートルを超えている（寸法がある）。",
-    jpBlank: "彼のウエストは1メートルを超えている（(   )）。",
+    jpBlank: "彼のウエストは1メートルを超えている(   )。",
     jpAnswer: "寸法がある"
   },
   {
@@ -15564,8 +15564,8 @@ const units = {
     meaning: "減る，衰退する",
     sentence: "Educational standards are (   ).",
     jp: "教育水準が下がっている。",
-    jpBlank: "(   )。",
-    jpAnswer: "教育水準が下がっている"
+    jpBlank: "教育水準が(   )。",
+    jpAnswer: "下がっている"
   },
   {
     wordNo: 834,
@@ -15591,7 +15591,7 @@ const units = {
     meaning: "〜を割る",
     sentence: "Let's (   ) the bill.",
     jp: "割り勘にしよう（勘定を割る）。",
-    jpBlank: "割り勘にしよう（(   )）。",
+    jpBlank: "割り勘にしよう(   )。",
     jpAnswer: "勘定を割る"
   },
   {
@@ -15600,8 +15600,8 @@ const units = {
     meaning: "〜を分裂させる",
     sentence: "The issue (   ) the church.",
     jp: "その問題は教会を分裂させた。",
-    jpBlank: "その問題は教会を(   )せた。",
-    jpAnswer: "分裂さ"
+    jpBlank: "その問題は教会を(   )た。",
+    jpAnswer: "分裂させ"
   },
   {
     wordNo: 835,
@@ -15609,8 +15609,8 @@ const units = {
     meaning: "〜を割る",
     sentence: "(   ) into three groups",
     jp: "3つのグループに分かれる",
-    jpBlank: "(   )",
-    jpAnswer: "3つのグループに分かれる"
+    jpBlank: "3つのグルー(   )",
+    jpAnswer: "プに分かれる"
   },
   {
     wordNo: 835,
@@ -15645,8 +15645,8 @@ const units = {
     meaning: "（全集などの）1巻",
     sentence: "an encyclopedia in 30 (   )",
     jp: "30巻からなる百科事典",
-    jpBlank: "(   )",
-    jpAnswer: "30巻からなる百科事典"
+    jpBlank: "30(   )からなる百科事典",
+    jpAnswer: "巻"
   },
   {
     wordNo: 837,
@@ -15690,8 +15690,8 @@ const units = {
     meaning: "（-s of 〜）数〜",
     sentence: "(   ) of people",
     jp: "数十人",
-    jpBlank: "(   )十人",
-    jpAnswer: "数"
+    jpBlank: "(   )",
+    jpAnswer: "数十人"
   },
   {
     wordNo: 839,
@@ -15726,8 +15726,8 @@ const units = {
     meaning: "大量",
     sentence: "a huge (   ) of data",
     jp: "非常に多くのデータ",
-    jpBlank: "(   )",
-    jpAnswer: "非常に多くのデータ"
+    jpBlank: "非常に(   )データ",
+    jpAnswer: "多くの"
   },
   {
     wordNo: 840,
@@ -15782,7 +15782,7 @@ const units = {
     meaning: "莫大な，巨大な",
     sentence: "an (   ) amount of time",
     jp: "莫大な（量の）時間",
-    jpBlank: "(   )（量の）時間",
+    jpBlank: "(   )時間",
     jpAnswer: "莫大な"
   },
   {
@@ -15809,8 +15809,8 @@ const units = {
     meaning: "〜を惜しむ",
     sentence: "(   ) no expense",
     jp: "出費を惜しまない",
-    jpBlank: "出費を(   )まない",
-    jpAnswer: "惜し"
+    jpBlank: "(   )",
+    jpAnswer: "出費を惜しまない"
   },
   {
     wordNo: 844,
@@ -15854,8 +15854,8 @@ const units = {
     meaning: "（サイズが人に）合う",
     sentence: "This sweater (   ) (= goes with) your skirt.",
     jp: "このセーターは君のスカートによく合っている。",
-    jpBlank: "このセーターは君のスカートによく(   )っている。",
-    jpAnswer: "合"
+    jpBlank: "このセーターは君のスカート(   )。",
+    jpAnswer: "によく合っている"
   },
   {
     wordNo: 846,
@@ -15863,8 +15863,8 @@ const units = {
     meaning: "〜に匹敵する",
     sentence: "No one can (   ) her in tennis.",
     jp: "テニスで彼女にかなう人はいない。",
-    jpBlank: "テニス(   )。",
-    jpAnswer: "で彼女にかなう人はいない"
+    jpBlank: "テニスで彼女にか(   )。",
+    jpAnswer: "なう人はいない"
   },
   {
     wordNo: 846,
@@ -15872,7 +15872,7 @@ const units = {
     meaning: "（釣り合う人，物）好敵手",
     sentence: "He is no (   ) for the champion.",
     jp: "彼はチャンピオンの相手（好敵手）ではない。",
-    jpBlank: "彼はチャンピオンの相手（(   )）ではない。",
+    jpBlank: "彼はチャンピオンの相手(   )ではない。",
     jpAnswer: "好敵手"
   },
   {
@@ -15881,8 +15881,8 @@ const units = {
     meaning: "（サイズが人に）合う",
     sentence: "This dress (   ) you.",
     jp: "このワンピースは（サイズが）君にぴったりだ。",
-    jpBlank: "このワンピースは（(   )）君にぴったりだ。",
-    jpAnswer: "サイズが"
+    jpBlank: "このワンピースは(   )君にぴったりだ。",
+    jpAnswer: "サイズ"
   },
   {
     wordNo: 847,
@@ -15899,8 +15899,8 @@ const units = {
     meaning: "（to do）〜（するの）に適した",
     sentence: "This mushroom is not (   ) to eat.",
     jp: "このキノコは食用には適さない。",
-    jpBlank: "このキノコは食用(   )は適さない。",
-    jpAnswer: "に"
+    jpBlank: "このキノコは食(   )。",
+    jpAnswer: "用には適さない"
   },
   {
     wordNo: 848,
@@ -15953,8 +15953,8 @@ const units = {
     meaning: "最新の，今の",
     sentence: "the (   ) energy crisis",
     jp: "現在のエネルギー危機",
-    jpBlank: "(   )",
-    jpAnswer: "現在のエネルギー危機"
+    jpBlank: "(   )のエネルギー危機",
+    jpAnswer: "現在"
   },
   {
     wordNo: 851,
@@ -15998,8 +15998,8 @@ const units = {
     meaning: "（時間，順序で）前の，以前の",
     sentence: "the (   ) morning",
     jp: "（ある日の）前の朝",
-    jpBlank: "（(   )）前の朝",
-    jpAnswer: "ある日の"
+    jpBlank: "(   )朝",
+    jpAnswer: "前の"
   },
   {
     wordNo: 855,
@@ -16072,8 +16072,8 @@ const units = {
     meaning: "直後に",
     sentence: "(   ) behind the driver",
     jp: "運転手のすぐ後ろに",
-    jpBlank: "(   )",
-    jpAnswer: "運転手のすぐ後ろに"
+    jpBlank: "運転手のすぐ(   )に",
+    jpAnswer: "後ろ"
   },
   {
     wordNo: 859,
@@ -16090,8 +16090,8 @@ const units = {
     meaning: "10年",
     sentence: "decades of research",
     jp: "数十年にわたる研究",
-    jpBlank: "(   )",
-    jpAnswer: "数十年にわたる研究"
+    jpBlank: "(   )にわたる研究",
+    jpAnswer: "数十年"
   },
   {
     wordNo: 861,
@@ -16117,8 +16117,8 @@ const units = {
     meaning: "〜に取って代わる",
     sentence: "AI has (   ) humans in many fields.",
     jp: "人工知能が多くの分野で人間に取って代わった。",
-    jpBlank: "人工知能が多くの分野で人間に(   )代わった。",
-    jpAnswer: "取って"
+    jpBlank: "人工知能が多くの分野で人間に(   )った。",
+    jpAnswer: "取って代わ"
   },
   {
     wordNo: 862,
@@ -16162,8 +16162,8 @@ const units = {
     meaning: "〜を代わりにする",
     sentence: "(   ) for her",
     jp: "彼女の代役をする",
-    jpBlank: "彼女の(   )役をする",
-    jpAnswer: "代"
+    jpBlank: "(   )",
+    jpAnswer: "彼女の代役をする"
   },
   {
     wordNo: 864,
@@ -16180,8 +16180,8 @@ const units = {
     meaning: "（for 〜）（〜の）代わりになる",
     sentence: "There is no (   ) for experience.",
     jp: "経験に代わるものはない。",
-    jpBlank: "経験に(   )るものはない。",
-    jpAnswer: "代わ"
+    jpBlank: "経験に代(   )。",
+    jpAnswer: "わるものはない"
   },
   {
     wordNo: 865,
@@ -16198,8 +16198,8 @@ const units = {
     meaning: "（to 〜）（〜に）屈服する",
     sentence: "(   ) to authority",
     jp: "権力に屈する",
-    jpBlank: "権力に(   )する",
-    jpAnswer: "屈"
+    jpBlank: "(   )",
+    jpAnswer: "権力に屈する"
   },
   {
     wordNo: 866,
@@ -16225,8 +16225,8 @@ const units = {
     meaning: "代替エネルギー源",
     sentence: "(   ) energy sources",
     jp: "代替エネルギー源",
-    jpBlank: "(   )",
-    jpAnswer: "代替エネルギー源"
+    jpBlank: "代替(   )源",
+    jpAnswer: "エネルギー"
   },
   {
     wordNo: 867,
@@ -16234,8 +16234,8 @@ const units = {
     meaning: "〜を配達する",
     sentence: "(   ) pizzas",
     jp: "ピザを配達する",
-    jpBlank: "ピザを(   )",
-    jpAnswer: "配達する"
+    jpBlank: "ピザを(   )る",
+    jpAnswer: "配達す"
   },
   {
     wordNo: 867,
@@ -16243,7 +16243,7 @@ const units = {
     meaning: "（演説など）をする",
     sentence: "(   ) his inaugural address",
     jp: "（彼の）就任演説をする",
-    jpBlank: "（彼の）就任演説(   )",
+    jpBlank: "就任演説(   )",
     jpAnswer: "をする"
   },
   {
@@ -16288,8 +16288,8 @@ const units = {
     meaning: "（巧妙な）手口，策略",
     sentence: "use cheap (   ) to get promoted",
     jp: "出世のために小細工をする",
-    jpBlank: "(   )",
-    jpAnswer: "出世のために小細工をする"
+    jpBlank: "出世のために(   )をする",
+    jpAnswer: "小細工"
   },
   {
     wordNo: 870,
@@ -16297,8 +16297,8 @@ const units = {
     meaning: "芸，手品",
     sentence: "teach a dog some (   )",
     jp: "イヌに芸を教える",
-    jpBlank: "イヌに(   )を教える",
-    jpAnswer: "芸"
+    jpBlank: "(   )",
+    jpAnswer: "イヌに芸を教える"
   },
 ],
 870: [
@@ -16308,8 +16308,8 @@ const units = {
     meaning: "（of 〜）秘訣",
     sentence: "learn the (   ) of the trade",
     jp: "商売のコツをつかむ",
-    jpBlank: "(   )",
-    jpAnswer: "商売のコツをつかむ"
+    jpBlank: "商売の(   )をつかむ",
+    jpAnswer: "コツ"
   },
   {
     wordNo: 870,
@@ -16326,8 +16326,8 @@ const units = {
     meaning: "荷（物）",
     sentence: "carry a heavy (   ) on my back",
     jp: "重い荷物を背負う",
-    jpBlank: "重い(   )物を背負う",
-    jpAnswer: "荷"
+    jpBlank: "(   )",
+    jpAnswer: "重い荷物を背負う"
   },
   {
     wordNo: 871,
@@ -16335,8 +16335,8 @@ const units = {
     meaning: "（A with B）（AにB（荷））を積む",
     sentence: "be (   ) with timber",
     jp: "材木が積まれている",
-    jpBlank: "(   )",
-    jpAnswer: "材木が積まれている"
+    jpBlank: "材木が(   )",
+    jpAnswer: "積まれている"
   },
   {
     wordNo: 872,
@@ -16371,8 +16371,8 @@ const units = {
     meaning: "家庭の",
     sentence: "do (   ) chores",
     jp: "家事（家庭の雑事）をする",
-    jpBlank: "家事（(   )）をする",
-    jpAnswer: "家庭の雑事"
+    jpBlank: "家事(   )をする",
+    jpAnswer: "家庭の"
   },
   {
     wordNo: 874,
@@ -16389,8 +16389,8 @@ const units = {
     meaning: "利益",
     sentence: "Walking will do you (   ).",
     jp: "歩くのはいいよ（あなたに利益をもたらす）。",
-    jpBlank: "歩くのはいいよ（(   )）。",
-    jpAnswer: "あなたに利益をもたらす"
+    jpBlank: "歩くのはいいよ(   )。",
+    jpAnswer: "利益"
   },
   {
     wordNo: 874,
@@ -16434,8 +16434,8 @@ const units = {
     meaning: "功績，手柄",
     sentence: "All the (   ) goes to him.",
     jp: "すべての彼の手柄（功績）だ。",
-    jpBlank: "すべての彼の手柄（(   )）だ。",
-    jpAnswer: "功績"
+    jpBlank: "すべての彼の(   )だ。",
+    jpAnswer: "手柄"
   },
   {
     wordNo: 876,
@@ -16452,8 +16452,8 @@ const units = {
     meaning: "〜の功績を認める",
     sentence: "He is (   ) with that invention.",
     jp: "その発明は彼の功績だ（彼はその発明の功績があると認められる）。",
-    jpBlank: "その発明は彼の功績だ（(   )）。",
-    jpAnswer: "彼はその発明の功績があると認められる"
+    jpBlank: "その発明は彼の功績だ(   )。",
+    jpAnswer: "功績"
   },
   {
     wordNo: 877,
@@ -16461,7 +16461,7 @@ const units = {
     meaning: "アンケート",
     sentence: "a survey using a (   )",
     jp: "アンケート（を用いた）調査",
-    jpBlank: "(   )（を用いた）調査",
+    jpBlank: "(   )調査",
     jpAnswer: "アンケート"
   },
   {
@@ -16506,8 +16506,8 @@ const units = {
     meaning: "〜に褒美を与える，報いる",
     sentence: "(   ) children for behaving well",
     jp: "いい子にしていた子どもたちにご褒美をあげる",
-    jpBlank: "いい子にしていた子どもたちにご(   )あげる",
-    jpAnswer: "褒美を"
+    jpBlank: "いい子にしていた子どもたちにご(   )をあげる",
+    jpAnswer: "褒美"
   },
   {
     wordNo: 881,
@@ -16515,8 +16515,8 @@ const units = {
     meaning: "別れのあいさつ",
     sentence: "have a (   ) party",
     jp: "送別会を開く",
-    jpBlank: "送(   )会を開く",
-    jpAnswer: "別"
+    jpBlank: "(   )",
+    jpAnswer: "送別会を開く"
   },
   {
     wordNo: 882,
@@ -16533,7 +16533,7 @@ const units = {
     meaning: "（ホテルの）フロント",
     sentence: "leave the key at the (   ) desk",
     jp: "（ホテルの）フロントに鍵を預ける",
-    jpBlank: "（ホテルの）(   )に鍵を預ける",
+    jpBlank: "(   )に鍵を預ける",
     jpAnswer: "フロント"
   },
   {
@@ -16542,7 +16542,7 @@ const units = {
     meaning: "受信状況",
     sentence: "The phone (   ) is not good here.",
     jp: "ここは電波（の受信状況）がよくない。",
-    jpBlank: "ここは電波（の(   )）がよくない。",
+    jpBlank: "ここは電波(   )がよくない。",
     jpAnswer: "受信状況"
   },
   {
@@ -16551,8 +16551,8 @@ const units = {
     meaning: "（食事の）1盛り",
     sentence: "a large (   ) of roast beef",
     jp: "大盛りのローストビーフ",
-    jpBlank: "(   )",
-    jpAnswer: "大盛りのローストビーフ"
+    jpBlank: "(   )のローストビーフ",
+    jpAnswer: "大盛り"
   },
   {
     wordNo: 883,
@@ -16569,8 +16569,8 @@ const units = {
     meaning: "（全体の）一部分",
     sentence: "a (   ) of his income",
     jp: "彼の収入の一部",
-    jpBlank: "彼の収入の(   )",
-    jpAnswer: "一部"
+    jpBlank: "(   )",
+    jpAnswer: "彼の収入の一部"
   },
 ],
 884: [
@@ -16580,8 +16580,8 @@ const units = {
     meaning: "（集中的に）洗濯物",
     sentence: "cook, clean, and do the (   )",
     jp: "料理，掃除，洗濯をする",
-    jpBlank: "料理，掃除，(   )をする",
-    jpAnswer: "洗濯"
+    jpBlank: "料理，掃除，(   )",
+    jpAnswer: "洗濯をする"
   },
   {
     wordNo: 884,
@@ -16616,8 +16616,8 @@ const units = {
     meaning: "昼寝をする，仮眠をとる",
     sentence: "(   ) after lunch",
     jp: "昼食後に昼寝をする",
-    jpBlank: "昼食後に(   )",
-    jpAnswer: "昼寝をする"
+    jpBlank: "昼食後に(   )する",
+    jpAnswer: "昼寝を"
   },
   {
     wordNo: 886,
@@ -16625,8 +16625,8 @@ const units = {
     meaning: "目が覚める",
     sentence: "I (   ) up at six a.m., but did not get up.",
     jp: "午前6時に目が覚めたが，起きなかった。",
-    jpBlank: "午前6時に(   )めたが，起きなかった。",
-    jpAnswer: "目が覚"
+    jpBlank: "午前6時に(   )たが，起きなかった。",
+    jpAnswer: "目が覚め"
   },
   {
     wordNo: 886,
@@ -16661,8 +16661,8 @@ const units = {
     meaning: "（-ies）食料雑貨類",
     sentence: "put my (   ) in a plastic bag",
     jp: "食料品をビニール袋に入れる",
-    jpBlank: "(   )品をビニール袋に入れる",
-    jpAnswer: "食料"
+    jpBlank: "食料品をビニー(   )",
+    jpAnswer: "ル袋に入れる"
   },
   {
     wordNo: 889,
@@ -16688,8 +16688,8 @@ const units = {
     meaning: "〜に相談する",
     sentence: "You'd better (   ) your doctor.",
     jp: "医者に診てもらいなさい。",
-    jpBlank: "(   )。",
-    jpAnswer: "医者に診てもらいなさい"
+    jpBlank: "医者に診(   )。",
+    jpAnswer: "てもらいなさい"
   },
   {
     wordNo: 890,
@@ -16769,8 +16769,8 @@ const units = {
     meaning: "（to 〜）（〜を）定期購読する，加入している",
     sentence: "(   ) to the magazine",
     jp: "雑誌を定期購読する",
-    jpBlank: "雑誌を(   )",
-    jpAnswer: "定期購読する"
+    jpBlank: "雑誌を(   )する",
+    jpAnswer: "定期購読"
   },
   {
     wordNo: 893,
@@ -16778,7 +16778,7 @@ const units = {
     meaning: "（主に否定文で）（to 〜）（考えなどを）支持する",
     sentence: "cannot (   ) to that opinion",
     jp: "その意見には賛成（支持）できない。",
-    jpBlank: "その意見には賛成（(   )）できない。",
+    jpBlank: "その意見には賛成(   )できない。",
     jpAnswer: "支持"
   },
   {
@@ -16814,8 +16814,8 @@ const units = {
     meaning: "〜を拭き取る，壊滅させる",
     sentence: "The entire village was (   ) out by the tornado.",
     jp: "村全体が竜巻によって壊滅させられた。",
-    jpBlank: "村全体が竜巻によって(   )せられた。",
-    jpAnswer: "壊滅さ"
+    jpBlank: "村全体が竜巻によって(   )られた。",
+    jpAnswer: "壊滅させ"
   },
   {
     wordNo: 896,
@@ -16832,8 +16832,8 @@ const units = {
     meaning: "（嵐，波などが）〜を押し流す",
     sentence: "The flood (   ) away the bridge.",
     jp: "洪水が橋を押し流した。",
-    jpBlank: "洪水が橋を(   )した。",
-    jpAnswer: "押し流"
+    jpBlank: "洪水が橋を(   )流した。",
+    jpAnswer: "押し"
   },
   {
     wordNo: 897,
@@ -16852,8 +16852,8 @@ const units = {
     meaning: "（転勤，転校，移動）させる",
     sentence: "be (   ) to the London branch",
     jp: "ロンドン支店に転勤する",
-    jpBlank: "(   )",
-    jpAnswer: "ロンドン支店に転勤する"
+    jpBlank: "ロンドン(   )",
+    jpAnswer: "支店に転勤する"
   },
   {
     wordNo: 897,
@@ -16861,7 +16861,7 @@ const units = {
     meaning: "（転勤，転校，移動）させる",
     sentence: "be (   ) to another department",
     jp: "別の部署に異動する（異動させられる）",
-    jpBlank: "別の部署に異動する（(   )）",
+    jpBlank: "別の部署に異動する(   )",
     jpAnswer: "異動させられる"
   },
   {
@@ -16888,8 +16888,8 @@ const units = {
     meaning: "〜と離婚する",
     sentence: "(   ) my wife",
     jp: "妻と離婚する",
-    jpBlank: "妻と(   )",
-    jpAnswer: "離婚する"
+    jpBlank: "妻と(   )る",
+    jpAnswer: "離婚す"
   },
   {
     wordNo: 898,
@@ -16933,8 +16933,8 @@ const units = {
     meaning: "香水",
     sentence: "the (   ) of roses",
     jp: "バラの香り",
-    jpBlank: "バラの(   )り",
-    jpAnswer: "香"
+    jpBlank: "(   )",
+    jpAnswer: "バラの香り"
   },
   {
     wordNo: 902,
@@ -17005,8 +17005,8 @@ const units = {
     meaning: "足跡，小道",
     sentence: "keep (   ) of my schedule",
     jp: "スケジュール管理をする（スケジュールの経過を追う）",
-    jpBlank: "スケジュール管理をする（(   )）",
-    jpAnswer: "スケジュールの経過を追う"
+    jpBlank: "スケジュール(   )をする",
+    jpAnswer: "管理"
   },
   {
     wordNo: 906,
@@ -17113,8 +17113,8 @@ const units = {
     meaning: "〜を占める",
     sentence: "(   ) two seats on the train",
     jp: "電車で2つの席を占有する",
-    jpBlank: "電車で2つの席を(   )有する",
-    jpAnswer: "占"
+    jpBlank: "電車で2(   )",
+    jpAnswer: "つの席を占有する"
   },
 ],
 913: [
@@ -17142,7 +17142,7 @@ const units = {
     meaning: "古典的な",
     sentence: "(   ) literature",
     jp: "（ギリシャ，ローマの）古典文学",
-    jpBlank: "（(   )，ローマの）古典文学",
+    jpBlank: "(   )古典文学",
     jpAnswer: "ギリシャ"
   },
   {
@@ -17223,7 +17223,7 @@ const units = {
     meaning: "悲劇",
     sentence: "9/11 was a terrible (   ).",
     jp: "9/11（同時多発テロ）は本当に悲劇だった。",
-    jpBlank: "9/11（(   )）は本当に悲劇だった。",
+    jpBlank: "9/11(   )は本当に悲劇だった。",
     jpAnswer: "同時多発テロ"
   },
   {
@@ -17232,8 +17232,8 @@ const units = {
     meaning: "（集合的に）詩",
     sentence: "learn a lot of (   ) by heart",
     jp: "多くの詩を暗記する",
-    jpBlank: "多くの(   )を暗記する",
-    jpAnswer: "詩"
+    jpBlank: "多くの詩を(   )",
+    jpAnswer: "暗記する"
   },
   {
     wordNo: 921,
@@ -17241,8 +17241,8 @@ const units = {
     meaning: "個々の詩",
     sentence: "learn a (   ) by heart",
     jp: "1つの詩を暗記する",
-    jpBlank: "(   )",
-    jpAnswer: "1つの詩を暗記する"
+    jpBlank: "1(   )",
+    jpAnswer: "つの詩を暗記する"
   },
   {
     wordNo: 922,
@@ -17322,8 +17322,8 @@ const units = {
     meaning: "〜を翻訳する",
     sentence: "(   ) a sentence literally",
     jp: "文を直訳する（文字どおりに文を訳す）",
-    jpBlank: "文を直訳する（(   )）",
-    jpAnswer: "文字どおりに文を訳す"
+    jpBlank: "(   )",
+    jpAnswer: "文を直訳する"
   },
   {
     wordNo: 927,
@@ -17396,8 +17396,8 @@ const units = {
     meaning: "（人に）価格を提示する",
     sentence: "(   ) $100 for this table",
     jp: "このテーブルに100ドルの価格を提示する",
-    jpBlank: "このテーブルに100ドルの(   )",
-    jpAnswer: "価格を提示する"
+    jpBlank: "このテーブルに100ドルの(   )する",
+    jpAnswer: "価格を提示"
   },
   {
     wordNo: 930,
@@ -17450,8 +17450,8 @@ const units = {
     meaning: "〜を明らかにする，暴露する",
     sentence: "(   ) a secret to her",
     jp: "彼女に秘密を漏らす",
-    jpBlank: "(   )",
-    jpAnswer: "彼女に秘密を漏らす"
+    jpBlank: "彼女に秘密を(   )",
+    jpAnswer: "漏らす"
   },
   {
     wordNo: 934,
@@ -17558,8 +17558,8 @@ const units = {
     meaning: "（人）を（笑顔にさせて）楽しませる",
     sentence: "The clown (   ) us all.",
     jp: "そのピエロは私たちみんなを楽しませた。",
-    jpBlank: "そのピエロは私たちみんな(   )楽しませた。",
-    jpAnswer: "を"
+    jpBlank: "そのピエロは私たちみんなを(   )た。",
+    jpAnswer: "楽しませ"
   },
   {
     wordNo: 942,
@@ -17567,8 +17567,8 @@ const units = {
     meaning: "〜を引きつける，魅了する",
     sentence: "The pop star's marriage (   ) media attention.",
     jp: "人気スターの結婚はマスコミの関心を引きつけた。",
-    jpBlank: "人気スターの結婚はマスコミの関心を(   )けた。",
-    jpAnswer: "引きつ"
+    jpBlank: "人気スターの結婚はマスコミの関心を(   )た。",
+    jpAnswer: "引きつけ"
   },
   {
     wordNo: 943,
@@ -17594,8 +17594,8 @@ const units = {
     meaning: "〜を吸収する",
     sentence: "(   ) water",
     jp: "水を吸収する",
-    jpBlank: "水を(   )",
-    jpAnswer: "吸収する"
+    jpBlank: "水を(   )る",
+    jpAnswer: "吸収す"
   },
   {
     wordNo: 945,
@@ -17621,8 +17621,8 @@ const units = {
     meaning: "〜を怯えさせる",
     sentence: "Oh! You (   ) me!",
     jp: "もう，びっくりしたじゃない（あなたは私を怯えさせた）。",
-    jpBlank: "もう，びっくりしたじゃない（(   )）。",
-    jpAnswer: "あなたは私を怯えさせた"
+    jpBlank: "もう，びっくりしたじゃない(   )。",
+    jpAnswer: "怯えさせ"
   },
   {
     wordNo: 947,
@@ -17630,8 +17630,8 @@ const units = {
     meaning: "〜をぎょっとさせる",
     sentence: "I was (   ) to hear a man shout.",
     jp: "男が叫ぶのを聞いて，ぎょっとした。",
-    jpBlank: "男が叫ぶのを聞いて，(   )とした。",
-    jpAnswer: "ぎょっ"
+    jpBlank: "男が叫ぶのを聞いて，(   )。",
+    jpAnswer: "ぎょっとした"
   },
   {
     wordNo: 947,
@@ -17668,8 +17668,8 @@ const units = {
     meaning: "〜を当惑させる，動揺させる",
     sentence: "The news (   ) her.",
     jp: "その知らせは彼女を動揺させた。",
-    jpBlank: "その知らせは彼女を(   )せた。",
-    jpAnswer: "動揺さ"
+    jpBlank: "その知らせは彼女を(   )た。",
+    jpAnswer: "動揺させ"
   },
   {
     wordNo: 950,
@@ -17713,8 +17713,8 @@ const units = {
     meaning: "〜を混乱させる，困惑させる",
     sentence: "His reply (   ) me.",
     jp: "彼の返答は私を困惑させた。",
-    jpBlank: "彼の返答は私を(   )せた。",
-    jpAnswer: "困惑さ"
+    jpBlank: "彼の返答は私を(   )た。",
+    jpAnswer: "困惑させ"
   },
   {
     wordNo: 952,
@@ -17731,8 +17731,8 @@ const units = {
     meaning: "〜をうんざりさせる，退屈させる",
     sentence: "I was (   ) with his long speech.",
     jp: "彼の長い話にうんざりした。",
-    jpBlank: "彼の長い話に(   )りした。",
-    jpAnswer: "うんざ"
+    jpBlank: "彼の長い話に(   )ざりした。",
+    jpAnswer: "うん"
   },
   {
     wordNo: 954,
@@ -17740,8 +17740,8 @@ const units = {
     meaning: "〜を欲求不満にさせる",
     sentence: "I felt (   ) because I could not express myself well.",
     jp: "うまく表現できなくてもどかしい思いをした。",
-    jpBlank: "(   )。",
-    jpAnswer: "うまく表現できなくてもどかしい思いをした"
+    jpBlank: "うまく表現できなくて(   )思いをした。",
+    jpAnswer: "もどかしい"
   },
   {
     wordNo: 954,
@@ -17749,8 +17749,8 @@ const units = {
     meaning: "（計画などを）挫折させる",
     sentence: "His plan was (   ) by a lack of money.",
     jp: "彼の計画はお金がなかったため頓挫した。",
-    jpBlank: "彼の計画はお金がなかったため頓(   )した。",
-    jpAnswer: "挫"
+    jpBlank: "彼の計画はお金がなかったため(   )した。",
+    jpAnswer: "頓挫"
   },
   {
     wordNo: 955,
@@ -17758,8 +17758,8 @@ const units = {
     meaning: "〜を失望させる",
     sentence: "I was (   ) with the soccer game.",
     jp: "サッカーの試合にがっかりした。",
-    jpBlank: "サッカー(   )。",
-    jpAnswer: "の試合にがっかりした"
+    jpBlank: "サッカーの試合に(   )した。",
+    jpAnswer: "がっかり"
   },
   {
     wordNo: 956,
@@ -17767,8 +17767,8 @@ const units = {
     meaning: "〜に恥ずかしい思いをさせる，困惑させる",
     sentence: "I was (   ) about using the wrong fork at dinner.",
     jp: "夕食時，フォークを使い間違えて恥ずかしかった。",
-    jpBlank: "夕食時，フォークを使い間違えて(   )しかった。",
-    jpAnswer: "恥ずか"
+    jpBlank: "夕食時，フォークを使い間違えて(   )かしかった。",
+    jpAnswer: "恥ず"
   },
   {
     wordNo: 957,
@@ -17794,8 +17794,8 @@ const units = {
     meaning: "ためらう",
     sentence: "Please do not (   ) to contact me if you have any questions.",
     jp: "質問があればどうぞご遠慮なく（連絡するのをためらわないで）ご連絡ください。",
-    jpBlank: "質問があればどうぞご遠慮なく（(   )）ご連絡ください。",
-    jpAnswer: "連絡するのをためらわないで"
+    jpBlank: "質問があればどうぞご遠慮なく(   )ご連絡ください。",
+    jpAnswer: "ためらわない"
   },
   {
     wordNo: 960,
@@ -17803,8 +17803,8 @@ const units = {
     meaning: "（to do）〜（するの）が気が進まない",
     sentence: "I was (   ) to go with him.",
     jp: "彼と一緒に行くのは気が進まなかった。",
-    jpBlank: "彼と一緒に行くのは気(   )進まなかった。",
-    jpAnswer: "が"
+    jpBlank: "彼と一緒に行くのは気が(   )。",
+    jpAnswer: "進まなかった"
   },
   {
     wordNo: 961,
@@ -17812,8 +17812,8 @@ const units = {
     meaning: "震える",
     sentence: "The little girl was (   ) with fear.",
     jp: "その少女は恐怖で震えていた。",
-    jpBlank: "その少女は恐怖で(   )ていた。",
-    jpAnswer: "震え"
+    jpBlank: "その少女は恐怖で(   )いた。",
+    jpAnswer: "震えて"
   },
   {
     wordNo: 962,
@@ -17839,8 +17839,8 @@ const units = {
     meaning: "（of 〜）（〜に）嫉妬した",
     sentence: "be (   ) of his promotion",
     jp: "彼の昇進に嫉妬している。",
-    jpBlank: "彼の昇進に(   )ている。",
-    jpAnswer: "嫉妬し"
+    jpBlank: "彼の昇進に(   )いる。",
+    jpAnswer: "嫉妬して"
   },
   {
     wordNo: 964,
@@ -17857,7 +17857,7 @@ const units = {
     meaning: "羨望",
     sentence: "feel (   ) at her success",
     jp: "彼女の成功を羨む（羨望を感じる）",
-    jpBlank: "彼女の成功を羨む（(   )）",
+    jpBlank: "彼女の成功を羨む(   )",
     jpAnswer: "羨望を感じる"
   },
   {
@@ -17866,7 +17866,7 @@ const units = {
     meaning: "叫ぶ，大声をあげる",
     sentence: "(   ) at the children to be quiet",
     jp: "子どもたちに静かにさせようと叫ぶ（大声で言う）",
-    jpBlank: "子どもたちに静かにさせようと叫ぶ（(   )）",
+    jpBlank: "子どもたちに静かにさせようと叫ぶ(   )",
     jpAnswer: "大声で言う"
   },
   {
@@ -17884,8 +17884,8 @@ const units = {
     meaning: "（人）を尊敬する",
     sentence: "(   ) Gandhi",
     jp: "ガンジーを尊敬する",
-    jpBlank: "ガンジー(   )",
-    jpAnswer: "を尊敬する"
+    jpBlank: "ガンジー(   )する",
+    jpAnswer: "を尊敬"
   },
   {
     wordNo: 966,
@@ -17893,8 +17893,8 @@ const units = {
     meaning: "（物）を尊重する",
     sentence: "(   ) his judgement",
     jp: "彼の判断を尊重する",
-    jpBlank: "彼の判断(   )",
-    jpAnswer: "を尊重する"
+    jpBlank: "彼の判断(   )する",
+    jpAnswer: "を尊重"
   },
   {
     wordNo: 966,
@@ -17976,7 +17976,7 @@ const units = {
     meaning: "自信",
     sentence: "boost my (   )",
     jp: "（私の）自信を高める",
-    jpBlank: "（私の）(   )を高める",
+    jpBlank: "(   )を高める",
     jpAnswer: "自信"
   },
   {
@@ -18012,8 +18012,8 @@ const units = {
     meaning: "悲しみ",
     sentence: "experience the joys and (   ) of life",
     jp: "人生の苦楽を経験する",
-    jpBlank: "(   )",
-    jpAnswer: "人生の苦楽を経験する"
+    jpBlank: "人生の(   )を経験する",
+    jpAnswer: "苦楽"
   },
   {
     wordNo: 975,
@@ -18030,8 +18030,8 @@ const units = {
     meaning: "（人，気分）を怒らせる，の気分を害する",
     sentence: "His jokes (   ) Irish people.",
     jp: "彼のジョークはアイルランドの人たちを怒らせた。",
-    jpBlank: "彼のジョークはアイルランドの人たち(   )せた。",
-    jpAnswer: "を怒ら"
+    jpBlank: "彼のジョークはアイルランドの人たち(   )た。",
+    jpAnswer: "を怒らせ"
   },
   {
     wordNo: 977,
@@ -18039,7 +18039,7 @@ const units = {
     meaning: "〜を憂うつにさせる，落ち込ませる",
     sentence: "The rainy weather (   ) me.",
     jp: "雨ですっかり気がめいってしまった（私を落ち込ませた）。",
-    jpBlank: "雨ですっかり気がめいってしまった（(   )）。",
+    jpBlank: "雨ですっかり気がめいってしまった(   )。",
     jpAnswer: "私を落ち込ませた"
   },
   {
@@ -18057,8 +18057,8 @@ const units = {
     meaning: "（A（金）をBに）借りている",
     sentence: "I (   ) 2,000 yen to him. / I (   ) him 2,000 yen.",
     jp: "彼に2,000円を借りている。（下線は重点を示す。）",
-    jpBlank: "彼に2,000円を借りている。（(   )）",
-    jpAnswer: "下線は重点を示す。"
+    jpBlank: "彼に2,000(   )。",
+    jpAnswer: "円を借りている"
   },
   {
     wordNo: 979,
@@ -18165,7 +18165,7 @@ const units = {
     meaning: "まったったくの",
     sentence: "a (   ) stranger",
     jp: "赤の（まったくの）他人",
-    jpBlank: "赤の（(   )）他人",
+    jpBlank: "赤の(   )他人",
     jpAnswer: "まったくの"
   },
   {
@@ -18183,8 +18183,8 @@ const units = {
     meaning: "大部分は",
     sentence: "Our customers are (   ) women.",
     jp: "私たちのお客様は大部分が女性だ。",
-    jpBlank: "私たちのお客様は(   )が女性だ。",
-    jpAnswer: "大部分"
+    jpBlank: "私たちのお客様は(   )分が女性だ。",
+    jpAnswer: "大部"
   },
   {
     wordNo: 986,
@@ -18230,8 +18230,8 @@ const units = {
     meaning: "ひょっとすると",
     sentence: "It will take two weeks, (   ) longer.",
     jp: "2週間，ひょっとしたらそれ以上かかるかもしれない。",
-    jpBlank: "2週間，(   )としたらそれ以上かかるかもしれない。",
-    jpAnswer: "ひょっ"
+    jpBlank: "2週間，ひょっとしたらそれ以上かか(   )。",
+    jpAnswer: "るかもしれない"
   },
   {
     wordNo: 990,
@@ -18293,8 +18293,8 @@ const units = {
     meaning: "さもなければ",
     sentence: "Hurry up; (   ) you'll be late.",
     jp: "急げ！さもないと遅れるぞ。",
-    jpBlank: "急げ！(   )いと遅れるぞ。",
-    jpAnswer: "さもな"
+    jpBlank: "急げ！(   )ないと遅れるぞ。",
+    jpAnswer: "さも"
   },
   {
     wordNo: 996,
@@ -18311,7 +18311,7 @@ const units = {
     meaning: "違うと思うように",
     sentence: "They say that the movie is wonderful, but I think (   ).",
     jp: "その映画はすばらしいと言うが，私は違うと思う（違うように考える）。",
-    jpBlank: "その映画はすばらしいと言うが，私は違うと思う（(   )）。",
+    jpBlank: "その映画はすばらしいと言うが，私は違うと思う(   )。",
     jpAnswer: "違うように考える"
   },
   {
@@ -18347,8 +18347,8 @@ const units = {
     meaning: "価値，（〜相当）",
     sentence: "$100,000 (   ) of damage",
     jp: "10万ドル相当の被害",
-    jpBlank: "(   )",
-    jpAnswer: "10万ドル相当の被害"
+    jpBlank: "10万ドル(   )の被害",
+    jpAnswer: "相当"
   },
   {
     wordNo: 999,
@@ -18356,8 +18356,8 @@ const units = {
     meaning: "（調査，人の話など）によれば",
     sentence: "(   ) a public poll",
     jp: "世論調査によると",
-    jpBlank: "世論調査(   )ると",
-    jpAnswer: "によ"
+    jpBlank: "(   )",
+    jpAnswer: "世論調査によると"
   },
   {
     wordNo: 999,
@@ -18378,7 +18378,7 @@ const units = {
     jpAnswer: "もかかわらず"
   },
 ],
-  };
+  };;;;;;;;;
   
   
   // ====== 状態 ======
@@ -18762,6 +18762,13 @@ homeBtn.onclick = async () => {
   }
 
   // ====== 表示 ======
+  function formatJpBlankForDisplay(jpBlank) {
+    if (!jpBlank) return "";
+    return jpBlank
+      .replace(/（\(   \)）/g, "(   )")
+      .replace(/（[^）]*）/g, "");
+  }
+
   function showCard() {
     const q = currentUnit[currentIndex];
 
@@ -18769,7 +18776,7 @@ homeBtn.onclick = async () => {
 
     if (quizDirection === "enToJa") {
       sentenceEl.textContent = sentenceForDisplay(q);
-      jpEl.textContent = q.jpBlank;
+      jpEl.textContent = formatJpBlankForDisplay(q.jpBlank);
       input.placeholder = "日本語を入力";
       quiz.classList.add("mode-en-to-ja");
     } else {

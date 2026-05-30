@@ -28,7 +28,18 @@ function loadOverrides() {
 }
 
 function entryKey(e) {
+  if (e.wordNo === undefined) return `${e.word}|${e.sentence}`;
   return `${e.wordNo}|${e.sentence}`;
+}
+
+function getOverride(overrides, entry) {
+  const key = entryKey(entry);
+  if (overrides[key]) return overrides[key];
+  if (entry.wordNo === undefined) {
+    const legacy = `undefined|${entry.sentence}`;
+    if (overrides[legacy]) return overrides[legacy];
+  }
+  return null;
 }
 
 function cleanMeaning(meaning) {
@@ -70,14 +81,7 @@ function meaningVariants(phrase) {
     variants.add(stem + "いません");
   }
 
-  // Noun from long meaning: 形態 -> 形
-  if (base.length >= 2) {
-    for (let len = 1; len <= Math.min(3, base.length - 1); len++) {
-      variants.add(base.slice(0, len));
-    }
-  }
-
-  return [...variants].filter(v => v.length >= 1);
+  return [...variants].filter(v => v.length >= 2);
 }
 
 function allCandidates(entry) {
@@ -88,21 +92,20 @@ function allCandidates(entry) {
     for (const v of meaningVariants(part)) set.add(v);
   }
 
-  // Parenthetical synonyms inside jp: 正しい（正確な）
+  // Parenthetical synonyms — short glosses only, scored lower when inside （）
   const parenParts = jp.match(/（([^）]+)）/g) || [];
   for (const p of parenParts) {
     const inner = p.slice(1, -1);
     inner.split(/[，,、・]/).forEach(s => {
       const t = s.trim();
-      if (t) set.add(t);
+      if (t && t.length <= 8) set.add(t);
     });
   }
 
-  // Katakana from meaning
   const katakana = meaning.match(/[\u30A0-\u30FFー]+/g) || [];
   katakana.forEach(k => set.add(k));
 
-  return [...set].sort((a, b) => b.length - a.length);
+  return [...set].sort((a, b) => a.length - b.length);
 }
 
 function findAllOccurrences(haystack, needle) {
@@ -117,34 +120,73 @@ function findAllOccurrences(haystack, needle) {
   return positions;
 }
 
+function escapeRegex(str) {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function isInsideJapaneseParen(text, start, length) {
+  const before = text.slice(0, start);
+  const opens = (before.match(/（/g) || []).length;
+  const closes = (before.match(/）/g) || []).length;
+  return opens > closes;
+}
+
 function scoreCandidate(entry, candidate, position) {
   const { jp, meaning } = entry;
-  let score = candidate.length * 10;
-  if (position === 0 && jp.length <= candidate.length + 4) score += 50;
-  if (position + candidate.length === jp.length) score += 20;
-  if (meaning.includes(candidate)) score += 15;
-  if (candidate.length <= 1) score -= 100;
-  if (candidate.length === 2 && !/[\u30A0-\u30FF]/.test(candidate)) score -= 5;
+  const insideParen = isInsideJapaneseParen(jp, position, candidate.length);
+  const jpLen = jp.replace(/[。．.!！?？]/g, "").length;
+
+  let score = 200;
+  score -= candidate.length * 6;
+  if (insideParen) score -= 90;
+  if (candidate.length <= 2 && jp.length > 12) score -= 150;
+  if (candidate.length >= jpLen * 0.55) score -= 120;
+  if (candidate.length > 8) score -= (candidate.length - 8) * 12;
+  if (meaning.includes(candidate)) score += 20;
+  if (!insideParen && candidate.length >= 3 && candidate.length <= 7) score += 30;
+  if (position + candidate.length === jp.length || jp[position + candidate.length] === "。") score += 8;
+
   return score;
 }
 
 function pickBestMatch(entry, candidates) {
   const { jp } = entry;
+  const searchText = jpSearchText(jp);
   let best = null;
   let bestScore = -Infinity;
 
   for (const cand of candidates) {
-    if (!cand || !jp.includes(cand)) continue;
-    const positions = findAllOccurrences(jp, cand);
+    if (!cand) continue;
+    const mapped = mapAnswerToJp(jp, cand, searchText);
+    if (!jp.includes(mapped) && !searchText.includes(cand)) continue;
+    const text = jp.includes(mapped) ? jp : searchText;
+    const needle = jp.includes(mapped) ? mapped : cand;
+    const positions = findAllOccurrences(text, needle);
     for (const pos of positions) {
-      const score = scoreCandidate(entry, cand, pos);
+      const score = scoreCandidate(entry, needle, pos);
       if (score > bestScore) {
         bestScore = score;
-        best = { answer: cand, index: pos };
+        best = { answer: jp.includes(mapped) ? mapped : cand, index: pos };
       }
     }
   }
   return best;
+}
+
+function trimOverlongAnswer(entry, answer) {
+  const { jp } = entry;
+  if (!answer || answer.length <= 8) return answer;
+  for (const part of cleanMeaning(entry.meaning)) {
+    const base = stripPrefix(part);
+    if (base.length >= 3 && base.length <= 8 && answer.includes(base) && jp.includes(base)) {
+      return base;
+    }
+    if (base.endsWith("する")) {
+      const stem = base.slice(0, -2);
+      if (stem.length >= 2 && answer.includes(stem) && jp.includes(stem)) return stem;
+    }
+  }
+  return answer.length > 10 ? null : answer;
 }
 
 function verbFormCandidates(entry) {
@@ -196,33 +238,35 @@ function scanJpVerbPhrases(jp) {
 
 function contextualFallback(entry) {
   const { meaning, jp } = entry;
-  const phrases = scanJpVerbPhrases(jp);
+  const phrases = scanJpVerbPhrases(jp)
+    .filter(ph => !isInsideJapaneseParen(jp, jp.indexOf(ph), ph.length))
+    .sort((a, b) => a.length - b.length);
 
   for (const part of cleanMeaning(meaning)) {
     const base = stripPrefix(part);
     const stem = base.endsWith("する") ? base.slice(0, -2) : base.slice(0, -1);
     for (const ph of phrases) {
-      if (ph.includes(stem) || stem.includes(ph.slice(0, 2))) return ph;
+      if (ph.includes(stem) && ph.length <= 8) return ph;
     }
   }
 
-  // Last resort: longest verb-like phrase at end
-  const endMatch = jp.match(/([\u4E00-\u9FFF\u3040-\u309F]+(?:している|した|する|できる|できた|される|された|ない|わない|いる|ける|げる|める))(?:[。．.!！?？]|$)/);
-  if (endMatch) return endMatch[1];
+  const endMatch = jp.match(/([\u4E00-\u9FFF\u3040-\u309F]{2,8}(?:する|した|して|できる|ない|わない|いる|ける|げる|める))(?:[。．.!！?？]|$)/);
+  if (endMatch && endMatch[1].length <= 8) return endMatch[1];
 
   return null;
 }
 
 function nounPhraseFallback(entry) {
   const { jp, meaning } = entry;
+  const core = jp.replace(/[。．.!！?？]/g, "");
 
-  if (jp.length <= 12) {
+  if (core.length <= 6) {
     const parts = cleanMeaning(meaning);
     for (const p of parts) {
-      const base = p.replace(/^〜(を|に|が|と|で|へ|の)?/, "").replace(/(する|した|している)$/, "");
-      if (base && jp.includes(base)) return base;
+      const base = stripPrefix(p).replace(/(する|した|している)$/, "");
+      if (base && core.includes(base)) return base;
     }
-    return jp.replace(/[。．.!！?？]$/, "");
+    return core;
   }
 
   return null;
@@ -242,14 +286,14 @@ function compoundModifierFallback(entry) {
 
 function predictJpAnswer(entry) {
   const overrides = loadOverrides();
-  const key = entryKey(entry);
-  if (overrides[key]) return overrides[key];
+  const override = getOverride(overrides, entry);
+  if (override) return override;
 
   let match = pickBestMatch(entry, allCandidates(entry));
-  if (match) return match.answer;
+  if (match) return trimOverlongAnswer(entry, match.answer) || match.answer;
 
   match = pickBestMatch(entry, verbFormCandidates(entry));
-  if (match) return match.answer;
+  if (match) return trimOverlongAnswer(entry, match.answer) || match.answer;
 
   const compound = compoundModifierFallback(entry);
   if (compound) return compound;
@@ -260,21 +304,87 @@ function predictJpAnswer(entry) {
   const ctx = contextualFallback(entry);
   if (ctx && entry.jp.includes(ctx)) return ctx;
 
+  const ending = endingFallback(entry);
+  if (ending && entry.jp.includes(ending)) return ending;
+
   return null;
 }
 
-function makeJpBlank(jp, answer) {
-  const idx = jp.indexOf(answer);
-  if (idx === -1) return null;
-  return jp.slice(0, idx) + BLANK + jp.slice(idx + answer.length);
+function cleanupJpBlank(jpBlank) {
+  const placeholder = "__BLANK__";
+  let s = jpBlank.replace(/\(   \)/g, placeholder);
+  s = s.replace(/（\(   \)）/g, placeholder);
+  s = s.replace(/（[^）]*）/g, "");
+  s = s.replace(/，+/g, "，").replace(/、+/g, "、");
+  return s.replace(new RegExp(placeholder, "g"), BLANK);
 }
 
-function validate(entry) {
+function jpSearchText(jp) {
+  return jp.replace(/^（[^）]*）/, "");
+}
+
+function endingFallback(entry) {
+  const { jp } = entry;
+  const core = jpSearchText(jp).replace(/[。．.!！?？]/g, "");
+
+  const adj = core.match(/([^\s（]{2,6}い)$/);
+  if (adj) return adj[1];
+
+  const verb = core.match(/([一-龯ぁ-んァ-ン]{2,8}(?:する|した|して|ない|わない|える|ける|げる|める|られる|れる|つ|す|く|み|け|げ|べ|せ))$/);
+  if (verb && verb[1].length <= 8) return verb[1];
+
+  const nounOnly = core.replace(/（[^）]*）/g, "");
+  if (nounOnly.length >= 2 && nounOnly.length <= 8) return nounOnly;
+
+  return null;
+}
+
+function mapAnswerToJp(jp, answer, searchText) {
+  if (jp.includes(answer)) return answer;
+  const idx = searchText.indexOf(answer);
+  if (idx === -1) return answer;
+  const offset = jp.length - searchText.length;
+  return jp.slice(offset + idx, offset + idx + answer.length);
+}
+
+function makeJpBlank(jp, answer) {
+  if (!answer) return null;
+
+  const searchText = jpSearchText(jp);
+  const mappedAnswer = mapAnswerToJp(jp, answer, searchText);
+
+  const parenPattern = new RegExp(`（[^）]*${escapeRegex(mappedAnswer)}[^）]*）`);
+  const parenMatch = parenPattern.test(jp);
+
+  let target = jp.replace(/^（[^）]*）/, "");
+  const mainIdx = target.indexOf(mappedAnswer);
+  if (mainIdx !== -1 && (!parenMatch || mainIdx < target.indexOf("（"))) {
+    const raw = target.slice(0, mainIdx) + BLANK + target.slice(mainIdx + mappedAnswer.length);
+    return cleanupJpBlank(raw);
+  }
+
+  if (parenMatch) {
+    return cleanupJpBlank(jp.replace(parenPattern, BLANK).replace(/^（[^）]*）/, ""));
+  }
+
+  return null;
+}
+
+function validate(entry, allowLong = false) {
   const { jp, jpAnswer, jpBlank } = entry;
   if (!jpAnswer || !jpBlank) return "missing fields";
   if ((jpBlank.match(/\(   \)/g) || []).length !== 1) return "blank count";
-  if (jpBlank.replace(BLANK, jpAnswer) !== jp) return "restore mismatch";
   if (!jp.includes(jpAnswer)) return "answer not in jp";
+  if (/（.*\(   \).*）/.test(jpBlank)) return "nested paren";
+
+  const restored = jpBlank.replace(BLANK, jpAnswer);
+  const normalize = s => s.replace(/（[^）]*）/g, "").replace(/\s+/g, "");
+  const jpNorm = normalize(jp);
+  const restoredNorm = normalize(restored);
+  const jpWithAnswer = normalize(jp.replace(/（[^）]*）/g, jpAnswer));
+  if (restoredNorm !== jpNorm && restoredNorm !== jpWithAnswer) return "restore mismatch";
+  if (!allowLong && jpAnswer.length > 10) return "too long";
+  if (!jpAnswer.length) return "too short";
   return null;
 }
 
@@ -286,8 +396,13 @@ function processAll(units) {
     for (const entry of arr) {
       const jpAnswer = predictJpAnswer(entry);
       const jpBlank = jpAnswer ? makeJpBlank(entry.jp, jpAnswer) : null;
-      const updated = { ...entry, jpAnswer, jpBlank };
-      const err = validate(updated);
+      const updated = {
+        ...entry,
+        jpAnswer: jpAnswer ?? entry.jpAnswer,
+        jpBlank: jpBlank ?? entry.jpBlank
+      };
+      const isOverride = !!getOverride(loadOverrides(), entry);
+      const err = validate(updated, isOverride);
       if (err) {
         failures.push({ entry, err, jpAnswer, jpBlank });
       }
@@ -358,29 +473,26 @@ function main() {
     });
   }
 
-  if (apply && failures.length === 0) {
-    const rebuilt = {};
-    for (const entry of results) {
-      const key = Object.keys(units).find(k => units[k].includes(entry) ||
-        units[k].some(e => e.wordNo === entry.wordNo && e.sentence === entry.sentence));
-      // Rebuild from original structure
-    }
-    // Simpler: mutate in place
+  if (apply) {
+    let applied = 0;
     for (const arr of Object.values(units)) {
       for (let i = 0; i < arr.length; i++) {
         const key = entryKey(arr[i]);
         const found = results.find(r => entryKey(r) === key);
-        if (found) {
-          arr[i].jpBlank = found.jpBlank;
-          arr[i].jpAnswer = found.jpAnswer;
-        }
+        if (!found?.jpBlank || !found?.jpAnswer) continue;
+        const isOverride = !!getOverride(loadOverrides(), arr[i]);
+        const applyErr = validate(found, isOverride);
+        if (applyErr) continue;
+        arr[i].jpBlank = found.jpBlank;
+        arr[i].jpAnswer = found.jpAnswer;
+        applied++;
       }
     }
     applyToScript(units);
-    console.log("Applied to script.js");
-  } else if (apply && failures.length > 0) {
-    console.error("Cannot apply: fix failures first (add overrides to jp-blank-overrides.json)");
-    process.exit(1);
+    console.log(`Applied ${applied} entries to script.js`);
+    if (failures.length > 0) {
+      console.warn(`${failures.length} entries could not be improved (see jp-blank-failures.json)`);
+    }
   }
 }
 
