@@ -19731,15 +19731,60 @@ function sentenceForSpeech(q) {
 function resolveJapaneseVoice() {
   if (!("speechSynthesis" in window)) return null;
   const voices = window.speechSynthesis.getVoices();
-  const japaneseVoices = voices.filter(v => v.lang && v.lang.startsWith("ja"));
-  if (japaneseVoices.length === 0) return null;
+  if (!voices?.length) return null;
 
-  const preferred = ["Microsoft Nanami", "Microsoft Haruka", "Kyoko", "Otoya", "Google 日本語"];
-  for (const name of preferred) {
-    const found = japaneseVoices.find(v => v.name.includes(name));
-    if (found) return found;
+  const langNorm = s => (s || "").toLowerCase().replace("_", "-");
+  const jaVoices = voices.filter(v => {
+    const lang = langNorm(v.lang);
+    return lang === "ja-jp" || lang.startsWith("ja-") || lang === "ja";
+  });
+  if (jaVoices.length === 0) return null;
+
+  function rankJapaneseVoice(v) {
+    const name = (v.name || "").toLowerCase();
+    let score = 0;
+
+    if (name.includes("google")) {
+      score += 90;
+      if (name.includes("日本語") || name.includes("japanese")) score += 40;
+      if (/wavenet|neural2|neural|journey|generative|premium|studio|polyglot/.test(name)) score += 70;
+      if (/female|[-_]f\b|_f_|wavenet-f|neural2-f|neural-f/.test(name)) score += 35;
+    }
+
+    const namedPriority = [
+      ["nanami", 160],
+      ["haruka", 150],
+      ["ayumi", 120],
+      ["kyoko", 130],
+      ["sayaka", 100],
+      ["google 日本語", 110],
+      ["otoya", 70],
+      ["takehiro", 65],
+      ["keita", 60]
+    ];
+    for (const [key, pts] of namedPriority) {
+      if (name.includes(key)) score += pts;
+    }
+
+    if (name.includes("natural")) score += 55;
+    if (name.includes("desktop")) score += 15;
+    if (v.localService) score += 10;
+
+    if (name.includes("ichiro")) score -= 100;
+    if (/compact|legacy|mobile/.test(name)) score -= 40;
+
+    return score;
   }
-  return japaneseVoices[0];
+
+  const ranked = jaVoices
+    .map(v => ({ v, score: rankJapaneseVoice(v) }))
+    .sort((a, b) => {
+      if (b.score !== a.score) return b.score - a.score;
+      const preferLocal = (v) => (v.localService ? 1 : 0);
+      return preferLocal(b.v) - preferLocal(a.v);
+    });
+
+  return ranked[0]?.v ?? jaVoices[0];
 }
 
 function speakJapanese(text) {
@@ -19751,8 +19796,8 @@ function speakJapanese(text) {
   const doSpeak = () => {
     const utter = new SpeechSynthesisUtterance(text);
     utter.lang = "ja-JP";
-    utter.rate = 1.0;
-    utter.pitch = 1.0;
+    utter.rate = 0.96;
+    utter.pitch = 1.05;
     const v = resolveJapaneseVoice();
     if (v) utter.voice = v;
     synth.speak(utter);
