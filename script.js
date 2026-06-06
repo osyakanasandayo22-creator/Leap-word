@@ -18517,16 +18517,8 @@ const units = {
 
 
   
-  // ====== Unit一覧生成 ======
-  const unitList = document.getElementById("unitList");
-  Object.keys(units).forEach(key => {
-    const btn = document.createElement("button");
-    btn.textContent = key.toUpperCase();
-    btn.className = "unit-btn";
-    btn.onclick = () => startUnit(key);
-    unitList.appendChild(btn);
-  });
-  
+  // Unit一覧（番号ボタン）は非表示 — 範囲テスト・ランダム出題のみ使用
+
   // ====== 設定 ======
   const randomToggleEl = document.getElementById("randomToggle");
   const savedRandom = localStorage.getItem("quizRandom") === "1";
@@ -18721,7 +18713,7 @@ const units = {
   homeBtn.style.display = "none";
 
 homeBtn.onclick = async () => {
-  const shouldGoHome = await showAppConfirm("Unitを中断してホームに戻りますか？", "確認");
+  const shouldGoHome = await showAppConfirm("クイズを中断してホームに戻りますか？", "確認");
   if (shouldGoHome) {
     quiz.classList.add("hidden");
     resultScreen.classList.add("hidden");
