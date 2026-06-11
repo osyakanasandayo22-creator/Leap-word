@@ -1,0 +1,110 @@
+[
+  {
+    "wordNo": 1299,
+    "word": "numerous",
+    "meaning": "多多くの",
+    "sentence": "on (   ) occasions",
+    "jp": "多くの場面で",
+    "jpBlank": "多くの(   )で",
+    "jpAnswer": "場面"
+  },
+  {
+    "wordNo": 1300,
+    "word": "substantial",
+    "meaning": "かなりの，たくさんの",
+    "sentence": "a (   ) breakfast",
+    "jp": "ボリュームのある（たくさんの）朝食",
+    "jpBlank": "ボリュームのある（(   )）朝食",
+    "jpAnswer": "たくさんの"
+  },
+  {
+    "wordNo": 1300,
+    "word": "substantial",
+    "meaning": "内容のある，重要な",
+    "sentence": "a (   ) workshop",
+    "jp": "内容のある勉強会",
+    "jpBlank": "(   )ある勉強会",
+    "jpAnswer": "内容の"
+  },
+  {
+    "wordNo": 1301,
+    "word": "unit",
+    "meaning": "単位",
+    "sentence": "The family is the smallest (   ) of society.",
+    "jp": "家族は社会の最小単位だ。",
+    "jpBlank": "家族は社会の最小(   )だ。",
+    "jpAnswer": "単位"
+  },
+  {
+    "wordNo": 1302,
+    "word": "diameter",
+    "meaning": "直径",
+    "sentence": "two meters in (   )",
+    "jp": "直径2メートル",
+    "jpBlank": "(   )2メートル",
+    "jpAnswer": "直径"
+  },
+  {
+    "wordNo": 1303,
+    "word": "arithmetic",
+    "meaning": "算数",
+    "sentence": "reading, writing, and (   )",
+    "jp": "読み，書き，算盤（＝算術）",
+    "jpBlank": "読み，書き，(   )（＝算術）",
+    "jpAnswer": "算盤"
+  },
+  {
+    "wordNo": 1304,
+    "word": "quantity",
+    "meaning": "分量，数量",
+    "sentence": "Quality is more important than (   ).",
+    "jp": "量より質が重要だ。",
+    "jpBlank": "(   )より質が重要だ。",
+    "jpAnswer": "量"
+  },
+  {
+    "wordNo": 1305,
+    "word": "deficiency",
+    "meaning": "欠乏，不足",
+    "sentence": "a vitamin (   )",
+    "jp": "ビタミンの欠乏",
+    "jpBlank": "ビタミンの(   )",
+    "jpAnswer": "欠乏"
+  },
+  {
+    "wordNo": 1306,
+    "word": "maximum",
+    "meaning": "最大限",
+    "sentence": "This will cost a (   ) of 1,000 dollars.",
+    "jp": "これは最大で1,000ドルかかります。",
+    "jpBlank": "これは(   )で1,000ドルかかります。",
+    "jpAnswer": "最大"
+  },
+  {
+    "wordNo": 1307,
+    "word": "bunch",
+    "meaning": "(花や鍵などの) 束，(ブドウなどの) 房",
+    "sentence": "a (   ) of flowers",
+    "jp": "花束",
+    "jpBlank": "花(   )",
+    "jpAnswer": "束"
+  },
+  {
+    "wordNo": 1308,
+    "word": "lessen",
+    "meaning": "～を減らす",
+    "sentence": "(   ) the risk of human error",
+    "jp": "人為的ミスのリスクを軽減する",
+    "jpBlank": "人為的ミスのリスクを(   )する",
+    "jpAnswer": "軽減"
+  },
+  {
+    "wordNo": 1309,
+    "word": "era",
+    "meaning": "時代",
+    "sentence": "the dawn of a new (   )",
+    "jp": "新たな時代の幕開け",
+    "jpBlank": "新たな(   )の幕開け",
+    "jpAnswer": "時代"
+  }
+]

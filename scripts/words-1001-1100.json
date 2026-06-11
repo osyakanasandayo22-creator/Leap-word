@@ -1,0 +1,1442 @@
+[
+  {
+    "wordNo": 1001,
+    "word": "propose",
+    "meaning": "～を提案する",
+    "sentence": "(   ) a new program",
+    "jp": "新しい計画を提案する",
+    "jpBlank": "新しい計画を(   )",
+    "jpAnswer": "提案する"
+  },
+  {
+    "wordNo": 1001,
+    "word": "propose",
+    "meaning": "（〜に）結婚を申し込む",
+    "sentence": "get down on my knee to (   ) to her",
+    "jp": "片膝ついて彼女にプロポーズする",
+    "jpBlank": "片膝ついて彼女に(   )",
+    "jpAnswer": "プロポーズする"
+  },
+  {
+    "wordNo": 1002,
+    "word": "dismiss",
+    "meaning": "（意見・考えなど）を退ける",
+    "sentence": "(   ) his proposal as unrealistic",
+    "jp": "非現実的だとして彼の提案を退ける",
+    "jpBlank": "非現実的だとして彼の提案を(   )",
+    "jpAnswer": "退ける"
+  },
+  {
+    "wordNo": 1002,
+    "word": "dismiss",
+    "meaning": "～を解雇する",
+    "sentence": "(   ) the employees",
+    "jp": "従業員を解雇する",
+    "jpBlank": "従業員を(   )",
+    "jpAnswer": "解雇する"
+  },
+  {
+    "wordNo": 1003,
+    "word": "bless",
+    "meaning": "～を祝福する",
+    "sentence": "(God) (   ) you!",
+    "jp": "お大事に（神があなたを祝福しますように）。",
+    "jpBlank": "お大事に（神があなたを(   )ますように）。",
+    "jpAnswer": "祝福し"
+  },
+  {
+    "wordNo": 1004,
+    "word": "glory",
+    "meaning": "栄光",
+    "sentence": "his (   ) days as a college basketball star",
+    "jp": "大学バスケットボールのスター選手としての彼の栄光の日々",
+    "jpBlank": "大学バスケットボールのスター選手としての彼の(   )の日々",
+    "jpAnswer": "栄光"
+  },
+  {
+    "wordNo": 1005,
+    "word": "compliments",
+    "meaning": "褒め言葉，賛辞",
+    "sentence": "(   ) on his shoes",
+    "jp": "彼の靴への褒め言葉",
+    "jpBlank": "彼の靴への(   )",
+    "jpAnswer": "褒め言葉"
+  },
+  {
+    "wordNo": 1005,
+    "word": "compliment",
+    "meaning": "～を褒める",
+    "sentence": "(   ) her on her new hairstyle",
+    "jp": "新しい髪型について彼女を褒める",
+    "jpBlank": "新しい髪型について彼女を(   )",
+    "jpAnswer": "褒める"
+  },
+  {
+    "wordNo": 1006,
+    "word": "feast",
+    "meaning": "宴会，祝宴",
+    "sentence": "the wedding (   )",
+    "jp": "結婚式の宴会",
+    "jpBlank": "結婚式の(   )",
+    "jpAnswer": "宴会"
+  },
+  {
+    "wordNo": 1006,
+    "word": "feast",
+    "meaning": "とても楽しいこと，喜ばせるもの",
+    "sentence": "This movie festival is a (   ) for cinema-goers.",
+    "jp": "この映画祭は映画好きにはたまらない。",
+    "jpBlank": "この映画祭は映画好きには(   )。",
+    "jpAnswer": "たまらない"
+  },
+  {
+    "wordNo": 1007,
+    "word": "declared",
+    "meaning": "～を宣言する",
+    "sentence": "He (   ) that he was innocent.",
+    "jp": "彼は無実だとはっきりと述べた。",
+    "jpBlank": "彼は無実だとはっきりと(   )。",
+    "jpAnswer": "述べた"
+  },
+  {
+    "wordNo": 1007,
+    "word": "declare",
+    "meaning": "（税関などで）～を申告する",
+    "sentence": "Do you have anything to (   )?",
+    "jp": "申告するものはありますか？",
+    "jpBlank": "(   )するものはありますか？",
+    "jpAnswer": "申告"
+  },
+  {
+    "wordNo": 1008,
+    "word": "highlight",
+    "meaning": "～を強調する",
+    "sentence": "(   ) the issue of global warming",
+    "jp": "地球温暖化の問題を強調する",
+    "jpBlank": "地球温暖化の問題を(   )する",
+    "jpAnswer": "強調"
+  },
+  {
+    "wordNo": 1008,
+    "word": "highlight",
+    "meaning": "見所",
+    "sentence": "the (   ) of the show",
+    "jp": "そのショーの見所",
+    "jpBlank": "そのショーの(   )",
+    "jpAnswer": "見所"
+  },
+  {
+    "wordNo": 1009,
+    "word": "implied",
+    "meaning": "～をほのめかす",
+    "sentence": "Alex (   ) that he would resign.",
+    "jp": "アレックスは辞意をほのめかした。",
+    "jpBlank": "アレックスは辞意を(   )。",
+    "jpAnswer": "ほのめかした"
+  },
+  {
+    "wordNo": 1010,
+    "word": "recite",
+    "meaning": "～を暗誦する",
+    "sentence": "(   ) a poem",
+    "jp": "詩を暗誦する",
+    "jpBlank": "詩を(   )する",
+    "jpAnswer": "暗誦"
+  },
+  {
+    "wordNo": 1011,
+    "word": "radiation",
+    "meaning": "放射線",
+    "sentence": "The workers were exposed to (   ).",
+    "jp": "その労働者たちは被ばくした（放射線にさらされた）。",
+    "jpBlank": "その労働者たちは(   )にさらされた。",
+    "jpAnswer": "放射線"
+  },
+  {
+    "wordNo": 1012,
+    "word": "rays",
+    "meaning": "光線",
+    "sentence": "the sun's (   )",
+    "jp": "太陽光線",
+    "jpBlank": "太陽(   )",
+    "jpAnswer": "光線"
+  },
+  {
+    "wordNo": 1012,
+    "word": "ray",
+    "meaning": "わずかな",
+    "sentence": "a (   ) of hope",
+    "jp": "一縷の望み",
+    "jpBlank": "一縷の(   )",
+    "jpAnswer": "望み"
+  },
+  {
+    "wordNo": 1013,
+    "word": "laboratory",
+    "meaning": "研究所，実験室",
+    "sentence": "(   ) experiments",
+    "jp": "研究室での実験",
+    "jpBlank": "(   )での実験",
+    "jpAnswer": "研究室"
+  },
+  {
+    "wordNo": 1014,
+    "word": "oxygen",
+    "meaning": "酸素",
+    "sentence": "Water is made up of (   ) and hydrogen.",
+    "jp": "水は酸素と水素からできている。",
+    "jpBlank": "水は(   )と水素からできている。",
+    "jpAnswer": "酸素"
+  },
+  {
+    "wordNo": 1015,
+    "word": "molecule",
+    "meaning": "分子",
+    "sentence": "a water (   )",
+    "jp": "水分子",
+    "jpBlank": "水(   )",
+    "jpAnswer": "分子"
+  },
+  {
+    "wordNo": 1016,
+    "word": "compound",
+    "meaning": "化合物",
+    "sentence": "a chemical (   )",
+    "jp": "化合物",
+    "jpBlank": "(   )",
+    "jpAnswer": "化合物"
+  },
+  {
+    "wordNo": 1016,
+    "word": "compound",
+    "meaning": "複合的な",
+    "sentence": "\"Duty-free\" is a (   ) word.",
+    "jp": "「免税の」は複合語だ。",
+    "jpBlank": "「免税の」は(   )語だ。",
+    "jpAnswer": "複合"
+  },
+  {
+    "wordNo": 1017,
+    "word": "tissue",
+    "meaning": "組織",
+    "sentence": "nerve (   )",
+    "jp": "神経組織",
+    "jpBlank": "神経(   )",
+    "jpAnswer": "組織"
+  },
+  {
+    "wordNo": 1017,
+    "word": "tissue",
+    "meaning": "ティッシュペーパー",
+    "sentence": "take a (   )",
+    "jp": "ティッシュペーパーを取る",
+    "jpBlank": "(   )を取る",
+    "jpAnswer": "ティッシュペーパー"
+  },
+  {
+    "wordNo": 1018,
+    "word": "cells",
+    "meaning": "細胞",
+    "sentence": "remove the cancerous (   )",
+    "jp": "がん細胞を除去する",
+    "jpBlank": "がん(   )を除去する",
+    "jpAnswer": "細胞"
+  },
+  {
+    "wordNo": 1018,
+    "word": "cell",
+    "meaning": "電池",
+    "sentence": "a fuel (   )",
+    "jp": "燃料電池",
+    "jpBlank": "燃料(   )",
+    "jpAnswer": "電池"
+  },
+  {
+    "wordNo": 1018,
+    "word": "cell",
+    "meaning": "小個室",
+    "sentence": "spend a week in a (   )",
+    "jp": "独房で1週間過ごす",
+    "jpBlank": "(   )で1週間過ごす",
+    "jpAnswer": "独房"
+  },
+  {
+    "wordNo": 1019,
+    "word": "gene",
+    "meaning": "遺伝子",
+    "sentence": "the (   ) for black hair",
+    "jp": "黒い髪の遺伝子",
+    "jpBlank": "黒い髪の(   )",
+    "jpAnswer": "遺伝子"
+  },
+  {
+    "wordNo": 1020,
+    "word": "substance",
+    "meaning": "物質",
+    "sentence": "a cancer-causing (   )",
+    "jp": "発がん性物質",
+    "jpBlank": "発がん性(   )",
+    "jpAnswer": "物質"
+  },
+  {
+    "wordNo": 1020,
+    "word": "substance",
+    "meaning": "根拠",
+    "sentence": "a rumor with no (   )",
+    "jp": "根拠のないうわさ",
+    "jpBlank": "(   )のないうわさ",
+    "jpAnswer": "根拠"
+  },
+  {
+    "wordNo": 1021,
+    "word": "solid",
+    "meaning": "固体の",
+    "sentence": "(   ) fuel",
+    "jp": "固形燃料",
+    "jpBlank": "(   )燃料",
+    "jpAnswer": "固形"
+  },
+  {
+    "wordNo": 1021,
+    "word": "solid",
+    "meaning": "がっしりした",
+    "sentence": "(   ) gold",
+    "jp": "純金（ぎっしり詰まった金）",
+    "jpBlank": "純金（(   )詰まった金）",
+    "jpAnswer": "ぎっしり"
+  },
+  {
+    "wordNo": 1021,
+    "word": "solids",
+    "meaning": "固体",
+    "sentence": "change from (   ) to liquids",
+    "jp": "固体から液体に変化する",
+    "jpBlank": "(   )から液体に変化する",
+    "jpAnswer": "固体"
+  },
+  {
+    "wordNo": 1022,
+    "word": "satellite",
+    "meaning": "衛星",
+    "sentence": "Jupiter's sixth (   )",
+    "jp": "木星の6番目の衛星",
+    "jpBlank": "木星の6番目の(   )",
+    "jpAnswer": "衛星"
+  },
+  {
+    "wordNo": 1022,
+    "word": "satellite",
+    "meaning": "人工衛星",
+    "sentence": "a communications (   )",
+    "jp": "通信衛星",
+    "jpBlank": "通信(   )",
+    "jpAnswer": "衛星"
+  },
+  {
+    "wordNo": 1023,
+    "word": "orbit",
+    "meaning": "軌道",
+    "sentence": "the moon's (   ) around the earth",
+    "jp": "地球を回る月の軌道",
+    "jpBlank": "地球を回る月の(   )",
+    "jpAnswer": "軌道"
+  },
+  {
+    "wordNo": 1023,
+    "word": "orbit",
+    "meaning": "～の周りを回る",
+    "sentence": "The earth takes one year to (   ) the sun.",
+    "jp": "地球は太陽の周りを1年で1周する。",
+    "jpBlank": "地球は太陽の周りを1年で1(   )する。",
+    "jpAnswer": "周"
+  },
+  {
+    "wordNo": 1024,
+    "word": "launch",
+    "meaning": "（ロケットなど）を打ち上げる",
+    "sentence": "(   ) a Sun probe",
+    "jp": "太陽探査機を打ち上げる",
+    "jpBlank": "太陽探査機を(   )上げる",
+    "jpAnswer": "打ち"
+  },
+  {
+    "wordNo": 1024,
+    "word": "launch",
+    "meaning": "（事業など）を始める",
+    "sentence": "(   ) a campaign against smoking",
+    "jp": "禁煙運動を始める",
+    "jpBlank": "禁煙運動を(   )",
+    "jpAnswer": "始める"
+  },
+  {
+    "wordNo": 1024,
+    "word": "launch",
+    "meaning": "打ち上げ，開始，発売",
+    "sentence": "the (   ) of a new product",
+    "jp": "新製品の発売",
+    "jpBlank": "新製品の(   )",
+    "jpAnswer": "発売"
+  },
+  {
+    "wordNo": 1025,
+    "word": "attempt",
+    "meaning": "試み",
+    "sentence": "make an (   ) to break his record",
+    "jp": "彼の記録を破ろうとする試み",
+    "jpBlank": "彼の記録を破ろうとする(   )",
+    "jpAnswer": "試み"
+  },
+  {
+    "wordNo": 1025,
+    "word": "attempt",
+    "meaning": "～しようと試みる",
+    "sentence": "(   ) to escape",
+    "jp": "逃げようと試みる",
+    "jpBlank": "逃げようと(   )する",
+    "jpAnswer": "試み"
+  },
+  {
+    "wordNo": 1026,
+    "word": "capacity",
+    "meaning": "能力，収容力",
+    "sentence": "have a remarkable (   ) to learn language",
+    "jp": "目立った言語学習能力を有している",
+    "jpBlank": "目立った言語学習(   )を有している",
+    "jpAnswer": "能力"
+  },
+  {
+    "wordNo": 1026,
+    "word": "capacity",
+    "meaning": "容量",
+    "sentence": "be packed to (   )",
+    "jp": "超満員（収容力いっぱいで）",
+    "jpBlank": "超満員（(   )いっぱいで）",
+    "jpAnswer": "収容力"
+  },
+  {
+    "wordNo": 1027,
+    "word": "capable",
+    "meaning": "（～する）能力がある",
+    "sentence": "This factory is (   ) of producing 100 cars per hour.",
+    "jp": "この工場では1時間に100台の車を生産できる。",
+    "jpBlank": "この工場では1時間に100台の車を生産(   )。",
+    "jpAnswer": "できる"
+  },
+  {
+    "wordNo": 1027,
+    "word": "capable",
+    "meaning": "有能な",
+    "sentence": "a (   ) attorney",
+    "jp": "有能な弁護士",
+    "jpBlank": "(   )な弁護士",
+    "jpAnswer": "有能"
+  },
+  {
+    "wordNo": 1028,
+    "word": "attained",
+    "meaning": "～を達成する",
+    "sentence": "I have (   ) my ideal weight.",
+    "jp": "私は理想とする体重に達した。",
+    "jpBlank": "私は理想とする体重に(   )。",
+    "jpAnswer": "達した"
+  },
+  {
+    "wordNo": 1028,
+    "word": "attain",
+    "meaning": "（～に）到達する",
+    "sentence": "(   ) the age of 18",
+    "jp": "18歳になる",
+    "jpBlank": "18歳に(   )",
+    "jpAnswer": "なる"
+  },
+  {
+    "wordNo": 1029,
+    "word": "desperate",
+    "meaning": "必死の",
+    "sentence": "make a (   ) effort to succeed",
+    "jp": "成功するために必死の努力をする",
+    "jpBlank": "成功するために(   )の努力をする",
+    "jpAnswer": "必死"
+  },
+  {
+    "wordNo": 1029,
+    "word": "desperate",
+    "meaning": "絶望的な",
+    "sentence": "a (   ) shortage of water",
+    "jp": "絶望的な水不足",
+    "jpBlank": "(   )な水不足",
+    "jpAnswer": "絶望的"
+  },
+  {
+    "wordNo": 1030,
+    "word": "dedicated",
+    "meaning": "（A）を（Bに）捧げる",
+    "sentence": "She (   ) herself to her work.",
+    "jp": "彼女は仕事に没頭した（仕事に自分自身を捧げた）。",
+    "jpBlank": "彼女は仕事に(   )した（仕事に自分自身を捧げた）。",
+    "jpAnswer": "没頭"
+  },
+  {
+    "wordNo": 1031,
+    "word": "pain",
+    "meaning": "苦痛",
+    "sentence": "Do you feel any (   )?",
+    "jp": "痛みはありますか？",
+    "jpBlank": "(   )はありますか？",
+    "jpAnswer": "痛み"
+  },
+  {
+    "wordNo": 1031,
+    "word": "pains",
+    "meaning": "（～する）苦労",
+    "sentence": "take (   ) to improve my image",
+    "jp": "イメージアップに苦心する",
+    "jpBlank": "イメージアップに(   )する",
+    "jpAnswer": "苦心"
+  },
+  {
+    "wordNo": 1032,
+    "word": "strain",
+    "meaning": "（心身の）負担",
+    "sentence": "work under a lot of (   )",
+    "jp": "過度の負担の下で働く",
+    "jpBlank": "過度の(   )の下で働く",
+    "jpAnswer": "負担"
+  },
+  {
+    "wordNo": 1032,
+    "word": "strain",
+    "meaning": "（筋肉など）を痛める",
+    "sentence": "(   ) a muscle in my leg",
+    "jp": "足の筋肉を痛める",
+    "jpBlank": "足の筋肉を(   )",
+    "jpAnswer": "痛める"
+  },
+  {
+    "wordNo": 1033,
+    "word": "remedy",
+    "meaning": "治療法，解決策",
+    "sentence": "a (   ) for colds",
+    "jp": "かぜの治療法",
+    "jpBlank": "かぜの(   )",
+    "jpAnswer": "治療法"
+  },
+  {
+    "wordNo": 1034,
+    "word": "pharmacy",
+    "meaning": "薬局",
+    "sentence": "buy medicine at a nearby (   )",
+    "jp": "近くの薬局で薬を買う",
+    "jpBlank": "近くの(   )で薬を買う",
+    "jpAnswer": "薬局"
+  },
+  {
+    "wordNo": 1035,
+    "word": "physicians",
+    "meaning": "（英）内科医",
+    "sentence": "emergency (   )",
+    "jp": "救急医",
+    "jpBlank": "救急(   )",
+    "jpAnswer": "医"
+  },
+  {
+    "wordNo": 1036,
+    "word": "disorders",
+    "meaning": "（心身の）不調",
+    "sentence": "eating (   )",
+    "jp": "摂食障害",
+    "jpBlank": "摂食(   )",
+    "jpAnswer": "障害"
+  },
+  {
+    "wordNo": 1037,
+    "word": "pregnant",
+    "meaning": "妊娠した",
+    "sentence": "Terry is three-months (   ).",
+    "jp": "テリーは妊娠3か月だ。",
+    "jpBlank": "テリーは(   )3か月だ。",
+    "jpAnswer": "妊娠"
+  },
+  {
+    "wordNo": 1038,
+    "word": "clinical",
+    "meaning": "臨床の",
+    "sentence": "a (   ) test",
+    "jp": "臨床試験",
+    "jpBlank": "(   )試験",
+    "jpAnswer": "臨床"
+  },
+  {
+    "wordNo": 1039,
+    "word": "heal",
+    "meaning": "（病気・けがなど）を治す",
+    "sentence": "(   ) people by laying my hands on their bodies",
+    "jp": "体に手を当てて人々を治す",
+    "jpBlank": "体に手を当てて人々を(   )",
+    "jpAnswer": "治す"
+  },
+  {
+    "wordNo": 1039,
+    "word": "heal",
+    "meaning": "（傷などが）治る",
+    "sentence": "The injury will (   ) quickly.",
+    "jp": "傷はすぐに治るだろう。",
+    "jpBlank": "傷はすぐに(   )だろう。",
+    "jpAnswer": "治る"
+  },
+  {
+    "wordNo": 1040,
+    "word": "infected",
+    "meaning": "～を感染させる，伝染する",
+    "sentence": "My dog was (   ) with a virus.",
+    "jp": "うちの犬はウイルスに感染した。",
+    "jpBlank": "うちの犬はウイルスに(   )した。",
+    "jpAnswer": "感染"
+  },
+  {
+    "wordNo": 1041,
+    "word": "ankle",
+    "meaning": "足首",
+    "sentence": "twist my (   )",
+    "jp": "足首をひねる",
+    "jpBlank": "(   )をひねる",
+    "jpAnswer": "足首"
+  },
+  {
+    "wordNo": 1042,
+    "word": "thumb",
+    "meaning": "親指",
+    "sentence": "stick up my (   )",
+    "jp": "親指を立てる",
+    "jpBlank": "(   )を立てる",
+    "jpAnswer": "親指"
+  },
+  {
+    "wordNo": 1043,
+    "word": "forehead",
+    "meaning": "額，おでこ",
+    "sentence": "I've got a pimple on my (   ).",
+    "jp": "私のおでこににきびができた。",
+    "jpBlank": "私の(   )ににきびができた。",
+    "jpAnswer": "おでこ"
+  },
+  {
+    "wordNo": 1044,
+    "word": "chin",
+    "meaning": "下あご，あごの先",
+    "sentence": "stick out my (   )",
+    "jp": "あごを突き出す",
+    "jpBlank": "(   )を突き出す",
+    "jpAnswer": "あご"
+  },
+  {
+    "wordNo": 1045,
+    "word": "chest",
+    "meaning": "胸（部）",
+    "sentence": "have a (   ) X-ray examination",
+    "jp": "胸部のレントゲン検査を受ける",
+    "jpBlank": "(   )のレントゲン検査を受ける",
+    "jpAnswer": "胸部"
+  },
+  {
+    "wordNo": 1045,
+    "word": "chest",
+    "meaning": "大きな箱",
+    "sentence": "a large wooden (   )",
+    "jp": "大きな木の箱",
+    "jpBlank": "大きな木の(   )",
+    "jpAnswer": "箱"
+  },
+  {
+    "wordNo": 1046,
+    "word": "breast",
+    "meaning": "（主に女性の）胸，乳房",
+    "sentence": "early detection of (   ) cancer",
+    "jp": "乳がんの早期発見",
+    "jpBlank": "(   )がんの早期発見",
+    "jpAnswer": "乳"
+  },
+  {
+    "wordNo": 1047,
+    "word": "lungs",
+    "meaning": "肺",
+    "sentence": "the heart and the (   )",
+    "jp": "（ヒトの）心肺",
+    "jpBlank": "（ヒトの）心(   )",
+    "jpAnswer": "肺"
+  },
+  {
+    "wordNo": 1048,
+    "word": "organ",
+    "meaning": "臓器",
+    "sentence": "wait for an (   ) transplant",
+    "jp": "臓器移植を待つ",
+    "jpBlank": "(   )移植を待つ",
+    "jpAnswer": "臓器"
+  },
+  {
+    "wordNo": 1048,
+    "word": "organ",
+    "meaning": "オルガン",
+    "sentence": "play the (   )",
+    "jp": "オルガンを弾く",
+    "jpBlank": "(   )を弾く",
+    "jpAnswer": "オルガン"
+  },
+  {
+    "wordNo": 1049,
+    "word": "vision",
+    "meaning": "視力，視野",
+    "sentence": "have good [normal, poor] (   )",
+    "jp": "視力が良い [正常だ，悪い]",
+    "jpBlank": "(   )が良い [正常だ，悪い]",
+    "jpAnswer": "視力"
+  },
+  {
+    "wordNo": 1049,
+    "word": "vision",
+    "meaning": "未来を見通す力",
+    "sentence": "his (   ) for Japan's future",
+    "jp": "日本の未来の彼の予想図",
+    "jpBlank": "日本の未来の彼の(   )",
+    "jpAnswer": "予想図"
+  },
+  {
+    "wordNo": 1050,
+    "word": "skeleton",
+    "meaning": "骸骨，骨格",
+    "sentence": "a model of the human (   )",
+    "jp": "ヒトの骸骨の模型",
+    "jpBlank": "ヒトの(   )の模型",
+    "jpAnswer": "骸骨"
+  },
+  {
+    "wordNo": 1051,
+    "word": "sensation",
+    "meaning": "感覚",
+    "sentence": "I lose all (   ) in my toes.",
+    "jp": "足の指の感覚がなくなる",
+    "jpBlank": "足の指の(   )がなくなる",
+    "jpAnswer": "感覚"
+  },
+  {
+    "wordNo": 1051,
+    "word": "sensation",
+    "meaning": "（社会を驚かせる）感じ",
+    "sentence": "I had the (   ) that I was being followed.",
+    "jp": "後をつけられているのではないかという感じがした。",
+    "jpBlank": "後をつけられているのではないかという(   )がした。",
+    "jpAnswer": "感じ"
+  },
+  {
+    "wordNo": 1052,
+    "word": "code",
+    "meaning": "（服装などの）規定",
+    "sentence": "Does this restaurant have a dress (   )?",
+    "jp": "そのレストランには服装規定はありますか？",
+    "jpBlank": "そのレストランには服装(   )はありますか？",
+    "jpAnswer": "規定"
+  },
+  {
+    "wordNo": 1052,
+    "word": "code",
+    "meaning": "暗号",
+    "sentence": "write in (   )",
+    "jp": "暗号で書く",
+    "jpBlank": "(   )で書く",
+    "jpAnswer": "暗号"
+  },
+  {
+    "wordNo": 1053,
+    "word": "agenda",
+    "meaning": "協議事項，議題",
+    "sentence": "the (   ) for today's meeting",
+    "jp": "本日の会議の議題",
+    "jpBlank": "本日の会議の(   )",
+    "jpAnswer": "議題"
+  },
+  {
+    "wordNo": 1054,
+    "word": "liberty",
+    "meaning": "自由",
+    "sentence": "fight for (   ) and equality",
+    "jp": "自由と平等のために戦う",
+    "jpBlank": "(   )と平等のために戦う",
+    "jpAnswer": "自由"
+  },
+  {
+    "wordNo": 1055,
+    "word": "Committee",
+    "meaning": "委員会",
+    "sentence": "the International Olympic (   )",
+    "jp": "国際オリンピック委員会",
+    "jpBlank": "国際オリンピック(   )",
+    "jpAnswer": "委員会"
+  },
+  {
+    "wordNo": 1056,
+    "word": "humanity",
+    "meaning": "人類",
+    "sentence": "a crime against (   )",
+    "jp": "人類に対する犯罪",
+    "jpBlank": "(   )に対する犯罪",
+    "jpAnswer": "人類"
+  },
+  {
+    "wordNo": 1056,
+    "word": "humanities",
+    "meaning": "人文科学",
+    "sentence": "a student of the (   )",
+    "jp": "文系の学生",
+    "jpBlank": "文系の(   )",
+    "jpAnswer": "学生"
+  },
+  {
+    "wordNo": 1057,
+    "word": "mankind",
+    "meaning": "（集合的に）人類",
+    "sentence": "in the history of (   )",
+    "jp": "人類の歴史において",
+    "jpBlank": "(   )の歴史において",
+    "jpAnswer": "人類"
+  },
+  {
+    "wordNo": 1058,
+    "word": "authority",
+    "meaning": "権威",
+    "sentence": "an (   ) on orthodontics",
+    "jp": "歯科矯正学の権威",
+    "jpBlank": "歯科矯正学の(   )",
+    "jpAnswer": "権威"
+  },
+  {
+    "wordNo": 1058,
+    "word": "authority",
+    "meaning": "権力",
+    "sentence": "someone in (   )",
+    "jp": "権力のある人",
+    "jpBlank": "(   )のある人",
+    "jpAnswer": "権力"
+  },
+  {
+    "wordNo": 1059,
+    "word": "justice",
+    "meaning": "正義",
+    "sentence": "have a strong sense of (   )",
+    "jp": "正義感が強い",
+    "jpBlank": "(   )感が強い",
+    "jpAnswer": "正義"
+  },
+  {
+    "wordNo": 1060,
+    "word": "insurance",
+    "meaning": "保険",
+    "sentence": "have [buy] health (   )",
+    "jp": "健康保険に入っている",
+    "jpBlank": "健康(   )に入っている",
+    "jpAnswer": "保険"
+  },
+  {
+    "wordNo": 1061,
+    "word": "hardship",
+    "meaning": "苦難，苦労",
+    "sentence": "suffer financial (   )",
+    "jp": "お金で苦労する（経済的苦境に苦しむ）",
+    "jpBlank": "お金で(   )する（経済的苦境に苦しむ）",
+    "jpAnswer": "苦労"
+  },
+  {
+    "wordNo": 1062,
+    "word": "poverty",
+    "meaning": "貧困",
+    "sentence": "live below the (   ) line",
+    "jp": "最低（貧困）水準以下の暮らしをする",
+    "jpBlank": "最低（(   )）水準以下の暮らしをする",
+    "jpAnswer": "貧困"
+  },
+  {
+    "wordNo": 1063,
+    "word": "chaos",
+    "meaning": "大混乱，混沌",
+    "sentence": "The kitchen is in (   ).",
+    "jp": "台所がめちゃくちゃだ（大混乱だ）。",
+    "jpBlank": "台所がめちゃくちゃだ（(   )だ）。",
+    "jpAnswer": "大混乱"
+  },
+  {
+    "wordNo": 1064,
+    "word": "isolation",
+    "meaning": "孤立，分離",
+    "sentence": "in (   ) from society",
+    "jp": "社会から孤立して",
+    "jpBlank": "社会から(   )して",
+    "jpAnswer": "孤立"
+  },
+  {
+    "wordNo": 1065,
+    "word": "region",
+    "meaning": "地域",
+    "sentence": "a wine-producing (   )",
+    "jp": "ワインの生産地域",
+    "jpBlank": "ワインの生産(   )",
+    "jpAnswer": "地域"
+  },
+  {
+    "wordNo": 1066,
+    "word": "proof",
+    "meaning": "証拠，証明",
+    "sentence": "There is no (   ) that she was home at that time.",
+    "jp": "彼女がその時家にいたという証拠はない。",
+    "jpBlank": "彼女がその時家にいたという(   )はない。",
+    "jpAnswer": "証拠"
+  },
+  {
+    "wordNo": 1067,
+    "word": "warranty",
+    "meaning": "保証",
+    "sentence": "My microwave oven was under (   ), so the repair was free.",
+    "jp": "私の電子レンジは保証期間中だったので，修理は無料だった。",
+    "jpBlank": "私の電子レンジは(   )期間中だったので，修理は無料だった。",
+    "jpAnswer": "保証"
+  },
+  {
+    "wordNo": 1068,
+    "word": "principle",
+    "meaning": "原理，原則",
+    "sentence": "in (   )",
+    "jp": "原則的には",
+    "jpBlank": "(   )的には",
+    "jpAnswer": "原則"
+  },
+  {
+    "wordNo": 1068,
+    "word": "principle",
+    "meaning": "主義，信念",
+    "sentence": "a guiding (   ) in my life",
+    "jp": "人生の指針となる信念",
+    "jpBlank": "人生の指針となる(   )",
+    "jpAnswer": "信念"
+  },
+  {
+    "wordNo": 1069,
+    "word": "origin",
+    "meaning": "起源",
+    "sentence": "the (   ) of life on Earth",
+    "jp": "地球上の生命の起源",
+    "jpBlank": "地球上の生命の(   )",
+    "jpAnswer": "起源"
+  },
+  {
+    "wordNo": 1070,
+    "word": "setting",
+    "meaning": "環境，状況",
+    "sentence": "a perfect (   ) for a picnic",
+    "jp": "ピクニックにはうってつけの環境",
+    "jpBlank": "ピクニックにはうってつけの(   )",
+    "jpAnswer": "環境"
+  },
+  {
+    "wordNo": 1070,
+    "word": "setting",
+    "meaning": "舞台",
+    "sentence": "the (   ) for the novel",
+    "jp": "その小説の舞台",
+    "jpBlank": "その小説の(   )",
+    "jpAnswer": "舞台"
+  },
+  {
+    "wordNo": 1071,
+    "word": "mission",
+    "meaning": "任務，使命",
+    "sentence": "a (   ) to Saturn",
+    "jp": "土星への（飛行）任務",
+    "jpBlank": "土星への（飛行）(   )",
+    "jpAnswer": "任務"
+  },
+  {
+    "wordNo": 1072,
+    "word": "project",
+    "meaning": "計画，企画",
+    "sentence": "the outline of the new (   )",
+    "jp": "新企画の概要",
+    "jpBlank": "新(   )の概要",
+    "jpAnswer": "企画"
+  },
+  {
+    "wordNo": 1072,
+    "word": "projected",
+    "meaning": "（目標達成などのために）～を（将来に）向かって投げる",
+    "sentence": "The cost was (   ) onto a big screen.",
+    "jp": "費用は1億ドルと見積もられた。",
+    "jpBlank": "費用は1億ドルと(   )られた。",
+    "jpAnswer": "見積もら"
+  },
+  {
+    "wordNo": 1073,
+    "word": "monument",
+    "meaning": "記念碑，遺跡",
+    "sentence": "put up a (   )",
+    "jp": "記念碑を建てる",
+    "jpBlank": "(   )を建てる",
+    "jpAnswer": "記念碑"
+  },
+  {
+    "wordNo": 1074,
+    "word": "revolution",
+    "meaning": "革命",
+    "sentence": "a (   ) in health care",
+    "jp": "医療の大改革",
+    "jpBlank": "医療の(   )",
+    "jpAnswer": "大改革"
+  },
+  {
+    "wordNo": 1075,
+    "word": "contract",
+    "meaning": "契約",
+    "sentence": "sign a (   ) with the team",
+    "jp": "そのチームと契約をする",
+    "jpBlank": "そのチームと(   )をする",
+    "jpAnswer": "契約"
+  },
+  {
+    "wordNo": 1075,
+    "word": "contract",
+    "meaning": "～を契約する",
+    "sentence": "(   ) a loan",
+    "jp": "ローンを契約する",
+    "jpBlank": "ローンを(   )する",
+    "jpAnswer": "契約"
+  },
+  {
+    "wordNo": 1075,
+    "word": "contract",
+    "meaning": "（病気）に感染する",
+    "sentence": "(   ) a killer virus",
+    "jp": "致死ウイルスに感染する",
+    "jpBlank": "致死ウイルスに(   )する",
+    "jpAnswer": "感染"
+  },
+  {
+    "wordNo": 1076,
+    "word": "infrastructure",
+    "meaning": "インフラ，基盤施設",
+    "sentence": "improve the tourism (   )",
+    "jp": "観光インフラを整備する",
+    "jpBlank": "観光(   )を整備する",
+    "jpAnswer": "インフラ"
+  },
+  {
+    "wordNo": 1077,
+    "word": "Negotiate",
+    "meaning": "交渉する",
+    "sentence": "(   ) with kidnappers",
+    "jp": "誘拐犯と交渉する",
+    "jpBlank": "誘拐犯と(   )する",
+    "jpAnswer": "交渉"
+  },
+  {
+    "wordNo": 1077,
+    "word": "negotiate",
+    "meaning": "（交渉の結果として）～を取り決める",
+    "sentence": "(   ) a trade agreement",
+    "jp": "貿易協定を取り決める",
+    "jpBlank": "貿易協定を(   )める",
+    "jpAnswer": "取り決"
+  },
+  {
+    "wordNo": 1078,
+    "word": "cooperated",
+    "meaning": "協力する",
+    "sentence": "We all (   ) in preparing for the cultural festival.",
+    "jp": "私たちは全員で協力して文化祭の準備をした。",
+    "jpBlank": "私たちは全員で(   )して文化祭の準備をした。",
+    "jpAnswer": "協力"
+  },
+  {
+    "wordNo": 1079,
+    "word": "Restore",
+    "meaning": "（治安など）を回復する",
+    "sentence": "(   ) peace in the Middle East",
+    "jp": "中東での平和を回復する",
+    "jpBlank": "中東での平和を(   )する",
+    "jpAnswer": "回復"
+  },
+  {
+    "wordNo": 1079,
+    "word": "restore",
+    "meaning": "（古い建物，絵など）を修復する",
+    "sentence": "(   ) the old church",
+    "jp": "その古い教会を修復する",
+    "jpBlank": "その古い教会を(   )する",
+    "jpAnswer": "修復"
+  },
+  {
+    "wordNo": 1080,
+    "word": "founded",
+    "meaning": "～を創立する",
+    "sentence": "Our school was (   ) in 1918.",
+    "jp": "我が校は1918年に創立された。",
+    "jpBlank": "我が校は1918年に(   )された。",
+    "jpAnswer": "創立"
+  },
+  {
+    "wordNo": 1081,
+    "word": "Conservative",
+    "meaning": "保守的な",
+    "sentence": "the (   ) Party",
+    "jp": "保守党",
+    "jpBlank": "(   )党",
+    "jpAnswer": "保守"
+  },
+  {
+    "wordNo": 1082,
+    "word": "affairs",
+    "meaning": "（〜s）情勢，事件",
+    "sentence": "international (   )",
+    "jp": "国際情勢",
+    "jpBlank": "国際(   )",
+    "jpAnswer": "情勢"
+  },
+  {
+    "wordNo": 1082,
+    "word": "affair",
+    "meaning": "（〜s）情勢，事件",
+    "sentence": "the spy (   )",
+    "jp": "スパイ事件",
+    "jpBlank": "スパイ(   )",
+    "jpAnswer": "事件"
+  },
+  {
+    "wordNo": 1082,
+    "word": "affair",
+    "meaning": "（〜s）情勢，事件",
+    "sentence": "a triangular love (   )",
+    "jp": "男女の三角関係（三角形の情事）",
+    "jpBlank": "男女の三角関係（三角形の(   )）",
+    "jpAnswer": "情事"
+  },
+  {
+    "wordNo": 1083,
+    "word": "Agency",
+    "meaning": "（政府）機関",
+    "sentence": "the Central Intelligence (   ) (CIA)",
+    "jp": "アメリカ中央情報局",
+    "jpBlank": "アメリカ中央情報(   )",
+    "jpAnswer": "局"
+  },
+  {
+    "wordNo": 1083,
+    "word": "agency",
+    "meaning": "代理店",
+    "sentence": "a travel (   )",
+    "jp": "旅行代理店",
+    "jpBlank": "旅行(   )",
+    "jpAnswer": "代理店"
+  },
+  {
+    "wordNo": 1084,
+    "word": "council",
+    "meaning": "議会",
+    "sentence": "the city (   )",
+    "jp": "市議会",
+    "jpBlank": "市(   )",
+    "jpAnswer": "議会"
+  },
+  {
+    "wordNo": 1085,
+    "word": "kingdom",
+    "meaning": "王国",
+    "sentence": "the animal (   )",
+    "jp": "動物界",
+    "jpBlank": "動物(   )",
+    "jpAnswer": "界"
+  },
+  {
+    "wordNo": 1085,
+    "word": "Kingdom",
+    "meaning": "王国",
+    "sentence": "the United (   )",
+    "jp": "連合王国（＝英国）",
+    "jpBlank": "連合(   )（＝英国）",
+    "jpAnswer": "王国"
+  },
+  {
+    "wordNo": 1086,
+    "word": "Republic",
+    "meaning": "共和国",
+    "sentence": "the People's (   ) of China",
+    "jp": "中華人民共和国",
+    "jpBlank": "中華人民(   )",
+    "jpAnswer": "共和国"
+  },
+  {
+    "wordNo": 1087,
+    "word": "Empire",
+    "meaning": "帝国",
+    "sentence": "the fall of the Roman (   )",
+    "jp": "ローマ帝国の崩壊",
+    "jpBlank": "ローマ(   )の崩壊",
+    "jpAnswer": "帝国"
+  },
+  {
+    "wordNo": 1088,
+    "word": "aid",
+    "meaning": "援助，救援物資",
+    "sentence": "give economic (   ) to developing countries",
+    "jp": "発展途上国へ経済援助を行う",
+    "jpBlank": "発展途上国へ経済(   )を行う",
+    "jpAnswer": "援助"
+  },
+  {
+    "wordNo": 1089,
+    "word": "reform(s)",
+    "meaning": "改革",
+    "sentence": "the government's educational (   )",
+    "jp": "政府の教育改革",
+    "jpBlank": "政府の教育(   )",
+    "jpAnswer": "改革"
+  },
+  {
+    "wordNo": 1090,
+    "word": "minister",
+    "meaning": "大臣",
+    "sentence": "the foreign (   )",
+    "jp": "外務大臣",
+    "jpBlank": "外務(   )",
+    "jpAnswer": "大臣"
+  },
+  {
+    "wordNo": 1090,
+    "word": "minister",
+    "meaning": "聖職者，牧師",
+    "sentence": "a Baptist (   )",
+    "jp": "バプティスト派の牧師",
+    "jpBlank": "バプティスト派の(   )",
+    "jpAnswer": "牧師"
+  },
+  {
+    "wordNo": 1091,
+    "word": "parliament",
+    "meaning": "国会",
+    "sentence": "summon [dissolve] a (   )",
+    "jp": "国会を招集する [解散する]",
+    "jpBlank": "(   )を招集する [解散する]",
+    "jpAnswer": "国会"
+  },
+  {
+    "wordNo": 1092,
+    "word": "Territories",
+    "meaning": "領土",
+    "sentence": "the issue of the Northern (   )",
+    "jp": "北方領土問題",
+    "jpBlank": "北方(   )問題",
+    "jpAnswer": "領土"
+  },
+  {
+    "wordNo": 1092,
+    "word": "territory",
+    "meaning": "（動物の）縄張り",
+    "sentence": "Dogs use urine to mark their (   ).",
+    "jp": "イヌはオシッコをすることで自分の縄張りを示す。",
+    "jpBlank": "イヌはオシッコをすることで自分の(   )を示す。",
+    "jpAnswer": "縄張り"
+  },
+  {
+    "wordNo": 1093,
+    "word": "polls",
+    "meaning": "世論調査",
+    "sentence": "recent opinion (   )",
+    "jp": "最近の世論調査",
+    "jpBlank": "最近の(   )",
+    "jpAnswer": "世論調査"
+  },
+  {
+    "wordNo": 1093,
+    "word": "polls",
+    "meaning": "投票",
+    "sentence": "go to the (   )",
+    "jp": "投票に行く",
+    "jpBlank": "(   )に行く",
+    "jpAnswer": "投票"
+  },
+  {
+    "wordNo": 1093,
+    "word": "poll",
+    "meaning": "～の得票を得る",
+    "sentence": "(   ) 30,000 votes",
+    "jp": "3万票を獲得する",
+    "jpBlank": "3万票を(   )する",
+    "jpAnswer": "獲得"
+  },
+  {
+    "wordNo": 1094,
+    "word": "fortune",
+    "meaning": "財産",
+    "sentence": "make a (   ) in real estate",
+    "jp": "不動産で一財産を作る",
+    "jpBlank": "不動産で(   )を作る",
+    "jpAnswer": "一財産"
+  },
+  {
+    "wordNo": 1094,
+    "word": "fortune",
+    "meaning": "運，運勢",
+    "sentence": "tell his (   )",
+    "jp": "トランプで彼の運勢を占う",
+    "jpBlank": "トランプで彼の(   )を占う",
+    "jpAnswer": "運勢"
+  },
+  {
+    "wordNo": 1095,
+    "word": "property",
+    "meaning": "財産，資産",
+    "sentence": "intellectual (   )",
+    "jp": "知的財産",
+    "jpBlank": "知的(   )",
+    "jpAnswer": "財産"
+  },
+  {
+    "wordNo": 1095,
+    "word": "property",
+    "meaning": "特性，特質",
+    "sentence": "the (   ) of dissolving in water",
+    "jp": "水に溶ける特性",
+    "jpBlank": "水に溶ける(   )",
+    "jpAnswer": "特性"
+  },
+  {
+    "wordNo": 1095,
+    "word": "property's",
+    "meaning": "所有地，物件",
+    "sentence": "a fence marking the (   ) boundaries",
+    "jp": "所有地の境界を示す柵",
+    "jpBlank": "所有地の(   )を示す柵",
+    "jpAnswer": "境界"
+  },
+  {
+    "wordNo": 1096,
+    "word": "funds",
+    "meaning": "基金，資金",
+    "sentence": "manage (   ) effectively",
+    "jp": "資金を有効に活用する",
+    "jpBlank": "(   )を有効に活用する",
+    "jpAnswer": "資金"
+  },
+  {
+    "wordNo": 1096,
+    "word": "Fund",
+    "meaning": "基金，資金",
+    "sentence": "the International Monetary (   ) (IMF)",
+    "jp": "国際通貨基金",
+    "jpBlank": "国際通貨(   )",
+    "jpAnswer": "基金"
+  },
+  {
+    "wordNo": 1096,
+    "word": "funded",
+    "meaning": "～に資金を出す",
+    "sentence": "The museum is (   ) by local people.",
+    "jp": "その博物館は地元市民が資金を出し合って（運営して）いる。",
+    "jpBlank": "その博物館は地元市民が(   )を出し合って（運営して）いる。",
+    "jpAnswer": "資金"
+  },
+  {
+    "wordNo": 1097,
+    "word": "stock",
+    "meaning": "株式",
+    "sentence": "make money on the (   ) market",
+    "jp": "（株式市場）で儲ける",
+    "jpBlank": "（(   )市場）で儲ける",
+    "jpAnswer": "株式"
+  },
+  {
+    "wordNo": 1097,
+    "word": "stock",
+    "meaning": "在庫品",
+    "sentence": "goods in (   )",
+    "jp": "在庫品",
+    "jpBlank": "(   )",
+    "jpAnswer": "在庫品"
+  },
+  {
+    "wordNo": 1098,
+    "word": "labor",
+    "meaning": "労働",
+    "sentence": "manual (   )",
+    "jp": "肉体労働",
+    "jpBlank": "肉体(   )",
+    "jpAnswer": "労働"
+  },
+  {
+    "wordNo": 1098,
+    "word": "labor",
+    "meaning": "労働者（全体）",
+    "sentence": "skilled (   )",
+    "jp": "熟練した労働者",
+    "jpBlank": "熟練した(   )",
+    "jpAnswer": "労働者"
+  },
+  {
+    "wordNo": 1098,
+    "word": "labor",
+    "meaning": "分娩，産みの苦しみ",
+    "sentence": "go into (   )",
+    "jp": "陣痛が始まる",
+    "jpBlank": "陣痛が(   )",
+    "jpAnswer": "始まる"
+  },
+  {
+    "wordNo": 1099,
+    "word": "overworking",
+    "meaning": "働きすぎ",
+    "sentence": "stop (   )",
+    "jp": "働きすぎるのをやめる",
+    "jpBlank": "(   )るのをやめる",
+    "jpAnswer": "働きすぎ"
+  },
+  {
+    "wordNo": 1099,
+    "word": "overwork",
+    "meaning": "～を働かせすぎる",
+    "sentence": "(   ) the employees",
+    "jp": "従業員を働かせすぎる",
+    "jpBlank": "従業員を(   )すぎる",
+    "jpAnswer": "働かせ"
+  },
+  {
+    "wordNo": 1099,
+    "word": "Overwork",
+    "meaning": "過労",
+    "sentence": "(   ) made him ill.",
+    "jp": "彼は過労で病気になった。",
+    "jpBlank": "彼は(   )で病気になった。",
+    "jpAnswer": "過労"
+  },
+  {
+    "wordNo": 1100,
+    "word": "firm",
+    "meaning": "会社",
+    "sentence": "a law (   )",
+    "jp": "法律事務所",
+    "jpBlank": "法律(   )",
+    "jpAnswer": "事務所"
+  },
+  {
+    "wordNo": 1100,
+    "word": "firm",
+    "meaning": "（土台，信念などが）固い",
+    "sentence": "I am a (   ) believer in fate.",
+    "jp": "私は運命をとても強く信じている。",
+    "jpBlank": "私は運命をとても(   )信じている。",
+    "jpAnswer": "強く"
+  },
+  {
+    "wordNo": 1100,
+    "word": "firm",
+    "meaning": "（筋肉などが）引き締まった",
+    "sentence": "(   ) muscles",
+    "jp": "引き締まった筋肉",
+    "jpBlank": "(   )た筋肉",
+    "jpAnswer": "引き締まっ"
+  }
+]

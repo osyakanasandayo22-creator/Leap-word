@@ -1,0 +1,1559 @@
+[
+  {
+    "wordNo": 1201,
+    "word": "faculty",
+    "meaning": "（生まれ持った）能力",
+    "sentence": "have a remarkable (   ) for learning languages",
+    "jp": "言語学習の並外れた能力がある",
+    "jpBlank": "言語学習の並外れた(   )がある",
+    "jpAnswer": "能力"
+  },
+  {
+    "wordNo": 1201,
+    "word": "Faculty",
+    "meaning": "（大学の）学部",
+    "sentence": "the (   ) of Engineering",
+    "jp": "工学部",
+    "jpBlank": "工(   )",
+    "jpAnswer": "学部"
+  },
+  {
+    "wordNo": 1201,
+    "word": "faculty",
+    "meaning": "（大学の）教員",
+    "sentence": "a (   ) meeting",
+    "jp": "教授会",
+    "jpBlank": "教授(   )",
+    "jpAnswer": "会"
+  },
+  {
+    "wordNo": 1202,
+    "word": "intermediate",
+    "meaning": "中間の，中級の",
+    "sentence": "an (   ) course",
+    "jp": "中級の講座",
+    "jpBlank": "中級の(   )",
+    "jpAnswer": "講座"
+  },
+  {
+    "wordNo": 1202,
+    "word": "intermediate",
+    "meaning": "中間の，中級の",
+    "sentence": "Gray is (   ) between black and white.",
+    "jp": "灰色は黒と白の中間だ。",
+    "jpBlank": "灰色は黒と白の(   )だ。",
+    "jpAnswer": "中間"
+  },
+  {
+    "wordNo": 1203,
+    "word": "notion",
+    "meaning": "考え，概念",
+    "sentence": "the (   ) that smoking is cool",
+    "jp": "タバコを吸うのは格好いいという考え",
+    "jpBlank": "タバコを吸うのは格好いいという(   )",
+    "jpAnswer": "考え"
+  },
+  {
+    "wordNo": 1204,
+    "word": "concept",
+    "meaning": "概念，考え",
+    "sentence": "the (   ) of time",
+    "jp": "時間の概念",
+    "jpBlank": "時間の(   )",
+    "jpAnswer": "概念"
+  },
+  {
+    "wordNo": 1205,
+    "word": "meditation",
+    "meaning": "瞑想",
+    "sentence": "sit in Zen (   )",
+    "jp": "座禅を組む",
+    "jpBlank": "座禅を(   )",
+    "jpAnswer": "組む"
+  },
+  {
+    "wordNo": 1205,
+    "word": "meditation",
+    "meaning": "熟考",
+    "sentence": "(   ) on my life",
+    "jp": "人生についての熟考",
+    "jpBlank": "人生についての(   )",
+    "jpAnswer": "熟考"
+  },
+  {
+    "wordNo": 1206,
+    "word": "insight",
+    "meaning": "（into ～）に対する洞察（力）",
+    "sentence": "an (   ) into human nature",
+    "jp": "人間性への洞察",
+    "jpBlank": "人間性への(   )",
+    "jpAnswer": "洞察"
+  },
+  {
+    "wordNo": 1206,
+    "word": "insight",
+    "meaning": "（into ～）に対する洞察（力）",
+    "sentence": "a woman of great (   )",
+    "jp": "見識の高い女性",
+    "jpBlank": "見識の(   )女性",
+    "jpAnswer": "高い"
+  },
+  {
+    "wordNo": 1207,
+    "word": "caution",
+    "meaning": "用心",
+    "sentence": "act with (   )",
+    "jp": "用心して行動する",
+    "jpBlank": "(   )して行動する",
+    "jpAnswer": "用心"
+  },
+  {
+    "wordNo": 1207,
+    "word": "Caution",
+    "meaning": "警告",
+    "sentence": "(   )! Roadworks!",
+    "jp": "注意！道路工事中！",
+    "jpBlank": "(   )！道路工事中！",
+    "jpAnswer": "注意"
+  },
+  {
+    "wordNo": 1207,
+    "word": "cautioned",
+    "meaning": "～に注意［警告］を与える",
+    "sentence": "The coach (   ) all the players.",
+    "jp": "監督は全選手に注意を与えた。",
+    "jpBlank": "監督は全選手に(   )を与えた。",
+    "jpAnswer": "注意"
+  },
+  {
+    "wordNo": 1208,
+    "word": "will",
+    "meaning": "意志",
+    "sentence": "against my (   )",
+    "jp": "意志に反して",
+    "jpBlank": "(   )に反して",
+    "jpAnswer": "意志"
+  },
+  {
+    "wordNo": 1208,
+    "word": "will",
+    "meaning": "遺書",
+    "sentence": "make a (   )",
+    "jp": "遺言書を作成する",
+    "jpBlank": "遺言書を(   )する",
+    "jpAnswer": "作成"
+  },
+  {
+    "wordNo": 1209,
+    "word": "options",
+    "meaning": "選択（の自由）",
+    "sentence": "consider other (   )",
+    "jp": "ほかの選択肢を考える",
+    "jpBlank": "ほかの(   )を考える",
+    "jpAnswer": "選択肢"
+  },
+  {
+    "wordNo": 1210,
+    "word": "prospect",
+    "meaning": "見通し，展望",
+    "sentence": "the (   ) of becoming a father",
+    "jp": "自分が父親になることを考えると（父親になることの見通し）",
+    "jpBlank": "自分が父親になることを(   )（父親になることの見通し）",
+    "jpAnswer": "考えると"
+  },
+  {
+    "wordNo": 1211,
+    "word": "cherish",
+    "meaning": "～を大切にする，胸に抱く",
+    "sentence": "(   ) the memories of that day",
+    "jp": "その日の思い出を大切にする",
+    "jpBlank": "その日の思い出を(   )にする",
+    "jpAnswer": "大切"
+  },
+  {
+    "wordNo": 1212,
+    "word": "intend",
+    "meaning": "（to do）～するつもりだ",
+    "sentence": "(   ) to see the movie",
+    "jp": "その映画を見るつもりだ",
+    "jpBlank": "その映画を見る(   )だ",
+    "jpAnswer": "つもり"
+  },
+  {
+    "wordNo": 1213,
+    "word": "suspect",
+    "meaning": "（that SV）～ではないかと思う",
+    "sentence": "The police (   ) that she stole the money.",
+    "jp": "警察は彼女がそのお金を盗んだのではないかと思っている。",
+    "jpBlank": "警察は彼女がそのお金を盗んだのではないかと(   )。",
+    "jpAnswer": "思っている"
+  },
+  {
+    "wordNo": 1213,
+    "word": "suspect",
+    "meaning": "～を疑う",
+    "sentence": "We (   ) that man.",
+    "jp": "あの男が怪しいと思っている（疑っている）。",
+    "jpBlank": "あの男が(   )と思っている（疑っている）。",
+    "jpAnswer": "怪しい"
+  },
+  {
+    "wordNo": 1213,
+    "word": "suspect",
+    "meaning": "容疑者",
+    "sentence": "the prime (   )",
+    "jp": "有力な容疑者",
+    "jpBlank": "有力な(   )",
+    "jpAnswer": "容疑者"
+  },
+  {
+    "wordNo": 1214,
+    "word": "identify",
+    "meaning": "～を特定する",
+    "sentence": "(   ) the fingerprints",
+    "jp": "その指紋を特定する",
+    "jpBlank": "その指紋を(   )する",
+    "jpAnswer": "特定"
+  },
+  {
+    "wordNo": 1214,
+    "word": "identify",
+    "meaning": "（with ～）～と同一視する",
+    "sentence": "Never (   ) happiness with money.",
+    "jp": "幸福を金と同一視するな。",
+    "jpBlank": "幸福を金と(   )するな。",
+    "jpAnswer": "同一視"
+  },
+  {
+    "wordNo": 1214,
+    "word": "identify",
+    "meaning": "（with ～）～に共感する",
+    "sentence": "(   ) with that character",
+    "jp": "そのキャラクターに共感する",
+    "jpBlank": "そのキャラクターに(   )する",
+    "jpAnswer": "共感"
+  },
+  {
+    "wordNo": 1215,
+    "word": "permitted",
+    "meaning": "～を許可する",
+    "sentence": "Parking is not (   ) here.",
+    "jp": "ここでは駐車は許可されていない。",
+    "jpBlank": "ここでは駐車は(   )されていない。",
+    "jpAnswer": "許可"
+  },
+  {
+    "wordNo": 1215,
+    "word": "permit",
+    "meaning": "許可証",
+    "sentence": "a work (   )",
+    "jp": "就業許可証",
+    "jpBlank": "就業(   )",
+    "jpAnswer": "許可証"
+  },
+  {
+    "wordNo": 1216,
+    "word": "acknowledge",
+    "meaning": "～を認める",
+    "sentence": "(   ) the need for change",
+    "jp": "変化の必要性を認める",
+    "jpBlank": "変化の必要性を(   )",
+    "jpAnswer": "認める"
+  },
+  {
+    "wordNo": 1217,
+    "word": "perceive",
+    "meaning": "～を認識する",
+    "sentence": "(   ) the discovery as a major breakthrough",
+    "jp": "その発見を飛躍的な進歩と認識する",
+    "jpBlank": "その発見を飛躍的な進歩と(   )する",
+    "jpAnswer": "認識"
+  },
+  {
+    "wordNo": 1217,
+    "word": "perceive",
+    "meaning": "～に気づく",
+    "sentence": "(   ) a change in his expression",
+    "jp": "彼の表情の変化に気づく",
+    "jpBlank": "彼の表情の変化に(   )",
+    "jpAnswer": "気づく"
+  },
+  {
+    "wordNo": 1218,
+    "word": "evaluate",
+    "meaning": "～を（正しく）評価する",
+    "sentence": "(   ) the employees' performances",
+    "jp": "従業員の仕事ぶりを評価する",
+    "jpBlank": "従業員の仕事ぶりを(   )する",
+    "jpAnswer": "評価"
+  },
+  {
+    "wordNo": 1219,
+    "word": "cultivate",
+    "meaning": "～を耕す",
+    "sentence": "(   ) the land",
+    "jp": "土地を耕す",
+    "jpBlank": "土地を(   )",
+    "jpAnswer": "耕す"
+  },
+  {
+    "wordNo": 1219,
+    "word": "cultivate",
+    "meaning": "（関係など）を育む",
+    "sentence": "(   ) a relationship with her",
+    "jp": "彼女との人間関係を育む",
+    "jpBlank": "彼女との人間関係を(   )",
+    "jpAnswer": "育む"
+  },
+  {
+    "wordNo": 1219,
+    "word": "cultivate",
+    "meaning": "（能力など）を磨く",
+    "sentence": "(   ) a sense of beauty",
+    "jp": "美の感覚を磨く",
+    "jpBlank": "美の感覚を(   )",
+    "jpAnswer": "磨く"
+  },
+  {
+    "wordNo": 1220,
+    "word": "shade",
+    "meaning": "日陰",
+    "sentence": "sit in the (   )",
+    "jp": "日陰に座る",
+    "jpBlank": "(   )に座る",
+    "jpAnswer": "日陰"
+  },
+  {
+    "wordNo": 1220,
+    "word": "shades",
+    "meaning": "（微妙な）違い",
+    "sentence": "\"Shade\" has several (   ) of meaning.",
+    "jp": "「shade」にはいくつかの微細な違いがある。",
+    "jpBlank": "「shade」にはいくつかの(   )な違いがある。",
+    "jpAnswer": "微細"
+  },
+  {
+    "wordNo": 1221,
+    "word": "breeze",
+    "meaning": "そよ風",
+    "sentence": "feel a sea (   )",
+    "jp": "海のそよ風を感じる",
+    "jpBlank": "海の(   )を感じる",
+    "jpAnswer": "そよ風"
+  },
+  {
+    "wordNo": 1222,
+    "word": "Desert",
+    "meaning": "砂漠",
+    "sentence": "the Sahara (   )",
+    "jp": "サハラ砂漠",
+    "jpBlank": "サハラ(   )",
+    "jpAnswer": "砂漠"
+  },
+  {
+    "wordNo": 1222,
+    "word": "deserted",
+    "meaning": "～を見捨てる",
+    "sentence": "She (   ) her children.",
+    "jp": "彼女は子供たちを見捨てた。",
+    "jpBlank": "彼女は子供たちを(   )。",
+    "jpAnswer": "見捨てた"
+  },
+  {
+    "wordNo": 1223,
+    "word": "fog",
+    "meaning": "霧",
+    "sentence": "The dense (   ) cleared.",
+    "jp": "濃い霧が晴れた。",
+    "jpBlank": "濃い(   )が晴れた。",
+    "jpAnswer": "霧"
+  },
+  {
+    "wordNo": 1224,
+    "word": "Moisture",
+    "meaning": "湿気，水分",
+    "sentence": "(   ) is essential for keeping your skin youthful.",
+    "jp": "湿気は皮膚を若々しく保つのに不可欠だ。",
+    "jpBlank": "(   )は皮膚を若々しく保つのに不可欠だ。",
+    "jpAnswer": "湿気"
+  },
+  {
+    "wordNo": 1225,
+    "word": "damp",
+    "meaning": "湿った，じとじとした",
+    "sentence": "My shirt is still (   ).",
+    "jp": "シャツがまだ湿っている。",
+    "jpBlank": "シャツがまだ(   )いる。",
+    "jpAnswer": "湿って"
+  },
+  {
+    "wordNo": 1226,
+    "word": "path",
+    "meaning": "（小）道",
+    "sentence": "follow a (   ) to the mountaintop",
+    "jp": "山頂への道をたどる",
+    "jpBlank": "山頂への(   )をたどる",
+    "jpAnswer": "道"
+  },
+  {
+    "wordNo": 1226,
+    "word": "path",
+    "meaning": "（成功への）道",
+    "sentence": "a (   ) to success",
+    "jp": "成功への道",
+    "jpBlank": "成功への(   )",
+    "jpAnswer": "道"
+  },
+  {
+    "wordNo": 1227,
+    "word": "trail",
+    "meaning": "山道",
+    "sentence": "a hiking (   )",
+    "jp": "ハイキングコース［山道］",
+    "jpBlank": "ハイキングコース［(   )］",
+    "jpAnswer": "山道"
+  },
+  {
+    "wordNo": 1227,
+    "word": "trail",
+    "meaning": "跡",
+    "sentence": "be on the (   ) of a bear",
+    "jp": "クマを追跡している（クマの跡を追っている）",
+    "jpBlank": "クマを(   )している（クマの跡を追っている）",
+    "jpAnswer": "追跡"
+  },
+  {
+    "wordNo": 1227,
+    "word": "trail",
+    "meaning": "（破壊の）爪痕",
+    "sentence": "Hurricane Noel left a (   ) of destruction behind it.",
+    "jp": "ハリケーン・ノエルは被害の爪痕を残した。",
+    "jpBlank": "ハリケーン・ノエルは被害の(   )を残した。",
+    "jpAnswer": "爪痕"
+  },
+  {
+    "wordNo": 1228,
+    "word": "stream",
+    "meaning": "小川",
+    "sentence": "a mountain (   )",
+    "jp": "谷川",
+    "jpBlank": "谷(   )",
+    "jpAnswer": "川"
+  },
+  {
+    "wordNo": 1228,
+    "word": "stream",
+    "meaning": "（～の）流れ",
+    "sentence": "an endless (   ) of visitors",
+    "jp": "途切れることのない訪問客の流れ",
+    "jpBlank": "途切れることのない訪問客の(   )",
+    "jpAnswer": "流れ"
+  },
+  {
+    "wordNo": 1229,
+    "word": "tide",
+    "meaning": "潮，潮流",
+    "sentence": "The (   ) is in [out].",
+    "jp": "満［干］潮である。",
+    "jpBlank": "満［干］(   )である。",
+    "jpAnswer": "潮"
+  },
+  {
+    "wordNo": 1229,
+    "word": "tide",
+    "meaning": "時流",
+    "sentence": "go with the (   ) of the times",
+    "jp": "時流に乗る",
+    "jpBlank": "(   )に乗る",
+    "jpAnswer": "時流"
+  },
+  {
+    "wordNo": 1230,
+    "word": "reefs",
+    "meaning": "（岩や砂の）礁",
+    "sentence": "coral (   )",
+    "jp": "サンゴ礁",
+    "jpBlank": "サンゴ(   )",
+    "jpAnswer": "礁"
+  },
+  {
+    "wordNo": 1231,
+    "word": "habitat",
+    "meaning": "生息地",
+    "sentence": "the natural (   ) of sea lions",
+    "jp": "アシカの自然生息地",
+    "jpBlank": "アシカの自然(   )",
+    "jpAnswer": "生息地"
+  },
+  {
+    "wordNo": 1232,
+    "word": "volcano",
+    "meaning": "火山",
+    "sentence": "That (   ) erupted last year.",
+    "jp": "その火山は昨年噴火した。",
+    "jpBlank": "その(   )は昨年噴火した。",
+    "jpAnswer": "火山"
+  },
+  {
+    "wordNo": 1233,
+    "word": "mine",
+    "meaning": "鉱山",
+    "sentence": "work in a coal (   )",
+    "jp": "炭鉱で働く",
+    "jpBlank": "炭(   )で働く",
+    "jpAnswer": "鉱"
+  },
+  {
+    "wordNo": 1233,
+    "word": "mines",
+    "meaning": "地雷",
+    "sentence": "lay (   )",
+    "jp": "地雷を仕掛ける",
+    "jpBlank": "(   )を仕掛ける",
+    "jpAnswer": "地雷"
+  },
+  {
+    "wordNo": 1234,
+    "word": "swallow",
+    "meaning": "ツバメ",
+    "sentence": "One (   ) does not make a summer.",
+    "jp": "《ことわざ》一羽のツバメが来たからといって夏になるわけではない。",
+    "jpBlank": "《ことわざ》一羽の(   )が来たからといって夏になるわけではない。",
+    "jpAnswer": "ツバメ"
+  },
+  {
+    "wordNo": 1234,
+    "word": "swallow",
+    "meaning": "～を飲み込む",
+    "sentence": "(   ) a capsule",
+    "jp": "カプセルを飲み込む",
+    "jpBlank": "カプセルを(   )",
+    "jpAnswer": "飲み込む"
+  },
+  {
+    "wordNo": 1235,
+    "word": "web",
+    "meaning": "（クモの）巣",
+    "sentence": "weave a (   )",
+    "jp": "クモが巣を張る",
+    "jpBlank": "クモが(   )を張る",
+    "jpAnswer": "巣"
+  },
+  {
+    "wordNo": 1235,
+    "word": "Web",
+    "meaning": "インターネット",
+    "sentence": "via the (   )",
+    "jp": "インターネット経由で",
+    "jpBlank": "(   )経由で",
+    "jpAnswer": "インターネット"
+  },
+  {
+    "wordNo": 1236,
+    "word": "mosquito",
+    "meaning": "蚊",
+    "sentence": "I was bitten by a (   ).",
+    "jp": "蚊に刺された。",
+    "jpBlank": "(   )に刺された。",
+    "jpAnswer": "蚊"
+  },
+  {
+    "wordNo": 1237,
+    "word": "cattle",
+    "meaning": "ウシ",
+    "sentence": "(   ), sheep, and other domestic animals",
+    "jp": "ウシ，ヒツジとそれ以外の家畜",
+    "jpBlank": "(   )，ヒツジとそれ以外の家畜",
+    "jpAnswer": "ウシ"
+  },
+  {
+    "wordNo": 1238,
+    "word": "kitten",
+    "meaning": "子ネコ",
+    "sentence": "a lost (   )",
+    "jp": "迷子の子ネコ",
+    "jpBlank": "迷子の(   )",
+    "jpAnswer": "子ネコ"
+  },
+  {
+    "wordNo": 1239,
+    "word": "organisms",
+    "meaning": "生物",
+    "sentence": "microscopic (   )",
+    "jp": "微生物",
+    "jpBlank": "微(   )",
+    "jpAnswer": "生物"
+  },
+  {
+    "wordNo": 1240,
+    "word": "wildlife",
+    "meaning": "野生動物",
+    "sentence": "the (   ) of the Galapagos Islands",
+    "jp": "ガラパゴス諸島の野生生物",
+    "jpBlank": "ガラパゴス諸島の野生(   )",
+    "jpAnswer": "生物"
+  },
+  {
+    "wordNo": 1241,
+    "word": "beasts",
+    "meaning": "野獣",
+    "sentence": "the lion, the king of (   )",
+    "jp": "百獣の王ライオン",
+    "jpBlank": "百(   )の王ライオン",
+    "jpAnswer": "獣"
+  },
+  {
+    "wordNo": 1242,
+    "word": "apes",
+    "meaning": "類人猿",
+    "sentence": "great (   )",
+    "jp": "大型の［遺大な］類人猿",
+    "jpBlank": "大型の［遺大な］(   )",
+    "jpAnswer": "類人猿"
+  },
+  {
+    "wordNo": 1243,
+    "word": "flock",
+    "meaning": "（鳥，羊の）群れ",
+    "sentence": "a (   ) of crows",
+    "jp": "カラスの群れ",
+    "jpBlank": "カラスの(   )",
+    "jpAnswer": "群れ"
+  },
+  {
+    "wordNo": 1243,
+    "word": "flock",
+    "meaning": "群れる",
+    "sentence": "Birds of a feather (   ) together.",
+    "jp": "《ことわざ》類は友を呼ぶ（同じ羽の鳥は一緒に群れる）。",
+    "jpBlank": "《ことわざ》類は友を呼ぶ（同じ羽の鳥は一緒に(   )）。",
+    "jpAnswer": "群れる"
+  },
+  {
+    "wordNo": 1244,
+    "word": "vein",
+    "meaning": "静脈",
+    "sentence": "inject a medicine into a (   )",
+    "jp": "静脈に薬を注射する",
+    "jpBlank": "(   )に薬を注射する",
+    "jpAnswer": "静脈"
+  },
+  {
+    "wordNo": 1245,
+    "word": "breed",
+    "meaning": "繁殖する",
+    "sentence": "Rabbits (   ) all year round.",
+    "jp": "ウサギは年中繁殖する。",
+    "jpBlank": "ウサギは年中(   )する。",
+    "jpAnswer": "繁殖"
+  },
+  {
+    "wordNo": 1245,
+    "word": "breed",
+    "meaning": "～を繁殖させる",
+    "sentence": "(   ) sheep for the market",
+    "jp": "出荷用にヒツジを繁殖させる",
+    "jpBlank": "出荷用にヒツジを(   )させる",
+    "jpAnswer": "繁殖"
+  },
+  {
+    "wordNo": 1245,
+    "word": "breeds",
+    "meaning": "（悪い事態）を生み出す",
+    "sentence": "Poverty (   ) terrorism.",
+    "jp": "貧困がテロを生み出す。",
+    "jpBlank": "貧困がテロを(   )。",
+    "jpAnswer": "生み出す"
+  },
+  {
+    "wordNo": 1245,
+    "word": "breed",
+    "meaning": "品種",
+    "sentence": "Shiba-inu is my favorite (   ).",
+    "jp": "柴犬は私の好きな血統（品種）だ。",
+    "jpBlank": "柴犬は私の好きな(   )だ。",
+    "jpAnswer": "品種"
+  },
+  {
+    "wordNo": 1246,
+    "word": "reproduce",
+    "meaning": "繁殖する",
+    "sentence": "The virus can (   ) rapidly.",
+    "jp": "ウイルスは急速に繁殖する。",
+    "jpBlank": "ウイルスは急速に(   )する。",
+    "jpAnswer": "繁殖"
+  },
+  {
+    "wordNo": 1246,
+    "word": "reproduce",
+    "meaning": "～を複製する",
+    "sentence": "(   ) bacteria",
+    "jp": "バクテリアを繁殖させる（複製する）",
+    "jpBlank": "バクテリアを(   )させる（複製する）",
+    "jpAnswer": "繁殖"
+  },
+  {
+    "wordNo": 1246,
+    "word": "reproduce",
+    "meaning": "～を再生成する",
+    "sentence": "permission to (   ) the cartoon",
+    "jp": "そのマンガを転載（複製）する許可",
+    "jpBlank": "そのマンガを(   )する許可",
+    "jpAnswer": "転載"
+  },
+  {
+    "wordNo": 1247,
+    "word": "talkative",
+    "meaning": "おしゃべりの",
+    "sentence": "a (   ) taxi driver",
+    "jp": "おしゃべりなタクシー運転手",
+    "jpBlank": "(   )なタクシー運転手",
+    "jpAnswer": "おしゃべり"
+  },
+  {
+    "wordNo": 1248,
+    "word": "earnest",
+    "meaning": "真面目な，熱心な",
+    "sentence": "make an (   ) effort",
+    "jp": "真面目に努力する",
+    "jpBlank": "真面目に(   )する",
+    "jpAnswer": "努力"
+  },
+  {
+    "wordNo": 1248,
+    "word": "earnest",
+    "meaning": "真面目な，熱心な",
+    "sentence": "work in (   )",
+    "jp": "真面目に働く",
+    "jpBlank": "真面目に(   )",
+    "jpAnswer": "働く"
+  },
+  {
+    "wordNo": 1249,
+    "word": "diligent",
+    "meaning": "勤勉な",
+    "sentence": "a (   ) student",
+    "jp": "勤勉な学生",
+    "jpBlank": "(   )な学生",
+    "jpAnswer": "勤勉"
+  },
+  {
+    "wordNo": 1250,
+    "word": "principal",
+    "meaning": "主要な",
+    "sentence": "the country's (   ) exports",
+    "jp": "その国の主な輸出品",
+    "jpBlank": "その国の主な(   )",
+    "jpAnswer": "輸出品"
+  },
+  {
+    "wordNo": 1250,
+    "word": "principal's",
+    "meaning": "校長",
+    "sentence": "the (   ) office",
+    "jp": "校長室",
+    "jpBlank": "(   )室",
+    "jpAnswer": "校長"
+  },
+  {
+    "wordNo": 1251,
+    "word": "prime",
+    "meaning": "最も重要な",
+    "sentence": "the (   ) minister of Japan",
+    "jp": "日本の首相",
+    "jpBlank": "日本の(   )",
+    "jpAnswer": "首相"
+  },
+  {
+    "wordNo": 1251,
+    "word": "prime",
+    "meaning": "最も重要な",
+    "sentence": "1 is not a (   ) number.",
+    "jp": "1は素数（主要な数）ではない。",
+    "jpBlank": "1は(   )ではない。",
+    "jpAnswer": "素数"
+  },
+  {
+    "wordNo": 1252,
+    "word": "definite",
+    "meaning": "明確な",
+    "sentence": "a (   ) answer",
+    "jp": "明確な答え",
+    "jpBlank": "(   )な答え",
+    "jpAnswer": "明確"
+  },
+  {
+    "wordNo": 1253,
+    "word": "evident",
+    "meaning": "明らかな",
+    "sentence": "It was (   ) that he was not telling the truth.",
+    "jp": "彼が真実を言っていないのは明らかだった。",
+    "jpBlank": "彼が真実を言っていないのは(   )だった。",
+    "jpAnswer": "明らか"
+  },
+  {
+    "wordNo": 1254,
+    "word": "prominent",
+    "meaning": "目立った",
+    "sentence": "The statue stood in a (   ) position.",
+    "jp": "その像は目立つ場所にあった。",
+    "jpBlank": "その像は(   )場所にあった。",
+    "jpAnswer": "目立つ"
+  },
+  {
+    "wordNo": 1254,
+    "word": "prominent",
+    "meaning": "著名な",
+    "sentence": "a (   ) Japanese scientist",
+    "jp": "著名な日本人科学者",
+    "jpBlank": "(   )な日本人科学者",
+    "jpAnswer": "著名"
+  },
+  {
+    "wordNo": 1255,
+    "word": "marked",
+    "meaning": "際立った",
+    "sentence": "a (   ) change in his behavior",
+    "jp": "彼の行動の際立った変化",
+    "jpBlank": "彼の行動の(   )変化",
+    "jpAnswer": "際立った"
+  },
+  {
+    "wordNo": 1256,
+    "word": "grace",
+    "meaning": "優雅さ",
+    "sentence": "the (   ) of the dancer",
+    "jp": "そのダンサーの優雅さ",
+    "jpBlank": "そのダンサーの(   )",
+    "jpAnswer": "優雅さ"
+  },
+  {
+    "wordNo": 1256,
+    "word": "grace",
+    "meaning": "（食事の前の）感謝の祈り",
+    "sentence": "say (   ) before meals",
+    "jp": "食事の前にお祈りをする",
+    "jpBlank": "食事の前に(   )をする",
+    "jpAnswer": "お祈り"
+  },
+  {
+    "wordNo": 1257,
+    "word": "charm",
+    "meaning": "魅力",
+    "sentence": "have enormous (   )",
+    "jp": "大きな魅力がある",
+    "jpBlank": "大きな(   )がある",
+    "jpAnswer": "魅力"
+  },
+  {
+    "wordNo": 1257,
+    "word": "charm",
+    "meaning": "お守り",
+    "sentence": "wear a good-luck (   )",
+    "jp": "お守りを身につけている",
+    "jpBlank": "(   )を身につけている",
+    "jpAnswer": "お守り"
+  },
+  {
+    "wordNo": 1258,
+    "word": "fancy",
+    "meaning": "高級な",
+    "sentence": "a (   ) French restaurant",
+    "jp": "高級なフレンチレストラン",
+    "jpBlank": "(   )なフレンチレストラン",
+    "jpAnswer": "高級"
+  },
+  {
+    "wordNo": 1258,
+    "word": "fancy",
+    "meaning": "高級な",
+    "sentence": "I (   ) some cheesecake.",
+    "jp": "チーズケーキが食べたい。",
+    "jpBlank": "チーズケーキが(   )。",
+    "jpAnswer": "食べたい"
+  },
+  {
+    "wordNo": 1258,
+    "word": "fancy",
+    "meaning": "高級な",
+    "sentence": "I (   ) that I have seen him.",
+    "jp": "彼を見かけた気がする。",
+    "jpBlank": "彼を見かけた(   )。",
+    "jpAnswer": "気がする"
+  },
+  {
+    "wordNo": 1259,
+    "word": "rational",
+    "meaning": "理性的な",
+    "sentence": "make a (   ) decision",
+    "jp": "理性的な決定をする",
+    "jpBlank": "(   )な決定をする",
+    "jpAnswer": "理性的"
+  },
+  {
+    "wordNo": 1260,
+    "word": "magnificent",
+    "meaning": "壮大な",
+    "sentence": "a (   ) view of Mt. Fuji",
+    "jp": "富士山の壮大な眺め",
+    "jpBlank": "富士山の(   )眺め",
+    "jpAnswer": "壮大な"
+  },
+  {
+    "wordNo": 1261,
+    "word": "superior",
+    "meaning": "（be ～ to）より優れている",
+    "sentence": "Your bike is (   ) to mine.",
+    "jp": "君の自転車は私のより優れている。",
+    "jpBlank": "君の自転車は私のより(   )。",
+    "jpAnswer": "優れている"
+  },
+  {
+    "wordNo": 1261,
+    "word": "superior",
+    "meaning": "上司",
+    "sentence": "his immediate (   )",
+    "jp": "彼の直属の上司",
+    "jpBlank": "彼の直属の(   )",
+    "jpAnswer": "上司"
+  },
+  {
+    "wordNo": 1262,
+    "word": "loyal",
+    "meaning": "忠実な",
+    "sentence": "a (   ) supporter of the team",
+    "jp": "そのチームの忠実な支持者",
+    "jpBlank": "そのチームの(   )支持者",
+    "jpAnswer": "忠実な"
+  },
+  {
+    "wordNo": 1263,
+    "word": "horrible",
+    "meaning": "とてもひどい",
+    "sentence": "That fish looks (   ) but tastes terrific.",
+    "jp": "その魚は見かけはひどいが，味はすばらしい。",
+    "jpBlank": "その魚は見かけは(   )が，味はすばらしい。",
+    "jpAnswer": "ひどい"
+  },
+  {
+    "wordNo": 1264,
+    "word": "miserable",
+    "meaning": "悲惨な",
+    "sentence": "lead a (   ) life",
+    "jp": "悲惨な生活を送る",
+    "jpBlank": "(   )な生活を送る",
+    "jpAnswer": "悲惨"
+  },
+  {
+    "wordNo": 1265,
+    "word": "dull",
+    "meaning": "退屈な",
+    "sentence": "a (   ) TV program",
+    "jp": "退屈なテレビ番組",
+    "jpBlank": "(   )なテレビ番組",
+    "jpAnswer": "退屈"
+  },
+  {
+    "wordNo": 1265,
+    "word": "dull",
+    "meaning": "（切れ味が）悪い",
+    "sentence": "a (   ) knife",
+    "jp": "切れ味の悪いナイフ",
+    "jpBlank": "切れ味の(   )ナイフ",
+    "jpAnswer": "悪い"
+  },
+  {
+    "wordNo": 1265,
+    "word": "dull",
+    "meaning": "（腰の）鈍痛",
+    "sentence": "a (   ) pain in my back",
+    "jp": "腰の鈍痛",
+    "jpBlank": "腰の(   )",
+    "jpAnswer": "鈍痛"
+  },
+  {
+    "wordNo": 1266,
+    "word": "nasty",
+    "meaning": "不快な",
+    "sentence": "leave a (   ) taste in my mouth",
+    "jp": "後味が悪い（口の中に嫌な味を残す）",
+    "jpBlank": "後味が(   )（口の中に嫌な味を残す）",
+    "jpAnswer": "悪い"
+  },
+  {
+    "wordNo": 1267,
+    "word": "insane",
+    "meaning": "正気でない",
+    "sentence": "Have you gone (   )?",
+    "jp": "正気を失ったか？",
+    "jpBlank": "正気を(   )か？",
+    "jpAnswer": "失った"
+  },
+  {
+    "wordNo": 1268,
+    "word": "ridiculous",
+    "meaning": "馬鹿げた",
+    "sentence": "I believe that lowering the voting age is a (   ) idea.",
+    "jp": "選挙年齢を引き下げるのはばかげた考えだと思う。",
+    "jpBlank": "選挙年齢を引き下げるのは(   )考えだと思う。",
+    "jpAnswer": "ばかげた"
+  },
+  {
+    "wordNo": 1269,
+    "word": "rotten",
+    "meaning": "腐った",
+    "sentence": "(   ) eggs",
+    "jp": "腐った卵",
+    "jpBlank": "(   )卵",
+    "jpAnswer": "腐った"
+  },
+  {
+    "wordNo": 1270,
+    "word": "notorious",
+    "meaning": "（for ～）で悪名高い",
+    "sentence": "That clothing shop is (   ) for its poor quality.",
+    "jp": "その服屋は低品質で悪名高い。",
+    "jpBlank": "その服屋は低品質で(   )。",
+    "jpAnswer": "悪名高い"
+  },
+  {
+    "wordNo": 1271,
+    "word": "evil",
+    "meaning": "悪い",
+    "sentence": "an (   ) spirit",
+    "jp": "悪霊",
+    "jpBlank": "(   )霊",
+    "jpAnswer": "悪"
+  },
+  {
+    "wordNo": 1271,
+    "word": "evil",
+    "meaning": "悪",
+    "sentence": "Racism is a social (   ).",
+    "jp": "人種差別は社会的悪だ。",
+    "jpBlank": "人種差別は社会的(   )だ。",
+    "jpAnswer": "悪"
+  },
+  {
+    "wordNo": 1272,
+    "word": "mess",
+    "meaning": "散らかった状態",
+    "sentence": "make a (   ) of the room",
+    "jp": "部屋をめちゃくちゃにする",
+    "jpBlank": "部屋を(   )にする",
+    "jpAnswer": "めちゃくちゃ"
+  },
+  {
+    "wordNo": 1272,
+    "word": "mess",
+    "meaning": "散らかった状態",
+    "sentence": "Don't (   ) with me!",
+    "jp": "ふざけるな（私をからかうな）！",
+    "jpBlank": "(   )な（私をからかうな）！",
+    "jpAnswer": "ふざける"
+  },
+  {
+    "wordNo": 1273,
+    "word": "vast",
+    "meaning": "（地域，土地が）広大な",
+    "sentence": "a (   ) palace",
+    "jp": "広大な宮殿",
+    "jpBlank": "(   )な宮殿",
+    "jpAnswer": "広大"
+  },
+  {
+    "wordNo": 1273,
+    "word": "vast",
+    "meaning": "（数量が）莫大な",
+    "sentence": "a (   ) amount of money",
+    "jp": "巨額のお金（莫大な量のお金）",
+    "jpBlank": "巨額の(   )（莫大な量のお金）",
+    "jpAnswer": "お金"
+  },
+  {
+    "wordNo": 1274,
+    "word": "huge",
+    "meaning": "巨大な",
+    "sentence": "a (   ) elephant",
+    "jp": "巨大なゾウ",
+    "jpBlank": "(   )なゾウ",
+    "jpAnswer": "巨大"
+  },
+  {
+    "wordNo": 1275,
+    "word": "tiny",
+    "meaning": "とても小さな",
+    "sentence": "a (   ) hole in the wall",
+    "jp": "壁にあいたとても小さな穴",
+    "jpBlank": "壁にあいたとても(   )穴",
+    "jpAnswer": "小さな"
+  },
+  {
+    "wordNo": 1276,
+    "word": "sphere",
+    "meaning": "球体",
+    "sentence": "a perfect (   )",
+    "jp": "完全な球体",
+    "jpBlank": "完全な(   )",
+    "jpAnswer": "球体"
+  },
+  {
+    "wordNo": 1276,
+    "word": "sphere",
+    "meaning": "領域",
+    "sentence": "his achievements in the diplomatic (   )",
+    "jp": "外交面（領域）での彼の業績",
+    "jpBlank": "外交(   )（領域）での彼の業績",
+    "jpAnswer": "面"
+  },
+  {
+    "wordNo": 1277,
+    "word": "strip",
+    "meaning": "細長い一片",
+    "sentence": "a (   ) of paper",
+    "jp": "細長い紙片",
+    "jpBlank": "細長い(   )",
+    "jpAnswer": "紙片"
+  },
+  {
+    "wordNo": 1277,
+    "word": "strip",
+    "meaning": "～を脱ぐ",
+    "sentence": "(   ) (down) to the waist",
+    "jp": "上半身裸になる（腰まで脱ぐ）",
+    "jpBlank": "上半身(   )になる（腰まで脱ぐ）",
+    "jpAnswer": "裸"
+  },
+  {
+    "wordNo": 1277,
+    "word": "strip",
+    "meaning": "（人）から（地位など）を奪う",
+    "sentence": "(   ) him of his rank",
+    "jp": "彼から地位を奪う",
+    "jpBlank": "彼から(   )を奪う",
+    "jpAnswer": "地位"
+  },
+  {
+    "wordNo": 1278,
+    "word": "vessel",
+    "meaning": "管",
+    "sentence": "a blood (   ) in the brain",
+    "jp": "脳内の血管",
+    "jpBlank": "脳内の血(   )",
+    "jpAnswer": "管"
+  },
+  {
+    "wordNo": 1278,
+    "word": "vessel",
+    "meaning": "（大型の）船",
+    "sentence": "a cargo (   )",
+    "jp": "貨物船",
+    "jpBlank": "貨物(   )",
+    "jpAnswer": "船"
+  },
+  {
+    "wordNo": 1279,
+    "word": "internal",
+    "meaning": "内部の",
+    "sentence": "(   ) organs",
+    "jp": "内臓（内部の臓器）",
+    "jpBlank": "内(   )（内部の臓器）",
+    "jpAnswer": "臓"
+  },
+  {
+    "wordNo": 1279,
+    "word": "internal",
+    "meaning": "国内の",
+    "sentence": "the (   ) problems of Japan",
+    "jp": "日本の国内問題",
+    "jpBlank": "日本の国内(   )",
+    "jpAnswer": "問題"
+  },
+  {
+    "wordNo": 1280,
+    "word": "mobile",
+    "meaning": "流動的な",
+    "sentence": "a (   ) society",
+    "jp": "流動的な社会",
+    "jpBlank": "(   )的な社会",
+    "jpAnswer": "流動"
+  },
+  {
+    "wordNo": 1280,
+    "word": "mobile",
+    "meaning": "携帯電話",
+    "sentence": "Call me on my (   ).",
+    "jp": "私の携帯電話に電話してください。",
+    "jpBlank": "私の携帯(   )に電話してください。",
+    "jpAnswer": "電話"
+  },
+  {
+    "wordNo": 1281,
+    "word": "steep",
+    "meaning": "（坂などが）険しい",
+    "sentence": "climb (   ) stone steps",
+    "jp": "急な石段を上る",
+    "jpBlank": "急な(   )を上る",
+    "jpAnswer": "石段"
+  },
+  {
+    "wordNo": 1281,
+    "word": "steep",
+    "meaning": "（増減が）急激な",
+    "sentence": "a (   ) price rise",
+    "jp": "物価の急騰",
+    "jpBlank": "物価の(   )",
+    "jpAnswer": "急騰"
+  },
+  {
+    "wordNo": 1282,
+    "word": "intense",
+    "meaning": "（感情，競争などが）強烈な",
+    "sentence": "(   ) pressure to succeed",
+    "jp": "成功しなければという強烈な重圧",
+    "jpBlank": "成功しなければという(   )な重圧",
+    "jpAnswer": "強烈"
+  },
+  {
+    "wordNo": 1283,
+    "word": "inevitable",
+    "meaning": "避けられない",
+    "sentence": "an (   ) result",
+    "jp": "避けられない結果",
+    "jpBlank": "(   )ない結果",
+    "jpAnswer": "避けられ"
+  },
+  {
+    "wordNo": 1284,
+    "word": "neutral",
+    "meaning": "中立の",
+    "sentence": "a demilitarized (   ) zone",
+    "jp": "非武装中立地帯",
+    "jpBlank": "非武装(   )地帯",
+    "jpAnswer": "中立"
+  },
+  {
+    "wordNo": 1284,
+    "word": "neutral",
+    "meaning": "（炭素）中立の",
+    "sentence": "carbon (   )",
+    "jp": "炭素中立",
+    "jpBlank": "炭素(   )",
+    "jpAnswer": "中立"
+  },
+  {
+    "wordNo": 1285,
+    "word": "brief",
+    "meaning": "短い，簡潔な",
+    "sentence": "have a (   ) conversation with her",
+    "jp": "彼女と少し話し（手短な会話）をする",
+    "jpBlank": "彼女と(   )（手短な会話）をする",
+    "jpAnswer": "少し話し"
+  },
+  {
+    "wordNo": 1285,
+    "word": "brief",
+    "meaning": "要約",
+    "sentence": "in (   )",
+    "jp": "要するに（手短に言えば）",
+    "jpBlank": "要するに（(   )に言えば）",
+    "jpAnswer": "手短"
+  },
+  {
+    "wordNo": 1286,
+    "word": "bare",
+    "meaning": "むき出しの",
+    "sentence": "Her arms were (   ).",
+    "jp": "彼女の腕はむき出しだった。",
+    "jpBlank": "彼女の腕は(   )だった。",
+    "jpAnswer": "むき出し"
+  },
+  {
+    "wordNo": 1286,
+    "word": "bare",
+    "meaning": "最低限の",
+    "sentence": "the (   ) necessities of life",
+    "jp": "最低限の生活必需品",
+    "jpBlank": "(   )の生活必需品",
+    "jpAnswer": "最低限"
+  },
+  {
+    "wordNo": 1287,
+    "word": "mutual",
+    "meaning": "相互の",
+    "sentence": "promote (   ) understanding",
+    "jp": "相互の理解を促進させる",
+    "jpBlank": "相互の(   )を促進させる",
+    "jpAnswer": "理解"
+  },
+  {
+    "wordNo": 1287,
+    "word": "mutual",
+    "meaning": "共通の",
+    "sentence": "a (   ) friend",
+    "jp": "共通の友だち",
+    "jpBlank": "共通の(   )",
+    "jpAnswer": "友だち"
+  },
+  {
+    "wordNo": 1288,
+    "word": "potential",
+    "meaning": "潜在的な",
+    "sentence": "a (   ) customer",
+    "jp": "将来の（潜在的な）顧客",
+    "jpBlank": "将来の（(   )な）顧客",
+    "jpAnswer": "潜在的"
+  },
+  {
+    "wordNo": 1288,
+    "word": "potential",
+    "meaning": "可能性",
+    "sentence": "That child actor has a lot of (   ).",
+    "jp": "あの子役は大きな可能性がある。",
+    "jpBlank": "あの子役は大きな(   )がある。",
+    "jpAnswer": "可能性"
+  },
+  {
+    "wordNo": 1289,
+    "word": "tough",
+    "meaning": "たくましい",
+    "sentence": "a (   ) soldier",
+    "jp": "たくましい兵士",
+    "jpBlank": "(   )い兵士",
+    "jpAnswer": "たくまし"
+  },
+  {
+    "wordNo": 1289,
+    "word": "tough",
+    "meaning": "厳しい",
+    "sentence": "have a (   ) time",
+    "jp": "厳しい時間を過ごす",
+    "jpBlank": "(   )時間を過ごす",
+    "jpAnswer": "厳しい"
+  },
+  {
+    "wordNo": 1290,
+    "word": "conventional",
+    "meaning": "従来の",
+    "sentence": "(   ) weapons",
+    "jp": "通常兵器（従来の兵器）",
+    "jpBlank": "通常兵器（(   )の兵器）",
+    "jpAnswer": "従来"
+  },
+  {
+    "wordNo": 1291,
+    "word": "Supreme",
+    "meaning": "最高位の",
+    "sentence": "the (   ) Court",
+    "jp": "最高裁判所",
+    "jpBlank": "最高(   )所",
+    "jpAnswer": "裁判"
+  },
+  {
+    "wordNo": 1292,
+    "word": "resembles",
+    "meaning": "～に似ている",
+    "sentence": "Peter (   ) his father in every way.",
+    "jp": "ピーターはあらゆる点で父親に似ている。",
+    "jpBlank": "ピーターはあらゆる点で父親に(   )いる。",
+    "jpAnswer": "似て"
+  },
+  {
+    "wordNo": 1293,
+    "word": "contrary",
+    "meaning": "（on the ～）それどころか",
+    "sentence": "Roger is not stupid; on the (   ), he is a genius.",
+    "jp": "ロジャーはばかではない。それどころか天才だ。",
+    "jpBlank": "ロジャーはばかではない。(   )天才だ。",
+    "jpAnswer": "それどころか"
+  },
+  {
+    "wordNo": 1293,
+    "word": "Contrary",
+    "meaning": "（to ～）～とは反対に",
+    "sentence": "(   ) to popular belief",
+    "jp": "世間の考えとは逆に",
+    "jpBlank": "世間の考えとは(   )に",
+    "jpAnswer": "逆"
+  },
+  {
+    "wordNo": 1293,
+    "word": "contrary",
+    "meaning": "逆の",
+    "sentence": "evidence to the (   )",
+    "jp": "その逆の証拠",
+    "jpBlank": "その(   )の証拠",
+    "jpAnswer": "逆"
+  },
+  {
+    "wordNo": 1294,
+    "word": "category",
+    "meaning": "範疇，カテゴリー",
+    "sentence": "fall into the same (   )",
+    "jp": "同じ範疇に属する",
+    "jpBlank": "同じ(   )に属する",
+    "jpAnswer": "範疇"
+  },
+  {
+    "wordNo": 1295,
+    "word": "scope",
+    "meaning": "範囲",
+    "sentence": "limit the (   ) of our activities",
+    "jp": "私たちの活動範囲を制限する",
+    "jpBlank": "私たちの活動(   )を制限する",
+    "jpAnswer": "範囲"
+  },
+  {
+    "wordNo": 1296,
+    "word": "given",
+    "meaning": "（時間，量などが）定められた",
+    "sentence": "a (   ) period of time",
+    "jp": "ある一定の期間",
+    "jpBlank": "ある一定の(   )",
+    "jpAnswer": "期間"
+  },
+  {
+    "wordNo": 1296,
+    "word": "Given",
+    "meaning": "（～を）考慮すると",
+    "sentence": "(   ) the situation, you did well.",
+    "jp": "状況を考慮すれば，君はよくやった。",
+    "jpBlank": "状況を(   )すれば，君はよくやった。",
+    "jpAnswer": "考慮"
+  },
+  {
+    "wordNo": 1297,
+    "word": "peculiar",
+    "meaning": "（to ～）～に固有の",
+    "sentence": "a custom (   ) to Japan",
+    "jp": "日本固有の習慣",
+    "jpBlank": "日本(   )の習慣",
+    "jpAnswer": "固有"
+  },
+  {
+    "wordNo": 1297,
+    "word": "peculiar",
+    "meaning": "独特な",
+    "sentence": "a (   ) smell of garlic",
+    "jp": "にんにく独特な臭い",
+    "jpBlank": "にんにく(   )な臭い",
+    "jpAnswer": "独特"
+  },
+  {
+    "wordNo": 1298,
+    "word": "sufficient",
+    "meaning": "十分な",
+    "sentence": "(   ) food for everyone",
+    "jp": "全員に行き渡る十分な食料",
+    "jpBlank": "全員に行き渡る(   )な食料",
+    "jpAnswer": "十分"
+  },
+  {
+    "wordNo": 1299,
+    "word": "numerous",
+    "meaning": "多多くの",
+    "sentence": "on (   ) occasions",
+    "jp": "多くの場面で",
+    "jpBlank": "多くの(   )で",
+    "jpAnswer": "場面"
+  },
+  {
+    "wordNo": 1300,
+    "word": "substantial",
+    "meaning": "かなりの，たくさんの",
+    "sentence": "a (   ) breakfast",
+    "jp": "ボリュームのある（たくさんの）朝食",
+    "jpBlank": "ボリュームのある（(   )）朝食",
+    "jpAnswer": "たくさんの"
+  },
+  {
+    "wordNo": 1300,
+    "word": "substantial",
+    "meaning": "内容のある，重要な",
+    "sentence": "a (   ) workshop",
+    "jp": "内容のある勉強会",
+    "jpBlank": "(   )ある勉強会",
+    "jpAnswer": "内容の"
+  },
+  {
+    "wordNo": 1301,
+    "word": "unit",
+    "meaning": "単位",
+    "sentence": "The family is the smallest (   ) of society.",
+    "jp": "家族は社会の最小単位だ。",
+    "jpBlank": "家族は社会の最小(   )だ。",
+    "jpAnswer": "単位"
+  },
+  {
+    "wordNo": 1302,
+    "word": "diameter",
+    "meaning": "直径",
+    "sentence": "two meters in (   )",
+    "jp": "直径2メートル",
+    "jpBlank": "(   )2メートル",
+    "jpAnswer": "直径"
+  },
+  {
+    "wordNo": 1303,
+    "word": "arithmetic",
+    "meaning": "算数",
+    "sentence": "reading, writing, and (   )",
+    "jp": "読み，書き，算盤（＝算術）",
+    "jpBlank": "読み，書き，(   )（＝算術）",
+    "jpAnswer": "算盤"
+  },
+  {
+    "wordNo": 1304,
+    "word": "quantity",
+    "meaning": "分量，数量",
+    "sentence": "Quality is more important than (   ).",
+    "jp": "量より質が重要だ。",
+    "jpBlank": "(   )より質が重要だ。",
+    "jpAnswer": "量"
+  },
+  {
+    "wordNo": 1305,
+    "word": "deficiency",
+    "meaning": "欠乏，不足",
+    "sentence": "a vitamin (   )",
+    "jp": "ビタミンの欠乏",
+    "jpBlank": "ビタミンの(   )",
+    "jpAnswer": "欠乏"
+  },
+  {
+    "wordNo": 1306,
+    "word": "maximum",
+    "meaning": "最大限",
+    "sentence": "This will cost a (   ) of 1,000 dollars.",
+    "jp": "これは最大で1,000ドルかかります。",
+    "jpBlank": "これは(   )で1,000ドルかかります。",
+    "jpAnswer": "最大"
+  },
+  {
+    "wordNo": 1307,
+    "word": "bunch",
+    "meaning": "(花や鍵などの) 束，(ブドウなどの) 房",
+    "sentence": "a (   ) of flowers",
+    "jp": "花束",
+    "jpBlank": "花(   )",
+    "jpAnswer": "束"
+  },
+  {
+    "wordNo": 1308,
+    "word": "lessen",
+    "meaning": "～を減らす",
+    "sentence": "(   ) the risk of human error",
+    "jp": "人為的ミスのリスクを軽減する",
+    "jpBlank": "人為的ミスのリスクを(   )する",
+    "jpAnswer": "軽減"
+  },
+  {
+    "wordNo": 1309,
+    "word": "era",
+    "meaning": "時代",
+    "sentence": "the dawn of a new (   )",
+    "jp": "新たな時代の幕開け",
+    "jpBlank": "新たな(   )の幕開け",
+    "jpAnswer": "時代"
+  }
+]

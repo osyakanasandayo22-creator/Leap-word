@@ -1,4 +1,4 @@
-const CACHE_NAME = 'leap-cache-v7';
+const CACHE_NAME = 'leap-cache-v12';
 const urlsToCache = [
   '/',
   '/index.html',
